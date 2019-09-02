@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:test1-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -186,9 +185,9 @@ $Comp
 L Device:R R47
 U 1 1 5DE60B81
 P 7500 4400
-F 0 "R47" V 7293 4400 50  0000 C CNN
-F 1 "100" V 7384 4400 50  0000 C CNN
-F 2 "Resistor_SMD:R_0201_0603Metric" V 7430 4400 50  0001 C CNN
+F 0 "R47" V 7400 4400 50  0000 C CNN
+F 1 "100" V 7500 4400 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 7430 4400 50  0001 C CNN
 F 3 "~" H 7500 4400 50  0001 C CNN
 	1    7500 4400
 	0    1    1    0   
@@ -562,9 +561,6 @@ Text GLabel 1150 7200 0    50   Input ~ 0
 ETH_LED0
 Text GLabel 1150 6900 0    50   Input ~ 0
 ETH_LED1
-Connection ~ 1450 6750
-Wire Wire Line
-	1450 6750 1650 6750
 Text GLabel 2500 6800 0    50   Input ~ 0
 ETH_MDI_3-
 Connection ~ 1400 6900
