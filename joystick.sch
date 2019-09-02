@@ -1,0 +1,453 @@
+EESchema Schematic File Version 4
+LIBS:test1-cache
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 5 8
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector:DB9_Male J1
+U 1 1 5D74BDB1
+P 8400 2150
+F 0 "J1" H 8580 2196 50  0000 L CNN
+F 1 "DB9_Male" H 8580 2105 50  0000 L CNN
+F 2 "Connector_Dsub:DSUB-9_Male_Horizontal_P2.77x2.84mm_EdgePinOffset7.70mm_Housed_MountingHolesOffset9.12mm" H 8580 2059 50  0001 L CNN
+F 3 " ~" H 8400 2150 50  0001 C CNN
+	1    8400 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R15
+U 1 1 5D74E429
+P 7150 1250
+F 0 "R15" V 7150 1150 50  0000 L CNN
+F 1 "47K" V 7250 1200 50  0000 L CNN
+F 2 "Resistor_SMD:R_0201_0603Metric" H 7220 1159 50  0001 L CNN
+F 3 "~" H 7150 1250 50  0001 C CNN
+	1    7150 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R13
+U 1 1 5D74E940
+P 6950 1250
+F 0 "R13" V 6950 1150 50  0000 L CNN
+F 1 "47K" V 7050 1200 50  0000 L CNN
+F 2 "Resistor_SMD:R_0201_0603Metric" H 7020 1159 50  0001 L CNN
+F 3 "~" H 6950 1250 50  0001 C CNN
+	1    6950 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R11
+U 1 1 5D74EB8A
+P 6750 1250
+F 0 "R11" V 6750 1150 50  0000 L CNN
+F 1 "47K" V 6850 1200 50  0000 L CNN
+F 2 "Resistor_SMD:R_0201_0603Metric" H 6820 1159 50  0001 L CNN
+F 3 "~" H 6750 1250 50  0001 C CNN
+	1    6750 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R9
+U 1 1 5D74F0E3
+P 6550 1250
+F 0 "R9" V 6550 1150 50  0000 L CNN
+F 1 "47K" V 6650 1200 50  0000 L CNN
+F 2 "Resistor_SMD:R_0201_0603Metric" H 6620 1159 50  0001 L CNN
+F 3 "~" H 6550 1250 50  0001 C CNN
+	1    6550 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R7
+U 1 1 5D74F311
+P 6350 1250
+F 0 "R7" V 6350 1150 50  0000 L CNN
+F 1 "47K" V 6450 1200 50  0000 L CNN
+F 2 "Resistor_SMD:R_0201_0603Metric" H 6420 1159 50  0001 L CNN
+F 3 "~" H 6350 1250 50  0001 C CNN
+	1    6350 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R5
+U 1 1 5D74F5A6
+P 6150 1250
+F 0 "R5" V 6150 1150 50  0000 L CNN
+F 1 "47K" V 6250 1200 50  0000 L CNN
+F 2 "Resistor_SMD:R_0201_0603Metric" H 6220 1159 50  0001 L CNN
+F 3 "~" H 6150 1250 50  0001 C CNN
+	1    6150 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 5D74F9B2
+P 5750 1250
+F 0 "R1" V 5750 1150 50  0000 L CNN
+F 1 "47K" V 5850 1200 50  0000 L CNN
+F 2 "Resistor_SMD:R_0201_0603Metric" H 5820 1159 50  0001 L CNN
+F 3 "~" H 5750 1250 50  0001 C CNN
+	1    5750 1250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7150 1100 7150 1000
+Wire Wire Line
+	7150 1000 6950 1000
+Wire Wire Line
+	5750 1000 5750 1100
+Wire Wire Line
+	5950 1100 5950 1000
+Connection ~ 5950 1000
+Wire Wire Line
+	5950 1000 5750 1000
+Wire Wire Line
+	6150 1100 6150 1000
+Connection ~ 6150 1000
+Wire Wire Line
+	6150 1000 5950 1000
+Wire Wire Line
+	6350 1100 6350 1000
+Connection ~ 6350 1000
+Wire Wire Line
+	6350 1000 6150 1000
+Wire Wire Line
+	6550 1100 6550 1000
+Connection ~ 6550 1000
+Wire Wire Line
+	6550 1000 6450 1000
+Wire Wire Line
+	6750 1100 6750 1000
+Connection ~ 6750 1000
+Wire Wire Line
+	6750 1000 6550 1000
+Wire Wire Line
+	6950 1100 6950 1000
+Connection ~ 6950 1000
+Wire Wire Line
+	6950 1000 6750 1000
+Wire Wire Line
+	6450 800  6450 1000
+Connection ~ 6450 1000
+Wire Wire Line
+	6450 1000 6350 1000
+Text GLabel 6450 800  1    50   Input ~ 0
+3V3
+Wire Wire Line
+	8100 2550 6550 2550
+Wire Wire Line
+	8100 2450 6350 2450
+Wire Wire Line
+	8100 2350 6750 2350
+Wire Wire Line
+	8100 2250 6150 2250
+Wire Wire Line
+	8100 1950 6950 1950
+Wire Wire Line
+	8100 1750 7150 1750
+Text GLabel 5300 2050 0    50   Input ~ 0
+GND
+Text GLabel 5300 1750 0    50   Input ~ 0
+JS1_5
+Text GLabel 5300 1850 0    50   Input ~ 0
+JS1_9
+Text GLabel 5300 1950 0    50   Input ~ 0
+JS1_4
+Text GLabel 5300 2150 0    50   Input ~ 0
+JS1_3
+Text GLabel 5300 2250 0    50   Input ~ 0
+JS1_7
+Text GLabel 5300 2350 0    50   Input ~ 0
+JS1_2
+Text GLabel 5300 2450 0    50   Input ~ 0
+JS1_6
+Text GLabel 5300 2550 0    50   Input ~ 0
+JS1_1
+Wire Wire Line
+	7150 1750 5300 1750
+Connection ~ 7150 1750
+Wire Wire Line
+	6950 1950 5300 1950
+Connection ~ 6950 1950
+Wire Wire Line
+	8100 2050 5300 2050
+Wire Wire Line
+	6150 2250 5300 2250
+Connection ~ 6150 2250
+Wire Wire Line
+	6750 2350 5300 2350
+Connection ~ 6750 2350
+Wire Wire Line
+	6350 2450 5300 2450
+Connection ~ 6350 2450
+Wire Wire Line
+	6550 2550 5300 2550
+Connection ~ 6550 2550
+$Comp
+L Device:R R3
+U 1 1 5D74F74B
+P 5950 1250
+F 0 "R3" V 5950 1150 50  0000 L CNN
+F 1 "47K" V 6050 1200 50  0000 L CNN
+F 2 "Resistor_SMD:R_0201_0603Metric" H 6020 1159 50  0001 L CNN
+F 3 "~" H 5950 1250 50  0001 C CNN
+	1    5950 1250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6150 1400 6150 2250
+Wire Wire Line
+	6350 1400 6350 2450
+Wire Wire Line
+	6550 1400 6550 2550
+Wire Wire Line
+	6750 1400 6750 2350
+Wire Wire Line
+	6950 1400 6950 1950
+Wire Wire Line
+	7150 1400 7150 1750
+Wire Wire Line
+	5950 1850 5300 1850
+Wire Wire Line
+	8100 1850 5950 1850
+Connection ~ 5950 1850
+Wire Wire Line
+	5950 1400 5950 1850
+Wire Wire Line
+	5750 2150 5300 2150
+Wire Wire Line
+	8100 2150 5750 2150
+Connection ~ 5750 2150
+Wire Wire Line
+	5750 1400 5750 2150
+$Comp
+L Connector:DB9_Male J2
+U 1 1 5D78EA68
+P 8400 4800
+F 0 "J2" H 8580 4846 50  0000 L CNN
+F 1 "DB9_Male" H 8580 4755 50  0000 L CNN
+F 2 "Connector_Dsub:DSUB-9_Male_Horizontal_P2.77x2.84mm_EdgePinOffset7.70mm_Housed_MountingHolesOffset9.12mm" H 8580 4709 50  0001 L CNN
+F 3 " ~" H 8400 4800 50  0001 C CNN
+	1    8400 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R16
+U 1 1 5D78EA6E
+P 7150 3900
+F 0 "R16" V 7150 3800 50  0000 L CNN
+F 1 "47K" V 7250 3850 50  0000 L CNN
+F 2 "Resistor_SMD:R_0201_0603Metric" H 7220 3809 50  0001 L CNN
+F 3 "~" H 7150 3900 50  0001 C CNN
+	1    7150 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R14
+U 1 1 5D78EA74
+P 6950 3900
+F 0 "R14" V 6950 3800 50  0000 L CNN
+F 1 "47K" V 7050 3850 50  0000 L CNN
+F 2 "Resistor_SMD:R_0201_0603Metric" H 7020 3809 50  0001 L CNN
+F 3 "~" H 6950 3900 50  0001 C CNN
+	1    6950 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R12
+U 1 1 5D78EA7A
+P 6750 3900
+F 0 "R12" V 6750 3800 50  0000 L CNN
+F 1 "47K" V 6850 3850 50  0000 L CNN
+F 2 "Resistor_SMD:R_0201_0603Metric" H 6820 3809 50  0001 L CNN
+F 3 "~" H 6750 3900 50  0001 C CNN
+	1    6750 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R10
+U 1 1 5D78EA80
+P 6550 3900
+F 0 "R10" V 6550 3800 50  0000 L CNN
+F 1 "47K" V 6650 3850 50  0000 L CNN
+F 2 "Resistor_SMD:R_0201_0603Metric" H 6620 3809 50  0001 L CNN
+F 3 "~" H 6550 3900 50  0001 C CNN
+	1    6550 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R8
+U 1 1 5D78EA86
+P 6350 3900
+F 0 "R8" V 6350 3800 50  0000 L CNN
+F 1 "47K" V 6450 3850 50  0000 L CNN
+F 2 "Resistor_SMD:R_0201_0603Metric" H 6420 3809 50  0001 L CNN
+F 3 "~" H 6350 3900 50  0001 C CNN
+	1    6350 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R6
+U 1 1 5D78EA8C
+P 6150 3900
+F 0 "R6" V 6150 3800 50  0000 L CNN
+F 1 "47K" V 6250 3850 50  0000 L CNN
+F 2 "Resistor_SMD:R_0201_0603Metric" H 6220 3809 50  0001 L CNN
+F 3 "~" H 6150 3900 50  0001 C CNN
+	1    6150 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R2
+U 1 1 5D78EA92
+P 5750 3900
+F 0 "R2" V 5750 3800 50  0000 L CNN
+F 1 "47K" V 5850 3850 50  0000 L CNN
+F 2 "Resistor_SMD:R_0201_0603Metric" H 5820 3809 50  0001 L CNN
+F 3 "~" H 5750 3900 50  0001 C CNN
+	1    5750 3900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7150 3750 7150 3650
+Wire Wire Line
+	7150 3650 6950 3650
+Wire Wire Line
+	5750 3650 5750 3750
+Wire Wire Line
+	5950 3750 5950 3650
+Connection ~ 5950 3650
+Wire Wire Line
+	5950 3650 5750 3650
+Wire Wire Line
+	6150 3750 6150 3650
+Connection ~ 6150 3650
+Wire Wire Line
+	6150 3650 5950 3650
+Wire Wire Line
+	6350 3750 6350 3650
+Connection ~ 6350 3650
+Wire Wire Line
+	6350 3650 6150 3650
+Wire Wire Line
+	6550 3750 6550 3650
+Connection ~ 6550 3650
+Wire Wire Line
+	6550 3650 6450 3650
+Wire Wire Line
+	6750 3750 6750 3650
+Connection ~ 6750 3650
+Wire Wire Line
+	6750 3650 6550 3650
+Wire Wire Line
+	6950 3750 6950 3650
+Connection ~ 6950 3650
+Wire Wire Line
+	6950 3650 6750 3650
+Wire Wire Line
+	6450 3450 6450 3650
+Connection ~ 6450 3650
+Wire Wire Line
+	6450 3650 6350 3650
+Text GLabel 6450 3450 1    50   Input ~ 0
+3V3
+Wire Wire Line
+	8100 5200 6550 5200
+Wire Wire Line
+	8100 5100 6350 5100
+Wire Wire Line
+	8100 5000 6750 5000
+Wire Wire Line
+	8100 4900 6150 4900
+Wire Wire Line
+	8100 4600 6950 4600
+Wire Wire Line
+	8100 4400 7150 4400
+Text GLabel 5300 4700 0    50   Input ~ 0
+GND
+Text GLabel 5300 4400 0    50   Input ~ 0
+JS2_5
+Text GLabel 5300 4500 0    50   Input ~ 0
+JS2_9
+Text GLabel 5300 4600 0    50   Input ~ 0
+JS2_4
+Text GLabel 5300 4800 0    50   Input ~ 0
+JS2_3
+Text GLabel 5300 4900 0    50   Input ~ 0
+JS2_7
+Text GLabel 5300 5000 0    50   Input ~ 0
+JS2_2
+Text GLabel 5300 5100 0    50   Input ~ 0
+JS2_6
+Text GLabel 5300 5200 0    50   Input ~ 0
+JS2_1
+Wire Wire Line
+	7150 4400 5300 4400
+Connection ~ 7150 4400
+Wire Wire Line
+	6950 4600 5300 4600
+Connection ~ 6950 4600
+Wire Wire Line
+	8100 4700 5300 4700
+Wire Wire Line
+	6150 4900 5300 4900
+Connection ~ 6150 4900
+Wire Wire Line
+	6750 5000 5300 5000
+Connection ~ 6750 5000
+Wire Wire Line
+	6350 5100 5300 5100
+Connection ~ 6350 5100
+Wire Wire Line
+	6550 5200 5300 5200
+Connection ~ 6550 5200
+$Comp
+L Device:R R4
+U 1 1 5D78EACD
+P 5950 3900
+F 0 "R4" V 5950 3800 50  0000 L CNN
+F 1 "47K" V 6050 3850 50  0000 L CNN
+F 2 "Resistor_SMD:R_0201_0603Metric" H 6020 3809 50  0001 L CNN
+F 3 "~" H 5950 3900 50  0001 C CNN
+	1    5950 3900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6150 4050 6150 4900
+Wire Wire Line
+	6350 4050 6350 5100
+Wire Wire Line
+	6550 4050 6550 5200
+Wire Wire Line
+	6750 4050 6750 5000
+Wire Wire Line
+	6950 4050 6950 4600
+Wire Wire Line
+	7150 4050 7150 4400
+Wire Wire Line
+	5950 4500 5300 4500
+Wire Wire Line
+	8100 4500 5950 4500
+Connection ~ 5950 4500
+Wire Wire Line
+	5950 4050 5950 4500
+Wire Wire Line
+	5750 4800 5300 4800
+Wire Wire Line
+	8100 4800 5750 4800
+Connection ~ 5750 4800
+Wire Wire Line
+	5750 4050 5750 4800
+$EndSCHEMATC

@@ -1,0 +1,104 @@
+EESchema Schematic File Version 4
+LIBS:test1-cache
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 7 8
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L BPS6001_Classic_Computing_Shield-eagle-import:AUDIO-CONNECTOR-6P-SMD-3440030P1 J5
+U 1 1 5DC6A556
+P 5000 3000
+F 0 "J5" V 4303 3000 42  0000 C CNN
+F 1 "AUDIO-CONNECTOR-6P-SMD-3440030P1" V 4382 3000 42  0000 C CNN
+F 2 "c64-wing-kicad:6P-SMD-3.5" H 5000 3000 50  0001 C CNN
+F 3 "" H 5000 3000 50  0001 C CNN
+	1    5000 3000
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4000 3800 4000 4200
+Wire Wire Line
+	4000 3000 4000 3500
+Connection ~ 4000 3000
+Wire Wire Line
+	3800 3000 4000 3000
+Wire Wire Line
+	4000 2750 4000 3000
+Wire Wire Line
+	4600 2750 4000 2750
+Text GLabel 3500 3000 0    50   Input ~ 0
+GND
+$Comp
+L Device:C C27
+U 1 1 5DC6C737
+P 3650 3000
+F 0 "C27" V 3398 3000 50  0000 C CNN
+F 1 "4700pF" V 3489 3000 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 3688 2850 50  0001 C CNN
+F 3 "~" H 3650 3000 50  0001 C CNN
+	1    3650 3000
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R28
+U 1 1 5DC6C348
+P 4000 3650
+F 0 "R28" H 4070 3696 50  0000 L CNN
+F 1 "3.3K" H 4070 3605 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 3930 3650 50  0001 C CNN
+F 3 "~" H 4000 3650 50  0001 C CNN
+	1    4000 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C28
+U 1 1 5DC6F38D
+P 6200 3150
+F 0 "C28" V 5948 3150 50  0000 C CNN
+F 1 "4700pF" V 6039 3150 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 6238 3000 50  0001 C CNN
+F 3 "~" H 6200 3150 50  0001 C CNN
+	1    6200 3150
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R29
+U 1 1 5DC6F8D1
+P 6000 3650
+F 0 "R29" H 6070 3696 50  0000 L CNN
+F 1 "3.3K" H 6070 3605 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 5930 3650 50  0001 C CNN
+F 3 "~" H 6000 3650 50  0001 C CNN
+	1    6000 3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5400 3150 6000 3150
+Wire Wire Line
+	6000 3500 6000 3150
+Connection ~ 6000 3150
+Wire Wire Line
+	6000 3150 6050 3150
+Text GLabel 6350 3150 2    50   Input ~ 0
+GND
+Wire Wire Line
+	6000 3800 6000 4200
+Text GLabel 6000 4200 3    50   Input ~ 0
+AUDIO_RIGHT
+Text GLabel 4000 4200 3    50   Input ~ 0
+AUDIO_LEFT
+Text GLabel 4600 3450 0    50   Input ~ 0
+GND
+Text GLabel 5400 3350 2    50   Input ~ 0
+GND
+$EndSCHEMATC

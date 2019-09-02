@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP adv7511kstz
+D HDMI transmitter and encoder
+K HDMI transmitter "analog devices" video
+F https://www.analog.com/media/en/technical-documentation/user-guides/ADV7511_Hardware_Users_Guide.pdf
+$ENDCMP
+#
+#End Doc Library
