@@ -73,7 +73,7 @@ Wire Wire Line
 Wire Wire Line
 	5950 6150 5000 6150
 Wire Wire Line
-	8800 7200 8800 7700
+	8800 7200 8800 8000
 Wire Wire Line
 	8900 3800 8900 3500
 Wire Wire Line
@@ -82,7 +82,7 @@ Text GLabel 8800 3150 1    50   Input ~ 0
 ADV_DVDD
 Text GLabel 8900 3150 1    50   Input ~ 0
 ADV_DVDD
-Text GLabel 8800 8000 3    50   Input ~ 0
+Text GLabel 8800 8300 3    50   Input ~ 0
 ADV_DVDD
 Text GLabel 5300 4350 0    50   Input ~ 0
 ADV_DVDD
@@ -276,8 +276,8 @@ GND
 Text GLabel 1300 3500 0    50   Input ~ 0
 GND
 Wire Wire Line
-	8000 8000 8000 7700
-Text GLabel 8000 8000 3    50   Input ~ 0
+	8000 8300 8000 8000
+Text GLabel 8000 8300 3    50   Input ~ 0
 ADV_AVDD
 Wire Wire Line
 	5950 6350 4550 6350
@@ -369,34 +369,34 @@ GND
 $Comp
 L Device:C C37
 U 1 1 5DD51D08
-P 7850 7700
-F 0 "C37" V 7598 7700 50  0000 C CNN
-F 1 "100nF" V 7689 7700 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 7888 7550 50  0001 C CNN
-F 3 "~" H 7850 7700 50  0001 C CNN
-	1    7850 7700
+P 7850 8000
+F 0 "C37" V 7598 8000 50  0000 C CNN
+F 1 "100nF" V 7689 8000 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 7888 7850 50  0001 C CNN
+F 3 "~" H 7850 8000 50  0001 C CNN
+	1    7850 8000
 	0    1    1    0   
 $EndComp
-Connection ~ 8000 7700
+Connection ~ 8000 8000
 Wire Wire Line
-	8000 7700 8000 7200
+	8000 8000 8000 7200
 $Comp
 L Device:C C38
 U 1 1 5DD5829D
-P 8650 7700
-F 0 "C38" V 8398 7700 50  0000 C CNN
-F 1 "100nF" V 8489 7700 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 8688 7550 50  0001 C CNN
-F 3 "~" H 8650 7700 50  0001 C CNN
-	1    8650 7700
+P 8650 8000
+F 0 "C38" V 8398 8000 50  0000 C CNN
+F 1 "100nF" V 8489 8000 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 8688 7850 50  0001 C CNN
+F 3 "~" H 8650 8000 50  0001 C CNN
+	1    8650 8000
 	0    1    1    0   
 $EndComp
-Connection ~ 8800 7700
+Connection ~ 8800 8000
 Wire Wire Line
-	8800 7700 8800 8000
-Text GLabel 7700 7700 0    50   Input ~ 0
+	8800 8000 8800 8300
+Text GLabel 7700 8000 0    50   Input ~ 0
 GND
-Text GLabel 8500 7700 0    50   Input ~ 0
+Text GLabel 8500 8000 0    50   Input ~ 0
 GND
 $Comp
 L Device:C C39
@@ -542,4 +542,95 @@ Text GLabel 7300 3800 1    50   Input ~ 0
 ADV_B_0
 Text GLabel 8600 3800 1    50   Input ~ 0
 ADV_CLK
+Text GLabel 7100 7200 3    50   Input ~ 0
+ADV_TXC-
+Text GLabel 7200 7200 3    50   Input ~ 0
+ADV_TXC+
+Wire Wire Line
+	6800 8300 6800 8000
+Text GLabel 6800 8300 3    50   Input ~ 0
+ADV_AVDD
+$Comp
+L Device:C C40
+U 1 1 5D78372C
+P 6950 8000
+F 0 "C40" V 6698 8000 50  0000 C CNN
+F 1 "100nF" V 6789 8000 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 6988 7850 50  0001 C CNN
+F 3 "~" H 6950 8000 50  0001 C CNN
+	1    6950 8000
+	0    1    1    0   
+$EndComp
+Connection ~ 6800 8000
+Wire Wire Line
+	6800 8000 6800 7200
+Text GLabel 7100 8000 2    50   Input ~ 0
+GND
+Text GLabel 7400 7200 3    50   Input ~ 0
+ADV_TX0-
+Text GLabel 7500 7200 3    50   Input ~ 0
+ADV_TX0+
+Text GLabel 7800 7200 3    50   Input ~ 0
+ADV_TX1-
+Text GLabel 7900 7200 3    50   Input ~ 0
+ADV_TX1+
+Text GLabel 8100 7200 3    50   Input ~ 0
+ADV_TX2-
+Text GLabel 8200 7200 3    50   Input ~ 0
+ADV_TX2+
+Wire Wire Line
+	7300 7200 7300 8250
+Text GLabel 7300 8350 3    50   Input ~ 0
+ADV_AVDD
+$Comp
+L Device:C C41
+U 1 1 5D79F1F0
+P 7450 8250
+F 0 "C41" V 7198 8250 50  0000 C CNN
+F 1 "100nF" V 7289 8250 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 7488 8100 50  0001 C CNN
+F 3 "~" H 7450 8250 50  0001 C CNN
+	1    7450 8250
+	0    1    1    0   
+$EndComp
+Connection ~ 7300 8250
+Wire Wire Line
+	7300 8250 7300 8350
+Text GLabel 7600 8250 2    50   Input ~ 0
+GND
+$Comp
+L Connector:HDMI_D_1.4 J7
+U 1 1 5D7CFF38
+P 13300 2000
+F 0 "J7" H 13730 2046 50  0000 L CNN
+F 1 "HDMI_D_1.4" H 13730 1955 50  0000 L CNN
+F 2 "Connector_HDMI:HDMI_Micro-D_Molex_46765-0x01" H 13325 2000 50  0001 C CNN
+F 3 "http://pinoutguide.com/PortableDevices/micro_hdmi_type_d_pinout.shtml" H 13325 2000 50  0001 C CNN
+	1    13300 2000
+	1    0    0    -1  
+$EndComp
+Text GLabel 12900 2700 0    50   Input ~ 0
+ADV_HEAC-
+Text GLabel 12900 2600 0    50   Input ~ 0
+ADV_HEAC+
+Text GLabel 12900 1900 0    50   Input ~ 0
+ADV_TXC-
+Text GLabel 12900 1800 0    50   Input ~ 0
+ADV_TXC+
+Text GLabel 12900 1700 0    50   Input ~ 0
+ADV_TX0-
+Text GLabel 12900 1600 0    50   Input ~ 0
+ADV_TX0+
+Text GLabel 12900 1500 0    50   Input ~ 0
+ADV_TX1-
+Text GLabel 12900 1400 0    50   Input ~ 0
+ADV_TX1+
+Text GLabel 12900 1300 0    50   Input ~ 0
+ADV_TX2-
+Text GLabel 12900 1200 0    50   Input ~ 0
+ADV_TX2+
+Text GLabel 13600 3100 3    50   Input ~ 0
+GND
+Text GLabel 13500 3100 3    50   Input ~ 0
+GND
 $EndSCHEMATC

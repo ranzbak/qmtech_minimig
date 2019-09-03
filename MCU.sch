@@ -412,7 +412,7 @@ F 3 "" H 4500 1000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 4500 1000 0    50   Input ~ 0
-VDD3V3
+3V3
 Text GLabel 8800 3600 2    50   Input ~ 0
 GND
 Text GLabel 8800 2800 2    50   Input ~ 0

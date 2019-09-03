@@ -108,4 +108,88 @@ Text GLabel 8350 2550 0    50   Input ~ 0
 ADV_VSYNC
 Text GLabel 8350 2650 0    50   Input ~ 0
 ADV_HSYNC
+Text GLabel 1850 3750 0    50   Input ~ 0
+ETH_INTB
+Text GLabel 1850 3850 0    50   Input ~ 0
+ETH_MDIO
+Text GLabel 1850 3950 0    50   Input ~ 0
+ETH_TXER
+Text GLabel 1850 4050 0    50   Input ~ 0
+ETH_TXD6
+Text GLabel 1850 4150 0    50   Input ~ 0
+ETH_TXD4
+Text GLabel 1850 4250 0    50   Input ~ 0
+ETH_TXD3
+Text GLabel 1850 4350 0    50   Input ~ 0
+ETH_TXD1
+Text GLabel 1850 4450 0    50   Input ~ 0
+ETH_TXD0
+Text GLabel 1850 4550 0    50   Input ~ 0
+ETH_GTX_CLK
+Text GLabel 1850 4650 0    50   Input ~ 0
+ETH_COL_MODE
+Text GLabel 1850 4750 0    50   Input ~ 0
+ETH_RXD7
+Text GLabel 1850 4850 0    50   Input ~ 0
+ETH_RXD5
+Text GLabel 1850 4950 0    50   Input ~ 0
+ETH_RXC
+Text GLabel 1850 5050 0    50   Input ~ 0
+ETH_RXD2
+Text GLabel 1850 5150 0    50   Input ~ 0
+ETH_RXD0
+Text GLabel 3450 3950 2    50   Input ~ 0
+ETH_TXD7
+Text GLabel 3450 4050 2    50   Input ~ 0
+ETH_TXD5
+Text GLabel 3450 4150 2    50   Input ~ 0
+ETH_TXDCLK
+Text GLabel 3450 4250 2    50   Input ~ 0
+ETH_TXD2
+Text GLabel 3450 4350 2    50   Input ~ 0
+ETH_PHYRSTB
+Text GLabel 3450 4450 2    50   Input ~ 0
+ETH_TXEN
+Text GLabel 3450 4550 2    50   Input ~ 0
+ETH_CRS
+Text GLabel 3450 4650 2    50   Input ~ 0
+ETH_RXER
+Text GLabel 3450 4750 2    50   Input ~ 0
+ETH_RXD6
+Text GLabel 3450 4850 2    50   Input ~ 0
+ETH_RXD4
+Text GLabel 3450 4950 2    50   Input ~ 0
+ETH_RXD3
+Text GLabel 3450 5050 2    50   Input ~ 0
+ETH_RXD1
+Text GLabel 3450 5150 2    50   Input ~ 0
+ETH_RXDV
+Text GLabel 3450 3850 2    50   Input ~ 0
+ADV_G_2
+Text GLabel 3450 3750 2    50   Input ~ 0
+ADV_G_3
+Text GLabel 3450 3650 2    50   Input ~ 0
+ADV_G_4
+Text GLabel 3450 3550 2    50   Input ~ 0
+ADV_G_5
+Text GLabel 3450 3450 2    50   Input ~ 0
+ADV_G_6
+Text GLabel 3450 3350 2    50   Input ~ 0
+ADV_G_7
+Text GLabel 3450 3250 2    50   Input ~ 0
+ADV_R_0
+Text GLabel 3450 3150 2    50   Input ~ 0
+ADV_R_1
+Text GLabel 3450 3050 2    50   Input ~ 0
+ADV_R_2
+Text GLabel 3450 2950 2    50   Input ~ 0
+ADV_R_3
+Text GLabel 3450 2850 2    50   Input ~ 0
+ADV_R_4
+Text GLabel 3450 2750 2    50   Input ~ 0
+ADV_R_5
+Text GLabel 3450 2650 2    50   Input ~ 0
+ADV_R_6
+Text GLabel 3450 2550 2    50   Input ~ 0
+ADV_R_7
 $EndSCHEMATC
