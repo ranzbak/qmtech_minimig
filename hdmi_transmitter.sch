@@ -659,4 +659,51 @@ Text GLabel 13700 4800 2    50   Input ~ 0
 ADV_DDCSDA
 Text GLabel 12800 4900 0    50   Input ~ 0
 GND
+Wire Wire Line
+	2000 9700 2000 10000
+Wire Wire Line
+	2000 10000 2500 10000
+Connection ~ 2000 10000
+Wire Wire Line
+	1500 10000 2000 10000
+$Comp
+L Device:D D11
+U 1 1 5D7E9F98
+P 2000 9550
+F 0 "D11" V 2046 9471 50  0000 R CNN
+F 1 "D" V 1955 9471 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-523" H 2000 9550 50  0001 C CNN
+F 3 "~" H 2000 9550 50  0001 C CNN
+	1    2000 9550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R54
+U 1 1 5D7EAB6A
+P 2000 9250
+F 0 "R54" H 2070 9296 50  0000 L CNN
+F 1 "27K" H 2070 9205 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 2070 9159 50  0001 L CNN
+F 3 "~" H 2000 9250 50  0001 C CNN
+	1    2000 9250
+	1    0    0    -1  
+$EndComp
+Text GLabel 2000 9100 1    50   Input ~ 0
+3V3
+Text GLabel 1500 10000 0    50   Input ~ 0
+ADV_CEC
+Text GLabel 2500 10000 2    50   Input ~ 0
+ADV_CEC
+Text GLabel 5950 5450 0    50   Input ~ 0
+ADV_I2S0
+Text GLabel 5950 5550 0    50   Input ~ 0
+ADV_I2S1
+Text GLabel 5950 5650 0    50   Input ~ 0
+ADV_I2S2
+Text GLabel 5950 5750 0    50   Input ~ 0
+ADV_I2S3
+Text GLabel 5950 5850 0    50   Input ~ 0
+ADV_SCLK
+Text GLabel 5950 5950 0    50   Input ~ 0
+ADV_LRCLK
 $EndSCHEMATC

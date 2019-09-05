@@ -988,4 +988,24 @@ Wire Wire Line
 	5800 5250 5800 5500
 Text GLabel 5800 5500 3    50   Input ~ 0
 SD_SPI2_CS
+Text GLabel 6900 2350 1    50   Input ~ 0
+STM_SPI1_NSS
+Text GLabel 6800 2350 1    50   Input ~ 0
+STM_SPI1_SCK
+Text GLabel 6700 2350 1    50   Input ~ 0
+STM_SPI1_MISO
+Text GLabel 6600 2350 1    50   Input ~ 0
+STM_SPI1_MOSI
+Text GLabel 7000 2350 1    50   Input ~ 0
+STM_SPI1_CS
+Text GLabel 6500 2350 1    50   Input ~ 0
+STM_USART1_CK
+Text GLabel 6400 2350 1    50   Input ~ 0
+STM_USART1_TX
+Text GLabel 6300 2350 1    50   Input ~ 0
+STM_USART1_RX
+Text GLabel 6200 2350 1    50   Input ~ 0
+STM_USART1_CTS
+Text GLabel 6100 2350 1    50   Input ~ 0
+STM_USART1_RTS
 $EndSCHEMATC
