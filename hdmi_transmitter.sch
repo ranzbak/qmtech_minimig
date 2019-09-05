@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:qmtech-minimig-cache
 EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
@@ -598,39 +599,64 @@ Wire Wire Line
 	7300 8250 7300 8350
 Text GLabel 7600 8250 2    50   Input ~ 0
 GND
+Text GLabel 9500 6650 2    50   Input ~ 0
+ADV_HEAC+
+Text GLabel 9500 6750 2    50   Input ~ 0
+ADV_HEAC-
 $Comp
-L Connector:HDMI_D_1.4 J7
-U 1 1 5D7CFF38
-P 13300 2000
-F 0 "J7" H 13730 2046 50  0000 L CNN
-F 1 "HDMI_D_1.4" H 13730 1955 50  0000 L CNN
-F 2 "Connector_HDMI:HDMI_Micro-D_Molex_46765-0x01" H 13325 2000 50  0001 C CNN
-F 3 "http://pinoutguide.com/PortableDevices/micro_hdmi_type_d_pinout.shtml" H 13325 2000 50  0001 C CNN
-	1    13300 2000
+L 47151-0001:47151-0001 J9
+U 1 1 5D70E8AE
+P 12800 4100
+F 0 "J9" H 13250 4367 50  0000 C CNN
+F 1 "47151-0001" H 13250 4276 50  0000 C CNN
+F 2 "47151-0001-HDMI:47151-0001" H 12800 4100 50  0001 L BNN
+F 3 "None" H 12800 4100 50  0001 L BNN
+F 4 "47151-0001" H 12800 4100 50  0001 L BNN "Field4"
+F 5 "Molex" H 12800 4100 50  0001 L BNN "Field5"
+F 6 "Conn.; Data; HDMI; Recept.; 19 Cir.; RtAngle, w/o Back Cover; Black Housing" H 12800 4100 50  0001 L BNN "Field6"
+F 7 "None" H 12800 4100 50  0001 L BNN "Field7"
+F 8 "Unavailable" H 12800 4100 50  0001 L BNN "Field8"
+	1    12800 4100
 	1    0    0    -1  
 $EndComp
-Text GLabel 12900 2700 0    50   Input ~ 0
-ADV_HEAC-
-Text GLabel 12900 2600 0    50   Input ~ 0
-ADV_HEAC+
-Text GLabel 12900 1900 0    50   Input ~ 0
-ADV_TXC-
-Text GLabel 12900 1800 0    50   Input ~ 0
-ADV_TXC+
-Text GLabel 12900 1700 0    50   Input ~ 0
-ADV_TX0-
-Text GLabel 12900 1600 0    50   Input ~ 0
-ADV_TX0+
-Text GLabel 12900 1500 0    50   Input ~ 0
-ADV_TX1-
-Text GLabel 12900 1400 0    50   Input ~ 0
-ADV_TX1+
-Text GLabel 12900 1300 0    50   Input ~ 0
-ADV_TX2-
-Text GLabel 12900 1200 0    50   Input ~ 0
+Text GLabel 12800 4100 0    50   Input ~ 0
 ADV_TX2+
-Text GLabel 13600 3100 3    50   Input ~ 0
-GND
-Text GLabel 13500 3100 3    50   Input ~ 0
+Text GLabel 12800 4200 0    50   Input ~ 0
+ADV_TX2-
+Text GLabel 13700 4200 2    50   Input ~ 0
+ADV_TX1+
+Text GLabel 13700 4300 2    50   Input ~ 0
+ADV_TX1-
+Text GLabel 12800 4400 0    50   Input ~ 0
+ADV_TX0+
+Text GLabel 12800 4500 0    50   Input ~ 0
+ADV_TX0-
+Text GLabel 13700 4500 2    50   Input ~ 0
+ADV_TXC+
+Text GLabel 13700 4600 2    50   Input ~ 0
+ADV_TXC-
+Text GLabel 8900 7200 3    50   Input ~ 0
+ADV_CEC_CLK
+Text GLabel 8700 7200 3    50   Input ~ 0
+ADV_CEC
+Text GLabel 12800 4700 0    50   Input ~ 0
+ADV_CEC
+Text GLabel 12800 5000 0    50   Input ~ 0
+ADV_HOTPLUG
+Text GLabel 13700 4900 2    50   Input ~ 0
+ADV_5V
+Text GLabel 9500 6450 2    50   Input ~ 0
+ADV_DDCSDA
+Text GLabel 9500 6550 2    50   Input ~ 0
+ADV_DDCSCL
+Text GLabel 9500 6250 2    50   Input ~ 0
+ADV_SDA
+Text GLabel 9500 6350 2    50   Input ~ 0
+ADV_SCL
+Text GLabel 12800 4800 0    50   Input ~ 0
+ADV_DDCSCL
+Text GLabel 13700 4800 2    50   Input ~ 0
+ADV_DDCSDA
+Text GLabel 12800 4900 0    50   Input ~ 0
 GND
 $EndSCHEMATC

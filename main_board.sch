@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:qmtech-minimig-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -192,4 +193,46 @@ Text GLabel 3450 2650 2    50   Input ~ 0
 ADV_R_6
 Text GLabel 3450 2550 2    50   Input ~ 0
 ADV_R_7
+Text GLabel 8350 3550 0    50   Input ~ 0
+ADV_G_0
+Text GLabel 8350 3650 0    50   Input ~ 0
+ADV_CLK
+Text GLabel 8350 3750 0    50   Input ~ 0
+ADV_G_1
+Text GLabel 9950 2550 2    50   Input ~ 0
+JS1_5
+Text GLabel 9950 2650 2    50   Input ~ 0
+JS1_9
+Text GLabel 9950 2750 2    50   Input ~ 0
+JS1_4
+Text GLabel 9950 2850 2    50   Input ~ 0
+JS1_3
+Text GLabel 9950 2950 2    50   Input ~ 0
+JS1_7
+Text GLabel 9950 3050 2    50   Input ~ 0
+JS1_2
+Text GLabel 9950 3150 2    50   Input ~ 0
+JS1_6
+Text GLabel 9950 3250 2    50   Input ~ 0
+JS1_1
+Text GLabel 9950 3650 2    50   Input ~ 0
+JS2_5
+Text GLabel 9950 3750 2    50   Input ~ 0
+JS2_9
+Text GLabel 9950 3850 2    50   Input ~ 0
+JS2_4
+Text GLabel 9950 3950 2    50   Input ~ 0
+JS2_3
+Text GLabel 9950 4050 2    50   Input ~ 0
+JS2_7
+Text GLabel 9950 4150 2    50   Input ~ 0
+JS2_2
+Text GLabel 9950 4250 2    50   Input ~ 0
+JS2_6
+Text GLabel 9950 5050 2    50   Input ~ 0
+PS2_CLK1
+Text GLabel 9950 5150 2    50   Input ~ 0
+PS2_DAT1
+Text GLabel 9950 4350 2    50   Input ~ 0
+JS2_1
 $EndSCHEMATC
