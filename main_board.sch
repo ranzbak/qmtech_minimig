@@ -492,4 +492,16 @@ Wire Wire Line
 Connection ~ 3000 6000
 Wire Wire Line
 	3350 6000 3350 6200
+Text GLabel 8350 3850 0    50   Input ~ 0
+ADV_I2S0
+Text GLabel 8350 3950 0    50   Input ~ 0
+ADV_I2S1
+Text GLabel 8350 4050 0    50   Input ~ 0
+ADV_I2S2
+Text GLabel 8350 4150 0    50   Input ~ 0
+ADV_I2S3
+Text GLabel 8350 4250 0    50   Input ~ 0
+ADV_SCL
+Text GLabel 8350 4350 0    50   Input ~ 0
+ADV_SDA
 $EndSCHEMATC
