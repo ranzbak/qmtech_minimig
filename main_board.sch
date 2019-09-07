@@ -48,6 +48,8 @@ $Comp
 L QM_XC7A35T_DDR3:QM_XC7A35T_DDR3 U2
 U 1 1 5D70654A
 P 5950 3750
+AR Path="/5D70654A" Ref="U2"  Part="1" 
+AR Path="/5D7064D1/5D70654A" Ref="U2"  Part="1" 
 F 0 "U2" H 5919 5605 50  0000 C CNN
 F 1 "QM_XC7A35T_DDR3" H 5919 5514 50  0000 C CNN
 F 2 "QM_XC7A35T_DDR3:QM_XC7A35T_DDR3_Daughterboard" H 5919 5423 50  0000 C CNN
@@ -500,8 +502,18 @@ Text GLabel 8350 4050 0    50   Input ~ 0
 ADV_I2S2
 Text GLabel 8350 4150 0    50   Input ~ 0
 ADV_I2S3
-Text GLabel 8350 4250 0    50   Input ~ 0
+Text GLabel 8350 4550 0    50   Input ~ 0
 ADV_SCL
-Text GLabel 8350 4350 0    50   Input ~ 0
+Text GLabel 8350 4650 0    50   Input ~ 0
 ADV_SDA
+Text GLabel 8350 4250 0    50   Input ~ 0
+ADV_SCLK
+Text GLabel 8350 4350 0    50   Input ~ 0
+ADV_LRCLK
+Text GLabel 8350 4450 0    50   Input ~ 0
+ADV_INT
+Text GLabel 1850 3150 0    50   Input ~ 0
+STM_IO_33
+Text GLabel 1850 3050 0    50   Input ~ 0
+STM_IO_34
 $EndSCHEMATC

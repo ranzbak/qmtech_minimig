@@ -74,16 +74,12 @@ Wire Wire Line
 Wire Wire Line
 	5950 6150 5000 6150
 Wire Wire Line
-	8800 7200 8800 8000
-Wire Wire Line
 	8900 3800 8900 3500
 Wire Wire Line
 	8800 3800 8800 3500
 Text GLabel 8800 3150 1    50   Input ~ 0
 ADV_DVDD
 Text GLabel 8900 3150 1    50   Input ~ 0
-ADV_DVDD
-Text GLabel 8800 8300 3    50   Input ~ 0
 ADV_DVDD
 Text GLabel 5300 4350 0    50   Input ~ 0
 ADV_DVDD
@@ -381,23 +377,7 @@ $EndComp
 Connection ~ 8000 8000
 Wire Wire Line
 	8000 8000 8000 7200
-$Comp
-L Device:C C38
-U 1 1 5DD5829D
-P 8650 8000
-F 0 "C38" V 8398 8000 50  0000 C CNN
-F 1 "100nF" V 8489 8000 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 8688 7850 50  0001 C CNN
-F 3 "~" H 8650 8000 50  0001 C CNN
-	1    8650 8000
-	0    1    1    0   
-$EndComp
-Connection ~ 8800 8000
-Wire Wire Line
-	8800 8000 8800 8300
 Text GLabel 7700 8000 0    50   Input ~ 0
-GND
-Text GLabel 8500 8000 0    50   Input ~ 0
 GND
 $Comp
 L Device:C C39
@@ -635,8 +615,6 @@ Text GLabel 13700 4500 2    50   Input ~ 0
 ADV_TXC+
 Text GLabel 13700 4600 2    50   Input ~ 0
 ADV_TXC-
-Text GLabel 8900 7200 3    50   Input ~ 0
-ADV_CEC_CLK
 Text GLabel 8700 7200 3    50   Input ~ 0
 ADV_CEC
 Text GLabel 12800 4700 0    50   Input ~ 0
@@ -706,4 +684,43 @@ Text GLabel 5950 5850 0    50   Input ~ 0
 ADV_SCLK
 Text GLabel 5950 5950 0    50   Input ~ 0
 ADV_LRCLK
+Text GLabel 8900 7200 3    50   Input ~ 0
+ADV_CEC_CLK
+Text GLabel 8500 8000 0    50   Input ~ 0
+GND
+Wire Wire Line
+	8800 8000 8800 8300
+Connection ~ 8800 8000
+$Comp
+L Device:C C38
+U 1 1 5DD5829D
+P 8650 8000
+F 0 "C38" V 8398 8000 50  0000 C CNN
+F 1 "100nF" V 8489 8000 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 8688 7850 50  0001 C CNN
+F 3 "~" H 8650 8000 50  0001 C CNN
+	1    8650 8000
+	0    1    1    0   
+$EndComp
+Text GLabel 8800 8300 3    50   Input ~ 0
+ADV_DVDD
+Wire Wire Line
+	8800 7200 8800 8000
+$Comp
+L Device:R R55
+U 1 1 5D748417
+P 7700 7500
+F 0 "R55" V 7700 7600 50  0000 L CNN
+F 1 "2K" V 7700 7450 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 7630 7500 50  0001 C CNN
+F 3 "~" H 7700 7500 50  0001 C CNN
+	1    7700 7500
+	1    0    0    -1  
+$EndComp
+Text GLabel 7700 7650 3    50   Input ~ 0
+GND
+Wire Wire Line
+	7700 7200 7700 7350
+Text GLabel 8400 7200 3    50   Input ~ 0
+ADV_INT
 $EndSCHEMATC
