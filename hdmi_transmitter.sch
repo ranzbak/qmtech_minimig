@@ -7,8 +7,8 @@ encoding utf-8
 Sheet 3 9
 Title ""
 Date ""
-Rev ""
-Comp ""
+Rev "0.1"
+Comp "deFEEST"
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -580,9 +580,9 @@ Wire Wire Line
 Text GLabel 7600 8250 2    50   Input ~ 0
 GND
 Text GLabel 9500 6650 2    50   Input ~ 0
-ADV_HEAC+
+GND
 Text GLabel 9500 6750 2    50   Input ~ 0
-ADV_HEAC-
+GND
 $Comp
 L 47151-0001:47151-0001 J9
 U 1 1 5D70E8AE
@@ -616,13 +616,13 @@ ADV_TXC+
 Text GLabel 13700 4600 2    50   Input ~ 0
 ADV_TXC-
 Text GLabel 8700 7200 3    50   Input ~ 0
-ADV_CEC
+GND
 Text GLabel 12800 4700 0    50   Input ~ 0
 ADV_CEC
-Text GLabel 12800 5000 0    50   Input ~ 0
-ADV_HOTPLUG
+Text GLabel 12300 5000 0    50   Input ~ 0
+ADV_HPD
 Text GLabel 13700 4900 2    50   Input ~ 0
-ADV_5V
+VIN5V
 Text GLabel 9500 6450 2    50   Input ~ 0
 ADV_DDCSDA
 Text GLabel 9500 6550 2    50   Input ~ 0
@@ -637,41 +637,6 @@ Text GLabel 13700 4800 2    50   Input ~ 0
 ADV_DDCSDA
 Text GLabel 12800 4900 0    50   Input ~ 0
 GND
-Wire Wire Line
-	2000 9700 2000 10000
-Wire Wire Line
-	2000 10000 2500 10000
-Connection ~ 2000 10000
-Wire Wire Line
-	1500 10000 2000 10000
-$Comp
-L Device:D D11
-U 1 1 5D7E9F98
-P 2000 9550
-F 0 "D11" V 2046 9471 50  0000 R CNN
-F 1 "D" V 1955 9471 50  0000 R CNN
-F 2 "Diode_SMD:D_SOD-523" H 2000 9550 50  0001 C CNN
-F 3 "~" H 2000 9550 50  0001 C CNN
-	1    2000 9550
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:R R54
-U 1 1 5D7EAB6A
-P 2000 9250
-F 0 "R54" H 2070 9296 50  0000 L CNN
-F 1 "27K" H 2070 9205 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 2070 9159 50  0001 L CNN
-F 3 "~" H 2000 9250 50  0001 C CNN
-	1    2000 9250
-	1    0    0    -1  
-$EndComp
-Text GLabel 2000 9100 1    50   Input ~ 0
-3V3
-Text GLabel 1500 10000 0    50   Input ~ 0
-ADV_CEC
-Text GLabel 2500 10000 2    50   Input ~ 0
-ADV_CEC
 Text GLabel 5950 5450 0    50   Input ~ 0
 ADV_I2S0
 Text GLabel 5950 5550 0    50   Input ~ 0
@@ -685,8 +650,8 @@ ADV_SCLK
 Text GLabel 5950 5950 0    50   Input ~ 0
 ADV_LRCLK
 Text GLabel 8900 7200 3    50   Input ~ 0
-ADV_CEC_CLK
-Text GLabel 8500 8000 0    50   Input ~ 0
+GND
+Text GLabel 9100 8000 2    50   Input ~ 0
 GND
 Wire Wire Line
 	8800 8000 8800 8300
@@ -694,12 +659,12 @@ Connection ~ 8800 8000
 $Comp
 L Device:C C38
 U 1 1 5DD5829D
-P 8650 8000
-F 0 "C38" V 8398 8000 50  0000 C CNN
-F 1 "100nF" V 8489 8000 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 8688 7850 50  0001 C CNN
-F 3 "~" H 8650 8000 50  0001 C CNN
-	1    8650 8000
+P 8950 8000
+F 0 "C38" V 8698 8000 50  0000 C CNN
+F 1 "100nF" V 8789 8000 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 8988 7850 50  0001 C CNN
+F 3 "~" H 8950 8000 50  0001 C CNN
+	1    8950 8000
 	0    1    1    0   
 $EndComp
 Text GLabel 8800 8300 3    50   Input ~ 0
@@ -723,4 +688,103 @@ Wire Wire Line
 	7700 7200 7700 7350
 Text GLabel 8400 7200 3    50   Input ~ 0
 ADV_INT
+Text GLabel 6900 7200 3    50   Input ~ 0
+ADV_HPD
+$Comp
+L Device:R R56
+U 1 1 5D83D42F
+P 12550 5150
+F 0 "R56" V 12650 5150 50  0000 C CNN
+F 1 "10k" V 12550 5150 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 12480 5150 50  0001 C CNN
+F 3 "~" H 12550 5150 50  0001 C CNN
+	1    12550 5150
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	12800 5000 12550 5000
+Connection ~ 12550 5000
+Wire Wire Line
+	12550 5000 12300 5000
+Text GLabel 12550 5300 3    50   Input ~ 0
+GND
+Text GLabel 5950 4550 0    50   Input ~ 0
+GND
+Text GLabel 5950 4650 0    50   Input ~ 0
+GND
+Text GLabel 5950 4750 0    50   Input ~ 0
+GND
+Text GLabel 5950 4850 0    50   Input ~ 0
+GND
+Text GLabel 5950 4950 0    50   Input ~ 0
+GND
+Text GLabel 5950 5050 0    50   Input ~ 0
+GND
+Text GLabel 5950 5150 0    50   Input ~ 0
+GND
+Text GLabel 5950 5250 0    50   Input ~ 0
+GND
+Text GLabel 5950 5350 0    50   Input ~ 0
+GND
+$Comp
+L Device:R R57
+U 1 1 5D84D6DF
+P 6700 7450
+F 0 "R57" V 6800 7400 50  0000 L CNN
+F 1 "887" V 6700 7350 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 6630 7450 50  0001 C CNN
+F 3 "~" H 6700 7450 50  0001 C CNN
+	1    6700 7450
+	1    0    0    -1  
+$EndComp
+Text GLabel 6700 7600 3    50   Input ~ 0
+GND
+Wire Wire Line
+	6700 7200 6700 7300
+Wire Wire Line
+	8600 7200 8600 9000
+Text GLabel 8600 9250 3    50   Input ~ 0
+3V3
+$Comp
+L Device:C C1
+U 1 1 5D85D4AB
+P 8750 9000
+F 0 "C1" V 8498 9000 50  0000 C CNN
+F 1 "100nF" V 8589 9000 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 8788 8850 50  0001 C CNN
+F 3 "~" H 8750 9000 50  0001 C CNN
+	1    8750 9000
+	0    1    1    0   
+$EndComp
+Connection ~ 8600 9000
+Wire Wire Line
+	8600 9000 8600 9250
+Text GLabel 8900 9000 2    50   Input ~ 0
+GND
+Text GLabel 6800 3800 1    50   Input ~ 0
+GND
+Text GLabel 6900 3800 1    50   Input ~ 0
+GND
+Text GLabel 7000 3800 1    50   Input ~ 0
+GND
+Text GLabel 7100 3800 1    50   Input ~ 0
+GND
+Text GLabel 7200 3800 1    50   Input ~ 0
+GND
+Text GLabel 8100 3800 1    50   Input ~ 0
+GND
+Text GLabel 8200 3800 1    50   Input ~ 0
+GND
+Text GLabel 8300 3800 1    50   Input ~ 0
+GND
+Text GLabel 8400 3800 1    50   Input ~ 0
+GND
+Text GLabel 9500 5050 2    50   Input ~ 0
+GND
+Text GLabel 9500 5150 2    50   Input ~ 0
+GND
+Text GLabel 9500 5250 2    50   Input ~ 0
+GND
+Text GLabel 9500 5350 2    50   Input ~ 0
+GND
 $EndSCHEMATC

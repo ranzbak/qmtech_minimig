@@ -7,8 +7,8 @@ encoding utf-8
 Sheet 9 9
 Title ""
 Date ""
-Rev ""
-Comp ""
+Rev "0.1"
+Comp "deFEEST"
 Comment1 ""
 Comment2 ""
 Comment3 ""

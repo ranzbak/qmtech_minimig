@@ -5,10 +5,10 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 4 9
-Title ""
+Title "Main board interface with FPGA"
 Date ""
-Rev ""
-Comp ""
+Rev "0.1"
+Comp "deFEEST"
 Comment1 ""
 Comment2 ""
 Comment3 ""
