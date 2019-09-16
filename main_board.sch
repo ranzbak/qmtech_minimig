@@ -44,19 +44,6 @@ Wire Wire Line
 	3600 5350 3450 5350
 Text GLabel 3600 5350 2    50   Input ~ 0
 VIN5V
-$Comp
-L QM_XC7A35T_DDR3:QM_XC7A35T_DDR3 U2
-U 1 1 5D70654A
-P 5950 3750
-AR Path="/5D70654A" Ref="U2"  Part="1" 
-AR Path="/5D7064D1/5D70654A" Ref="U2"  Part="1" 
-F 0 "U2" H 5919 5605 50  0000 C CNN
-F 1 "QM_XC7A35T_DDR3" H 5919 5514 50  0000 C CNN
-F 2 "QM_XC7A35T_DDR3:QM_XC7A35T_DDR3_Daughterboard" H 5919 5423 50  0000 C CNN
-F 3 "" H 2650 2300 50  0001 C CNN
-	1    5950 3750
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	3450 5250 3600 5250
 Text GLabel 1700 5350 0    50   Input ~ 0
@@ -111,62 +98,6 @@ Text GLabel 8350 2550 0    50   Input ~ 0
 ADV_VSYNC
 Text GLabel 8350 2650 0    50   Input ~ 0
 ADV_HSYNC
-Text GLabel 1850 3750 0    50   Input ~ 0
-ETH_INTB
-Text GLabel 1850 3850 0    50   Input ~ 0
-ETH_MDIO
-Text GLabel 1850 3950 0    50   Input ~ 0
-ETH_TXER
-Text GLabel 1850 4050 0    50   Input ~ 0
-ETH_TXD6
-Text GLabel 1850 4150 0    50   Input ~ 0
-ETH_TXD4
-Text GLabel 1850 4250 0    50   Input ~ 0
-ETH_TXD3
-Text GLabel 1850 4350 0    50   Input ~ 0
-ETH_TXD1
-Text GLabel 1850 4450 0    50   Input ~ 0
-ETH_TXD0
-Text GLabel 1850 4550 0    50   Input ~ 0
-ETH_GTX_CLK
-Text GLabel 1850 4650 0    50   Input ~ 0
-ETH_COL_MODE
-Text GLabel 1850 4750 0    50   Input ~ 0
-ETH_RXD7
-Text GLabel 1850 4850 0    50   Input ~ 0
-ETH_RXD5
-Text GLabel 1850 4950 0    50   Input ~ 0
-ETH_RXC
-Text GLabel 1850 5050 0    50   Input ~ 0
-ETH_RXD2
-Text GLabel 1850 5150 0    50   Input ~ 0
-ETH_RXD0
-Text GLabel 3450 3950 2    50   Input ~ 0
-ETH_TXD7
-Text GLabel 3450 4050 2    50   Input ~ 0
-ETH_TXD5
-Text GLabel 3450 4150 2    50   Input ~ 0
-ETH_TXDCLK
-Text GLabel 3450 4250 2    50   Input ~ 0
-ETH_TXD2
-Text GLabel 3450 4350 2    50   Input ~ 0
-ETH_PHYRSTB
-Text GLabel 3450 4450 2    50   Input ~ 0
-ETH_TXEN
-Text GLabel 3450 4550 2    50   Input ~ 0
-ETH_CRS
-Text GLabel 3450 4650 2    50   Input ~ 0
-ETH_RXER
-Text GLabel 3450 4750 2    50   Input ~ 0
-ETH_RXD6
-Text GLabel 3450 4850 2    50   Input ~ 0
-ETH_RXD4
-Text GLabel 3450 4950 2    50   Input ~ 0
-ETH_RXD3
-Text GLabel 3450 5050 2    50   Input ~ 0
-ETH_RXD1
-Text GLabel 3450 5150 2    50   Input ~ 0
-ETH_RXDV
 Text GLabel 3450 3850 2    50   Input ~ 0
 ADV_G_2
 Text GLabel 3450 3750 2    50   Input ~ 0
@@ -502,9 +433,9 @@ Text GLabel 8350 4050 0    50   Input ~ 0
 ADV_I2S2
 Text GLabel 8350 4150 0    50   Input ~ 0
 ADV_I2S3
-Text GLabel 8350 4550 0    50   Input ~ 0
+Text GLabel 3450 3950 2    50   Input ~ 0
 ADV_SCL
-Text GLabel 8350 4650 0    50   Input ~ 0
+Text GLabel 3450 4050 2    50   Input ~ 0
 ADV_SDA
 Text GLabel 8350 4250 0    50   Input ~ 0
 ADV_SCLK
@@ -516,4 +447,73 @@ Text GLabel 1850 3150 0    50   Input ~ 0
 STM_IO_33
 Text GLabel 1850 3050 0    50   Input ~ 0
 STM_IO_34
+Text GLabel 1850 4150 0    50   Input ~ 0
+ESP_UART1_RX
+Text GLabel 1850 4250 0    50   Input ~ 0
+ESP_UART1_TX
+NoConn ~ 9950 3350
+NoConn ~ 9950 3450
+NoConn ~ 9950 3550
+NoConn ~ 9950 4450
+NoConn ~ 9950 4550
+NoConn ~ 9950 4650
+NoConn ~ 9950 4750
+NoConn ~ 9950 4850
+NoConn ~ 9950 4950
+NoConn ~ 8350 4950
+NoConn ~ 8350 4850
+NoConn ~ 8350 4750
+NoConn ~ 8350 4650
+NoConn ~ 8350 4550
+NoConn ~ 1850 4050
+NoConn ~ 1850 3950
+NoConn ~ 1850 3850
+NoConn ~ 1850 3750
+Text GLabel 3450 4150 2    50   Input ~ 0
+EXP_02
+Text GLabel 3450 4250 2    50   Input ~ 0
+EXP_04
+Text GLabel 3450 4350 2    50   Input ~ 0
+EXP_08
+Text GLabel 1850 4350 0    50   Input ~ 0
+EXP_06
+Text GLabel 1850 4450 0    50   Input ~ 0
+EXP_10
+Text GLabel 3450 4450 2    50   Input ~ 0
+EXP_12
+Text GLabel 1850 4550 0    50   Input ~ 0
+EXP_14
+Text GLabel 3450 4550 2    50   Input ~ 0
+EXP_16
+Text GLabel 1850 4650 0    50   Input ~ 0
+EXP_18
+Text GLabel 3450 4650 2    50   Input ~ 0
+EXP_20
+Text GLabel 1850 4750 0    50   Input ~ 0
+EXP_22
+Text GLabel 3450 4750 2    50   Input ~ 0
+EXP_24
+$Comp
+L QM_XC7A35T_DDR3:QM_XC7A35T_DDR3 U2
+U 1 1 5D70654A
+P 5950 3750
+AR Path="/5D70654A" Ref="U2"  Part="1" 
+AR Path="/5D7064D1/5D70654A" Ref="U2"  Part="1" 
+F 0 "U2" H 5919 5605 50  0000 C CNN
+F 1 "QM_XC7A35T_DDR3" H 5919 5514 50  0000 C CNN
+F 2 "QM_XC7A35T_DDR3:QM_XC7A35T_DDR3_Daughterboard" H 5919 5423 50  0000 C CNN
+F 3 "" H 2650 2300 50  0001 C CNN
+	1    5950 3750
+	1    0    0    -1  
+$EndComp
+Text GLabel 1850 4850 0    50   Input ~ 0
+EXP_26
+Text GLabel 3450 4850 2    50   Input ~ 0
+EXP_28
+Text GLabel 3450 4950 2    50   Input ~ 0
+EXP_32
+Text GLabel 1850 4950 0    50   Input ~ 0
+EXP_30
+Text GLabel 1850 5050 0    50   Input ~ 0
+EXP_34
 $EndSCHEMATC

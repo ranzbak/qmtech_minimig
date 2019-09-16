@@ -59,7 +59,7 @@ $EndSheet
 $Sheet
 S 5500 2200 500  150 
 U 5DE41876
-F0 "Ethernet" 50
-F1 "ethernet.sch" 50
+F0 "Floppy" 50
+F1 "floppy.sch" 50
 $EndSheet
 $EndSCHEMATC

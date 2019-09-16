@@ -44,8 +44,6 @@ Wire Wire Line
 Wire Wire Line
 	7600 7200 7600 7350
 Wire Wire Line
-	8300 7200 8300 7350
-Wire Wire Line
 	9500 4350 9650 4350
 Text GLabel 6500 3600 1    50   Input ~ 0
 GND
@@ -65,7 +63,7 @@ Text GLabel 7000 7350 3    50   Input ~ 0
 GND
 Text GLabel 7600 7350 3    50   Input ~ 0
 GND
-Text GLabel 8300 7350 3    50   Input ~ 0
+Text GLabel 8300 7200 3    50   Input ~ 0
 GND
 Text GLabel 9650 4350 2    50   Input ~ 0
 GND
@@ -617,11 +615,9 @@ Text GLabel 13700 4600 2    50   Input ~ 0
 ADV_TXC-
 Text GLabel 8700 7200 3    50   Input ~ 0
 GND
-Text GLabel 12800 4700 0    50   Input ~ 0
-ADV_CEC
 Text GLabel 12300 5000 0    50   Input ~ 0
 ADV_HPD
-Text GLabel 13700 4900 2    50   Input ~ 0
+Text GLabel 14475 4900 2    50   Input ~ 0
 VIN5V
 Text GLabel 9500 6450 2    50   Input ~ 0
 ADV_DDCSDA
@@ -787,4 +783,66 @@ Text GLabel 9500 5250 2    50   Input ~ 0
 GND
 Text GLabel 9500 5350 2    50   Input ~ 0
 GND
+Text Notes 13500 7000 0    89   ~ 0
+I2C bus resistors\n
+Wire Wire Line
+	13700 7650 14100 7650
+Text GLabel 13700 7650 0    50   Input ~ 0
+ADV_SCL
+Text GLabel 13700 8250 0    50   Input ~ 0
+ADV_SDA
+$Comp
+L Device:R R18
+U 1 1 5D7A6E2F
+P 14100 7500
+F 0 "R18" H 14170 7546 50  0000 L CNN
+F 1 "4.7k" H 14170 7455 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 14030 7500 50  0001 C CNN
+F 3 "~" H 14100 7500 50  0001 C CNN
+	1    14100 7500
+	1    0    0    -1  
+$EndComp
+Connection ~ 14100 7650
+Wire Wire Line
+	14100 7650 14700 7650
+Text GLabel 14100 7350 1    50   Input ~ 0
+3V3
+$Comp
+L Device:R R19
+U 1 1 5D7AA6C2
+P 14100 8100
+F 0 "R19" H 14170 8146 50  0000 L CNN
+F 1 "4.7k" H 14170 8055 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 14030 8100 50  0001 C CNN
+F 3 "~" H 14100 8100 50  0001 C CNN
+	1    14100 8100
+	1    0    0    -1  
+$EndComp
+Text GLabel 14100 7950 1    50   Input ~ 0
+3V3
+Wire Wire Line
+	13700 8250 14100 8250
+Connection ~ 14100 8250
+Wire Wire Line
+	14100 8250 14700 8250
+NoConn ~ 8500 7200
+NoConn ~ 12800 4600
+NoConn ~ 12800 4300
+NoConn ~ 13700 4100
+NoConn ~ 13700 4400
+NoConn ~ 13700 4700
+NoConn ~ 12800 4700
+$Comp
+L Device:R R34
+U 1 1 5DA28805
+P 14325 4900
+F 0 "R34" V 14118 4900 50  0000 C CNN
+F 1 "10k" V 14209 4900 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 14255 4900 50  0001 C CNN
+F 3 "~" H 14325 4900 50  0001 C CNN
+	1    14325 4900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	14175 4900 13700 4900
 $EndSCHEMATC
