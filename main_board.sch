@@ -473,25 +473,15 @@ Text GLabel 3450 4150 2    50   Input ~ 0
 EXP_02
 Text GLabel 3450 4250 2    50   Input ~ 0
 EXP_04
-Text GLabel 3450 4350 2    50   Input ~ 0
-EXP_08
 Text GLabel 1850 4350 0    50   Input ~ 0
-EXP_06
+EXP_08
 Text GLabel 1850 4450 0    50   Input ~ 0
-EXP_10
-Text GLabel 3450 4450 2    50   Input ~ 0
 EXP_12
-Text GLabel 1850 4550 0    50   Input ~ 0
-EXP_14
-Text GLabel 3450 4550 2    50   Input ~ 0
+Text GLabel 3450 4450 2    50   Input ~ 0
 EXP_16
-Text GLabel 1850 4650 0    50   Input ~ 0
-EXP_18
-Text GLabel 3450 4650 2    50   Input ~ 0
+Text GLabel 3450 4550 2    50   Input ~ 0
 EXP_20
-Text GLabel 1850 4750 0    50   Input ~ 0
-EXP_22
-Text GLabel 3450 4750 2    50   Input ~ 0
+Text GLabel 3450 4650 2    50   Input ~ 0
 EXP_24
 $Comp
 L QM_XC7A35T_DDR3:QM_XC7A35T_DDR3 U2
@@ -506,14 +496,20 @@ F 3 "" H 2650 2300 50  0001 C CNN
 	1    5950 3750
 	1    0    0    -1  
 $EndComp
-Text GLabel 1850 4850 0    50   Input ~ 0
-EXP_26
-Text GLabel 3450 4850 2    50   Input ~ 0
+Text GLabel 3450 4750 2    50   Input ~ 0
 EXP_28
-Text GLabel 3450 4950 2    50   Input ~ 0
+Text GLabel 3450 4850 2    50   Input ~ 0
 EXP_32
-Text GLabel 1850 4950 0    50   Input ~ 0
+Text GLabel 1850 4850 0    50   Input ~ 0
 EXP_30
-Text GLabel 1850 5050 0    50   Input ~ 0
+Text GLabel 1850 4950 0    50   Input ~ 0
 EXP_34
+Text GLabel 1850 4750 0    50   Input ~ 0
+EXP_26
+Text GLabel 1850 4650 0    50   Input ~ 0
+EXP_22
+Text GLabel 1850 4550 0    50   Input ~ 0
+EXP_18
+Text GLabel 3450 4350 2    50   Input ~ 0
+EXP_10
 $EndSCHEMATC
