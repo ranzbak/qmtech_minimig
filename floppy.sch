@@ -379,8 +379,6 @@ Text GLabel 9350 6050 3    50   Input ~ 0
 GND
 Text GLabel 8050 1550 2    50   Input ~ 0
 3V3
-Text GLabel 8050 1650 2    50   Input ~ 0
-VIN5V
 Text GLabel 6400 1850 0    50   Input ~ 0
 3V3
 $Comp
@@ -441,34 +439,28 @@ Text GLabel 7500 1000 1    50   Input ~ 0
 GND
 Text GLabel 7950 1000 1    50   Input ~ 0
 GND
-Text GLabel 7400 2050 2    50   Input ~ 0
+Text GLabel 7400 2750 2    50   Input ~ 0
 H_EXP_02
-Text GLabel 7400 2150 2    50   Input ~ 0
+Text GLabel 7400 2650 2    50   Input ~ 0
 H_EXP_04
-Text GLabel 7400 2250 2    50   Input ~ 0
-H_EXP_08
 Text GLabel 7400 2350 2    50   Input ~ 0
-H_EXP_10
-Text GLabel 7400 2450 2    50   Input ~ 0
 H_EXP_12
-Text GLabel 7400 2550 2    50   Input ~ 0
+Text GLabel 7400 2250 2    50   Input ~ 0
 H_EXP_16
-Text GLabel 6400 2050 0    50   Input ~ 0
+Text GLabel 6400 2750 0    50   Input ~ 0
 EXP_02
-Text GLabel 6400 2150 0    50   Input ~ 0
+Text GLabel 6400 2650 0    50   Input ~ 0
 EXP_04
-Text GLabel 6400 2250 0    50   Input ~ 0
-EXP_08
-Text GLabel 6400 2350 0    50   Input ~ 0
-EXP_10
-Text GLabel 6400 2450 0    50   Input ~ 0
-EXP_12
 Text GLabel 6400 2550 0    50   Input ~ 0
+EXP_08
+Text GLabel 6400 2450 0    50   Input ~ 0
+EXP_10
+Text GLabel 6400 2350 0    50   Input ~ 0
+EXP_12
+Text GLabel 6400 2250 0    50   Input ~ 0
 EXP_16
 Text GLabel 8100 4250 2    50   Input ~ 0
 3V3
-Text GLabel 8100 4350 2    50   Input ~ 0
-VIN5V
 Text GLabel 6450 4550 0    50   Input ~ 0
 3V3
 $Comp
@@ -529,40 +521,130 @@ Text GLabel 7550 3700 1    50   Input ~ 0
 GND
 Text GLabel 8000 3700 1    50   Input ~ 0
 GND
-Text GLabel 7450 5250 2    50   Input ~ 0
-H_EXP_32
-Text GLabel 7450 5150 2    50   Input ~ 0
-H_EXP_30
-Text GLabel 7450 5050 2    50   Input ~ 0
-H_EXP_28
 Text GLabel 7450 4950 2    50   Input ~ 0
+H_EXP_32
+Text GLabel 7450 5050 2    50   Input ~ 0
+H_EXP_30
+Text GLabel 7450 5150 2    50   Input ~ 0
+H_EXP_28
+Text GLabel 7450 5250 2    50   Input ~ 0
 H_EXP_26
-Text GLabel 7450 4850 2    50   Input ~ 0
-H_EXP_24
-Text GLabel 7450 4750 2    50   Input ~ 0
-H_EXP_22
-Text GLabel 7400 2750 2    50   Input ~ 0
-H_EXP_20
-Text GLabel 7400 2650 2    50   Input ~ 0
-H_EXP_18
-Text GLabel 6450 5250 0    50   Input ~ 0
-EXP_32
-Text GLabel 6450 5150 0    50   Input ~ 0
-EXP_30
-Text GLabel 6450 5050 0    50   Input ~ 0
-EXP_28
-Text GLabel 6450 4950 0    50   Input ~ 0
-EXP_26
-Text GLabel 6450 4850 0    50   Input ~ 0
-EXP_24
-Text GLabel 6450 4750 0    50   Input ~ 0
-EXP_22
-Text GLabel 6400 2750 0    50   Input ~ 0
-EXP_20
-Text GLabel 6400 2650 0    50   Input ~ 0
-EXP_18
-Text GLabel 6450 5350 0    50   Input ~ 0
-EXP_34
 Text GLabel 7450 5350 2    50   Input ~ 0
+H_EXP_24
+Text GLabel 7450 5450 2    50   Input ~ 0
+H_EXP_22
+Text GLabel 7400 2050 2    50   Input ~ 0
+H_EXP_20
+Text GLabel 7400 2150 2    50   Input ~ 0
+H_EXP_18
+Text GLabel 6450 4950 0    50   Input ~ 0
+EXP_32
+Text GLabel 6450 5050 0    50   Input ~ 0
+EXP_30
+Text GLabel 6450 5150 0    50   Input ~ 0
+EXP_28
+Text GLabel 6450 5250 0    50   Input ~ 0
+EXP_26
+Text GLabel 6450 5350 0    50   Input ~ 0
+EXP_24
+Text GLabel 6450 5450 0    50   Input ~ 0
+EXP_22
+Text GLabel 6400 2050 0    50   Input ~ 0
+EXP_20
+Text GLabel 6400 2150 0    50   Input ~ 0
+EXP_18
+Text GLabel 6450 4850 0    50   Input ~ 0
+EXP_34
+Text GLabel 7450 4850 2    50   Input ~ 0
 H_EXP_34
+$Comp
+L qmtech-minimig-rescue:DB23_Female_MountingHoles J10
+U 1 1 5D9CC860
+P 1150 2700
+F 0 "J10" H 1329 2684 50  0000 L CNN
+F 1 "DB23_Female_MountingHoles" H 1329 2775 50  0000 L CNN
+F 2 "c64-wing-kicad:DSUB-23_Female_Horizontal_P2.77x2.84mm_EdgePinOffset7.70mm_Housed_MountingHolesOffset9.12mm" H 1150 2700 50  0001 C CNN
+F 3 " ~" H 1150 2700 50  0001 C CNN
+	1    1150 2700
+	-1   0    0    1   
+$EndComp
+Text GLabel 1450 1700 2    50   Input ~ 0
+VIN5V
+Text GLabel 1450 1800 2    50   Input ~ 0
+VIN12V
+Text GLabel 1450 3500 2    50   Input ~ 0
+GND
+Text GLabel 1450 3300 2    50   Input ~ 0
+GND
+Text GLabel 1450 3100 2    50   Input ~ 0
+GND
+Text GLabel 1450 2900 2    50   Input ~ 0
+GND
+Text GLabel 1450 2700 2    50   Input ~ 0
+GND
+Text GLabel 7400 2450 2    50   Input ~ 0
+H_EXP_10
+Text GLabel 7400 2550 2    50   Input ~ 0
+H_EXP_08
+Text Label 8100 4350 0    50   ~ 0
+VIOSEL
+Text Label 8050 1650 0    50   ~ 0
+VIOSEL
+$Comp
+L Connector:Conn_01x03_Male J11
+U 1 1 5DA5CD20
+P 10000 2650
+F 0 "J11" H 9972 2582 50  0000 R CNN
+F 1 "Conn_01x03_Male" H 9972 2673 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 10000 2650 50  0001 C CNN
+F 3 "~" H 10000 2650 50  0001 C CNN
+	1    10000 2650
+	-1   0    0    1   
+$EndComp
+Text Label 9800 2650 2    50   ~ 0
+VIOSEL
+Text GLabel 9800 2550 0    50   Input ~ 0
+3V3
+Text GLabel 9800 2750 0    50   Input ~ 0
+VIN5V
+Text Notes 9475 2425 0    50   ~ 0
+Voltage selector\ndisk I/O 3V3 / 5V
+Text GLabel 6450 4750 0    50   Input ~ 0
+EXP_35
+Text GLabel 7450 4750 2    50   Input ~ 0
+H_EXP_35
+Text GLabel 1450 3900 2    50   Input ~ 0
+H_EXP_35
+Text GLabel 1450 3800 2    50   Input ~ 0
+H_EXP_34
+Text GLabel 1450 3700 2    50   Input ~ 0
+H_EXP_32
+Text GLabel 1450 3600 2    50   Input ~ 0
+H_EXP_30
+Text GLabel 1450 3400 2    50   Input ~ 0
+H_EXP_28
+Text GLabel 1450 3200 2    50   Input ~ 0
+H_EXP_26
+Text GLabel 1450 3000 2    50   Input ~ 0
+H_EXP_24
+Text GLabel 1450 2800 2    50   Input ~ 0
+H_EXP_22
+Text GLabel 1450 2600 2    50   Input ~ 0
+H_EXP_20
+Text GLabel 1450 2500 2    50   Input ~ 0
+H_EXP_18
+Text GLabel 1450 2400 2    50   Input ~ 0
+H_EXP_16
+Text GLabel 1450 2300 2    50   Input ~ 0
+H_EXP_12
+Text GLabel 1450 2200 2    50   Input ~ 0
+H_EXP_10
+Text GLabel 1450 1900 2    50   Input ~ 0
+H_EXP_02
+Text GLabel 1450 2000 2    50   Input ~ 0
+H_EXP_04
+Text GLabel 1450 2100 2    50   Input ~ 0
+H_EXP_08
+Text GLabel 1150 1450 1    50   Input ~ 0
+GND
 $EndSCHEMATC

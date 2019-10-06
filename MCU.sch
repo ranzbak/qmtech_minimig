@@ -116,9 +116,9 @@ $EndComp
 Text GLabel 2325 2550 2    50   Input ~ 0
 GND
 Text GLabel 3400 2950 2    50   Input ~ 0
-VIN5V
+VUSB5V
 Text GLabel 5425 3550 3    50   Input ~ 0
-VIN5V
+VUSB5V
 Text GLabel 4925 2650 0    50   Input ~ 0
 GND
 Text GLabel 4125 2950 0    50   Input ~ 0
@@ -137,7 +137,7 @@ $EndComp
 Text GLabel 4125 3325 3    50   Input ~ 0
 GND
 Text GLabel 4925 3050 0    50   Input ~ 0
-VIN5V
+VUSB5V
 Wire Wire Line
 	3400 2950 3150 2950
 Wire Wire Line
@@ -189,8 +189,6 @@ F 3 "~" H 5525 4025 50  0001 C CNN
 	1    5525 4025
 	1    0    0    -1  
 $EndComp
-Text GLabel 2375 4675 3    50   Input ~ 0
-3V3
 Text GLabel 5325 1950 1    50   Input ~ 0
 GND
 Text GLabel 5625 1100 1    50   Input ~ 0
@@ -552,7 +550,6 @@ NoConn ~ 5100 5300
 NoConn ~ 5100 5400
 NoConn ~ 5100 5900
 NoConn ~ 5100 6000
-NoConn ~ 5100 6100
 NoConn ~ 5100 6400
 NoConn ~ 3600 7200
 NoConn ~ 3600 7100
@@ -670,4 +667,6 @@ Wire Wire Line
 	4375 2950 4925 2950
 Text GLabel 4375 3325 3    50   Input ~ 0
 GND
+Text GLabel 5100 6100 2    50   Input ~ 0
+ADV_INT
 $EndSCHEMATC

@@ -512,4 +512,6 @@ Text GLabel 1850 4550 0    50   Input ~ 0
 EXP_18
 Text GLabel 3450 4350 2    50   Input ~ 0
 EXP_10
+Text GLabel 3450 4950 2    50   Input ~ 0
+EXP_35
 $EndSCHEMATC
