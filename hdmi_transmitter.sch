@@ -26,42 +26,24 @@ F 3 "https://www.analog.com/media/en/technical-documentation/user-guides/ADV7511
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6500 3800 6500 3600
-Wire Wire Line
-	6600 3800 6600 3600
-Wire Wire Line
-	5950 6550 5800 6550
-Wire Wire Line
-	5950 6450 5800 6450
-Wire Wire Line
-	5950 6250 5800 6250
-Wire Wire Line
-	5950 6050 5800 6050
-Wire Wire Line
-	6600 7200 6600 7350
-Wire Wire Line
-	7000 7200 7000 7350
-Wire Wire Line
-	7600 7200 7600 7350
-Wire Wire Line
 	9500 4350 9650 4350
-Text GLabel 6500 3600 1    50   Input ~ 0
+Text GLabel 6500 3800 1    50   Input ~ 0
 GND
-Text GLabel 6600 3600 1    50   Input ~ 0
+Text GLabel 6600 3800 1    50   Input ~ 0
 GND
-Text GLabel 5800 6050 0    50   Input ~ 0
+Text GLabel 5950 6050 0    50   Input ~ 0
 GND
-Text GLabel 5800 6250 0    50   Input ~ 0
+Text GLabel 5950 6250 0    50   Input ~ 0
 GND
-Text GLabel 5800 6450 0    50   Input ~ 0
+Text GLabel 5950 6450 0    50   Input ~ 0
 GND
-Text GLabel 5800 6550 0    50   Input ~ 0
+Text GLabel 5950 6550 0    50   Input ~ 0
 GND
-Text GLabel 6600 7350 3    50   Input ~ 0
+Text GLabel 6600 7200 3    50   Input ~ 0
 GND
-Text GLabel 7000 7350 3    50   Input ~ 0
+Text GLabel 7000 7200 3    50   Input ~ 0
 GND
-Text GLabel 7600 7350 3    50   Input ~ 0
+Text GLabel 7600 7200 3    50   Input ~ 0
 GND
 Text GLabel 8300 7200 3    50   Input ~ 0
 GND
@@ -204,7 +186,7 @@ Wire Wire Line
 	2000 6000 1600 6000
 Connection ~ 1600 6000
 Wire Wire Line
-	1600 6000 1600 5000
+	1600 6000 1600 5250
 Wire Wire Line
 	2500 5000 3500 5000
 Connection ~ 2500 5000
@@ -251,7 +233,7 @@ F 3 "~" H 1450 3500 50  0001 C CNN
 $EndComp
 Connection ~ 1600 3500
 Wire Wire Line
-	1600 3500 1600 3200
+	1600 3500 1600 3375
 $Comp
 L Device:CP C30
 U 1 1 5DD18A1A
@@ -286,13 +268,9 @@ Text GLabel 5200 6650 0    50   Input ~ 0
 ADV_PLVDD
 Text GLabel 5200 6750 0    50   Input ~ 0
 ADV_PLVDD
-Wire Wire Line
-	5950 4450 5800 4450
-Text GLabel 5800 4450 0    50   Input ~ 0
+Text GLabel 5950 4450 0    50   Input ~ 0
 ADV_VSYNC
-Wire Wire Line
-	6700 3800 6700 3600
-Text GLabel 6700 3600 1    50   Input ~ 0
+Text GLabel 6700 3800 1    50   Input ~ 0
 ADV_HSYNC
 Wire Wire Line
 	6500 7200 6500 7700
@@ -469,7 +447,7 @@ Text GLabel 5450 7050 3    50   Input ~ 0
 GND
 Text Label 1600 5500 1    50   ~ 0
 1V8
-Text GLabel 1200 4100 0    50   Input ~ 0
+Text GLabel 775  4100 0    50   Input ~ 0
 GND
 Text GLabel 9500 6150 2    50   Input ~ 0
 ADV_R_7
@@ -627,9 +605,9 @@ Text GLabel 9500 6250 2    50   Input ~ 0
 ADV_SDA
 Text GLabel 9500 6350 2    50   Input ~ 0
 ADV_SCL
-Text GLabel 12800 4800 0    50   Input ~ 0
+Text GLabel 11675 4800 0    50   Input ~ 0
 ADV_DDCSCL
-Text GLabel 13700 4800 2    50   Input ~ 0
+Text GLabel 14900 4800 2    50   Input ~ 0
 ADV_DDCSDA
 Text GLabel 12800 4900 0    50   Input ~ 0
 GND
@@ -682,7 +660,7 @@ Text GLabel 7700 7650 3    50   Input ~ 0
 GND
 Wire Wire Line
 	7700 7200 7700 7350
-Text GLabel 8400 7200 3    50   Input ~ 0
+Text GLabel 8400 9100 3    50   Input ~ 0
 ADV_INT
 Text GLabel 6900 7200 3    50   Input ~ 0
 ADV_HPD
@@ -758,7 +736,7 @@ Wire Wire Line
 Text GLabel 8900 9000 2    50   Input ~ 0
 GND
 Text GLabel 6800 3800 1    50   Input ~ 0
-GND
+ADV_DE
 Text GLabel 6900 3800 1    50   Input ~ 0
 GND
 Text GLabel 7000 3800 1    50   Input ~ 0
@@ -844,5 +822,113 @@ F 3 "~" H 14325 4900 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	14175 4900 13700 4900
+	14175 4900 14150 4900
+$Comp
+L Connector:TestPoint TP6
+U 1 1 5DA49761
+P 1600 3375
+F 0 "TP6" V 1554 3563 50  0000 L CNN
+F 1 "TestPoint" V 1645 3563 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Keystone_5019_Minature" H 1800 3375 50  0001 C CNN
+F 3 "~" H 1800 3375 50  0001 C CNN
+	1    1600 3375
+	0    1    1    0   
+$EndComp
+Connection ~ 1600 3375
+Wire Wire Line
+	1600 3375 1600 3200
+$Comp
+L Connector:TestPoint TP7
+U 1 1 5DA49C5B
+P 1600 5250
+F 0 "TP7" V 1795 5322 50  0000 C CNN
+F 1 "TestPoint" V 1704 5322 50  0000 C CNN
+F 2 "TestPoint:TestPoint_Keystone_5019_Minature" H 1800 5250 50  0001 C CNN
+F 3 "~" H 1800 5250 50  0001 C CNN
+	1    1600 5250
+	0    -1   -1   0   
+$EndComp
+Connection ~ 1600 5250
+Wire Wire Line
+	1600 5250 1600 5000
+Wire Wire Line
+	775  4100 825  4100
+$Comp
+L Connector:TestPoint TP5
+U 1 1 5DA4EE17
+P 825 4100
+F 0 "TP5" H 883 4218 50  0000 L CNN
+F 1 "TestPoint" H 883 4127 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Keystone_5019_Minature" H 1025 4100 50  0001 C CNN
+F 3 "~" H 1025 4100 50  0001 C CNN
+	1    825  4100
+	1    0    0    -1  
+$EndComp
+Connection ~ 825  4100
+Wire Wire Line
+	825  4100 1200 4100
+$Comp
+L Device:R R41
+U 1 1 5DA9BCB7
+P 8250 8925
+F 0 "R41" V 8175 8825 50  0000 L CNN
+F 1 "2K" V 8250 8875 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 8180 8925 50  0001 C CNN
+F 3 "~" H 8250 8925 50  0001 C CNN
+	1    8250 8925
+	0    1    1    0   
+$EndComp
+Text GLabel 8100 8925 0    50   Input ~ 0
+3V3
+Connection ~ 8400 8925
+Wire Wire Line
+	8400 8925 8400 9100
+Wire Wire Line
+	8400 7200 8400 8925
+Wire Wire Line
+	14900 4800 14825 4800
+$Comp
+L Device:R R?
+U 1 1 5DAC4C64
+P 14825 4950
+F 0 "R?" V 14618 4950 50  0000 C CNN
+F 1 "2k" V 14709 4950 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 14755 4950 50  0001 C CNN
+F 3 "~" H 14825 4950 50  0001 C CNN
+	1    14825 4950
+	-1   0    0    1   
+$EndComp
+Connection ~ 14150 4900
+Wire Wire Line
+	14150 4900 13700 4900
+Wire Wire Line
+	11675 4800 11775 4800
+$Comp
+L Device:R R?
+U 1 1 5DAC8AED
+P 11775 4950
+F 0 "R?" V 11875 4950 50  0000 C CNN
+F 1 "2k" V 11775 4950 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 11705 4950 50  0001 C CNN
+F 3 "~" H 11775 4950 50  0001 C CNN
+	1    11775 4950
+	-1   0    0    1   
+$EndComp
+Connection ~ 11775 4800
+Wire Wire Line
+	11775 4800 12800 4800
+Wire Wire Line
+	11775 5100 11775 5625
+Wire Wire Line
+	11775 5625 14150 5625
+Wire Wire Line
+	14150 5625 14150 4900
+Connection ~ 14825 4800
+Wire Wire Line
+	14825 5100 14825 5625
+Wire Wire Line
+	14825 5625 14150 5625
+Wire Wire Line
+	13700 4800 14825 4800
+Connection ~ 14150 5625
 $EndSCHEMATC

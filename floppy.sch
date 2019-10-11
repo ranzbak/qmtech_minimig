@@ -105,10 +105,10 @@ F 3 "" H 3150 5900 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1500 6300 1700 6300
-Text GLabel 5000 6300 2    50   Input ~ 0
+	1100 6300 1200 6300
+Text GLabel 5625 6300 2    50   Input ~ 0
 GND
-Text GLabel 5000 5400 2    50   Input ~ 0
+Text GLabel 5600 5400 2    50   Input ~ 0
 VIN5V
 Wire Wire Line
 	5000 5400 4750 5400
@@ -232,12 +232,11 @@ Wire Wire Line
 	1700 6300 1700 6000
 Wire Wire Line
 	1700 5700 1700 5400
-Connection ~ 1700 5400
 Wire Wire Line
-	1700 5400 1500 5400
-Text GLabel 1500 5400 0    50   Input ~ 0
+	1700 5400 1400 5400
+Text GLabel 1075 5400 0    50   Input ~ 0
 VIN12V
-Text GLabel 1500 6300 0    50   Input ~ 0
+Text GLabel 1100 6300 0    50   Input ~ 0
 GND
 $Comp
 L Device:C C15
@@ -265,7 +264,7 @@ Wire Wire Line
 	4750 6300 4750 6000
 Connection ~ 4750 6300
 Wire Wire Line
-	4750 6300 5000 6300
+	4750 6300 5625 6300
 Wire Wire Line
 	4350 6000 4350 6300
 Connection ~ 4350 6300
@@ -303,7 +302,6 @@ Connection ~ 2700 5400
 Wire Wire Line
 	2400 5400 2350 5400
 Connection ~ 2350 5400
-Connection ~ 1700 6300
 $Comp
 L Connector_Generic:Conn_01x04 J8
 U 1 1 5D870819
@@ -562,7 +560,7 @@ L qmtech-minimig-rescue:DB23_Female_MountingHoles J10
 U 1 1 5D9CC860
 P 1150 2700
 F 0 "J10" H 1329 2684 50  0000 L CNN
-F 1 "DB23_Female_MountingHoles" H 1329 2775 50  0000 L CNN
+F 1 "DB23_Female_MountingHoles" V 1400 2825 50  0000 L CNN
 F 2 "c64-wing-kicad:DSUB-23_Female_Horizontal_P2.77x2.84mm_EdgePinOffset7.70mm_Housed_MountingHolesOffset9.12mm" H 1150 2700 50  0001 C CNN
 F 3 " ~" H 1150 2700 50  0001 C CNN
 	1    1150 2700
@@ -647,4 +645,74 @@ Text GLabel 1450 2100 2    50   Input ~ 0
 H_EXP_08
 Text GLabel 1150 1450 1    50   Input ~ 0
 GND
+$Comp
+L Device:Jumper JP1
+U 1 1 5D9FBDE3
+P 5300 5400
+F 0 "JP1" H 5300 5664 50  0000 C CNN
+F 1 "Jumper" H 5300 5573 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 5300 5400 50  0001 C CNN
+F 3 "~" H 5300 5400 50  0001 C CNN
+	1    5300 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP3
+U 1 1 5DA056F9
+P 1175 5400
+F 0 "TP3" H 1233 5518 50  0000 L CNN
+F 1 "TestPoint" H 1233 5427 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Keystone_5019_Minature" H 1375 5400 50  0001 C CNN
+F 3 "~" H 1375 5400 50  0001 C CNN
+	1    1175 5400
+	1    0    0    -1  
+$EndComp
+Connection ~ 1175 5400
+Wire Wire Line
+	1175 5400 1075 5400
+$Comp
+L Connector:TestPoint TP4
+U 1 1 5DA05BA0
+P 1200 6300
+F 0 "TP4" H 1258 6418 50  0000 L CNN
+F 1 "TestPoint" H 1258 6327 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Keystone_5019_Minature" H 1400 6300 50  0001 C CNN
+F 3 "~" H 1400 6300 50  0001 C CNN
+	1    1200 6300
+	1    0    0    -1  
+$EndComp
+Connection ~ 1200 6300
+Wire Wire Line
+	1200 6300 1400 6300
+Text Notes 3250 5000 0    50   ~ 0
+12V power supply for the floppy drive
+Text Notes 6525 725  0    50   ~ 0
+Levershifter floppy IO
+Text Notes 8850 4700 0    50   ~ 0
+Floppy power connector
+Text Notes 2850 2000 0    50   ~ 0
+Alternative pereferal connector
+Connection ~ 1700 5400
+Connection ~ 1700 6300
+$Comp
+L Device:R R40
+U 1 1 5DA350F1
+P 1400 5850
+F 0 "R40" H 1470 5896 50  0000 L CNN
+F 1 "1M" H 1470 5805 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 1330 5850 50  0001 C CNN
+F 3 "~" H 1400 5850 50  0001 C CNN
+	1    1400 5850
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	1400 5700 1400 5400
+Connection ~ 1400 5400
+Wire Wire Line
+	1400 5400 1175 5400
+Wire Wire Line
+	1400 6000 1400 6300
+Connection ~ 1400 6300
+Wire Wire Line
+	1400 6300 1700 6300
 $EndSCHEMATC

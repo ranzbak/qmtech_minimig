@@ -78,21 +78,21 @@ Text GLabel 8350 5250 0    50   Input ~ 0
 3V3
 Text GLabel 8350 5350 0    50   Input ~ 0
 VIN5V
-Text GLabel 8350 2750 0    50   Input ~ 0
-ADV_B_0
 Text GLabel 8350 2850 0    50   Input ~ 0
-ADV_B_1
+ADV_B_0
 Text GLabel 8350 2950 0    50   Input ~ 0
-ADV_B_2
+ADV_B_1
 Text GLabel 8350 3050 0    50   Input ~ 0
-ADV_B_3
+ADV_B_2
 Text GLabel 8350 3150 0    50   Input ~ 0
-ADV_B_4
+ADV_B_3
 Text GLabel 8350 3250 0    50   Input ~ 0
-ADV_B_5
+ADV_B_4
 Text GLabel 8350 3350 0    50   Input ~ 0
-ADV_B_6
+ADV_B_5
 Text GLabel 8350 3450 0    50   Input ~ 0
+ADV_B_6
+Text GLabel 8350 3550 0    50   Input ~ 0
 ADV_B_7
 Text GLabel 8350 2550 0    50   Input ~ 0
 ADV_VSYNC
@@ -126,11 +126,11 @@ Text GLabel 3450 2650 2    50   Input ~ 0
 ADV_R_6
 Text GLabel 3450 2550 2    50   Input ~ 0
 ADV_R_7
-Text GLabel 8350 3550 0    50   Input ~ 0
-ADV_G_0
 Text GLabel 8350 3650 0    50   Input ~ 0
-ADV_CLK
+ADV_G_0
 Text GLabel 8350 3750 0    50   Input ~ 0
+ADV_CLK
+Text GLabel 8350 3850 0    50   Input ~ 0
 ADV_G_1
 Text GLabel 9950 2550 2    50   Input ~ 0
 JS1_5
@@ -168,26 +168,6 @@ Text GLabel 9950 5150 2    50   Input ~ 0
 PS2_DAT1
 Text GLabel 9950 4350 2    50   Input ~ 0
 JS2_1
-Text GLabel 1850 3650 0    50   Input ~ 0
-STM_SPI1_CS
-Text GLabel 1850 3550 0    50   Input ~ 0
-STM_SPI1_NSS
-Text GLabel 1850 3450 0    50   Input ~ 0
-STM_SPI1_SCK
-Text GLabel 1850 3350 0    50   Input ~ 0
-STM_SPI1_MISO
-Text GLabel 1850 3250 0    50   Input ~ 0
-STM_SPI1_MOSI
-Text GLabel 1850 2550 0    50   Input ~ 0
-STM_USART1_RTS
-Text GLabel 1850 2650 0    50   Input ~ 0
-STM_USART1_CTS
-Text GLabel 1850 2750 0    50   Input ~ 0
-STM_USART1_RX
-Text GLabel 1850 2850 0    50   Input ~ 0
-STM_USART1_TX
-Text GLabel 1850 2950 0    50   Input ~ 0
-STM_USART1_CK
 $Comp
 L Device:LED D?
 U 1 1 5D7AC349
@@ -425,32 +405,24 @@ Wire Wire Line
 Connection ~ 3000 6000
 Wire Wire Line
 	3350 6000 3350 6200
-Text GLabel 8350 3850 0    50   Input ~ 0
-ADV_I2S0
 Text GLabel 8350 3950 0    50   Input ~ 0
-ADV_I2S1
+ADV_I2S0
 Text GLabel 8350 4050 0    50   Input ~ 0
-ADV_I2S2
+ADV_I2S1
 Text GLabel 8350 4150 0    50   Input ~ 0
+ADV_I2S2
+Text GLabel 8350 4250 0    50   Input ~ 0
 ADV_I2S3
 Text GLabel 3450 3950 2    50   Input ~ 0
 ADV_SCL
 Text GLabel 3450 4050 2    50   Input ~ 0
 ADV_SDA
-Text GLabel 8350 4250 0    50   Input ~ 0
-ADV_SCLK
 Text GLabel 8350 4350 0    50   Input ~ 0
-ADV_LRCLK
+ADV_SCLK
 Text GLabel 8350 4450 0    50   Input ~ 0
+ADV_LRCLK
+Text GLabel 8350 4550 0    50   Input ~ 0
 ADV_INT
-Text GLabel 1850 3150 0    50   Input ~ 0
-STM_IO_33
-Text GLabel 1850 3050 0    50   Input ~ 0
-STM_IO_34
-Text GLabel 1850 4150 0    50   Input ~ 0
-ESP_UART1_RX
-Text GLabel 1850 4250 0    50   Input ~ 0
-ESP_UART1_TX
 NoConn ~ 9950 3350
 NoConn ~ 9950 3450
 NoConn ~ 9950 3550
@@ -514,4 +486,14 @@ Text GLabel 3450 4350 2    50   Input ~ 0
 EXP_10
 Text GLabel 3450 4950 2    50   Input ~ 0
 EXP_35
+Text GLabel 1850 2850 0    50   Input ~ 0
+ESP_VSPI_CLK
+Text GLabel 1850 2950 0    50   Input ~ 0
+ESP_VSPI_MISO
+Text GLabel 1850 3050 0    50   Input ~ 0
+ESP_VSPI_MOSI
+Text GLabel 1850 3150 0    50   Input ~ 0
+ESP_VSPI_CS
+Text GLabel 8350 2750 0    50   Input ~ 0
+ADV_DE
 $EndSCHEMATC

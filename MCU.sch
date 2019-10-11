@@ -448,8 +448,6 @@ F 3 "~" H 6125 1375 50  0001 C CNN
 	1    6125 1375
 	-1   0    0    1   
 $EndComp
-Text GLabel 5100 6200 2    50   Input ~ 0
-ESP_SD_VCC_EN
 Text GLabel 5100 5800 2    50   Input ~ 0
 ESP_SD_DATA1
 Wire Wire Line
@@ -474,10 +472,6 @@ NoConn ~ 5825 3550
 NoConn ~ 2325 2650
 Text GLabel 1900 7000 2    50   Input ~ 0
 ESP_RST
-Text GLabel 3600 6100 0    50   Input ~ 0
-ESP_UART1_TX
-Text GLabel 3600 6200 0    50   Input ~ 0
-ESP_UART1_RX
 Text GLabel 3600 5800 0    50   Input ~ 0
 ESP_SD_SW
 $Comp
@@ -550,13 +544,10 @@ NoConn ~ 5100 5300
 NoConn ~ 5100 5400
 NoConn ~ 5100 5900
 NoConn ~ 5100 6000
-NoConn ~ 5100 6400
 NoConn ~ 3600 7200
 NoConn ~ 3600 7100
 NoConn ~ 3600 7000
 NoConn ~ 3600 6900
-NoConn ~ 3600 6000
-NoConn ~ 3600 5900
 Wire Wire Line
 	2325 2350 2400 2350
 Connection ~ 2400 2350
@@ -635,12 +626,10 @@ Text Label 7900 5650 3    50   ~ 0
 LED0
 Text Label 7500 5650 3    50   ~ 0
 LED1
-Text Label 5100 6300 0    50   ~ 0
+Text Label 5100 6800 0    50   ~ 0
 LED1
 Text Label 5100 6500 0    50   ~ 0
 LED0
-NoConn ~ 5100 6800
-NoConn ~ 5100 6900
 Text Label 2600 2750 0    50   ~ 0
 D+
 Text Label 2600 2850 0    50   ~ 0
@@ -667,6 +656,19 @@ Wire Wire Line
 	4375 2950 4925 2950
 Text GLabel 4375 3325 3    50   Input ~ 0
 GND
-Text GLabel 5100 6100 2    50   Input ~ 0
+Text GLabel 3600 5900 0    50   Input ~ 0
 ADV_INT
+NoConn ~ 5100 6100
+Text GLabel 3600 6000 0    50   Input ~ 0
+ESP_SD_VCC_EN
+Text GLabel 5100 6900 2    50   Input ~ 0
+ESP_VSPI_MOSI
+Text GLabel 5100 6300 2    50   Input ~ 0
+ESP_VSPI_MISO
+Text GLabel 5100 6200 2    50   Input ~ 0
+ESP_VSPI_CLK
+Text GLabel 3600 6100 0    50   Input ~ 0
+ESP_VSPI_CS
+NoConn ~ 3600 6200
+NoConn ~ 5100 6400
 $EndSCHEMATC

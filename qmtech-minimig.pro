@@ -1,4 +1,4 @@
-update=Sat 05 Oct 2019 03:54:19 PM CEST
+update=Fri 11 Oct 2019 10:19:12 PM CEST
 version=1
 last_client=kicad
 [general]
@@ -33,7 +33,6 @@ TrackWidth2=0.25
 TrackWidth3=0.28
 TrackWidth4=0.4
 TrackWidth5=0.5
-TrackWidth6=1
 ViaDiameter1=0.8
 ViaDrill1=0.4
 dPairWidth1=0.2
@@ -243,14 +242,14 @@ dPairGap=0.25
 dPairViaGap=0.25
 [pcbnew/Netclasses/1]
 Name=HDMI
-Clearance=0.15
-TrackWidth=0.28
+Clearance=0.2
+TrackWidth=0.16
 ViaDiameter=0.4
 ViaDrill=0.3
 uViaDiameter=0.3
 uViaDrill=0.1
-dPairWidth=0.27
-dPairGap=0.25
+dPairWidth=0.16
+dPairGap=0.2
 dPairViaGap=0.25
 [pcbnew/Netclasses/2]
 Name=Power
@@ -269,6 +268,17 @@ Clearance=0.15
 TrackWidth=0.5
 ViaDiameter=0.9
 ViaDrill=0.5
+uViaDiameter=0.3
+uViaDrill=0.1
+dPairWidth=0.2
+dPairGap=0.25
+dPairViaGap=0.25
+[pcbnew/Netclasses/4]
+Name=SPI_TOP
+Clearance=0.15
+TrackWidth=0.32
+ViaDiameter=0.8
+ViaDrill=0.32
 uViaDiameter=0.3
 uViaDrill=0.1
 dPairWidth=0.2
