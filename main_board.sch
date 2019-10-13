@@ -496,4 +496,18 @@ Text GLabel 1850 3150 0    50   Input ~ 0
 ESP_VSPI_CS
 Text GLabel 8350 2750 0    50   Input ~ 0
 ADV_DE
+NoConn ~ 1850 4150
+NoConn ~ 1850 4250
+NoConn ~ 1850 3650
+NoConn ~ 1850 3550
+NoConn ~ 1850 3450
+NoConn ~ 1850 3350
+NoConn ~ 1850 3250
+NoConn ~ 1850 5050
+NoConn ~ 1850 5150
+NoConn ~ 1850 2750
+NoConn ~ 1850 2650
+NoConn ~ 1850 2550
+NoConn ~ 3450 5050
+NoConn ~ 3450 5150
 $EndSCHEMATC

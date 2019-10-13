@@ -661,14 +661,107 @@ ADV_INT
 NoConn ~ 5100 6100
 Text GLabel 3600 6000 0    50   Input ~ 0
 ESP_SD_VCC_EN
-Text GLabel 5100 6900 2    50   Input ~ 0
+Text GLabel 6000 6900 2    50   Input ~ 0
 ESP_VSPI_MOSI
 Text GLabel 5100 6300 2    50   Input ~ 0
 ESP_VSPI_MISO
-Text GLabel 5100 6200 2    50   Input ~ 0
+Text GLabel 6000 6200 2    50   Input ~ 0
 ESP_VSPI_CLK
 Text GLabel 3600 6100 0    50   Input ~ 0
 ESP_VSPI_CS
 NoConn ~ 3600 6200
 NoConn ~ 5100 6400
+$Comp
+L Device:C C43
+U 1 1 5DAD7FFC
+P 10000 5250
+F 0 "C43" V 9950 5075 50  0000 C CNN
+F 1 "10nF" V 9950 5400 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 10038 5100 50  0001 C CNN
+F 3 "~" H 10000 5250 50  0001 C CNN
+	1    10000 5250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9850 5250 9750 5250
+Wire Wire Line
+	9750 5750 9850 5750
+Wire Wire Line
+	9750 5000 9750 5250
+Connection ~ 9750 5250
+Wire Wire Line
+	9750 5250 9750 5500
+Wire Wire Line
+	9850 5500 9750 5500
+Connection ~ 9750 5500
+Wire Wire Line
+	9750 5500 9750 5750
+Wire Wire Line
+	10250 5000 10250 5250
+Wire Wire Line
+	10250 5750 10150 5750
+Wire Wire Line
+	10150 5500 10250 5500
+Connection ~ 10250 5500
+Wire Wire Line
+	10250 5500 10250 5750
+Wire Wire Line
+	10250 5250 10150 5250
+Connection ~ 10250 5250
+Wire Wire Line
+	10250 5250 10250 5500
+Text GLabel 9750 5000 1    50   Input ~ 0
+3V3
+Text GLabel 10250 5000 1    50   Input ~ 0
+GND
+$Comp
+L Device:C C44
+U 1 1 5DAE087E
+P 10000 5500
+F 0 "C44" V 9950 5325 50  0000 C CNN
+F 1 "10nF" V 9950 5650 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 10038 5350 50  0001 C CNN
+F 3 "~" H 10000 5500 50  0001 C CNN
+	1    10000 5500
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C45
+U 1 1 5DAE0A60
+P 10000 5750
+F 0 "C45" V 9950 5575 50  0000 C CNN
+F 1 "10nF" V 9950 5900 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 10038 5600 50  0001 C CNN
+F 3 "~" H 10000 5750 50  0001 C CNN
+	1    10000 5750
+	0    1    1    0   
+$EndComp
+Text Notes 9650 4750 0    50   ~ 0
+RF decoupling SPI
+$Comp
+L Device:R R45
+U 1 1 5DAEDCB1
+P 5850 6900
+F 0 "R45" V 5643 6900 50  0000 C CNN
+F 1 "20" V 5734 6900 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 5780 6900 50  0001 C CNN
+F 3 "~" H 5850 6900 50  0001 C CNN
+	1    5850 6900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5700 6900 5100 6900
+$Comp
+L Device:R R44
+U 1 1 5DAF128C
+P 5850 6200
+F 0 "R44" V 5643 6200 50  0000 C CNN
+F 1 "20" V 5734 6200 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 5780 6200 50  0001 C CNN
+F 3 "~" H 5850 6200 50  0001 C CNN
+	1    5850 6200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5700 6200 5100 6200
 $EndSCHEMATC

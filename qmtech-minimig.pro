@@ -1,4 +1,4 @@
-update=Fri 11 Oct 2019 10:19:12 PM CEST
+update=Sun 13 Oct 2019 03:09:02 PM CEST
 version=1
 last_client=kicad
 [general]
@@ -276,9 +276,9 @@ dPairViaGap=0.25
 [pcbnew/Netclasses/4]
 Name=SPI_TOP
 Clearance=0.15
-TrackWidth=0.32
-ViaDiameter=0.8
-ViaDrill=0.32
+TrackWidth=0.16
+ViaDiameter=0.6
+ViaDrill=0.3
 uViaDiameter=0.3
 uViaDrill=0.1
 dPairWidth=0.2
