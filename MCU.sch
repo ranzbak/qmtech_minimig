@@ -764,4 +764,21 @@ F 3 "~" H 5850 6200 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	5700 6200 5100 6200
+$Comp
+L Device:C C47
+U 1 1 5DA58F16
+P 2100 1500
+F 0 "C47" V 1848 1500 50  0000 C CNN
+F 1 "10n" V 1939 1500 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 2138 1350 50  0001 C CNN
+F 3 "~" H 2100 1500 50  0001 C CNN
+	1    2100 1500
+	0    1    1    0   
+$EndComp
+Text GLabel 1950 1500 0    50   Input ~ 0
+GND
+Text GLabel 2250 1500 2    50   Input ~ 0
+3V3
+Text Notes 1700 1175 0    50   ~ 0
+Decouple the USB signal
 $EndSCHEMATC

@@ -502,7 +502,6 @@ NoConn ~ 1850 3650
 NoConn ~ 1850 3550
 NoConn ~ 1850 3450
 NoConn ~ 1850 3350
-NoConn ~ 1850 3250
 NoConn ~ 1850 5050
 NoConn ~ 1850 5150
 NoConn ~ 1850 2750
@@ -510,4 +509,6 @@ NoConn ~ 1850 2650
 NoConn ~ 1850 2550
 NoConn ~ 3450 5050
 NoConn ~ 3450 5150
+Text GLabel 1850 3250 0    50   Input ~ 0
+ADV_CECCLK
 $EndSCHEMATC
