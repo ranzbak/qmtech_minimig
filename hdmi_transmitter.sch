@@ -187,8 +187,6 @@ Wire Wire Line
 Wire Wire Line
 	8625 7550 8625 7725
 Connection ~ 8625 7550
-Text GLabel 8325 7550 0    50   Input ~ 0
-3V3
 $Comp
 L Device:R R41
 U 1 1 5DA9BCB7
@@ -381,9 +379,9 @@ Text GLabel 9725 4975 2    50   Input ~ 0
 ADV_SCL
 Text GLabel 9725 4875 2    50   Input ~ 0
 ADV_SDA
-Text GLabel 9725 5175 2    50   Input ~ 0
+Text GLabel 10500 5175 2    50   Input ~ 0
 ADV_DDCSCL
-Text GLabel 9725 5075 2    50   Input ~ 0
+Text GLabel 10500 5075 2    50   Input ~ 0
 ADV_DDCSDA
 Text GLabel 9725 5375 2    50   Input ~ 0
 GND
@@ -992,16 +990,186 @@ Text GLabel 3575 9525 0    50   Input ~ 0
 ADV_DDCSCL
 Text GLabel 3575 9625 0    50   Input ~ 0
 ADV_DDCSDA
-Text GLabel 3575 9825 0    50   Input ~ 0
+Text GLabel 2900 9825 0    50   Input ~ 0
 ADV_HPD
 Text GLabel 5175 9825 2    50   Input ~ 0
 ADV_HPD_C
 Text GLabel 8925 5825 3    50   Input ~ 0
 ADV_CEC
-Text GLabel 3575 9325 0    50   Input ~ 0
+Text GLabel 2250 9325 0    50   Input ~ 0
 ADV_CEC
 Text GLabel 5175 9325 2    50   Input ~ 0
 ADV_CEC_C
 Text GLabel 12800 4700 0    50   Input ~ 0
 ADV_CEC_C
+Text GLabel 8325 7550 0    50   Input ~ 0
+3V3
+Wire Wire Line
+	10500 5175 10375 5175
+$Comp
+L Device:R R58
+U 1 1 5DB8B5F8
+P 10375 5325
+F 0 "R58" H 10445 5371 50  0000 L CNN
+F 1 "2K" H 10445 5280 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 10305 5325 50  0001 C CNN
+F 3 "~" H 10375 5325 50  0001 C CNN
+	1    10375 5325
+	1    0    0    -1  
+$EndComp
+Connection ~ 10375 5175
+Wire Wire Line
+	10375 5175 9725 5175
+Text Label 10375 5475 3    50   ~ 0
+HDMI5V
+Wire Wire Line
+	10375 5475 10375 5800
+Connection ~ 10375 5075
+Wire Wire Line
+	10375 5075 10500 5075
+Wire Wire Line
+	9725 5075 10375 5075
+Wire Wire Line
+	10375 4775 10375 4500
+$Comp
+L Device:R R54
+U 1 1 5DB8AF05
+P 10375 4925
+F 0 "R54" H 10445 4971 50  0000 L CNN
+F 1 "2K" H 10445 4880 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 10305 4925 50  0001 C CNN
+F 3 "~" H 10375 4925 50  0001 C CNN
+	1    10375 4925
+	1    0    0    -1  
+$EndComp
+Text Label 10375 4775 1    50   ~ 0
+HDMI5V
+Wire Wire Line
+	2250 9325 2500 9325
+$Comp
+L Device:R R59
+U 1 1 5DBB8413
+P 2500 8875
+F 0 "R59" H 2570 8921 50  0000 L CNN
+F 1 "27k" H 2570 8830 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 2430 8875 50  0001 C CNN
+F 3 "~" H 2500 8875 50  0001 C CNN
+	1    2500 8875
+	1    0    0    -1  
+$EndComp
+Connection ~ 2500 9325
+Wire Wire Line
+	2500 9325 3575 9325
+$Comp
+L Device:D D30
+U 1 1 5DBBA4B5
+P 2500 9175
+F 0 "D30" V 2546 9096 50  0000 R CNN
+F 1 "1N4148" V 2455 9096 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323" H 2500 9175 50  0001 C CNN
+F 3 "~" H 2500 9175 50  0001 C CNN
+	1    2500 9175
+	0    -1   -1   0   
+$EndComp
+Text GLabel 2500 8725 1    50   Input ~ 0
+3V3
+$Comp
+L Oscillator:ASE-xxxMHz X1
+U 1 1 5DC2E9FD
+P 9200 10400
+F 0 "X1" H 9544 10446 50  0000 L CNN
+F 1 "MCSJK-3N-16.00-3.3-50-B" H 8775 10750 50  0000 L CNN
+F 2 "Oscillator:Oscillator_SMD_Abracon_ASE-4Pin_3.2x2.5mm" H 9900 10050 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/2864171.pdf" H 9100 10400 50  0001 C CNN
+	1    9200 10400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R60
+U 1 1 5DC3073E
+P 8675 10250
+F 0 "R60" H 8745 10296 50  0000 L CNN
+F 1 "10k" H 8745 10205 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 8605 10250 50  0001 C CNN
+F 3 "~" H 8675 10250 50  0001 C CNN
+	1    8675 10250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8900 10400 8675 10400
+Wire Wire Line
+	8675 10100 8675 9900
+Wire Wire Line
+	8675 9900 9200 9900
+Wire Wire Line
+	9200 9900 9200 10100
+Text GLabel 9200 9900 1    50   Input ~ 0
+3V3
+Text GLabel 9200 10700 3    50   Input ~ 0
+GND
+$Comp
+L Device:C C49
+U 1 1 5DC368A8
+P 8300 10250
+F 0 "C49" H 8415 10296 50  0000 L CNN
+F 1 "100nF" H 8415 10205 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 8338 10100 50  0001 C CNN
+F 3 "~" H 8300 10250 50  0001 C CNN
+	1    8300 10250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8675 9900 8300 9900
+Wire Wire Line
+	8300 9900 8300 10100
+Connection ~ 8675 9900
+Wire Wire Line
+	8300 10400 8300 10700
+Wire Wire Line
+	8300 10700 9200 10700
+$Comp
+L Device:R R61
+U 1 1 5DC3C581
+P 9825 10400
+F 0 "R61" V 9618 10400 50  0000 C CNN
+F 1 "27" V 9709 10400 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 9755 10400 50  0001 C CNN
+F 3 "~" H 9825 10400 50  0001 C CNN
+	1    9825 10400
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9500 10400 9675 10400
+Text GLabel 10175 10400 2    50   Input ~ 0
+ADV_CECCLK
+Wire Wire Line
+	9975 10400 10175 10400
+Text Notes 8925 9625 0    50   ~ 0
+CEC Clock Generator
+Text Notes 4050 7675 0    50   ~ 0
+ESD protection IC
+Text Notes 1475 1575 0    50   ~ 0
+1V8 linear regulator
+Text Notes 13050 3700 0    50   ~ 0
+HDMI Plug
+$Comp
+L Device:R R?
+U 1 1 5DC70DAC
+P 3250 10075
+F 0 "R?" H 3320 10121 50  0000 L CNN
+F 1 "10k" H 3320 10030 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 3180 10075 50  0001 C CNN
+F 3 "~" H 3250 10075 50  0001 C CNN
+	1    3250 10075
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3575 9825 3250 9825
+Wire Wire Line
+	3250 9925 3250 9825
+Connection ~ 3250 9825
+Wire Wire Line
+	3250 9825 2900 9825
+Text GLabel 3250 10225 3    50   Input ~ 0
+GND
 $EndSCHEMATC

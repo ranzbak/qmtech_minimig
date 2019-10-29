@@ -509,6 +509,5 @@ NoConn ~ 1850 2650
 NoConn ~ 1850 2550
 NoConn ~ 3450 5050
 NoConn ~ 3450 5150
-Text GLabel 1850 3250 0    50   Input ~ 0
-ADV_CECCLK
+NoConn ~ 1850 3250
 $EndSCHEMATC
