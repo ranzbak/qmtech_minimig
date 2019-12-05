@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:qmtech-minimig-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -454,9 +453,9 @@ $Comp
 L Device:D_Zener D12
 U 1 1 5D803038
 P 5750 2800
-F 0 "D12" V 5750 2879 50  0000 L CNN
+F 0 "D12" V 5875 2800 50  0000 L CNN
 F 1 "D_Zener 3.6V BZT52C395" V 5795 2879 50  0001 L CNN
-F 2 "Diode_SMD:D_SOD-323" H 5750 2800 50  0001 C CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 5750 2800 50  0001 C CNN
 F 3 "https://www.application-datasheet.com/pdf/diodes/bzt52c4v7s-7-f.pdf" H 5750 2800 50  0001 C CNN
 	1    5750 2800
 	0    1    1    0   
@@ -465,9 +464,9 @@ $Comp
 L Device:D_Zener D14
 U 1 1 5D804405
 P 5950 2800
-F 0 "D14" V 5950 2879 50  0000 L CNN
+F 0 "D14" V 6075 2800 50  0000 L CNN
 F 1 "D_Zener 3.6V BZT52C395" V 5995 2879 50  0001 L CNN
-F 2 "Diode_SMD:D_SOD-323" H 5950 2800 50  0001 C CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 5950 2800 50  0001 C CNN
 F 3 "https://www.application-datasheet.com/pdf/diodes/bzt52c4v7s-7-f.pdf" H 5950 2800 50  0001 C CNN
 	1    5950 2800
 	0    1    1    0   
@@ -476,9 +475,9 @@ $Comp
 L Device:D_Zener D16
 U 1 1 5D804621
 P 6150 2800
-F 0 "D16" V 6150 2879 50  0000 L CNN
+F 0 "D16" V 6275 2800 50  0000 L CNN
 F 1 "D_Zener 3.6V BZT52C395" V 6195 2879 50  0001 L CNN
-F 2 "Diode_SMD:D_SOD-323" H 6150 2800 50  0001 C CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 6150 2800 50  0001 C CNN
 F 3 "https://www.application-datasheet.com/pdf/diodes/bzt52c4v7s-7-f.pdf" H 6150 2800 50  0001 C CNN
 	1    6150 2800
 	0    1    1    0   
@@ -487,9 +486,9 @@ $Comp
 L Device:D_Zener D18
 U 1 1 5D804F7F
 P 6350 2800
-F 0 "D18" V 6350 2879 50  0000 L CNN
+F 0 "D18" V 6475 2800 50  0000 L CNN
 F 1 "D_Zener 3.6V BZT52C395" V 6395 2879 50  0001 L CNN
-F 2 "Diode_SMD:D_SOD-323" H 6350 2800 50  0001 C CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 6350 2800 50  0001 C CNN
 F 3 "https://www.application-datasheet.com/pdf/diodes/bzt52c4v7s-7-f.pdf" H 6350 2800 50  0001 C CNN
 	1    6350 2800
 	0    1    1    0   
@@ -498,9 +497,9 @@ $Comp
 L Device:D_Zener D20
 U 1 1 5D8051B7
 P 6550 2800
-F 0 "D20" V 6550 2879 50  0000 L CNN
+F 0 "D20" V 6675 2800 50  0000 L CNN
 F 1 "D_Zener 3.6V BZT52C395" V 6595 2879 50  0001 L CNN
-F 2 "Diode_SMD:D_SOD-323" H 6550 2800 50  0001 C CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 6550 2800 50  0001 C CNN
 F 3 "https://www.application-datasheet.com/pdf/diodes/bzt52c4v7s-7-f.pdf" H 6550 2800 50  0001 C CNN
 	1    6550 2800
 	0    1    1    0   
@@ -509,9 +508,9 @@ $Comp
 L Device:D_Zener D22
 U 1 1 5D8053FF
 P 6750 2800
-F 0 "D22" V 6750 2879 50  0000 L CNN
+F 0 "D22" V 6875 2800 50  0000 L CNN
 F 1 "D_Zener 3.6V BZT52C395" V 6795 2879 50  0001 L CNN
-F 2 "Diode_SMD:D_SOD-323" H 6750 2800 50  0001 C CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 6750 2800 50  0001 C CNN
 F 3 "https://www.application-datasheet.com/pdf/diodes/bzt52c4v7s-7-f.pdf" H 6750 2800 50  0001 C CNN
 	1    6750 2800
 	0    1    1    0   
@@ -520,9 +519,9 @@ $Comp
 L Device:D_Zener D24
 U 1 1 5D805657
 P 6950 2800
-F 0 "D24" V 6950 2879 50  0000 L CNN
+F 0 "D24" V 7075 2800 50  0000 L CNN
 F 1 "D_Zener 3.6V BZT52C395" V 6995 2879 50  0001 L CNN
-F 2 "Diode_SMD:D_SOD-323" H 6950 2800 50  0001 C CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 6950 2800 50  0001 C CNN
 F 3 "https://www.application-datasheet.com/pdf/diodes/bzt52c4v7s-7-f.pdf" H 6950 2800 50  0001 C CNN
 	1    6950 2800
 	0    1    1    0   
@@ -531,9 +530,9 @@ $Comp
 L Device:D_Zener D26
 U 1 1 5D8058BF
 P 7150 2800
-F 0 "D26" V 7150 2879 50  0000 L CNN
+F 0 "D26" V 7275 2825 50  0000 L CNN
 F 1 "D_Zener 3.6V BZT52C395" V 7195 2879 50  0001 L CNN
-F 2 "Diode_SMD:D_SOD-323" H 7150 2800 50  0001 C CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 7150 2800 50  0001 C CNN
 F 3 "https://www.application-datasheet.com/pdf/diodes/bzt52c4v7s-7-f.pdf" H 7150 2800 50  0001 C CNN
 	1    7150 2800
 	0    1    1    0   
@@ -603,7 +602,7 @@ U 1 1 5D844DCF
 P 5800 5900
 F 0 "D13" V 5800 5979 50  0000 L CNN
 F 1 "D_Zener 3.6V BZT52C395" V 5845 5979 50  0001 L CNN
-F 2 "Diode_SMD:D_SOD-323" H 5800 5900 50  0001 C CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 5800 5900 50  0001 C CNN
 F 3 "https://www.application-datasheet.com/pdf/diodes/bzt52c4v7s-7-f.pdf" H 5800 5900 50  0001 C CNN
 	1    5800 5900
 	0    1    1    0   
@@ -614,7 +613,7 @@ U 1 1 5D844DD5
 P 6000 5900
 F 0 "D15" V 6000 5979 50  0000 L CNN
 F 1 "D_Zener 3.6V BZT52C395" V 6045 5979 50  0001 L CNN
-F 2 "Diode_SMD:D_SOD-323" H 6000 5900 50  0001 C CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 6000 5900 50  0001 C CNN
 F 3 "https://www.application-datasheet.com/pdf/diodes/bzt52c4v7s-7-f.pdf" H 6000 5900 50  0001 C CNN
 	1    6000 5900
 	0    1    1    0   
@@ -625,7 +624,7 @@ U 1 1 5D844DDB
 P 6200 5900
 F 0 "D17" V 6200 5979 50  0000 L CNN
 F 1 "D_Zener 3.6V BZT52C395" V 6245 5979 50  0001 L CNN
-F 2 "Diode_SMD:D_SOD-323" H 6200 5900 50  0001 C CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 6200 5900 50  0001 C CNN
 F 3 "https://www.application-datasheet.com/pdf/diodes/bzt52c4v7s-7-f.pdf" H 6200 5900 50  0001 C CNN
 	1    6200 5900
 	0    1    1    0   
@@ -636,7 +635,7 @@ U 1 1 5D844DE1
 P 6400 5900
 F 0 "D19" V 6400 5979 50  0000 L CNN
 F 1 "D_Zener 3.6V BZT52C395" V 6445 5979 50  0001 L CNN
-F 2 "Diode_SMD:D_SOD-323" H 6400 5900 50  0001 C CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 6400 5900 50  0001 C CNN
 F 3 "https://www.application-datasheet.com/pdf/diodes/bzt52c4v7s-7-f.pdf" H 6400 5900 50  0001 C CNN
 	1    6400 5900
 	0    1    1    0   
@@ -647,7 +646,7 @@ U 1 1 5D844DE7
 P 6600 5900
 F 0 "D21" V 6600 5979 50  0000 L CNN
 F 1 "D_Zener 3.6V BZT52C395" V 6645 5979 50  0001 L CNN
-F 2 "Diode_SMD:D_SOD-323" H 6600 5900 50  0001 C CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 6600 5900 50  0001 C CNN
 F 3 "https://www.application-datasheet.com/pdf/diodes/bzt52c4v7s-7-f.pdf" H 6600 5900 50  0001 C CNN
 	1    6600 5900
 	0    1    1    0   
@@ -658,7 +657,7 @@ U 1 1 5D844DED
 P 6800 5900
 F 0 "D23" V 6800 5979 50  0000 L CNN
 F 1 "D_Zener 3.6V BZT52C395" V 6845 5979 50  0001 L CNN
-F 2 "Diode_SMD:D_SOD-323" H 6800 5900 50  0001 C CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 6800 5900 50  0001 C CNN
 F 3 "https://www.application-datasheet.com/pdf/diodes/bzt52c4v7s-7-f.pdf" H 6800 5900 50  0001 C CNN
 	1    6800 5900
 	0    1    1    0   
@@ -669,7 +668,7 @@ U 1 1 5D844DF3
 P 7000 5900
 F 0 "D25" V 7000 5979 50  0000 L CNN
 F 1 "D_Zener 3.6V BZT52C395" V 7045 5979 50  0001 L CNN
-F 2 "Diode_SMD:D_SOD-323" H 7000 5900 50  0001 C CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 7000 5900 50  0001 C CNN
 F 3 "https://www.application-datasheet.com/pdf/diodes/bzt52c4v7s-7-f.pdf" H 7000 5900 50  0001 C CNN
 	1    7000 5900
 	0    1    1    0   
@@ -680,7 +679,7 @@ U 1 1 5D844DF9
 P 7200 5900
 F 0 "D27" V 7200 5979 50  0000 L CNN
 F 1 "D_Zener 3.6V BZT52C395" V 7245 5979 50  0001 L CNN
-F 2 "Diode_SMD:D_SOD-323" H 7200 5900 50  0001 C CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 7200 5900 50  0001 C CNN
 F 3 "https://www.application-datasheet.com/pdf/diodes/bzt52c4v7s-7-f.pdf" H 7200 5900 50  0001 C CNN
 	1    7200 5900
 	0    1    1    0   

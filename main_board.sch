@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:qmtech-minimig-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -36,17 +35,13 @@ Wire Wire Line
 	1700 2350 1850 2350
 Text GLabel 1700 2350 0    50   Input ~ 0
 3V3
-Text GLabel 1700 5250 0    50   Input ~ 0
-3V3
-Text GLabel 3600 5250 2    50   Input ~ 0
-3V3
-Wire Wire Line
-	3600 5350 3450 5350
-Text GLabel 3600 5350 2    50   Input ~ 0
+Text GLabel 1850 5250 0    50   Input ~ 0
+GND
+Text GLabel 3450 5250 2    50   Input ~ 0
+GND
+Text GLabel 3450 5350 2    50   Input ~ 0
 VIN5V
-Wire Wire Line
-	3450 5250 3600 5250
-Text GLabel 1700 5350 0    50   Input ~ 0
+Text GLabel 1850 5350 0    50   Input ~ 0
 VIN5V
 Wire Wire Line
 	1850 5250 1700 5250
@@ -71,11 +66,11 @@ Text GLabel 9950 2350 2    50   Input ~ 0
 Text GLabel 9950 2450 2    50   Input ~ 0
 GND
 Text GLabel 9950 5250 2    50   Input ~ 0
-3V3
+GND
 Text GLabel 9950 5350 2    50   Input ~ 0
 VIN5V
 Text GLabel 8350 5250 0    50   Input ~ 0
-3V3
+GND
 Text GLabel 8350 5350 0    50   Input ~ 0
 VIN5V
 Text GLabel 8350 2850 0    50   Input ~ 0

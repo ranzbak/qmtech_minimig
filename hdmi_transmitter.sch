@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:qmtech-minimig-cache
 EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
@@ -971,7 +970,7 @@ U 1 1 5DB428CE
 P 5425 8425
 F 0 "C48" V 5173 8425 50  0000 C CNN
 F 1 "100nF" V 5264 8425 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 5463 8275 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 5463 8275 50  0001 C CNN
 F 3 "~" H 5425 8425 50  0001 C CNN
 	1    5425 8425
 	0    1    1    0   
