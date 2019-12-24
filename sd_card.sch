@@ -35,7 +35,7 @@ Text GLabel 2550 4550 0    50   Input ~ 0
 ESP_SD_DATA3
 Text GLabel 2550 4650 0    50   Input ~ 0
 ESP_SD_CMD
-Text GLabel 5500 2850 1    50   Input ~ 0
+Text GLabel 5500 2225 1    50   Input ~ 0
 3V3
 Text GLabel 2550 4250 0    50   Input ~ 0
 ESP_SD_DATA0
@@ -132,19 +132,6 @@ Wire Wire Line
 Wire Wire Line
 	3650 3750 3650 3300
 Connection ~ 3650 3300
-Wire Wire Line
-	3650 3300 3950 3300
-$Comp
-L Device:C C5
-U 1 1 5D7BDF8A
-P 3950 3500
-F 0 "C5" H 4065 3546 50  0000 L CNN
-F 1 "100nF" H 4065 3455 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 3988 3350 50  0001 C CNN
-F 3 "~" H 3950 3500 50  0001 C CNN
-	1    3950 3500
-	1    0    0    -1  
-$EndComp
 $Comp
 L Device:C C6
 U 1 1 5D7BEF06
@@ -158,17 +145,8 @@ F 3 "~" H 4400 3500 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	4400 3300 4400 3350
-Wire Wire Line
-	3950 3300 3950 3350
-Connection ~ 3950 3300
-Wire Wire Line
-	3950 3300 4400 3300
-Text GLabel 3950 3650 3    50   Input ~ 0
-GND
 Text GLabel 4400 3650 3    50   Input ~ 0
 GND
-Text GLabel 3350 3100 1    50   Input ~ 0
-3V3
 Wire Wire Line
 	3900 4350 2550 4350
 Wire Wire Line
@@ -180,47 +158,45 @@ ESP_SD_DATA2
 $Comp
 L Transistor_FET:BSS84 Q3
 U 1 1 5D7D8B8E
-P 5600 3450
-F 0 "Q3" H 5806 3404 50  0000 L CNN
-F 1 "BSS84" H 5806 3495 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 5800 3375 50  0001 L CIN
-F 3 "http://assets.nexperia.com/documents/data-sheet/BSS84.pdf" H 5600 3450 50  0001 L CNN
-	1    5600 3450
+P 5600 2825
+F 0 "Q3" H 5806 2779 50  0000 L CNN
+F 1 "BSS84" H 5806 2870 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 5800 2750 50  0001 L CIN
+F 3 "http://assets.nexperia.com/documents/data-sheet/BSS84.pdf" H 5600 2825 50  0001 L CNN
+	1    5600 2825
 	-1   0    0    1   
 $EndComp
-Text GLabel 6150 3450 2    50   Input ~ 0
+Text GLabel 6150 2825 2    50   Input ~ 0
 ESP_SD_VCC_EN
 Wire Wire Line
-	5500 2850 5500 2900
+	5500 2225 5500 2275
 $Comp
 L Device:R R32
 U 1 1 5D7EDDF8
-P 5800 3150
-F 0 "R32" H 5870 3196 50  0000 L CNN
-F 1 "100k" H 5870 3105 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 5730 3150 50  0001 C CNN
-F 3 "~" H 5800 3150 50  0001 C CNN
-	1    5800 3150
+P 5800 2525
+F 0 "R32" H 5870 2571 50  0000 L CNN
+F 1 "100k" H 5870 2480 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 5730 2525 50  0001 C CNN
+F 3 "~" H 5800 2525 50  0001 C CNN
+	1    5800 2525
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5800 3300 5800 3450
-Connection ~ 5800 3450
+	5800 2675 5800 2825
+Connection ~ 5800 2825
 Wire Wire Line
-	5800 3450 6150 3450
+	5800 2825 6150 2825
 Wire Wire Line
-	5800 3000 5800 2900
+	5800 2375 5800 2275
 Wire Wire Line
-	5800 2900 5500 2900
-Connection ~ 5500 2900
+	5800 2275 5500 2275
+Connection ~ 5500 2275
 Wire Wire Line
-	5500 2900 5500 3250
-Wire Wire Line
-	3350 3300 3350 3100
+	5500 2275 5500 2625
 Wire Wire Line
 	5300 4250 5500 4250
 Wire Wire Line
-	5500 3650 5500 4000
+	5500 3025 5500 3300
 $Comp
 L Device:C C11
 U 1 1 5D80369D
@@ -232,7 +208,6 @@ F 3 "~" H 5650 4000 50  0001 C CNN
 	1    5650 4000
 	0    1    1    0   
 $EndComp
-Connection ~ 5500 4000
 Wire Wire Line
 	5500 4000 5500 4250
 Text GLabel 5800 4000 2    50   Input ~ 0
@@ -272,4 +247,13 @@ Text GLabel 5950 4850 3    50   Input ~ 0
 GND
 Text GLabel 5300 4650 2    50   Input ~ 0
 GND
+Connection ~ 5500 4000
+Wire Wire Line
+	4400 3300 5500 3300
+Connection ~ 4400 3300
+Connection ~ 5500 3300
+Wire Wire Line
+	5500 3300 5500 4000
+Wire Wire Line
+	3650 3300 4400 3300
 $EndSCHEMATC

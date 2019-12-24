@@ -367,9 +367,9 @@ ADV_LRCLK
 Text GLabel 6175 4475 0    50   Input ~ 0
 ADV_SCLK
 Text GLabel 6175 4375 0    50   Input ~ 0
-ADV_I2S3
+GND
 Text GLabel 6175 4275 0    50   Input ~ 0
-ADV_I2S2
+GND
 Text GLabel 6175 4175 0    50   Input ~ 0
 ADV_I2S1
 Text GLabel 6175 4075 0    50   Input ~ 0
