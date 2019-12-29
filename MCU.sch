@@ -120,8 +120,6 @@ Text GLabel 5425 3550 3    50   Input ~ 0
 VUSB5V
 Text GLabel 4925 2650 0    50   Input ~ 0
 GND
-Text GLabel 4125 2950 0    50   Input ~ 0
-3V3
 $Comp
 L Device:C C10
 U 1 1 5D81A5D8
