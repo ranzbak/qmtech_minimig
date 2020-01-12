@@ -1,3 +1,6 @@
 (fp_lib_table
   (lib (name stm32f407)(type KiCad)(uri /home/paul/work/kicad/footprints/sha5b0200.pretty)(options "")(descr "")(disabled))
+  (lib (name symbols)(type KiCad)(uri /home/paul/work/kicad/kicadlib/symbols.pretty)(options "")(descr ""))
+  (lib (name packages)(type KiCad)(uri /home/paul/work/kicad/kicadlib/packages.pretty)(options "")(descr ""))
+  (lib (name AMesser_Transistors)(type KiCad)(uri /home/paul/work/kicad/kicadlib/packages/AMesser_Transistors.pretty)(options "")(descr ""))
 )

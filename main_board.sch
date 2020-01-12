@@ -49,10 +49,6 @@ Wire Wire Line
 	1850 5350 1700 5350
 Text GLabel 3600 2350 2    50   Input ~ 0
 3V3
-Text GLabel 8350 5050 0    50   Input ~ 0
-AUDIO_LEFT
-Text GLabel 8350 5150 0    50   Input ~ 0
-AUDIO_RIGHT
 Text GLabel 8350 2250 0    50   Input ~ 0
 GND
 Text GLabel 8350 2350 0    50   Input ~ 0
@@ -403,8 +399,6 @@ ADV_INT
 NoConn ~ 9950 3350
 NoConn ~ 9950 3450
 NoConn ~ 9950 3550
-NoConn ~ 8350 4750
-NoConn ~ 8350 4650
 NoConn ~ 8350 4550
 NoConn ~ 1850 4050
 NoConn ~ 1850 3950
@@ -573,4 +567,11 @@ Text Label 9950 4950 0    50   ~ 0
 LED6
 Text Label 8350 4950 2    50   ~ 0
 LED7
+Text GLabel 8350 5150 0    50   Input ~ 0
+MAX_LRCLK
+Text GLabel 8350 5050 0    50   Input ~ 0
+MAX_SCLK
+Text GLabel 8350 4750 0    50   Input ~ 0
+MAX_I2S0
+NoConn ~ 8350 4650
 $EndSCHEMATC

@@ -16,88 +16,256 @@ $EndDescr
 $Comp
 L BPS6001_Classic_Computing_Shield-eagle-import:AUDIO-CONNECTOR-6P-SMD-3440030P1 J5
 U 1 1 5DC6A556
-P 5000 3000
-F 0 "J5" V 4303 3000 42  0000 C CNN
-F 1 "AUDIO-CONNECTOR-6P-SMD-3440030P1" V 4382 3000 42  0000 C CNN
-F 2 "c64-wing-kicad:6P-SMD-3.5" H 5000 3000 50  0001 C CNN
-F 3 "" H 5000 3000 50  0001 C CNN
-	1    5000 3000
-	0    1    1    0   
+P 9900 3500
+F 0 "J5" V 9203 3500 42  0000 C CNN
+F 1 "AUDIO-CONNECTOR-6P-SMD-3440030P1" V 9282 3500 42  0000 C CNN
+F 2 "c64-wing-kicad:6P-SMD-3.5" H 9900 3500 50  0001 C CNN
+F 3 "" H 9900 3500 50  0001 C CNN
+	1    9900 3500
+	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	4000 3800 4000 4200
-Wire Wire Line
-	4000 3000 4000 3500
-Connection ~ 4000 3000
-Wire Wire Line
-	3800 3000 4000 3000
-Wire Wire Line
-	4000 2750 4000 3000
-Wire Wire Line
-	4600 2750 4000 2750
-Text GLabel 3500 3000 0    50   Input ~ 0
+Text GLabel 9450 3100 1    50   Input ~ 0
 GND
+Text GLabel 9550 3900 3    50   Input ~ 0
+GND
+$Comp
+L max98089:INTERFACE-MAX9850ETI+-(QFN28) U8
+U 1 1 5E228931
+P 5575 3550
+F 0 "U8" H 6419 3596 50  0000 L CNN
+F 1 "INTERFACE-MAX9850ETI+-(QFN28)" H 4900 3975 50  0000 L CNN
+F 2 "Package_DFN_QFN:QFN-28-1EP_5x5mm_P0.5mm_EP3.35x3.35mm" H 5175 3550 50  0001 L BNN
+F 3 "" H 5575 3550 50  0001 L BNN
+	1    5575 3550
+	1    0    0    -1  
+$EndComp
+Text GLabel 9750 3900 3    50   Input ~ 0
+HPR
+Text GLabel 10150 3100 1    50   Input ~ 0
+HPL
+Text GLabel 6375 3550 2    50   Input ~ 0
+HPR
+Text GLabel 6375 3450 2    50   Input ~ 0
+HPL
+Text GLabel 6375 3250 2    50   Input ~ 0
+HPS
+Text GLabel 10350 3100 1    50   Input ~ 0
+HPS
+$Comp
+L Device:C C53
+U 1 1 5E230840
+P 6625 4000
+F 0 "C53" H 6740 4046 50  0000 L CNN
+F 1 "1uF" H 6740 3955 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 6663 3850 50  0001 C CNN
+F 3 "~" H 6625 4000 50  0001 C CNN
+	1    6625 4000
+	1    0    0    -1  
+$EndComp
+Text GLabel 6625 4150 3    50   Input ~ 0
+GND
+Wire Wire Line
+	6625 3850 6375 3850
+Wire Wire Line
+	4775 3550 3900 3550
+Text GLabel 3750 3550 0    50   Input ~ 0
+3V3
 $Comp
 L Device:C C27
-U 1 1 5DC6C737
-P 3650 3000
-F 0 "C27" V 3398 3000 50  0000 C CNN
-F 1 "4700pF" V 3489 3000 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 3688 2850 50  0001 C CNN
-F 3 "~" H 3650 3000 50  0001 C CNN
-	1    3650 3000
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R28
-U 1 1 5DC6C348
-P 4000 3650
-F 0 "R28" H 4070 3696 50  0000 L CNN
-F 1 "3.3K" H 4070 3605 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 3930 3650 50  0001 C CNN
-F 3 "~" H 4000 3650 50  0001 C CNN
-	1    4000 3650
+U 1 1 5E23398A
+P 3900 3400
+F 0 "C27" H 4015 3446 50  0000 L CNN
+F 1 "1uF" H 4015 3355 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 3938 3250 50  0001 C CNN
+F 3 "~" H 3900 3400 50  0001 C CNN
+	1    3900 3400
 	1    0    0    -1  
 $EndComp
+Text GLabel 3900 3250 1    50   Input ~ 0
+GND
+Connection ~ 3900 3550
+Wire Wire Line
+	3900 3550 3750 3550
+Text GLabel 5775 4925 3    50   Input ~ 0
+GND
+Wire Wire Line
+	5475 2750 5475 1875
+Text GLabel 5475 1725 1    50   Input ~ 0
+3V3
 $Comp
 L Device:C C28
-U 1 1 5DC6F38D
-P 6200 3150
-F 0 "C28" V 5948 3150 50  0000 C CNN
-F 1 "4700pF" V 6039 3150 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 6238 3000 50  0001 C CNN
-F 3 "~" H 6200 3150 50  0001 C CNN
-	1    6200 3150
+U 1 1 5E238986
+P 5625 1875
+F 0 "C28" H 5740 1921 50  0000 L CNN
+F 1 "1uF" H 5740 1830 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 5663 1725 50  0001 C CNN
+F 3 "~" H 5625 1875 50  0001 C CNN
+	1    5625 1875
 	0    1    1    0   
 $EndComp
+Text GLabel 5775 1875 2    50   Input ~ 0
+GND
+Connection ~ 5475 1875
+Wire Wire Line
+	5475 1875 5475 1725
+Wire Wire Line
+	6375 3650 7825 3650
+Text GLabel 7975 3650 2    50   Input ~ 0
+3V3
 $Comp
-L Device:R R29
-U 1 1 5DC6F8D1
-P 6000 3650
-F 0 "R29" H 6070 3696 50  0000 L CNN
-F 1 "3.3K" H 6070 3605 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 5930 3650 50  0001 C CNN
-F 3 "~" H 6000 3650 50  0001 C CNN
-	1    6000 3650
-	1    0    0    -1  
+L Device:C C55
+U 1 1 5E23909A
+P 7825 3800
+F 0 "C55" H 7940 3846 50  0000 L CNN
+F 1 "1uF" H 7940 3755 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 7863 3650 50  0001 C CNN
+F 3 "~" H 7825 3800 50  0001 C CNN
+	1    7825 3800
+	-1   0    0    1   
+$EndComp
+Text GLabel 7825 3950 3    50   Input ~ 0
+GND
+Connection ~ 7825 3650
+Wire Wire Line
+	7825 3650 7975 3650
+Wire Wire Line
+	6375 3750 7250 3750
+Text GLabel 7400 3750 2    50   Input ~ 0
+3V3
+$Comp
+L Device:C C54
+U 1 1 5E23F5E7
+P 7250 3900
+F 0 "C54" H 7365 3946 50  0000 L CNN
+F 1 "1uF" H 7365 3855 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 7288 3750 50  0001 C CNN
+F 3 "~" H 7250 3900 50  0001 C CNN
+	1    7250 3900
+	-1   0    0    1   
+$EndComp
+Text GLabel 7250 4050 3    50   Input ~ 0
+GND
+Connection ~ 7250 3750
+Wire Wire Line
+	7250 3750 7400 3750
+$Comp
+L Device:C C50
+U 1 1 5E249C1F
+P 5750 2250
+F 0 "C50" V 5498 2250 50  0000 C CNN
+F 1 "0.47uF" V 5589 2250 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 5788 2100 50  0001 C CNN
+F 3 "~" H 5750 2250 50  0001 C CNN
+	1    5750 2250
+	0    1    1    0   
 $EndComp
 Wire Wire Line
-	5400 3150 6000 3150
+	5900 2250 5900 2500
 Wire Wire Line
-	6000 3500 6000 3150
-Connection ~ 6000 3150
+	5900 2500 5775 2500
 Wire Wire Line
-	6000 3150 6050 3150
-Text GLabel 6350 3150 2    50   Input ~ 0
-GND
+	5775 2500 5775 2750
 Wire Wire Line
-	6000 3800 6000 4200
-Text GLabel 6000 4200 3    50   Input ~ 0
-AUDIO_RIGHT
-Text GLabel 4000 4200 3    50   Input ~ 0
-AUDIO_LEFT
-Text GLabel 4600 3450 0    50   Input ~ 0
+	5600 2250 5575 2250
+Wire Wire Line
+	5575 2250 5575 2750
+Wire Wire Line
+	6375 3350 6775 3350
+Wire Wire Line
+	6775 3350 6775 2650
+Wire Wire Line
+	6775 2650 6500 2650
+Wire Wire Line
+	5875 2650 5875 2750
+$Comp
+L Device:C C52
+U 1 1 5E24C1DB
+P 6500 2500
+F 0 "C52" H 6615 2546 50  0000 L CNN
+F 1 "2.2uF" H 6615 2455 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 6538 2350 50  0001 C CNN
+F 3 "~" H 6500 2500 50  0001 C CNN
+	1    6500 2500
+	1    0    0    -1  
+$EndComp
+Connection ~ 6500 2650
+Wire Wire Line
+	6500 2650 5875 2650
+Text GLabel 6500 2350 1    50   Input ~ 0
 GND
-Text GLabel 5400 3350 2    50   Input ~ 0
+Text GLabel 4775 3750 0    50   Input ~ 0
 GND
+Text GLabel 5675 2750 1    50   Input ~ 0
+GND
+Text GLabel 5875 4350 3    50   Input ~ 0
+GND
+NoConn ~ 5375 4350
+NoConn ~ 5475 4350
+NoConn ~ 5575 4350
+NoConn ~ 5675 4350
+Text GLabel 5175 2750 1    50   Input ~ 0
+GND
+Text GLabel 4775 3850 0    50   Input ~ 0
+GND
+$Comp
+L Oscillator:SG-210STF X2
+U 1 1 5E2537D2
+P 2775 3650
+F 0 "X2" H 3119 3696 50  0000 L CNN
+F 1 "SG-210STF" H 3119 3605 50  0000 L CNN
+F 2 "Oscillator:Oscillator_SMD_SeikoEpson_SG210-4Pin_2.5x2.0mm" H 3225 3300 50  0001 C CNN
+F 3 "https://support.epson.biz/td/api/doc_check.php?mode=dl&lang=en&Parts=SG-210STF" H 2675 3650 50  0001 C CNN
+	1    2775 3650
+	1    0    0    -1  
+$EndComp
+Text GLabel 2775 3950 3    50   Input ~ 0
+GND
+Text GLabel 2775 3000 1    50   Input ~ 0
+3V3
+$Comp
+L Device:C C5
+U 1 1 5E2567D0
+P 2925 3175
+F 0 "C5" V 3177 3175 50  0000 C CNN
+F 1 "10nF" V 3086 3175 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 2963 3025 50  0001 C CNN
+F 3 "~" H 2925 3175 50  0001 C CNN
+	1    2925 3175
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2775 3000 2775 3175
+Wire Wire Line
+	2775 3175 2775 3350
+Connection ~ 2775 3175
+Wire Wire Line
+	4775 3650 3075 3650
+Text GLabel 3075 3175 2    50   Input ~ 0
+GND
+Text GLabel 2475 3650 0    50   Input ~ 0
+3V3
+Text GLabel 5275 2750 1    50   Input ~ 0
+ADV_SDA
+Text GLabel 5375 2750 1    50   Input ~ 0
+ADV_SCL
+Text GLabel 4775 3250 0    50   Input ~ 0
+MAX_LRCLK
+Text GLabel 4775 3350 0    50   Input ~ 0
+MAX_SCLK
+Text GLabel 4775 3450 0    50   Input ~ 0
+MAX_I2S0
+NoConn ~ 5275 4350
+Wire Wire Line
+	5775 4350 5775 4625
+$Comp
+L Device:C C51
+U 1 1 5E23572F
+P 5775 4775
+F 0 "C51" H 5890 4821 50  0000 L CNN
+F 1 "1uF" H 5890 4730 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 5813 4625 50  0001 C CNN
+F 3 "~" H 5775 4775 50  0001 C CNN
+	1    5775 4775
+	-1   0    0    1   
+$EndComp
 $EndSCHEMATC

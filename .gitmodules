@@ -1,0 +1,6 @@
+[submodule "docs/QM_XC7A35T_DDR3"]
+	path = docs/QM_XC7A35T_DDR3
+	url = https://github.com/ChinaQMTECH/QM_XC7A35T_DDR3.git
+[submodule "docs/QM_XC7A100T_STARTER_KIT"]
+	path = docs/QM_XC7A100T_STARTER_KIT
+	url = https://github.com/ChinaQMTECH/QM_XC7A100T_STARTER_KIT.git
