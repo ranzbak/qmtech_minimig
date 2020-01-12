@@ -323,4 +323,8 @@ Text GLabel 7125 6250 2    50   Input ~ 0
 J2IN5V
 Text GLabel 6825 6250 0    50   Input ~ 0
 VIN5V
+Text GLabel 8300 1450 1    50   Input ~ 0
+GND
+Text GLabel 8350 4550 1    50   Input ~ 0
+GND
 $EndSCHEMATC
