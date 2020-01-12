@@ -26,7 +26,7 @@ F 3 "http://service.powerdynamics.com/ec/Catalog17/Section%2011.pdf" H 4500 3050
 $EndComp
 Wire Wire Line
 	3750 3050 3850 3050
-Text GLabel 3750 3050 0    50   Input ~ 0
+Text GLabel 3450 3050 0    50   Input ~ 0
 VIN5V
 Text GLabel 5525 3050 2    50   Input ~ 0
 GND
@@ -117,4 +117,15 @@ Wire Wire Line
 Connection ~ 5375 3150
 Wire Wire Line
 	5375 3150 5525 3150
+$Comp
+L Device:Polyfuse F4
+U 1 1 5E3388F3
+P 3600 3050
+F 0 "F4" V 3375 3050 50  0000 C CNN
+F 1 "0.35A" V 3466 3050 50  0000 C CNN
+F 2 "Fuse:Fuse_0805_2012Metric" H 3650 2850 50  0001 L CNN
+F 3 "~" H 3600 3050 50  0001 C CNN
+	1    3600 3050
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC

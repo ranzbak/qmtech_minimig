@@ -212,7 +212,7 @@ L Oscillator:SG-210STF X2
 U 1 1 5E2537D2
 P 2775 3650
 F 0 "X2" H 3119 3696 50  0000 L CNN
-F 1 "SG-210STF" H 3119 3605 50  0000 L CNN
+F 1 "11.2896MHz" H 3119 3605 50  0000 L CNN
 F 2 "Oscillator:Oscillator_SMD_SeikoEpson_SG210-4Pin_2.5x2.0mm" H 3225 3300 50  0001 C CNN
 F 3 "https://support.epson.biz/td/api/doc_check.php?mode=dl&lang=en&Parts=SG-210STF" H 2675 3650 50  0001 C CNN
 	1    2775 3650
