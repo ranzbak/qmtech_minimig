@@ -394,7 +394,7 @@ Text GLabel 8350 4350 0    50   Input ~ 0
 ADV_SCLK
 Text GLabel 8350 4450 0    50   Input ~ 0
 ADV_LRCLK
-Text GLabel 8350 4550 0    50   Input ~ 0
+Text GLabel 1850 3250 0    50   Input ~ 0
 ADV_INT
 NoConn ~ 9950 3350
 NoConn ~ 9950 3450
@@ -449,11 +449,11 @@ Text GLabel 3450 4350 2    50   Input ~ 0
 EXP_10
 Text GLabel 3450 4950 2    50   Input ~ 0
 EXP_35
-Text GLabel 1850 2850 0    50   Input ~ 0
-ESP_VSPI_CLK
-Text GLabel 1850 2950 0    50   Input ~ 0
-ESP_VSPI_MISO
 Text GLabel 1850 3050 0    50   Input ~ 0
+ESP_VSPI_CLK
+Text GLabel 1850 2850 0    50   Input ~ 0
+ESP_VSPI_MISO
+Text GLabel 1850 2950 0    50   Input ~ 0
 ESP_VSPI_MOSI
 Text GLabel 1850 3150 0    50   Input ~ 0
 ESP_VSPI_CS
@@ -472,7 +472,6 @@ NoConn ~ 1850 2650
 NoConn ~ 1850 2550
 NoConn ~ 3450 5050
 NoConn ~ 3450 5150
-NoConn ~ 1850 3250
 NoConn ~ 8350 4150
 NoConn ~ 8350 4250
 Wire Wire Line

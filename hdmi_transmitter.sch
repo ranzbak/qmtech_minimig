@@ -201,12 +201,12 @@ Wire Wire Line
 	1050 2725 1425 2725
 Connection ~ 1050 2725
 $Comp
-L Connector:TestPoint TP5
+L Connector:TestPoint GND2
 U 1 1 5DA4EE17
 P 1050 2725
-F 0 "TP5" H 1108 2843 50  0000 L CNN
-F 1 "TestPoint" H 1108 2752 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Keystone_5019_Minature" H 1250 2725 50  0001 C CNN
+F 0 "GND2" H 1108 2843 50  0001 L CNN
+F 1 "GND" H 1108 2752 50  0000 L CNN
+F 2 "TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm" H 1250 2725 50  0001 C CNN
 F 3 "~" H 1250 2725 50  0001 C CNN
 	1    1050 2725
 	1    0    0    -1  
@@ -217,12 +217,12 @@ Wire Wire Line
 	1825 3875 1825 3625
 Connection ~ 1825 3875
 $Comp
-L Connector:TestPoint TP7
+L Connector:TestPoint 1V8
 U 1 1 5DA49C5B
 P 1825 3875
-F 0 "TP7" V 2020 3947 50  0000 C CNN
+F 0 "1V8" V 2020 3947 50  0000 C CNN
 F 1 "TestPoint" V 1929 3947 50  0000 C CNN
-F 2 "TestPoint:TestPoint_Keystone_5019_Minature" H 2025 3875 50  0001 C CNN
+F 2 "TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm" H 2025 3875 50  0001 C CNN
 F 3 "~" H 2025 3875 50  0001 C CNN
 	1    1825 3875
 	0    -1   -1   0   
@@ -231,12 +231,12 @@ Wire Wire Line
 	1825 2000 1825 1825
 Connection ~ 1825 2000
 $Comp
-L Connector:TestPoint TP6
+L Connector:TestPoint 3V3
 U 1 1 5DA49761
 P 1825 2000
-F 0 "TP6" V 1779 2188 50  0000 L CNN
+F 0 "3V3" V 1779 2188 50  0000 L CNN
 F 1 "TestPoint" V 1870 2188 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Keystone_5019_Minature" H 2025 2000 50  0001 C CNN
+F 2 "TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm" H 2025 2000 50  0001 C CNN
 F 3 "~" H 2025 2000 50  0001 C CNN
 	1    1825 2000
 	0    1    1    0   

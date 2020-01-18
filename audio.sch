@@ -88,46 +88,41 @@ Wire Wire Line
 	3900 3550 3750 3550
 Text GLabel 5775 4925 3    50   Input ~ 0
 GND
-Wire Wire Line
-	5475 2750 5475 1875
-Text GLabel 5475 1725 1    50   Input ~ 0
+Text GLabel 5475 1625 1    50   Input ~ 0
 3V3
 $Comp
 L Device:C C28
 U 1 1 5E238986
-P 5625 1875
-F 0 "C28" H 5740 1921 50  0000 L CNN
-F 1 "1uF" H 5740 1830 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 5663 1725 50  0001 C CNN
-F 3 "~" H 5625 1875 50  0001 C CNN
-	1    5625 1875
+P 5625 1675
+F 0 "C28" H 5740 1721 50  0000 L CNN
+F 1 "1uF" H 5740 1630 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 5663 1525 50  0001 C CNN
+F 3 "~" H 5625 1675 50  0001 C CNN
+	1    5625 1675
 	0    1    1    0   
 $EndComp
-Text GLabel 5775 1875 2    50   Input ~ 0
+Text GLabel 5775 1675 2    50   Input ~ 0
 GND
-Connection ~ 5475 1875
 Wire Wire Line
-	5475 1875 5475 1725
-Wire Wire Line
-	6375 3650 7825 3650
+	6375 3650 7875 3650
 Text GLabel 7975 3650 2    50   Input ~ 0
 3V3
 $Comp
 L Device:C C55
 U 1 1 5E23909A
-P 7825 3800
-F 0 "C55" H 7940 3846 50  0000 L CNN
-F 1 "1uF" H 7940 3755 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 7863 3650 50  0001 C CNN
-F 3 "~" H 7825 3800 50  0001 C CNN
-	1    7825 3800
+P 7875 3800
+F 0 "C55" H 7990 3846 50  0000 L CNN
+F 1 "1uF" H 7990 3755 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 7913 3650 50  0001 C CNN
+F 3 "~" H 7875 3800 50  0001 C CNN
+	1    7875 3800
 	-1   0    0    1   
 $EndComp
-Text GLabel 7825 3950 3    50   Input ~ 0
+Text GLabel 7875 3950 3    50   Input ~ 0
 GND
-Connection ~ 7825 3650
+Connection ~ 7875 3650
 Wire Wire Line
-	7825 3650 7975 3650
+	7875 3650 7975 3650
 Wire Wire Line
 	6375 3750 7250 3750
 Text GLabel 7400 3750 2    50   Input ~ 0
@@ -268,4 +263,9 @@ F 3 "~" H 5775 4775 50  0001 C CNN
 	1    5775 4775
 	-1   0    0    1   
 $EndComp
+Wire Wire Line
+	5475 1625 5475 1675
+Connection ~ 5475 1675
+Wire Wire Line
+	5475 1675 5475 2750
 $EndSCHEMATC

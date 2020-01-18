@@ -403,8 +403,8 @@ L Connector:TestPoint TP2
 U 1 1 5D8A1A13
 P 3150 2950
 F 0 "TP2" H 3092 2976 50  0000 R CNN
-F 1 "TestPoint" H 3092 3067 50  0000 R CNN
-F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 3350 2950 50  0001 C CNN
+F 1 "USB5V" H 3092 3067 50  0000 R CNN
+F 2 "TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm" H 3350 2950 50  0001 C CNN
 F 3 "~" H 3350 2950 50  0001 C CNN
 	1    3150 2950
 	-1   0    0    1   
@@ -417,8 +417,8 @@ L Connector:TestPoint TP1
 U 1 1 5D8AC051
 P 2400 2350
 F 0 "TP1" H 2458 2468 50  0000 L CNN
-F 1 "TestPoint" H 2458 2377 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 2600 2350 50  0001 C CNN
+F 1 "GND" H 2458 2377 50  0000 L CNN
+F 2 "TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm" H 2600 2350 50  0001 C CNN
 F 3 "~" H 2600 2350 50  0001 C CNN
 	1    2400 2350
 	1    0    0    -1  
@@ -660,11 +660,11 @@ ADV_INT
 NoConn ~ 5100 6100
 Text GLabel 3600 6000 0    50   Input ~ 0
 ESP_SD_VCC_EN
-Text GLabel 6000 6900 2    50   Input ~ 0
+Text GLabel 5100 6900 2    50   Input ~ 0
 ESP_VSPI_MOSI
 Text GLabel 5100 6300 2    50   Input ~ 0
 ESP_VSPI_MISO
-Text GLabel 6000 6200 2    50   Input ~ 0
+Text GLabel 5100 6200 2    50   Input ~ 0
 ESP_VSPI_CLK
 Text GLabel 3600 6100 0    50   Input ~ 0
 ESP_VSPI_CS
@@ -684,26 +684,16 @@ $EndComp
 Wire Wire Line
 	9850 5250 9750 5250
 Wire Wire Line
-	9750 5750 9850 5750
-Wire Wire Line
 	9750 5000 9750 5250
 Connection ~ 9750 5250
 Wire Wire Line
 	9750 5250 9750 5500
 Wire Wire Line
 	9850 5500 9750 5500
-Connection ~ 9750 5500
-Wire Wire Line
-	9750 5500 9750 5750
 Wire Wire Line
 	10250 5000 10250 5250
 Wire Wire Line
-	10250 5750 10150 5750
-Wire Wire Line
 	10150 5500 10250 5500
-Connection ~ 10250 5500
-Wire Wire Line
-	10250 5500 10250 5750
 Wire Wire Line
 	10250 5250 10150 5250
 Connection ~ 10250 5250
@@ -724,45 +714,8 @@ F 3 "~" H 10000 5500 50  0001 C CNN
 	1    10000 5500
 	0    1    1    0   
 $EndComp
-$Comp
-L Device:C C45
-U 1 1 5DAE0A60
-P 10000 5750
-F 0 "C45" V 9950 5575 50  0000 C CNN
-F 1 "10nF" V 9950 5900 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 10038 5600 50  0001 C CNN
-F 3 "~" H 10000 5750 50  0001 C CNN
-	1    10000 5750
-	0    1    1    0   
-$EndComp
 Text Notes 9650 4750 0    50   ~ 0
 RF decoupling SPI
-$Comp
-L Device:R R45
-U 1 1 5DAEDCB1
-P 5850 6900
-F 0 "R45" V 5643 6900 50  0000 C CNN
-F 1 "20" V 5734 6900 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 5780 6900 50  0001 C CNN
-F 3 "~" H 5850 6900 50  0001 C CNN
-	1    5850 6900
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	5700 6900 5100 6900
-$Comp
-L Device:R R44
-U 1 1 5DAF128C
-P 5850 6200
-F 0 "R44" V 5643 6200 50  0000 C CNN
-F 1 "20" V 5734 6200 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 5780 6200 50  0001 C CNN
-F 3 "~" H 5850 6200 50  0001 C CNN
-	1    5850 6200
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	5700 6200 5100 6200
 $Comp
 L Device:C C47
 U 1 1 5DA58F16
@@ -780,4 +733,23 @@ Text GLabel 2250 1500 2    50   Input ~ 0
 3V3
 Text Notes 1700 1175 0    50   ~ 0
 Decouple the USB signal
+Wire Wire Line
+	9750 5500 9750 5750
+Wire Wire Line
+	9850 5750 9750 5750
+Wire Wire Line
+	10150 5750 10250 5750
+Wire Wire Line
+	10250 5500 10250 5750
+$Comp
+L Device:C C45
+U 1 1 5E248164
+P 10000 5750
+F 0 "C45" V 9950 5575 50  0000 C CNN
+F 1 "10nF" V 9950 5900 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 10038 5600 50  0001 C CNN
+F 3 "~" H 10000 5750 50  0001 C CNN
+	1    10000 5750
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC
