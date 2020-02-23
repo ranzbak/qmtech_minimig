@@ -394,13 +394,11 @@ Text GLabel 8350 4350 0    50   Input ~ 0
 ADV_SCLK
 Text GLabel 8350 4450 0    50   Input ~ 0
 ADV_LRCLK
-Text GLabel 1850 3250 0    50   Input ~ 0
+Text GLabel 1850 3450 0    50   Input ~ 0
 ADV_INT
 NoConn ~ 9950 3350
 NoConn ~ 9950 3450
 NoConn ~ 9950 3550
-NoConn ~ 8350 4550
-NoConn ~ 1850 4050
 NoConn ~ 1850 3950
 NoConn ~ 1850 3850
 NoConn ~ 1850 3750
@@ -451,11 +449,11 @@ Text GLabel 3450 4950 2    50   Input ~ 0
 EXP_35
 Text GLabel 1850 3050 0    50   Input ~ 0
 ESP_VSPI_CLK
-Text GLabel 1850 2850 0    50   Input ~ 0
-ESP_VSPI_MISO
-Text GLabel 1850 2950 0    50   Input ~ 0
-ESP_VSPI_MOSI
 Text GLabel 1850 3150 0    50   Input ~ 0
+ESP_VSPI_MISO
+Text GLabel 1850 3250 0    50   Input ~ 0
+ESP_VSPI_MOSI
+Text GLabel 1850 3350 0    50   Input ~ 0
 ESP_VSPI_CS
 Text GLabel 8350 2750 0    50   Input ~ 0
 ADV_DE
@@ -463,8 +461,6 @@ NoConn ~ 1850 4150
 NoConn ~ 1850 4250
 NoConn ~ 1850 3650
 NoConn ~ 1850 3550
-NoConn ~ 1850 3450
-NoConn ~ 1850 3350
 NoConn ~ 1850 5050
 NoConn ~ 1850 5150
 NoConn ~ 1850 2750
@@ -572,5 +568,12 @@ Text GLabel 8350 5050 0    50   Input ~ 0
 MAX_SCLK
 Text GLabel 8350 4750 0    50   Input ~ 0
 MAX_I2S0
-NoConn ~ 8350 4650
+NoConn ~ 1850 2850
+NoConn ~ 1850 2950
+Text GLabel 1850 4050 0    50   Input ~ 0
+ESP_INT
+Text GLabel 8350 4550 0    50   Input ~ 0
+PS2_CLK2
+Text GLabel 8350 4650 0    50   Input ~ 0
+PS2_DAT2
 $EndSCHEMATC
