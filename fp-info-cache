@@ -1,4 +1,11 @@
-16987234455501523
+17061615916446623
+48204-0001
+48204-0001_1
+48204-0001_1
+Connector
+0
+8
+8
 AMesser_Transistors
 Texas_Instruments_WSON-6_2x2mm-Q2
 
@@ -45163,6 +45170,272 @@ THT ceramic resonator filter DSS6
 0
 3
 3
+Custom_Footprints
+3.5mm_6_contacts_4_conductors_audio_plug
+Headphones with microphone connector, 3.5mm, 4 pins.
+3.5mm jack mic microphone phones headphones 4pins audio plug
+0
+6
+4
+Custom_Footprints
+BNC_connector
+BNC connector for PCB mounting.
+BNC connector
+0
+2
+2
+Custom_Footprints
+Capacitor_Disc_D6_P5
+Capacitor 6mm Disc, Pitch 5mm
+Capacitor
+0
+2
+2
+Custom_Footprints
+Capacitor_Disc_D6_P7.5
+Capacitor 6mm Disc, Pitch 7.5mm
+Capacitor
+0
+2
+2
+Custom_Footprints
+Cliff_UT1x_SPDT_ON-ON_Switch
+PCliff UT1D/E/F/G/H SPDT toggle swith. Horizontal through hole mounted.
+swithc toggle spdt
+0
+5
+4
+Custom_Footprints
+Cliff_UT1x_SPDT_ON-ON_Switch_Short
+PCliff UT1D/E/F/G/H SPDT toggle swith. Horizontal through hole mounted.
+swithc toggle spdt
+0
+5
+4
+Custom_Footprints
+Connection_Pads_03
+Three connection pads.
+Just a "Net tie" as an more or less elegant way to connect two different nets without disturbing ERC and DRC. Make connection between the pads by yourself.
+0
+3
+3
+Custom_Footprints
+Connector_Mini-DIN_Female_6Pin_2rows
+A footprint for the generic 6 pin Mini-DIN through hole connector with shell.
+mini din 6pin connector socket
+0
+9
+7
+Custom_Footprints
+Diode_DO-35_SOD27_Horizontal_RM10
+Diode, DO-35,  SOD27, Horizontal, RM 10mm
+Diode, DO-35, SOD27, Horizontal, RM 10mm, 1N4148,
+0
+2
+2
+Custom_Footprints
+KiCad-Logo_5mm_Copper
+KiCad Logo
+Logo KiCad
+0
+0
+0
+Custom_Footprints
+KiCad-Logo_5mm_SolderMask
+KiCad Logo
+Logo KiCad
+0
+0
+0
+Custom_Footprints
+Microampermeter
+
+
+0
+2
+2
+Custom_Footprints
+Microampermeter_Small
+
+microampermeter
+0
+2
+2
+Custom_Footprints
+MountingHole_2.5x3.0mm
+Mounting Hole 2.5mm x 3.0mm, no annular
+mounting hole 2.5mm no annular
+0
+0
+0
+Custom_Footprints
+PJ311_3.5mm_Jack
+PJ311 6pin SMD 3.5mm stereo headphones jack.
+headphones jack plug stereo 3.5mm PJ311
+0
+6
+6
+Custom_Footprints
+PJ320D_3.5mm_Jack
+Headphones with microphone connector, 3.5mm, 4 pins.
+3.5mm jack mic microphone phones headphones 4pins audio plug
+0
+4
+4
+Custom_Footprints
+PJ320D_3.5mm_Jack_Short
+Headphones with microphone connector, 3.5mm, 4 pins.
+3.5mm jack mic microphone phones headphones 4pins audio plug
+0
+4
+4
+Custom_Footprints
+PJ320E_3.5mm_Jack
+Headphones with microphone connector, 3.5mm, 4 pins.
+3.5mm jack mic microphone phones headphones 4pins audio plug
+0
+5
+5
+Custom_Footprints
+PJ320E_Headphones_Plug_Short
+Headphones with microphone connector, 3.5mm, 4 pins.
+3.5mm jack mic microphone phones headphones 4pins audio plug
+0
+5
+5
+Custom_Footprints
+PJ31060-I_3.5mm_Jack
+PJ31060-I 6pin SMD 3.5mm headphones jack.
+headphones jack plug stereo 3.5mm PJ31060-I PJ31060
+0
+6
+6
+Custom_Footprints
+Philmore_30-20001_SPDT_ON-ON_Switch
+Philmore 30-2000x SPDT toggle swith. Horizontal through hole mounted.
+swithc toggle spdt
+0
+5
+4
+Custom_Footprints
+Potentiometer_Trimmer_2x4
+Potentiometer, Trimmer, Spectrol Type 36M, Econtrim, Rev A, 02 Aug 2010,
+Potentiometer, Trimmer, Spectrol Type 36M, Econtrim, Rev A, 02 Aug 2010,
+0
+3
+3
+Custom_Footprints
+Potentiometer_Trimmer_Bourns_3362X
+Spindle Trimmer Potentiometer, Bourns 3266W, https://www.bourns.com/pdfs/3266.pdf
+Spindle Trimmer Potentiometer   Bourns 3266W
+0
+3
+3
+Custom_Footprints
+Potentiometer_Trimmer_Vertical_Multi_Compatible
+Potentiometer, vertically mounted, Omeg PC16PU, Omeg PC16PU, Omeg PC16PU, Vishay/Spectrol 248GJ/249GJ Single, Vishay/Spectrol 248GJ/249GJ Single, Vishay/Spectrol 248GJ/249GJ Single, Vishay/Spectrol 248GH/249GH Single, Vishay/Spectrol 148/149 Single, Vishay/Spectrol 148/149 Single, Vishay/Spectrol 148/149 Single, Vishay/Spectrol 148A/149A Single with mounting plates, Vishay/Spectrol 148/149 Double, Vishay/Spectrol 148A/149A Double with mounting plates, Piher PC-16 Single, Piher PC-16 Single, Piher PC-16 Single, Piher PC-16SV Single, Piher PC-16 Double, Piher PC-16 Triple, Piher T16H Single, Piher T16L Single, Piher T16H Double, Alps RK163 Single, Alps RK163 Double, Alps RK097 Single, Alps RK097 Double, Bourns PTV09A-2 Single with mounting sleve Single, Bourns PTV09A-1 with mounting sleve Single, Bourns PRS11S Single, Alps RK09K Single with mounting sleve Single, Alps RK09K with mounting sleve Single, Alps RK09L Single, Alps RK09L Single, Alps RK09L Double, Alps RK09L Double, Alps RK09Y Single, Bourns 3339S Single, Bourns 3339S Single, Bourns 3339P Single, Bourns 3339H Single, Vishay T7YA Single, Suntan TSR-3386H Single, Suntan TSR-3386H Single, Suntan TSR-3386P Single, Vishay T73XX Single, Vishay T73XX Single, Vishay T73YP Single, Piher PT-6h Single, http://www.piher-nacesa.com/pdf/11-PT6v03.pdf
+Potentiometer vertical  Omeg PC16PU  Omeg PC16PU  Omeg PC16PU  Vishay/Spectrol 248GJ/249GJ Single  Vishay/Spectrol 248GJ/249GJ Single  Vishay/Spectrol 248GJ/249GJ Single  Vishay/Spectrol 248GH/249GH Single  Vishay/Spectrol 148/149 Single  Vishay/Spectrol 148/149 Single  Vishay/Spectrol 148/149 Single  Vishay/Spectrol 148A/149A Single with mounting plates  Vishay/Spectrol 148/149 Double  Vishay/Spectrol 148A/149A Double with mounting plates  Piher PC-16 Single  Piher PC-16 Single  Piher PC-16 Single  Piher PC-16SV Single  Piher PC-16 Double  Piher PC-16 Triple  Piher T16H Single  Piher T16L Single  Piher T16H Double  Alps RK163 Single  Alps RK163 Double  Alps RK097 Single  Alps RK097 Double  Bourns PTV09A-2 Single with mounting sleve Single  Bourns PTV09A-1 with mounting sleve Single  Bourns PRS11S Single  Alps RK09K Single with mounting sleve Single  Alps RK09K with mounting sleve Single  Alps RK09L Single  Alps RK09L Single  Alps RK09L Double  Alps RK09L Double  Alps RK09Y Single  Bourns 3339S Single  Bourns 3339S Single  Bourns 3339P Single  Bourns 3339H Single  Vishay T7YA Single  Suntan TSR-3386H Single  Suntan TSR-3386H Single  Suntan TSR-3386P Single  Vishay T73XX Single  Vishay T73XX Single  Vishay T73YP Single  Piher PT-6h Single
+0
+6
+3
+Custom_Footprints
+Resistor_Horizontal_2W
+Resistor, Axial, RM 20mm,
+Resistor Axial RM 20mm
+0
+2
+2
+Custom_Footprints
+Resistor_Vertical_RM2.5mm
+Resistor, Vertical, RM 2.5mm, 1/4W,
+Resistor, Vertical, RM 2.5mm, 1/4W,
+0
+2
+2
+Custom_Footprints
+Seiko_MS621FE-FL11E_Battery
+Seiko MS621FE-FL11E 3.0V backup battery.
+seiko battery MS621FE FL11E backup power voltage cell
+0
+2
+2
+Custom_Footprints
+Slide_Switch_SPDT_ThroughHole
+
+switch, 1p2t, slide, spdt
+0
+3
+3
+Custom_Footprints
+Small_Tumbler_SW
+Small Tumbler Switch
+SWITCH DEV TOGGLE ILLUM SPDT
+0
+3
+3
+Custom_Footprints
+Switch_Slide_SPDT_THT_5MS1S102AM6QES
+SPDT slide switch. Through hole right angle mounting.
+switch slide spdt
+0
+5
+4
+Custom_Footprints
+Symbol_Screw_Type1_SilkscreenTop
+
+symbol screw drawing
+0
+0
+0
+Custom_Footprints
+Symbol_Screw_Type2_SilkscreenTop
+
+symbol screw drawing
+0
+0
+0
+Custom_Footprints
+Symbol_Screw_Type3_SilkscreenTop
+
+symbol screw drawing
+0
+0
+0
+Custom_Footprints
+Symbol_Screw_Type4_SilkscreenTop
+
+symbol screw drawing
+0
+0
+0
+Custom_Footprints
+Tumbler_SW
+Tumbler Switch x2
+SWITCH DEV TOGGLE ILLUM SPDT
+0
+3
+3
+Custom_Footprints
+Tumbler_SW_x2
+Tumbler Switch x2
+SWITCH DEV TOGGLE ILLUM SPDT
+0
+6
+6
+Custom_Footprints
+USB_Mini-B_THT_Horizontal
+Horizontally mounted through hole Mini-USB connector.
+connector usb tht throughhole
+0
+9
+6
+Custom_Footprints
+USB_Mini-B_THT_Vertical
+Vertical Mini USB connector with through hole mount.
+mini USB vertical connector
+0
+7
+6
 Diode_SMD
 D_0201_0603Metric
 Diode SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator
@@ -47893,6 +48166,27 @@ Fuse Fuseholder TR5 Littelfuse/Wickmann No. 460 No560
 0
 2
 2
+GPS_Modules
+GPS_Module_L80-M39
+Quectel L80 GPS module.
+gps module
+0
+12
+12
+GPS_Modules
+GY-NEO6MV2_GPS
+
+
+0
+4
+4
+GPS_Modules
+Gms-g9_GNSS_Module
+ GlobalTop Gms-g9 GPS module.
+gps module smd gnss gtop
+0
+12
+12
 Heatsink
 Heatsink_35x26mm_1xFixation3mm_Fischer-SK486-35
 Heatsink, 35mm x 26mm, 1x Fixation 3mm, Fischer SK486-35
@@ -70378,6 +70672,13 @@ Logo Symbol OSHW
 0
 0
 Symbol
+OpenAARS
+
+
+0
+0
+0
+Symbol
 Polarity_Center_Negative_6mm_SilkScreen
 Polarity Logo, Center Negative
 Logo Polarity Center Negative
@@ -70759,6 +71060,20 @@ Symbol
 WEEE-Logo_28.1x40mm_SilkScreen
 Waste Electrical and Electronic Equipment Directive
 Logo WEEE
+0
+0
+0
+Symbol
+deFEEST
+
+
+0
+0
+0
+Symbol
+defeest_big
+
+
 0
 0
 0
@@ -75965,6 +76280,20 @@ c64-wing-kicad
 STAND-OFF-TIGHT
 <b>Stand Off</b><p>
 This is the mechanical footprint for a #4 phillips button head screw. Use the keepout ring to avoid running the screw head into surrounding components. SKU : PRT-00447
+
+0
+0
+0
+defeest
+defeest_01
+
+
+0
+0
+0
+defeest
+defeest_01_tiny
+
 
 0
 0

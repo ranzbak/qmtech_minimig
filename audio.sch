@@ -194,10 +194,8 @@ Text GLabel 5675 2750 1    50   Input ~ 0
 GND
 Text GLabel 5875 4350 3    50   Input ~ 0
 GND
-NoConn ~ 5375 4350
-NoConn ~ 5475 4350
-NoConn ~ 5575 4350
 NoConn ~ 5675 4350
+NoConn ~ 5575 4350
 Text GLabel 5175 2750 1    50   Input ~ 0
 GND
 Text GLabel 4775 3850 0    50   Input ~ 0
@@ -252,6 +250,39 @@ MAX_I2S0
 NoConn ~ 5275 4350
 Wire Wire Line
 	5775 4350 5775 4625
+Wire Wire Line
+	5475 1625 5475 1675
+Connection ~ 5475 1675
+Wire Wire Line
+	5475 1675 5475 2750
+$Comp
+L Device:C C45
+U 1 1 5E664493
+P 5375 5175
+F 0 "C45" H 5490 5221 50  0000 L CNN
+F 1 "100nF" H 5490 5130 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 5413 5025 50  0001 C CNN
+F 3 "~" H 5375 5175 50  0001 C CNN
+	1    5375 5175
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C C60
+U 1 1 5E664499
+P 5475 4925
+F 0 "C60" H 5590 4971 50  0000 L CNN
+F 1 "100nF" H 5590 4880 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 5513 4775 50  0001 C CNN
+F 3 "~" H 5475 4925 50  0001 C CNN
+	1    5475 4925
+	-1   0    0    1   
+$EndComp
+Text GLabel 5475 5325 3    50   Input ~ 0
+GND
+Text GLabel 5375 5325 3    50   Input ~ 0
+GND
+Wire Wire Line
+	5475 5075 5475 5325
 $Comp
 L Device:C C51
 U 1 1 5E23572F
@@ -264,8 +295,13 @@ F 3 "~" H 5775 4775 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	5475 1625 5475 1675
-Connection ~ 5475 1675
+	5375 4350 5375 5025
 Wire Wire Line
-	5475 1675 5475 2750
+	5475 4350 5475 4775
+Text Notes 5125 5625 0    50   ~ 0
+Decouple Line ins
+Text Notes 5900 2775 0    50   ~ 0
+Negative voltage pump
+Text Notes 4300 3175 0    50   ~ 0
+I2S to FPGA
 $EndSCHEMATC

@@ -2,4 +2,5 @@
   (lib (name MCU_ST_STM32F4)(type Legacy)(uri /home/paul/work/kicad/footprints/kicad-symbols/MCU_ST_STM32F4.lib)(options "")(descr ""))
   (lib (name qmtech-minimig-rescue)(type Legacy)(uri ${KIPRJMOD}/qmtech-minimig-rescue.lib)(options "")(descr ""))
   (lib (name max98089)(type Legacy)(uri /home/paul/work/kicad/kicadlib/symbols/max98089.lib)(options "")(descr ""))
+  (lib (name defeest_01)(type Legacy)(uri /home/paul/work/kicad/symbols/defeest_01.lib)(options "")(descr ""))
 )

@@ -93,8 +93,6 @@ F 3 "~" H 14100 7500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 14100 7650
-Wire Wire Line
-	14100 7650 14700 7650
 Text GLabel 14100 7350 1    50   Input ~ 0
 3V3
 $Comp
@@ -113,8 +111,6 @@ Text GLabel 14100 7950 1    50   Input ~ 0
 Wire Wire Line
 	13700 8250 14100 8250
 Connection ~ 14100 8250
-Wire Wire Line
-	14100 8250 14700 8250
 NoConn ~ 12800 4600
 NoConn ~ 12800 4300
 NoConn ~ 13700 4100
@@ -1171,4 +1167,49 @@ Wire Wire Line
 	3250 9825 2900 9825
 Text GLabel 3250 10225 3    50   Input ~ 0
 GND
+Text GLabel 14825 8475 0    50   Input ~ 0
+GND
+$Comp
+L Connector:TestPoint TP1
+U 1 1 5E5CEE84
+P 14825 8025
+F 0 "TP1" V 14779 8213 50  0000 L CNN
+F 1 "TP_SCL" V 14870 8213 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 15025 8025 50  0001 C CNN
+F 3 "~" H 15025 8025 50  0001 C CNN
+	1    14825 8025
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:TestPoint TP2
+U 1 1 5E5CF65D
+P 14825 8250
+F 0 "TP2" V 14779 8438 50  0000 L CNN
+F 1 "TP_SDA" V 14870 8438 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 15025 8250 50  0001 C CNN
+F 3 "~" H 15025 8250 50  0001 C CNN
+	1    14825 8250
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:TestPoint TP3
+U 1 1 5E5D2A3A
+P 14825 8475
+F 0 "TP3" V 14779 8663 50  0000 L CNN
+F 1 "TP_GND" V 14870 8663 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 15025 8475 50  0001 C CNN
+F 3 "~" H 15025 8475 50  0001 C CNN
+	1    14825 8475
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	14100 8250 14825 8250
+Wire Wire Line
+	14100 7650 14550 7650
+Text Notes 14800 7875 0    50   ~ 0
+I2C Test points\n
+Wire Wire Line
+	14825 8025 14550 8025
+Wire Wire Line
+	14550 8025 14550 7650
 $EndSCHEMATC
