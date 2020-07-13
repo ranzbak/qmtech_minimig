@@ -3,4 +3,6 @@
   (lib (name qmtech-minimig-rescue)(type Legacy)(uri ${KIPRJMOD}/qmtech-minimig-rescue.lib)(options "")(descr ""))
   (lib (name max98089)(type Legacy)(uri /home/paul/work/kicad/kicadlib/symbols/max98089.lib)(options "")(descr ""))
   (lib (name defeest_01)(type Legacy)(uri /home/paul/work/kicad/symbols/defeest_01.lib)(options "")(descr ""))
+  (lib (name AS4C16M16SA-6TCN)(type Legacy)(uri /home/paul/work/kicad/footprints/AS4C16M16SA-6TCN/KiCad/AS4C16M16SA-6TCN.lib)(options "")(descr ""))
+  (lib (name TXB0106PWR)(type Legacy)(uri /home/paul/work/kicad/footprints/TXB0106PWR/TXB0106PWR.lib)(options "")(descr ""))
 )

@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 9
+Sheet 1 10
 Title ""
 Date ""
 Rev "0.1"
@@ -60,5 +60,11 @@ S 5500 2200 500  150
 U 5DE41876
 F0 "Floppy" 50
 F1 "floppy.sch" 50
+$EndSheet
+$Sheet
+S 2075 2900 500  150 
+U 5F1B034D
+F0 "SDRAM" 50
+F1 "sdram.sch" 50
 $EndSheet
 $EndSCHEMATC

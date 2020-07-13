@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 9 9
+Sheet 9 10
 Title ""
 Date ""
 Rev "0.1"
@@ -371,186 +371,6 @@ Wire Wire Line
 	9925 5725 10325 5725
 Text GLabel 9925 6175 3    50   Input ~ 0
 GND
-Text GLabel 8900 1650 2    50   Input ~ 0
-3V3
-Text GLabel 7250 1950 0    50   Input ~ 0
-3V3
-$Comp
-L TXS0108EPWR:TXS0108EPWR U6
-U 1 1 5D8AA533
-P 7750 2350
-F 0 "U6" H 7750 3317 50  0000 C CNN
-F 1 "TXS0108EPWR" H 7750 3226 50  0000 C CNN
-F 2 "TXS0108EPWR:SOP65P640X120-20N" H 7750 2350 50  0001 L BNN
-F 3 "TSSOP-20 Texas Instruments" H 7750 2350 50  0001 L BNN
-F 4 "Voltage Level Translator 20-Pin TSSOP T/R" H 7750 2350 50  0001 L BNN "Field4"
-F 5 "None" H 7750 2350 50  0001 L BNN "Field5"
-F 6 "TXS0108EPWR" H 7750 2350 50  0001 L BNN "Field6"
-F 7 "Unavailable" H 7750 2350 50  0001 L BNN "Field7"
-F 8 "Texas Instruments" H 7750 2350 50  0001 L BNN "Field8"
-	1    7750 2350
-	1    0    0    -1  
-$EndComp
-Text GLabel 8250 3050 2    50   Input ~ 0
-GND
-$Comp
-L Device:C C20
-U 1 1 5D8BDE5F
-P 8350 1250
-F 0 "C20" H 8465 1296 50  0000 L CNN
-F 1 "100nF" H 8465 1205 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 8388 1100 50  0001 C CNN
-F 3 "~" H 8350 1250 50  0001 C CNN
-	1    8350 1250
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C24
-U 1 1 5D8BF3A0
-P 8800 1250
-F 0 "C24" H 8915 1296 50  0000 L CNN
-F 1 "100nF" H 8915 1205 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 8838 1100 50  0001 C CNN
-F 3 "~" H 8800 1250 50  0001 C CNN
-	1    8800 1250
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8250 1650 8350 1650
-Wire Wire Line
-	8900 1750 8800 1750
-Wire Wire Line
-	8350 1400 8350 1650
-Connection ~ 8350 1650
-Wire Wire Line
-	8350 1650 8900 1650
-Wire Wire Line
-	8800 1400 8800 1750
-Connection ~ 8800 1750
-Wire Wire Line
-	8800 1750 8250 1750
-Text GLabel 8350 1100 1    50   Input ~ 0
-GND
-Text GLabel 8800 1100 1    50   Input ~ 0
-GND
-Text GLabel 8250 2850 2    50   Input ~ 0
-H_EXP_02
-Text GLabel 8250 2750 2    50   Input ~ 0
-H_EXP_04
-Text GLabel 8250 2450 2    50   Input ~ 0
-H_EXP_12
-Text GLabel 8250 2350 2    50   Input ~ 0
-H_EXP_16
-Text GLabel 7250 2850 0    50   Input ~ 0
-EXP_02
-Text GLabel 7250 2750 0    50   Input ~ 0
-EXP_04
-Text GLabel 7250 2650 0    50   Input ~ 0
-EXP_08
-Text GLabel 7250 2550 0    50   Input ~ 0
-EXP_10
-Text GLabel 7250 2450 0    50   Input ~ 0
-EXP_12
-Text GLabel 7250 2350 0    50   Input ~ 0
-EXP_16
-Text GLabel 8950 4350 2    50   Input ~ 0
-3V3
-Text GLabel 7300 4650 0    50   Input ~ 0
-3V3
-$Comp
-L TXS0108EPWR:TXS0108EPWR U7
-U 1 1 5D96DB5D
-P 7800 5050
-F 0 "U7" H 7800 6017 50  0000 C CNN
-F 1 "TXS0108EPWR" H 7800 5926 50  0000 C CNN
-F 2 "TXS0108EPWR:SOP65P640X120-20N" H 7800 5050 50  0001 L BNN
-F 3 "TSSOP-20 Texas Instruments" H 7800 5050 50  0001 L BNN
-F 4 "Voltage Level Translator 20-Pin TSSOP T/R" H 7800 5050 50  0001 L BNN "Field4"
-F 5 "None" H 7800 5050 50  0001 L BNN "Field5"
-F 6 "TXS0108EPWR" H 7800 5050 50  0001 L BNN "Field6"
-F 7 "Unavailable" H 7800 5050 50  0001 L BNN "Field7"
-F 8 "Texas Instruments" H 7800 5050 50  0001 L BNN "Field8"
-	1    7800 5050
-	1    0    0    -1  
-$EndComp
-Text GLabel 8300 5750 2    50   Input ~ 0
-GND
-$Comp
-L Device:C C25
-U 1 1 5D96DB64
-P 8400 3950
-F 0 "C25" H 8515 3996 50  0000 L CNN
-F 1 "100nF" H 8515 3905 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 8438 3800 50  0001 C CNN
-F 3 "~" H 8400 3950 50  0001 C CNN
-	1    8400 3950
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C26
-U 1 1 5D96DB6A
-P 8850 3950
-F 0 "C26" H 8965 3996 50  0000 L CNN
-F 1 "100nF" H 8965 3905 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 8888 3800 50  0001 C CNN
-F 3 "~" H 8850 3950 50  0001 C CNN
-	1    8850 3950
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8300 4350 8400 4350
-Wire Wire Line
-	8950 4450 8850 4450
-Wire Wire Line
-	8400 4100 8400 4350
-Connection ~ 8400 4350
-Wire Wire Line
-	8400 4350 8950 4350
-Wire Wire Line
-	8850 4100 8850 4450
-Connection ~ 8850 4450
-Wire Wire Line
-	8850 4450 8300 4450
-Text GLabel 8400 3800 1    50   Input ~ 0
-GND
-Text GLabel 8850 3800 1    50   Input ~ 0
-GND
-Text GLabel 8300 5050 2    50   Input ~ 0
-H_EXP_32
-Text GLabel 8300 5150 2    50   Input ~ 0
-H_EXP_30
-Text GLabel 8300 5250 2    50   Input ~ 0
-H_EXP_28
-Text GLabel 8300 5350 2    50   Input ~ 0
-H_EXP_26
-Text GLabel 8300 5450 2    50   Input ~ 0
-H_EXP_24
-Text GLabel 8300 5550 2    50   Input ~ 0
-H_EXP_22
-Text GLabel 8250 2150 2    50   Input ~ 0
-H_EXP_20
-Text GLabel 8250 2250 2    50   Input ~ 0
-H_EXP_18
-Text GLabel 7300 5050 0    50   Input ~ 0
-EXP_32
-Text GLabel 7300 5150 0    50   Input ~ 0
-EXP_30
-Text GLabel 7300 5250 0    50   Input ~ 0
-EXP_28
-Text GLabel 7300 5350 0    50   Input ~ 0
-EXP_26
-Text GLabel 7300 5450 0    50   Input ~ 0
-EXP_24
-Text GLabel 7300 5550 0    50   Input ~ 0
-EXP_22
-Text GLabel 7250 2150 0    50   Input ~ 0
-EXP_20
-Text GLabel 7250 2250 0    50   Input ~ 0
-EXP_18
-Text GLabel 7300 4950 0    50   Input ~ 0
-EXP_34
-Text GLabel 8300 4950 2    50   Input ~ 0
-H_EXP_34
 $Comp
 L qmtech-minimig-rescue:DB23_Female_MountingHoles J10
 U 1 1 5D9CC860
@@ -576,37 +396,6 @@ Text GLabel 1450 2900 2    50   Input ~ 0
 GND
 Text GLabel 1450 2700 2    50   Input ~ 0
 GND
-Text GLabel 8250 2550 2    50   Input ~ 0
-H_EXP_10
-Text GLabel 8250 2650 2    50   Input ~ 0
-H_EXP_08
-Text Label 8950 4450 0    50   ~ 0
-VIOSEL
-Text Label 8900 1750 0    50   ~ 0
-VIOSEL
-$Comp
-L Connector:Conn_01x03_Male J11
-U 1 1 5DA5CD20
-P 10400 2650
-F 0 "J11" H 10372 2582 50  0000 R CNN
-F 1 "Conn_01x03_Male" H 10372 2673 50  0000 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 10400 2650 50  0001 C CNN
-F 3 "~" H 10400 2650 50  0001 C CNN
-	1    10400 2650
-	-1   0    0    1   
-$EndComp
-Text Label 10200 2650 2    50   ~ 0
-VIOSEL
-Text GLabel 10200 2550 0    50   Input ~ 0
-3V3
-Text GLabel 10200 2750 0    50   Input ~ 0
-VIN5V
-Text Notes 9875 2425 0    50   ~ 0
-Voltage selector\ndisk I/O 3V3 / 5V
-Text GLabel 7300 4850 0    50   Input ~ 0
-EXP_35
-Text GLabel 8300 4850 2    50   Input ~ 0
-H_EXP_35
 Text GLabel 1450 3900 2    50   Input ~ 0
 H_EXP_35
 Text GLabel 1450 3800 2    50   Input ~ 0
@@ -763,4 +552,221 @@ Wire Wire Line
 	6250 5400 6175 5400
 Text GLabel 6250 6300 2    50   Input ~ 0
 GND
+Text GLabel 8775 1825 1    50   Input ~ 0
+GND
+Text GLabel 8775 4200 3    50   Input ~ 0
+VIN5V
+$Comp
+L Device:C C?
+U 1 1 5F34AEF2
+P 8625 4075
+AR Path="/5D74B9F4/5F34AEF2" Ref="C?"  Part="1" 
+AR Path="/5DE41876/5F34AEF2" Ref="C66"  Part="1" 
+F 0 "C66" V 8373 4075 50  0000 C CNN
+F 1 "100nF" V 8464 4075 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 8663 3925 50  0001 C CNN
+F 3 "~" H 8625 4075 50  0001 C CNN
+	1    8625 4075
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8775 3825 8775 4075
+Text GLabel 8475 4075 0    50   Input ~ 0
+GND
+$Comp
+L microchip:MCP23S17 U?
+U 1 1 5F34AEFA
+P 8775 2825
+AR Path="/5D74B9F4/5F34AEFA" Ref="U?"  Part="1" 
+AR Path="/5DE41876/5F34AEFA" Ref="U10"  Part="1" 
+F 0 "U10" H 8775 1644 50  0000 C CNN
+F 1 "MCP23S17" H 8775 1735 50  0000 C CNN
+F 2 "Package_SO:SSOP-28_5.3x10.2mm_P0.65mm" H 8825 1875 50  0001 L CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20001952C.pdf" H 9025 3825 50  0001 C CNN
+	1    8775 2825
+	-1   0    0    1   
+$EndComp
+Connection ~ 8775 4075
+Wire Wire Line
+	8775 4075 8775 4200
+Text Notes 7650 2400 0    50   ~ 0
+5V SPI\n
+$Comp
+L Device:R R?
+U 1 1 5F34AF18
+P 5800 2225
+AR Path="/5D74B9F4/5F34AF18" Ref="R?"  Part="1" 
+AR Path="/5DE41876/5F34AF18" Ref="R6"  Part="1" 
+F 0 "R6" V 5593 2225 50  0000 C CNN
+F 1 "10k" V 5684 2225 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 5730 2225 50  0001 C CNN
+F 3 "~" H 5800 2225 50  0001 C CNN
+	1    5800 2225
+	0    1    1    0   
+$EndComp
+Text GLabel 5650 2225 0    50   Input ~ 0
+3V3
+$Comp
+L TXB0106PWR:TXB0106PWR U?
+U 1 1 5F34AF23
+P 6650 2625
+AR Path="/5D74B9F4/5F34AF23" Ref="U?"  Part="1" 
+AR Path="/5DE41876/5F34AF23" Ref="U7"  Part="1" 
+F 0 "U7" H 6650 3595 50  0000 C CNN
+F 1 "TXB0106PWR" H 6650 3504 50  0000 C CNN
+F 2 "SOP65P640X120-16N" H 6650 2625 50  0001 L BNN
+F 3 "" H 6650 2625 50  0001 C CNN
+	1    6650 2625
+	1    0    0    -1  
+$EndComp
+Text GLabel 7350 3225 2    50   Input ~ 0
+GND
+$Comp
+L Device:C C?
+U 1 1 5F34AF32
+P 7175 1425
+AR Path="/5D74B9F4/5F34AF32" Ref="C?"  Part="1" 
+AR Path="/5DE41876/5F34AF32" Ref="C25"  Part="1" 
+F 0 "C25" V 6923 1425 50  0000 C CNN
+F 1 "100nF" V 7014 1425 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 7213 1275 50  0001 C CNN
+F 3 "~" H 7175 1425 50  0001 C CNN
+	1    7175 1425
+	0    -1   -1   0   
+$EndComp
+Text GLabel 7025 1425 0    50   Input ~ 0
+GND
+$Comp
+L Device:C C?
+U 1 1 5F34AF39
+P 7900 1425
+AR Path="/5D74B9F4/5F34AF39" Ref="C?"  Part="1" 
+AR Path="/5DE41876/5F34AF39" Ref="C26"  Part="1" 
+F 0 "C26" V 7648 1425 50  0000 C CNN
+F 1 "100nF" V 7739 1425 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 7938 1275 50  0001 C CNN
+F 3 "~" H 7900 1425 50  0001 C CNN
+	1    7900 1425
+	0    1    1    0   
+$EndComp
+Text GLabel 8050 1425 2    50   Input ~ 0
+GND
+Text GLabel 7450 1275 1    50   Input ~ 0
+3V3
+Text GLabel 7625 1275 1    50   Input ~ 0
+VIN5V
+Wire Wire Line
+	7350 1925 7450 1925
+Wire Wire Line
+	7450 1925 7450 1425
+Wire Wire Line
+	7350 2025 7625 2025
+Wire Wire Line
+	7625 2025 7625 1425
+Wire Wire Line
+	7750 1425 7625 1425
+Connection ~ 7625 1425
+Wire Wire Line
+	7625 1425 7625 1275
+Wire Wire Line
+	7325 1425 7450 1425
+Connection ~ 7450 1425
+Wire Wire Line
+	7450 1425 7450 1275
+Text GLabel 9275 2325 2    50   Input ~ 0
+H_EXP_02
+Text GLabel 9275 2225 2    50   Input ~ 0
+H_EXP_04
+Text GLabel 9275 2125 2    50   Input ~ 0
+H_EXP_06
+Text GLabel 9275 2025 2    50   Input ~ 0
+H_EXP_08
+Text GLabel 9275 2425 2    50   Input ~ 0
+H_EXP_10
+Text GLabel 9275 2525 2    50   Input ~ 0
+H_EXP_12
+Text GLabel 9275 2625 2    50   Input ~ 0
+H_EXP_14
+Text GLabel 9275 2725 2    50   Input ~ 0
+H_EXP_16
+Text GLabel 9275 3625 2    50   Input ~ 0
+H_EXP_18
+Text GLabel 9275 3525 2    50   Input ~ 0
+H_EXP_22
+Text GLabel 9275 3425 2    50   Input ~ 0
+H_EXP_24
+Text GLabel 9275 3325 2    50   Input ~ 0
+H_EXP_26
+Text GLabel 9275 3225 2    50   Input ~ 0
+H_EXP_28
+Text GLabel 9275 3125 2    50   Input ~ 0
+H_EXP_30
+Text GLabel 9275 3025 2    50   Input ~ 0
+H_EXP_32
+Text GLabel 9275 2925 2    50   Input ~ 0
+H_EXP_34
+Text Notes 9750 2850 0    50   ~ 0
+Left pin 20 out, 'select drive 3'
+Text HLabel 8275 2425 0    50   Input ~ 0
+SO_5V
+Text HLabel 5950 2425 0    50   Input ~ 0
+SO_5V
+Text HLabel 8275 2525 0    50   Input ~ 0
+SI_5V
+Text HLabel 5950 2525 0    50   Input ~ 0
+SI_5V
+Text HLabel 8275 2625 0    50   Input ~ 0
+SCK_5V
+Text HLabel 5950 2625 0    50   Input ~ 0
+SCK_5V
+Text HLabel 8275 2725 0    50   Input ~ 0
+CS_5V
+Text HLabel 7350 2425 2    50   Input ~ 0
+CS_5V
+Text HLabel 8275 3125 0    50   Input ~ 0
+INTA_5V
+Text HLabel 8275 3225 0    50   Input ~ 0
+INTB_5V
+Text HLabel 7350 2525 2    50   Input ~ 0
+INTB_5V
+Text HLabel 7350 2625 2    50   Input ~ 0
+INTA_5V
+$Comp
+L Device:R R?
+U 1 1 5F39AA91
+P 8050 2125
+AR Path="/5D74B9F4/5F39AA91" Ref="R?"  Part="1" 
+AR Path="/5DE41876/5F39AA91" Ref="R8"  Part="1" 
+F 0 "R8" V 7843 2125 50  0000 C CNN
+F 1 "10k" V 7934 2125 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 7980 2125 50  0001 C CNN
+F 3 "~" H 8050 2125 50  0001 C CNN
+	1    8050 2125
+	0    1    1    0   
+$EndComp
+Text GLabel 7900 2125 0    50   Input ~ 0
+GND
+Wire Wire Line
+	8275 2225 8200 2225
+Wire Wire Line
+	8200 2225 8200 2125
+Wire Wire Line
+	8200 2125 8200 2025
+Wire Wire Line
+	8200 2025 8275 2025
+Connection ~ 8200 2125
+Wire Wire Line
+	8275 2125 8200 2125
+Text GLabel 5950 2825 0    50   Input ~ 0
+FLP_SPI_MISO
+Text GLabel 5950 2925 0    50   Input ~ 0
+FLP_SPI_MOSI
+Text GLabel 5950 3025 0    50   Input ~ 0
+FLP_SPI_SCK
+Text GLabel 7350 2825 2    50   Input ~ 0
+FLP_SPI_CS
+Text GLabel 7350 2925 2    50   Input ~ 0
+FLP_SPI_INTB
+Text GLabel 7350 3025 2    50   Input ~ 0
+FLP_SPI_INTA
 $EndSCHEMATC
