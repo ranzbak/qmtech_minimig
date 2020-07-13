@@ -34,8 +34,6 @@ Wire Wire Line
 	1900 7000 1600 7000
 Text Notes 1000 6500 0    100  ~ 0
 Reset button\n
-Text GLabel 4300 4300 2    50   Input ~ 0
-3V3
 $Comp
 L Device:C C?
 U 1 1 5D79DC5C
@@ -266,22 +264,6 @@ F 8 "None" H 9900 3400 50  0001 L BNN "Field8"
 	1    9900 3400
 	1    0    0    1   
 $EndComp
-$Comp
-L CP2102:INTERFACE-CP2102-GMR(QFN28) U4
-U 1 1 5D810043
-P 5725 2750
-F 0 "U4" H 6569 2796 50  0000 L CNN
-F 1 "INTERFACE-CP2102-GMR(QFN28)" H 5125 3150 50  0000 L CNN
-F 2 "Package_DFN_QFN:QFN-28-1EP_5x5mm_P0.5mm_EP3.35x3.35mm" H 5725 2750 50  0001 L BNN
-F 3 "" H 5725 2750 50  0001 L BNN
-F 4 "Unavailable" H 5725 2750 50  0001 L BNN "Field4"
-F 5 "Silicon" H 5725 2750 50  0001 L BNN "Field5"
-F 6 "None" H 5725 2750 50  0001 L BNN "Field6"
-F 7 "CP2102-GMR" H 5725 2750 50  0001 L BNN "Field7"
-F 8 "VFQFN-28 Vishay Siliconix" H 5725 2750 50  0001 L BNN "Field8"
-	1    5725 2750
-	1    0    0    -1  
-$EndComp
 Text GLabel 5425 1950 1    50   Input ~ 0
 USB_DTR
 Text GLabel 8675 2650 0    50   Input ~ 0
@@ -460,7 +442,6 @@ NoConn ~ 5625 3550
 NoConn ~ 6525 2750
 NoConn ~ 4925 2450
 NoConn ~ 4925 2550
-NoConn ~ 5725 3550
 NoConn ~ 5825 3550
 NoConn ~ 2325 2650
 Text GLabel 1900 7000 2    50   Input ~ 0
@@ -521,9 +502,6 @@ Wire Wire Line
 Wire Wire Line
 	3600 4300 4100 4300
 Connection ~ 3600 4300
-Wire Wire Line
-	4100 4300 4300 4300
-Connection ~ 4100 4300
 Wire Wire Line
 	3600 5500 2300 5500
 Wire Wire Line
@@ -645,8 +623,6 @@ $EndComp
 Wire Wire Line
 	3525 2950 3525 3025
 Connection ~ 3525 2950
-Wire Wire Line
-	3525 2950 4800 2950
 Text GLabel 3525 3325 3    50   Input ~ 0
 GND
 Text GLabel 3600 5900 0    50   Input ~ 0
@@ -705,15 +681,6 @@ Wire Wire Line
 	2500 2950 2325 2950
 Wire Wire Line
 	2500 2950 2500 3175
-Text GLabel 3275 2950 0    50   Input ~ 0
-3V3
-Wire Wire Line
-	4925 3050 4800 3050
-Wire Wire Line
-	4800 3050 4800 2950
-Connection ~ 4800 2950
-Wire Wire Line
-	4800 2950 4925 2950
 Text GLabel 2600 6200 0    50   Input ~ 0
 ESP_INT
 $Comp
@@ -740,4 +707,31 @@ Wire Wire Line
 	9750 5250 9750 5500
 Wire Wire Line
 	10250 5250 10250 5500
+Text Label 5525 3750 0    50   ~ 0
+RST_n
+$Comp
+L CP2102:INTERFACE-CP2102-GMR(QFN28) U4
+U 1 1 5D810043
+P 5725 2750
+F 0 "U4" H 6569 2796 50  0000 L CNN
+F 1 "INTERFACE-CP2102-GMR(QFN28)" H 5125 3150 50  0000 L CNN
+F 2 "Package_DFN_QFN:QFN-28-1EP_5x5mm_P0.5mm_EP3.35x3.35mm" H 5725 2750 50  0001 L BNN
+F 3 "" H 5725 2750 50  0001 L BNN
+F 4 "Unavailable" H 5725 2750 50  0001 L BNN "Field4"
+F 5 "Silicon" H 5725 2750 50  0001 L BNN "Field5"
+F 6 "None" H 5725 2750 50  0001 L BNN "Field6"
+F 7 "CP2102-GMR" H 5725 2750 50  0001 L BNN "Field7"
+F 8 "VFQFN-28 Vishay Siliconix" H 5725 2750 50  0001 L BNN "Field8"
+	1    5725 2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3525 2950 4925 2950
+Text GLabel 4925 3050 0    50   Input ~ 0
+VUSB5V
+Connection ~ 4100 4300
+Wire Wire Line
+	4100 4300 4300 4300
+Text GLabel 4300 4300 2    50   Input ~ 0
+3V3
 $EndSCHEMATC

@@ -1,4 +1,4 @@
-17061615916446623
+17067951566261623
 48204-0001
 48204-0001_1
 48204-0001_1
@@ -76177,124 +76177,153 @@ c64-wing-kicad
 C0603
 <b>CAPACITOR</b><p>
 chip
-
+0
 0
 2
 2
 c64-wing-kicad
 CHIPLED_0603
 <b>CHIPLED</b><p>
-Source: http://www.osram.convergy.de/ ... LG_LY Q971.pdf
-
+0
+0
 0
 2
 2
 c64-wing-kicad
 DSUB-23_Female_Horizontal_P2.77x2.84mm_EdgePinOffset7.70mm_Housed_MountingHolesOffset9.12mm
-25-pin D-Sub connector, horizontal/angled (90 deg), THT-mount, female, pitch 2.77x2.84mm, pin-PCB-offset 7.699999999999999mm, distance of mounting holes 47.1mm, distance of mounting holes to PCB edge 9.12mm, see https://disti-assets.s3.amazonaws.com/tonar/files/datasheets/16730.pdf
-25-pin D-Sub connector horizontal angled 90deg THT female pitch 2.77x2.84mm pin-PCB-offset 7.699999999999999mm mounting-holes-distance 47.1mm mounting-hole-offset 47.1mm
+25
+25
 0
 25
 24
 c64-wing-kicad
 EVQ-Q2
-
-
+0
+0
 0
 4
 4
 c64-wing-kicad
 HDF15H
-<b>SUB-D</b>
-
+0
+0
 0
 17
 17
 c64-wing-kicad
 JP5Q
-<b>JUMPER</b>
-
+0
+0
 0
 10
 10
 c64-wing-kicad
 M09HP
-<b>SUB-D</b>
-
+0
+0
 0
 11
 11
 c64-wing-kicad
 MAB6H
-Female <b>CONNECTOR</b><p>
-6 pins with shield, horizontal (DIN 45322)
-
+0
+6
+0
 0
 8
 8
 c64-wing-kicad
-MICROSD
-
-
+0
+0
+0
 0
 12
 12
 c64-wing-kicad
-MINI-DIN6
-
-
+0
+0
+0
 0
 7
 7
 c64-wing-kicad
-POWER_NO_TEXT
-
-
+0
+0
+0
 0
 4
 4
 c64-wing-kicad
-R0603
-<b>RESISTOR</b><p>
-chip
+0
+0
+0
 
 0
 2
 2
-c64-wing-kicad
-SPARKFUN_LOGIC_LEVEL_CONVERTER
-<h3>SparkFun Logic Level Converter</h3>
+0
+0
+0
 <p>Specifications:
 <ul><li>Pin count:12</li>
 <li>Pin pitch: 0.1"</li>
 <li>Area: 0.6x 0.5 "</li>
-</ul></p>
-<p>Example device(s):
-<ul><li>SparkFun Logic Level Converter</li>
+0
+0
+0
 </ul></p>
 
 0
 12
 12
-c64-wing-kicad
-STAND-OFF-TIGHT
+0
+0
 <b>Stand Off</b><p>
 This is the mechanical footprint for a #4 phillips button head screw. Use the keepout ring to avoid running the screw head into surrounding components. SKU : PRT-00447
 
 0
 0
 0
-defeest
+0
 defeest_01
 
 
 0
 0
 0
-defeest
+0
 defeest_01_tiny
 
 
+0
+0
+0
+0
+defeest_02
+
+
+0
+0
+0
+0
+defeest_02_tiny
+
+
+0
+0
+0
+0
+goatse_01
+
+
+0
+0
+0
+0
+goatse_01_mid
+
+
+0
 0
 0
 0
