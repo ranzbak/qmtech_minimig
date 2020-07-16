@@ -202,12 +202,12 @@ GND
 $Comp
 L Device:C C15
 U 1 1 5D805ACA
-P 5775 5825
-F 0 "C15" H 5890 5871 50  0000 L CNN
-F 1 "22uF" H 5890 5780 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 5813 5675 50  0001 C CNN
-F 3 "~" H 5775 5825 50  0001 C CNN
-	1    5775 5825
+P 4075 5825
+F 0 "C15" H 4190 5871 50  0000 L CNN
+F 1 "22uF" H 4190 5780 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 4113 5675 50  0001 C CNN
+F 3 "~" H 4075 5825 50  0001 C CNN
+	1    4075 5825
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -267,8 +267,6 @@ Text GLabel 10325 5625 0    50   Input ~ 0
 GND
 Wire Wire Line
 	9325 5425 9525 5425
-Text GLabel 9325 5425 0    50   Input ~ 0
-VIN5V
 $Comp
 L Device:C C17
 U 1 1 5D874600
@@ -334,8 +332,6 @@ F 3 " ~" H 1150 2700 50  0001 C CNN
 	1    1150 2700
 	-1   0    0    1   
 $EndComp
-Text GLabel 1450 1700 2    50   Input ~ 0
-VIN5V
 Text GLabel 1450 1800 2    50   Input ~ 0
 VIN12V
 Text GLabel 1450 3500 2    50   Input ~ 0
@@ -348,38 +344,6 @@ Text GLabel 1450 2900 2    50   Input ~ 0
 GND
 Text GLabel 1450 2700 2    50   Input ~ 0
 GND
-Text GLabel 1450 3900 2    50   Input ~ 0
-H_EXP_35
-Text GLabel 1450 3800 2    50   Input ~ 0
-H_EXP_34
-Text GLabel 1450 3700 2    50   Input ~ 0
-H_EXP_32
-Text GLabel 1450 3600 2    50   Input ~ 0
-H_EXP_30
-Text GLabel 1450 3400 2    50   Input ~ 0
-H_EXP_28
-Text GLabel 1450 3200 2    50   Input ~ 0
-H_EXP_26
-Text GLabel 1450 3000 2    50   Input ~ 0
-H_EXP_24
-Text GLabel 1450 2800 2    50   Input ~ 0
-H_EXP_22
-Text GLabel 1450 2600 2    50   Input ~ 0
-H_EXP_20
-Text GLabel 1450 2500 2    50   Input ~ 0
-H_EXP_18
-Text GLabel 1450 2400 2    50   Input ~ 0
-H_EXP_16
-Text GLabel 1450 2300 2    50   Input ~ 0
-H_EXP_12
-Text GLabel 1450 2200 2    50   Input ~ 0
-H_EXP_10
-Text GLabel 1450 1900 2    50   Input ~ 0
-H_EXP_02
-Text GLabel 1450 2000 2    50   Input ~ 0
-H_EXP_04
-Text GLabel 1450 2100 2    50   Input ~ 0
-H_EXP_08
 Text GLabel 1150 1450 1    50   Input ~ 0
 GND
 $Comp
@@ -466,8 +430,6 @@ Wire Wire Line
 	5000 6225 5000 6300
 Connection ~ 5000 6300
 Wire Wire Line
-	5000 6300 5775 6300
-Wire Wire Line
 	5000 5775 5000 5925
 Wire Wire Line
 	5000 5475 5000 5400
@@ -496,8 +458,6 @@ F 3 "~" H 6025 5400 50  0001 C CNN
 	1    6025 5400
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	5875 5400 5775 5400
 Wire Wire Line
 	6250 5400 6175 5400
 Text GLabel 6250 6300 2    50   Input ~ 0
@@ -558,7 +518,7 @@ H_EXP_22
 Text GLabel 5800 4375 0    50   Input ~ 0
 H_EXP_30
 Text GLabel 5500 3875 0    50   Input ~ 0
-VIN5V
+VFLP5V
 Text GLabel 5800 4775 0    50   Input ~ 0
 GND
 Text GLabel 7200 3975 2    50   Input ~ 0
@@ -720,7 +680,7 @@ Wire Wire Line
 	5075 1000 5075 950 
 Connection ~ 5225 1000
 Text GLabel 5075 950  1    50   Input ~ 0
-VIN5V
+VFLP5V
 $Comp
 L Device:R R84
 U 1 1 5F7F2B33
@@ -1032,17 +992,101 @@ Connection ~ 6750 1900
 Wire Wire Line
 	6750 1900 7050 1900
 Wire Wire Line
-	3750 5400 4500 5400
+	3750 5400 4075 5400
 Wire Wire Line
-	2450 6300 4500 6300
+	2450 6300 4075 6300
 Wire Wire Line
-	5775 5675 5775 5400
-Connection ~ 5775 5400
+	4075 5675 4075 5400
 Wire Wire Line
-	5775 5400 5750 5400
+	4075 5975 4075 6300
+Text Notes 7525 1250 0    50   ~ 0
+Schema based on http://amigadrive.blogspot.com/
+Text GLabel 1450 1900 2    50   Input ~ 0
+H_EXP_02
+Text GLabel 1450 2500 2    50   Input ~ 0
+H_EXP_04
+Text GLabel 1450 2000 2    50   Input ~ 0
+H_EXP_08
+Text GLabel 1450 2200 2    50   Input ~ 0
+H_EXP_12
+Text GLabel 1450 2600 2    50   Input ~ 0
+H_EXP_18
+Text GLabel 1450 2800 2    50   Input ~ 0
+H_EXP_20
+Text GLabel 1450 3000 2    50   Input ~ 0
+H_EXP_22
+Text GLabel 1450 3200 2    50   Input ~ 0
+H_EXP_24
+Text GLabel 1450 3400 2    50   Input ~ 0
+H_EXP_26
+Text GLabel 1450 3600 2    50   Input ~ 0
+H_EXP_28
+Text GLabel 1450 3700 2    50   Input ~ 0
+H_EXP_30
+Text GLabel 1450 3800 2    50   Input ~ 0
+H_EXP_32
+Text GLabel 1450 3900 2    50   Input ~ 0
+H_EXP_34
+$Comp
+L Device:R R10
+U 1 1 5FC81D81
+P 2075 2100
+F 0 "R10" V 2000 2050 50  0000 L CNN
+F 1 "1k" V 2075 2050 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 2005 2100 50  0001 C CNN
+F 3 "~" H 2075 2100 50  0001 C CNN
+	1    2075 2100
+	0    1    1    0   
+$EndComp
 Wire Wire Line
-	5775 5975 5775 6300
-Connection ~ 5775 6300
+	1925 2100 1450 2100
+Text GLabel 2225 2100 2    50   Input ~ 0
+VFLP5V
+Text GLabel 7200 4375 2    50   Input ~ 0
+EXP_MTRON
+Text GLabel 5800 4575 0    50   Input ~ 0
+H_EXP_04
+Text GLabel 3575 2425 2    50   Input ~ 0
+H_EXP_04
+Text GLabel 3575 3025 2    50   Input ~ 0
+H_EXP_04
+Text Notes 4000 3050 0    50   ~ 0
+Motor on, second pin
+Connection ~ 4075 5400
 Wire Wire Line
-	5775 6300 6250 6300
+	4075 5400 4500 5400
+Connection ~ 4075 6300
+Wire Wire Line
+	4075 6300 4500 6300
+Wire Wire Line
+	5000 6300 5850 6300
+Wire Wire Line
+	5750 5400 5850 5400
+$Comp
+L Device:CP C26
+U 1 1 5FCF3E95
+P 5850 5850
+F 0 "C26" H 5968 5896 50  0000 L CNN
+F 1 "22uF" H 5968 5805 50  0000 L CNN
+F 2 "Capacitor_SMD:CP_Elec_5x5.4" H 5888 5700 50  0001 C CNN
+F 3 "~" H 5850 5850 50  0001 C CNN
+	1    5850 5850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5850 5700 5850 5400
+Connection ~ 5850 5400
+Wire Wire Line
+	5850 5400 5875 5400
+Wire Wire Line
+	5850 6000 5850 6300
+Connection ~ 5850 6300
+Wire Wire Line
+	5850 6300 6250 6300
+Text GLabel 5850 5400 1    50   Input ~ 0
+VFLP5V
+Text GLabel 1450 1700 2    50   Input ~ 0
+VFLP5V
+Text GLabel 9325 5425 0    50   Input ~ 0
+VFLP5V
 $EndSCHEMATC

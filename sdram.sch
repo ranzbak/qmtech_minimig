@@ -310,4 +310,5 @@ Text GLabel 1250 2750 1    50   Input ~ 0
 3V3
 Text GLabel 6600 4300 2    50   Input ~ 0
 SDRAM_CKE
+NoConn ~ 6600 4000
 $EndSCHEMATC

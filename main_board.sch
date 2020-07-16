@@ -442,4 +442,33 @@ Text GLabel 1850 5050 0    50   Input ~ 0
 EXP_TRK0
 Text GLabel 3450 5150 2    50   Input ~ 0
 EXP_SIDE
+Text GLabel 9950 4250 2    50   Input ~ 0
+EXP_MTRON
+$Comp
+L Device:CP C?
+U 1 1 5FD13792
+P 3875 6600
+AR Path="/5DE41876/5FD13792" Ref="C?"  Part="1" 
+AR Path="/5D7064D1/5FD13792" Ref="C67"  Part="1" 
+F 0 "C67" H 3993 6646 50  0000 L CNN
+F 1 "22UF" H 3993 6555 50  0000 L CNN
+F 2 "Capacitor_SMD:CP_Elec_5x5.4" H 3913 6450 50  0001 C CNN
+F 3 "~" H 3875 6600 50  0001 C CNN
+	1    3875 6600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3725 6350 3875 6350
+Wire Wire Line
+	3875 6350 3875 6450
+Wire Wire Line
+	3875 6750 3875 6875
+Wire Wire Line
+	3875 6875 3725 6875
+Text GLabel 3725 6350 0    50   Input ~ 0
+VIN5V
+Text GLabel 3725 6875 0    50   Input ~ 0
+GND
+Text Notes 3475 6275 0    50   ~ 0
+Decoupling Cap\n
 $EndSCHEMATC
