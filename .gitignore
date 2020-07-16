@@ -20,6 +20,7 @@ _autosave-*
 
 # Autorouter files (exported from Pcbnew)
 plots/**
+bom/**
 
 **/*#
 *.zip

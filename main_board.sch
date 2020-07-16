@@ -44,8 +44,6 @@ VIN5V
 Text GLabel 1850 5350 0    50   Input ~ 0
 VIN5V
 Wire Wire Line
-	1850 5250 1700 5250
-Wire Wire Line
 	1850 5350 1700 5350
 Text GLabel 3600 2350 2    50   Input ~ 0
 3V3
@@ -97,7 +95,7 @@ Text GLabel 3450 3150 2    50   Input ~ 0
 ADV_G_4
 Text GLabel 3450 3050 2    50   Input ~ 0
 ADV_G_5
-Text GLabel 1850 2950 0    50   Input ~ 0
+Text GLabel 1850 3050 0    50   Input ~ 0
 ADV_G_6
 Text GLabel 3450 2950 2    50   Input ~ 0
 ADV_G_7
@@ -259,7 +257,7 @@ Wire Wire Line
 	2700 7300 2700 6950
 Text Label 2700 7100 3    50   ~ 0
 LED0
-Text Label 9950 4650 0    50   ~ 0
+Text Label 9950 4350 0    50   ~ 0
 LED0
 Text Label 9950 4750 0    50   ~ 0
 LED1
@@ -281,7 +279,7 @@ Text GLabel 9950 3350 2    50   Input ~ 0
 ADV_LRCLK
 Text GLabel 1850 3450 0    50   Input ~ 0
 ADV_INT
-Text GLabel 1850 3050 0    50   Input ~ 0
+Text GLabel 1850 2950 0    50   Input ~ 0
 ESP_VSPI_CLK
 Text GLabel 1850 3150 0    50   Input ~ 0
 ESP_VSPI_MISO
@@ -410,26 +408,38 @@ Text GLabel 1850 4250 0    50   Input ~ 0
 SDRAM_BA0
 Text GLabel 8350 4650 0    50   Input ~ 0
 JS_INTB
-Text GLabel 8350 4550 0    50   Input ~ 0
-JS_INTA
 Text GLabel 9950 4550 2    50   Input ~ 0
+JS_INTA
+Text GLabel 8350 4550 0    50   Input ~ 0
 JS_CS
-Text GLabel 8350 4450 0    50   Input ~ 0
-JS_MISO
 Text GLabel 9950 4450 2    50   Input ~ 0
+JS_MISO
+Text GLabel 8350 4450 0    50   Input ~ 0
 JS_MOSI
-Text GLabel 9950 4350 2    50   Input ~ 0
+Text GLabel 9950 4650 2    50   Input ~ 0
 JS_SCK
-Text GLabel 1850 5150 0    50   Input ~ 0
-FLP_SPI_MOSI
-Text GLabel 3450 5050 2    50   Input ~ 0
-FLP_SPI_SCK
-Text GLabel 3450 5150 2    50   Input ~ 0
-FLP_SPI_MISO
-Text GLabel 1850 5050 0    50   Input ~ 0
-FLP_SPI_CS
-Text GLabel 3450 4950 2    50   Input ~ 0
-FLP_SPI_INTB
+Text GLabel 1850 4650 0    50   Input ~ 0
+EXP_SEL0
+Text GLabel 3450 4650 2    50   Input ~ 0
+EXP_SEL1
+Text GLabel 1850 4750 0    50   Input ~ 0
+EXP_DIR
+Text GLabel 3450 4750 2    50   Input ~ 0
+EXP_STEP
+Text GLabel 1850 4850 0    50   Input ~ 0
+EXP_CHNG
+Text GLabel 3450 4850 2    50   Input ~ 0
+EXP_INDEX
 Text GLabel 1850 4950 0    50   Input ~ 0
-FLP_LPI_INTA
+EXP_RDY
+Text GLabel 3450 4950 2    50   Input ~ 0
+EXP_DKRD
+Text GLabel 3450 5050 2    50   Input ~ 0
+EXP_DKWDB
+Text GLabel 1850 5150 0    50   Input ~ 0
+EXP_DKWEB
+Text GLabel 1850 5050 0    50   Input ~ 0
+EXP_TRK0
+Text GLabel 3450 5150 2    50   Input ~ 0
+EXP_SIDE
 $EndSCHEMATC

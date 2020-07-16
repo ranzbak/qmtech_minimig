@@ -235,7 +235,7 @@ Wire Wire Line
 	4775 3650 3075 3650
 Text GLabel 3075 3175 2    50   Input ~ 0
 GND
-Text GLabel 2475 3650 0    50   Input ~ 0
+Text GLabel 2175 3650 0    50   Input ~ 0
 3V3
 Text GLabel 5275 2750 1    50   Input ~ 0
 ADV_SDA
@@ -304,4 +304,15 @@ Text Notes 5900 2775 0    50   ~ 0
 Negative voltage pump
 Text Notes 4300 3175 0    50   ~ 0
 I2S to FPGA
+$Comp
+L Device:R R9
+U 1 1 5FBC48A3
+P 2325 3650
+F 0 "R9" V 2118 3650 50  0000 C CNN
+F 1 "10k" V 2209 3650 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 2255 3650 50  0001 C CNN
+F 3 "~" H 2325 3650 50  0001 C CNN
+	1    2325 3650
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC
