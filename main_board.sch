@@ -257,7 +257,7 @@ Wire Wire Line
 	2700 7300 2700 6950
 Text Label 2700 7100 3    50   ~ 0
 LED0
-Text Label 9950 4350 0    50   ~ 0
+Text Label 8350 4450 2    50   ~ 0
 LED0
 Text Label 9950 4750 0    50   ~ 0
 LED1
@@ -317,19 +317,6 @@ Text GLabel 8350 4850 0    50   Input ~ 0
 PS2_CLK2
 Text GLabel 8350 4950 0    50   Input ~ 0
 PS2_DAT2
-$Comp
-L QM_XC7A35T_DDR3:QM_XC7A35T_DDR3 U2
-U 1 1 5D70654A
-P 5950 3750
-AR Path="/5D70654A" Ref="U2"  Part="1" 
-AR Path="/5D7064D1/5D70654A" Ref="U2"  Part="1" 
-F 0 "U2" H 5919 5605 50  0000 C CNN
-F 1 "QM_XC7A35T_DDR3" H 5919 5514 50  0000 C CNN
-F 2 "QM_XC7A35T_DDR3:QM_XC7A35T_DDR3_Daughterboard" H 5919 5423 50  0000 C CNN
-F 3 "" H 2650 2300 50  0001 C CNN
-	1    5950 3750
-	1    0    0    -1  
-$EndComp
 Text GLabel 3450 3650 2    50   Input ~ 0
 SDRAM_D0
 Text GLabel 1850 3650 0    50   Input ~ 0
@@ -367,55 +354,35 @@ SDRAM_A2
 Text GLabel 1850 4550 0    50   Input ~ 0
 SDRAM_A3
 Text GLabel 8350 3450 0    50   Input ~ 0
-SDRAM_DQ15
+SDRAM_D15
 Text GLabel 9950 3450 2    50   Input ~ 0
-SDRAM_DQ14
+SDRAM_D14
 Text GLabel 8350 3550 0    50   Input ~ 0
-SDRAM_DQ13
+SDRAM_D13
 Text GLabel 9950 3550 2    50   Input ~ 0
-SDRAM_DQ12
+SDRAM_D12
 Text GLabel 8350 3650 0    50   Input ~ 0
-SDRAM_DQ11
+SDRAM_D11
 Text GLabel 9950 3650 2    50   Input ~ 0
-SDRAM_DQ10
+SDRAM_D10
 Text GLabel 8350 3750 0    50   Input ~ 0
-SDRAM_DQ9
+SDRAM_D9
 Text GLabel 9950 3750 2    50   Input ~ 0
-SDRAM_DQ8
+SDRAM_D8
 Text GLabel 8350 3850 0    50   Input ~ 0
 SDRAM_DQMH
 Text GLabel 9950 3850 2    50   Input ~ 0
 SDRAM_CLK
 Text GLabel 8350 3950 0    50   Input ~ 0
 SDRAM_CKE
-Text GLabel 9950 3950 2    50   Input ~ 0
-SDRAM_A11
-Text GLabel 8350 4050 0    50   Input ~ 0
-SDRAM_A9
-Text GLabel 9950 4050 2    50   Input ~ 0
-SDRAM_A8
-Text GLabel 8350 4150 0    50   Input ~ 0
-SDRAM_A7
-Text GLabel 9950 4150 2    50   Input ~ 0
-SDRAM_A6
-Text GLabel 8350 4250 0    50   Input ~ 0
-SDRAM_A5
-Text GLabel 8350 4350 0    50   Input ~ 0
-SDRAM_A4
 Text GLabel 3450 4250 2    50   Input ~ 0
 SDRAM_CS
 Text GLabel 1850 4250 0    50   Input ~ 0
 SDRAM_BA0
 Text GLabel 8350 4650 0    50   Input ~ 0
-JS_INTB
-Text GLabel 9950 4550 2    50   Input ~ 0
 JS_INTA
 Text GLabel 8350 4550 0    50   Input ~ 0
-JS_CS
-Text GLabel 9950 4450 2    50   Input ~ 0
 JS_MISO
-Text GLabel 8350 4450 0    50   Input ~ 0
-JS_MOSI
 Text GLabel 9950 4650 2    50   Input ~ 0
 JS_SCK
 Text GLabel 1850 4650 0    50   Input ~ 0
@@ -442,8 +409,6 @@ Text GLabel 1850 5050 0    50   Input ~ 0
 EXP_TRK0
 Text GLabel 3450 5150 2    50   Input ~ 0
 EXP_SIDE
-Text GLabel 9950 4250 2    50   Input ~ 0
-EXP_MTRON
 $Comp
 L Device:CP C?
 U 1 1 5FD13792
@@ -471,4 +436,39 @@ Text GLabel 3725 6875 0    50   Input ~ 0
 GND
 Text Notes 3475 6275 0    50   ~ 0
 Decoupling Cap\n
+Text GLabel 8350 4350 0    50   Input ~ 0
+EXP_MTRON
+Text GLabel 8350 4250 0    50   Input ~ 0
+SDRAM_A6
+Text GLabel 8350 4150 0    50   Input ~ 0
+SDRAM_A8
+Text GLabel 8350 4050 0    50   Input ~ 0
+SDRAM_A11
+Text GLabel 9950 4450 2    50   Input ~ 0
+JS_MOSI
+Text GLabel 9950 4550 2    50   Input ~ 0
+JS_CS
+Text GLabel 9950 4350 2    50   Input ~ 0
+SDRAM_A4
+Text GLabel 9950 4250 2    50   Input ~ 0
+SDRAM_A5
+Text GLabel 9950 4150 2    50   Input ~ 0
+SDRAM_A7
+Text GLabel 9950 4050 2    50   Input ~ 0
+SDRAM_A9
+$Comp
+L QM_XC7A35T_DDR3:QM_XC7A35T_DDR3 U2
+U 1 1 5D70654A
+P 5950 3750
+AR Path="/5D70654A" Ref="U2"  Part="1" 
+AR Path="/5D7064D1/5D70654A" Ref="U2"  Part="1" 
+F 0 "U2" H 5919 5605 50  0000 C CNN
+F 1 "QM_XC7A35T_DDR3" H 5919 5514 50  0000 C CNN
+F 2 "QM_XC7A35T_DDR3:QM_XC7A35T_DDR3_Daughterboard" H 5919 5423 50  0000 C CNN
+F 3 "" H 2650 2300 50  0001 C CNN
+	1    5950 3750
+	1    0    0    -1  
+$EndComp
+Text GLabel 9950 3950 2    50   Input ~ 0
+SDRAM_A12
 $EndSCHEMATC

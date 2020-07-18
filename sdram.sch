@@ -71,21 +71,21 @@ SDRAM_A2
 Text GLabel 5300 5100 0    50   Input ~ 0
 SDRAM_A3
 Text GLabel 6600 2700 2    50   Input ~ 0
-SDRAM_DQ15
+SDRAM_D15
 Text GLabel 6600 2900 2    50   Input ~ 0
-SDRAM_DQ14
+SDRAM_D14
 Text GLabel 6600 3000 2    50   Input ~ 0
-SDRAM_DQ13
+SDRAM_D13
 Text GLabel 6600 3200 2    50   Input ~ 0
-SDRAM_DQ12
+SDRAM_D12
 Text GLabel 6600 3300 2    50   Input ~ 0
-SDRAM_DQ11
+SDRAM_D11
 Text GLabel 6600 3500 2    50   Input ~ 0
-SDRAM_DQ10
+SDRAM_D10
 Text GLabel 6600 3600 2    50   Input ~ 0
-SDRAM_DQ9
+SDRAM_D9
 Text GLabel 6600 3800 2    50   Input ~ 0
-SDRAM_DQ8
+SDRAM_D8
 Text GLabel 6600 4100 2    50   Input ~ 0
 SDRAM_DQMH
 Text GLabel 6600 4200 2    50   Input ~ 0
