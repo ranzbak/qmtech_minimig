@@ -694,4 +694,10 @@ F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20001952C.pdf" H 5250 4650 
 $EndComp
 Wire Wire Line
 	3950 4550 4425 4550
+Text Label 2875 3250 0    50   ~ 0
+JS_MISO_5V
+Text Label 2875 3350 0    50   ~ 0
+JS_MOSI_5V
+Text Label 2875 3450 0    50   ~ 0
+JS_SCK_5V
 $EndSCHEMATC
