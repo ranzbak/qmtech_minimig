@@ -5,16 +5,24 @@ The core FPGA board I bought of Aliexpress, because soldering the very fine pitc
 
 More detailed documents regarding the I/O board can be found in the docs directory in this repository.
 
+The board as is works, the features have been tested individually, but I'm still working on the Minimig port at this time.
+Since I work on this in my spare time progress is not super fast, but progress is made.
+For now I'm mostly learning and developing at the same time so a lot of stuff changes.
+When the code base becomes more stable and usable I'll open the repository up.
+
+![Open AARS V3](images/open_aars_v3.jpg)
+
 ## Interfaces provided by this I/O board
 
 * Atari/Amiga compatible Joystick ports
-* PS/2 keyboard interface
-* Analog head phone jack
+* PS/2 keyboard interface for mouse and keyboard
+* Analog head phone jack via
 * External floppy interface to connect Amiga floppy drives (Including 12V power pin)
 * HDMI display connector that supports up to full HD video (1920x1080)
 * 6 status LEDS
 * Internal Amiga floppy drive connector
 * External Amiga floppy drive connector (DIN-23)
+* AS4C16M16SA-6TCN 32Mb SDRAM
 * ESP32 micro controller
   * SD-card interface
   * Wifi connectivity
@@ -89,4 +97,3 @@ Keep in mind I'm only planning on making an Amiga core for this board, but feel 
 * [Aliexpress QMTECH Xilinx FPGA Artix7 Artix-7 Core Board XC7A35T DDR3 256MB](https://www.aliexpress.com/item/1000006630084.html?spm=a2g0o.productlist.0.0.41cd3b52ViiSyG&algo_pvid=42b95d99-f036-43b5-8cb0-6ca9003178e8&algo_expid=42b95d99-f036-43b5-8cb0-6ca9003178e8-3&btsid=62811540-f61c-4c9d-b4b2-447e53cca01b&ws_ab_test=searchweb0_0,searchweb201602_3,searchweb201603_53)
 
 ** Make sure to ask the seller to ship the board without the female headers soldered on, for the Open AARS board male headers are needed. **
-

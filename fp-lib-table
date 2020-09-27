@@ -5,4 +5,5 @@
   (lib (name AMesser_Transistors)(type KiCad)(uri /home/paul/work/kicad/kicadlib/packages/AMesser_Transistors.pretty)(options "")(descr ""))
   (lib (name Custom_Footprints)(type KiCad)(uri /home/paul/work/kicad/kicad_libraries/footprints/Custom_Footprints.pretty)(options "")(descr ""))
   (lib (name AS4C16M16SA-6TCN)(type Legacy)(uri /home/paul/work/kicad/footprints/AS4C16M16SA-6TCN/KiCad/AS4C16M16SA-6TCN.mod)(options "")(descr ""))
+  (lib (name qmtech-minimig-new)(type KiCad)(uri ${KIPRJMOD}/qmtech-minimig-new.pretty)(options "")(descr ""))
 )
