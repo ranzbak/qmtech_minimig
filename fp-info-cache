@@ -1,4 +1,4 @@
-18822213266444768
+18825416088393768
 48204-0001
 48204-0001_1
 48204-0001_1
@@ -74178,6 +74178,13 @@ QM_XC7A35T_DDR3_Daughterboard
 0
 128
 128
+QM_XC7A35T_DDR3
+QM_XC7A35T_DDR3_Daughterboard_v2
+
+
+0
+128
+128
 RF
 Skyworks_SKY13575_639LF
 http://www.skyworksinc.com/uploads/documents/SKY13575_639LF_203270D.pdf
@@ -83867,6 +83874,13 @@ FCI_10118193-0001LF
 11
 qmtech-minimig-new
 QM_XC7A35T_DDR3_Daughterboard
+
+
+0
+128
+128
+qmtech-minimig-new
+QM_XC7A35T_DDR3_Daughterboard_rev2
 
 
 0
