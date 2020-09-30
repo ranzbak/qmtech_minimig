@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Connector_Generic:Conn_02x17_Odd_Even J7
+L qmtech-minimig-rescue:Conn_02x17_Odd_Even-Connector_Generic J7
 U 1 1 5DA33CAD
 P 3275 3125
 F 0 "J7" H 3325 4142 50  0000 C CNN
@@ -76,7 +76,7 @@ VIN5V
 Wire Wire Line
 	5150 5400 5000 5400
 $Comp
-L Device:L L5
+L qmtech-minimig-rescue:L-Device L5
 U 1 1 5D800064
 P 2900 5400
 F 0 "L5" V 3090 5400 50  0000 C CNN
@@ -89,7 +89,7 @@ $EndComp
 Wire Wire Line
 	2750 5400 2450 5400
 $Comp
-L Device:C C14
+L qmtech-minimig-rescue:C-Device C14
 U 1 1 5D80045A
 P 1850 5850
 F 0 "C14" H 1965 5896 50  0000 L CNN
@@ -100,7 +100,7 @@ F 3 "~" H 1850 5850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C13
+L qmtech-minimig-rescue:C-Device C13
 U 1 1 5D80075E
 P 1450 5850
 F 0 "C13" H 1565 5896 50  0000 L CNN
@@ -118,7 +118,7 @@ Connection ~ 3550 5400
 Wire Wire Line
 	3550 5400 3050 5400
 $Comp
-L Device:R R37
+L qmtech-minimig-rescue:R-Device R37
 U 1 1 5D80165B
 P 3750 5650
 F 0 "R37" H 3820 5696 50  0000 L CNN
@@ -146,7 +146,7 @@ Wire Wire Line
 Wire Wire Line
 	2450 5800 2450 5400
 $Comp
-L Device:R R35
+L qmtech-minimig-rescue:R-Device R35
 U 1 1 5D801FCC
 P 2100 5650
 F 0 "R35" H 2170 5696 50  0000 L CNN
@@ -157,7 +157,7 @@ F 3 "~" H 2100 5650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R36
+L qmtech-minimig-rescue:R-Device R36
 U 1 1 5D802173
 P 2100 6100
 F 0 "R36" H 2170 6146 50  0000 L CNN
@@ -200,7 +200,7 @@ VIN12V
 Text GLabel 850  6300 0    50   Input ~ 0
 GND
 $Comp
-L Device:C C15
+L qmtech-minimig-rescue:C-Device C15
 U 1 1 5D805ACA
 P 4075 5825
 F 0 "C15" H 4190 5871 50  0000 L CNN
@@ -211,7 +211,7 @@ F 3 "~" H 4075 5825 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C16
+L qmtech-minimig-rescue:C-Device C16
 U 1 1 5D806142
 P 4500 5850
 F 0 "C16" H 4615 5896 50  0000 L CNN
@@ -236,7 +236,7 @@ Wire Wire Line
 Wire Wire Line
 	1450 5400 1850 5400
 $Comp
-L Device:D_Zener D3
+L qmtech-minimig-rescue:D_Zener-Device D3
 U 1 1 5D811ECA
 P 2300 5400
 F 0 "D3" H 2528 5446 50  0000 L CNN
@@ -251,7 +251,7 @@ Wire Wire Line
 	2150 5400 2100 5400
 Connection ~ 2100 5400
 $Comp
-L Connector_Generic:Conn_01x04 J8
+L qmtech-minimig-rescue:Conn_01x04-Connector_Generic J8
 U 1 1 5D870819
 P 10525 5525
 F 0 "J8" H 10605 5517 50  0000 L CNN
@@ -268,7 +268,7 @@ GND
 Wire Wire Line
 	9325 5425 9525 5425
 $Comp
-L Device:C C17
+L qmtech-minimig-rescue:C-Device C17
 U 1 1 5D874600
 P 9525 5275
 F 0 "C17" H 9640 5321 50  0000 L CNN
@@ -284,7 +284,7 @@ Wire Wire Line
 Text GLabel 9525 5125 1    50   Input ~ 0
 GND
 $Comp
-L Device:C C18
+L qmtech-minimig-rescue:C-Device C18
 U 1 1 5D88AB92
 P 9925 5275
 F 0 "C18" H 10040 5321 50  0000 L CNN
@@ -304,7 +304,7 @@ VIN12V
 Wire Wire Line
 	9725 5725 9925 5725
 $Comp
-L Device:C C19
+L qmtech-minimig-rescue:C-Device C19
 U 1 1 5D88C77B
 P 9925 6025
 F 0 "C19" H 10040 6071 50  0000 L CNN
@@ -347,7 +347,7 @@ GND
 Text GLabel 1150 1450 1    50   Input ~ 0
 GND
 $Comp
-L Device:Jumper JP1
+L qmtech-minimig-rescue:Jumper-Device JP1
 U 1 1 5D9FBDE3
 P 5450 5400
 F 0 "JP1" H 5450 5664 50  0000 C CNN
@@ -358,7 +358,7 @@ F 3 "~" H 5450 5400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:TestPoint +12V1
+L qmtech-minimig-rescue:TestPoint-Connector +12V1
 U 1 1 5DA056F9
 P 925 5400
 F 0 "+12V1" H 983 5518 50  0000 L CNN
@@ -372,7 +372,7 @@ Connection ~ 925  5400
 Wire Wire Line
 	925  5400 825  5400
 $Comp
-L Connector:TestPoint GND1
+L qmtech-minimig-rescue:TestPoint-Connector GND1
 U 1 1 5DA05BA0
 P 950 6300
 F 0 "GND1" H 1008 6418 50  0000 L CNN
@@ -394,7 +394,7 @@ Alternative pereferal connector
 Connection ~ 1450 5400
 Connection ~ 1450 6300
 $Comp
-L Device:R R40
+L qmtech-minimig-rescue:R-Device R40
 U 1 1 5DA350F1
 P 1150 5850
 F 0 "R40" H 1220 5896 50  0000 L CNN
@@ -416,7 +416,7 @@ Wire Wire Line
 	1150 6300 1450 6300
 Connection ~ 4500 6300
 $Comp
-L Device:R R65
+L qmtech-minimig-rescue:R-Device R65
 U 1 1 5E193A2D
 P 5000 5625
 F 0 "R65" H 5070 5671 50  0000 L CNN
@@ -437,7 +437,7 @@ Connection ~ 5000 5400
 Wire Wire Line
 	5000 5400 4500 5400
 $Comp
-L Device:LED D33
+L qmtech-minimig-rescue:LED-Device D33
 U 1 1 5E19F0D4
 P 5000 6075
 F 0 "D33" V 5039 5958 50  0000 R CNN
@@ -448,7 +448,7 @@ F 3 "~" H 5000 6075 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:Polyfuse F1
+L qmtech-minimig-rescue:Polyfuse-Device F1
 U 1 1 5E1DBC83
 P 6025 5400
 F 0 "F1" V 5800 5400 50  0000 C CNN
@@ -487,7 +487,7 @@ H_EXP_08
 Text GLabel 3575 2325 2    50   Input ~ 0
 H_EXP_02
 $Comp
-L SN74LS06NSR:SN74LS06NSR U7
+L qmtech-minimig-rescue:SN74LS06NSR-SN74LS06NSR U7
 U 1 1 5F71E393
 P 6500 4175
 F 0 "U7" H 6500 4845 50  0000 C CNN
@@ -526,7 +526,7 @@ EXP_INDEX
 Text GLabel 7200 4075 2    50   Input ~ 0
 EXP_TRK0
 $Comp
-L Device:R R6
+L qmtech-minimig-rescue:R-Device R6
 U 1 1 5F77216C
 P 5225 1150
 F 0 "R6" H 5175 1400 50  0000 L CNN
@@ -537,7 +537,7 @@ F 3 "~" H 5225 1150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R8
+L qmtech-minimig-rescue:R-Device R8
 U 1 1 5F797809
 P 5525 1150
 F 0 "R8" H 5475 1400 50  0000 L CNN
@@ -548,7 +548,7 @@ F 3 "~" H 5525 1150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R68
+L qmtech-minimig-rescue:R-Device R68
 U 1 1 5F79883B
 P 5675 1150
 F 0 "R68" H 5625 1400 50  0000 L CNN
@@ -559,7 +559,7 @@ F 3 "~" H 5675 1150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R69
+L qmtech-minimig-rescue:R-Device R69
 U 1 1 5F79986D
 P 5825 1150
 F 0 "R69" H 5775 1400 50  0000 L CNN
@@ -570,7 +570,7 @@ F 3 "~" H 5825 1150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R70
+L qmtech-minimig-rescue:R-Device R70
 U 1 1 5F79A90B
 P 5975 1150
 F 0 "R70" H 5925 1400 50  0000 L CNN
@@ -581,7 +581,7 @@ F 3 "~" H 5975 1150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R71
+L qmtech-minimig-rescue:R-Device R71
 U 1 1 5F79B911
 P 6125 1150
 F 0 "R71" H 6075 1400 50  0000 L CNN
@@ -594,7 +594,7 @@ $EndComp
 Wire Wire Line
 	5125 1550 5225 1550
 $Comp
-L Device:R R73
+L qmtech-minimig-rescue:R-Device R73
 U 1 1 5F79EDB5
 P 7200 1550
 F 0 "R73" V 7275 1500 50  0000 L CNN
@@ -605,7 +605,7 @@ F 3 "~" H 7200 1550 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R R74
+L qmtech-minimig-rescue:R-Device R74
 U 1 1 5F7BDC23
 P 7200 1900
 F 0 "R74" V 7275 1850 50  0000 L CNN
@@ -616,7 +616,7 @@ F 3 "~" H 7200 1900 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R R75
+L qmtech-minimig-rescue:R-Device R75
 U 1 1 5F7BEF0B
 P 7200 2075
 F 0 "R75" V 7275 2025 50  0000 L CNN
@@ -627,7 +627,7 @@ F 3 "~" H 7200 2075 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R R78
+L qmtech-minimig-rescue:R-Device R78
 U 1 1 5F7C0A47
 P 7200 2250
 F 0 "R78" V 7275 2200 50  0000 L CNN
@@ -638,7 +638,7 @@ F 3 "~" H 7200 2250 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R R76
+L qmtech-minimig-rescue:R-Device R76
 U 1 1 5F7C1D3F
 P 7200 2425
 F 0 "R76" V 7275 2375 50  0000 L CNN
@@ -682,7 +682,7 @@ Connection ~ 5225 1000
 Text GLabel 5075 950  1    50   Input ~ 0
 VFLP5V
 $Comp
-L Device:R R84
+L qmtech-minimig-rescue:R-Device R84
 U 1 1 5F7F2B33
 P 8525 2875
 F 0 "R84" H 8475 3125 50  0000 L CNN
@@ -693,7 +693,7 @@ F 3 "~" H 8525 2875 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:R R83
+L qmtech-minimig-rescue:R-Device R83
 U 1 1 5F7F2B39
 P 8375 2875
 F 0 "R83" H 8325 3125 50  0000 L CNN
@@ -704,7 +704,7 @@ F 3 "~" H 8375 2875 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:R R82
+L qmtech-minimig-rescue:R-Device R82
 U 1 1 5F7F2B3F
 P 8225 2875
 F 0 "R82" H 8175 3125 50  0000 L CNN
@@ -715,7 +715,7 @@ F 3 "~" H 8225 2875 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:R R81
+L qmtech-minimig-rescue:R-Device R81
 U 1 1 5F7F2B45
 P 8075 2875
 F 0 "R81" H 8025 3125 50  0000 L CNN
@@ -726,7 +726,7 @@ F 3 "~" H 8075 2875 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:R R80
+L qmtech-minimig-rescue:R-Device R80
 U 1 1 5F7F2B4B
 P 7775 2875
 F 0 "R80" H 7725 3125 50  0000 L CNN
@@ -819,7 +819,7 @@ Wire Wire Line
 Wire Wire Line
 	6125 1300 6125 2600
 $Comp
-L Device:R R77
+L qmtech-minimig-rescue:R-Device R77
 U 1 1 5F877496
 P 7200 2600
 F 0 "R77" V 7275 2550 50  0000 L CNN
@@ -832,7 +832,7 @@ $EndComp
 Wire Wire Line
 	5125 2600 6125 2600
 $Comp
-L Device:R R86
+L qmtech-minimig-rescue:R-Device R86
 U 1 1 5F88D6F1
 P 8675 2875
 F 0 "R86" H 8625 3125 50  0000 L CNN
@@ -878,7 +878,7 @@ H_EXP_10
 Text GLabel 8925 1725 2    50   Input ~ 0
 EXP_SEL0
 $Comp
-L Device:R R72
+L qmtech-minimig-rescue:R-Device R72
 U 1 1 5F9F68F6
 P 5375 1150
 F 0 "R72" H 5325 1400 50  0000 L CNN
@@ -892,7 +892,7 @@ Connection ~ 5375 1000
 Wire Wire Line
 	5375 1000 5225 1000
 $Comp
-L Device:R R79
+L qmtech-minimig-rescue:R-Device R79
 U 1 1 5F9FA7F0
 P 7200 1725
 F 0 "R79" V 7275 1675 50  0000 L CNN
@@ -912,7 +912,7 @@ Connection ~ 5375 1725
 Wire Wire Line
 	5375 1725 6500 1725
 $Comp
-L Device:R R85
+L qmtech-minimig-rescue:R-Device R85
 U 1 1 5FA136D8
 P 7925 2875
 F 0 "R85" H 7875 3125 50  0000 L CNN
@@ -935,7 +935,7 @@ Wire Wire Line
 Text GLabel 5125 2425 0    50   Input ~ 0
 H_EXP_24
 $Comp
-L Device:C C25
+L qmtech-minimig-rescue:C-Device C25
 U 1 1 5FAA021B
 P 5600 3725
 F 0 "C25" H 5715 3771 50  0000 L CNN
@@ -953,7 +953,7 @@ Connection ~ 5600 3875
 Wire Wire Line
 	5600 3875 5800 3875
 $Comp
-L Device:D_Schottky D5
+L qmtech-minimig-rescue:D_Schottky-Device D5
 U 1 1 5FACC1D5
 P 6500 1150
 F 0 "D5" V 6750 1200 50  0000 R CNN
@@ -964,7 +964,7 @@ F 3 "~" H 6500 1150 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:D_Schottky D6
+L qmtech-minimig-rescue:D_Schottky-Device D6
 U 1 1 5FACE80C
 P 6750 1150
 F 0 "D6" V 7000 1200 50  0000 R CNN
@@ -1028,7 +1028,7 @@ H_EXP_32
 Text GLabel 1450 3900 2    50   Input ~ 0
 H_EXP_34
 $Comp
-L Device:R R10
+L qmtech-minimig-rescue:R-Device R10
 U 1 1 5FC81D81
 P 2075 2100
 F 0 "R10" V 2000 2050 50  0000 L CNN
@@ -1063,7 +1063,7 @@ Wire Wire Line
 Wire Wire Line
 	5750 5400 5850 5400
 $Comp
-L Device:CP C26
+L qmtech-minimig-rescue:CP-Device C26
 U 1 1 5FCF3E95
 P 5850 5850
 F 0 "C26" H 5968 5896 50  0000 L CNN

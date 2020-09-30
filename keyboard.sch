@@ -20,7 +20,7 @@ VIN5V
 Text GLabel 5525 3050 2    50   Input ~ 0
 GND
 $Comp
-L Device:C C46
+L qmtech-minimig-rescue:C-Device C46
 U 1 1 5DB2AAC3
 P 3850 3200
 F 0 "C46" H 3965 3246 50  0000 L CNN
@@ -40,7 +40,7 @@ NoConn ~ 4200 3250
 Wire Wire Line
 	5525 3050 4800 3050
 $Comp
-L Device:Polyfuse F4
+L qmtech-minimig-rescue:Polyfuse-Device F4
 U 1 1 5E3388F3
 P 3600 3050
 F 0 "F4" V 3375 3050 50  0000 C CNN
@@ -64,7 +64,7 @@ $EndComp
 Text GLabel 5525 3250 2    50   Input ~ 0
 PS2_DAT1
 $Comp
-L Device:D_Zener D29
+L qmtech-minimig-rescue:D_Zener-Device D29
 U 1 1 5D7D3DDC
 P 5375 3400
 F 0 "D29" V 5329 3479 50  0000 L CNN
@@ -77,7 +77,7 @@ $EndComp
 Text GLabel 5375 3550 3    50   Input ~ 0
 GND
 $Comp
-L Device:R R47
+L qmtech-minimig-rescue:R-Device R47
 U 1 1 5DB31CC1
 P 5100 3250
 F 0 "R47" V 5025 3250 50  0000 C CNN
@@ -97,7 +97,7 @@ Wire Wire Line
 Text GLabel 5525 2850 2    50   Input ~ 0
 PS2_CLK1
 $Comp
-L Device:D_Zener D28
+L qmtech-minimig-rescue:D_Zener-Device D28
 U 1 1 5D7D382B
 P 5375 2700
 F 0 "D28" V 5421 2621 50  0000 R CNN
@@ -112,7 +112,7 @@ Wire Wire Line
 Text GLabel 5375 2550 1    50   Input ~ 0
 GND
 $Comp
-L Device:R R46
+L qmtech-minimig-rescue:R-Device R46
 U 1 1 5DB2DE3D
 P 5100 2850
 F 0 "R46" V 5025 2850 50  0000 C CNN
@@ -136,7 +136,7 @@ VIN5V
 Text GLabel 5525 5225 2    50   Input ~ 0
 GND
 $Comp
-L Device:C C43
+L qmtech-minimig-rescue:C-Device C43
 U 1 1 5E56B0B8
 P 3850 5375
 F 0 "C43" H 3965 5421 50  0000 L CNN
@@ -156,7 +156,7 @@ NoConn ~ 4200 5425
 Wire Wire Line
 	5525 5225 4800 5225
 $Comp
-L Device:Polyfuse F5
+L qmtech-minimig-rescue:Polyfuse-Device F5
 U 1 1 5E56B0C4
 P 3600 5225
 F 0 "F5" V 3375 5225 50  0000 C CNN
@@ -180,7 +180,7 @@ $EndComp
 Text GLabel 5525 5425 2    50   Input ~ 0
 PS2_DAT2
 $Comp
-L Device:D_Zener D13
+L qmtech-minimig-rescue:D_Zener-Device D13
 U 1 1 5E56B0D1
 P 5375 5575
 F 0 "D13" V 5329 5654 50  0000 L CNN
@@ -193,7 +193,7 @@ $EndComp
 Text GLabel 5375 5725 3    50   Input ~ 0
 GND
 $Comp
-L Device:R R5
+L qmtech-minimig-rescue:R-Device R5
 U 1 1 5E56B0D8
 P 5100 5425
 F 0 "R5" V 5025 5425 50  0000 C CNN
@@ -213,7 +213,7 @@ Wire Wire Line
 Text GLabel 5525 5025 2    50   Input ~ 0
 PS2_CLK2
 $Comp
-L Device:D_Zener D12
+L qmtech-minimig-rescue:D_Zener-Device D12
 U 1 1 5E56B0E3
 P 5375 4875
 F 0 "D12" V 5421 4796 50  0000 R CNN
@@ -228,7 +228,7 @@ Wire Wire Line
 Text GLabel 5375 4725 1    50   Input ~ 0
 GND
 $Comp
-L Device:R R4
+L qmtech-minimig-rescue:R-Device R4
 U 1 1 5E56B0EB
 P 5100 5025
 F 0 "R4" V 5025 5025 50  0000 C CNN

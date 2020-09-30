@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L SHA5B0200:SCHA5B0200 J3
+L qmtech-minimig-rescue:SCHA5B0200-SHA5B0200 J3
 U 1 1 5D7BAABF
 P 4600 4550
 F 0 "J3" H 4600 5117 50  0000 C CNN
@@ -52,7 +52,7 @@ Wire Wire Line
 Wire Wire Line
 	2550 4850 2750 4850
 $Comp
-L Device:R R20
+L qmtech-minimig-rescue:R-Device R20
 U 1 1 5D7B8F06
 P 2750 3900
 F 0 "R20" H 2820 3946 50  0000 L CNN
@@ -63,7 +63,7 @@ F 3 "~" H 2750 3900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R21
+L qmtech-minimig-rescue:R-Device R21
 U 1 1 5D7B9145
 P 3050 3900
 F 0 "R21" H 3120 3946 50  0000 L CNN
@@ -74,7 +74,7 @@ F 3 "~" H 3050 3900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R22
+L qmtech-minimig-rescue:R-Device R22
 U 1 1 5D7B92B5
 P 3350 3900
 F 0 "R22" H 3420 3946 50  0000 L CNN
@@ -85,7 +85,7 @@ F 3 "~" H 3350 3900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R23
+L qmtech-minimig-rescue:R-Device R23
 U 1 1 5D7B9431
 P 3650 3900
 F 0 "R23" H 3720 3946 50  0000 L CNN
@@ -133,7 +133,7 @@ Wire Wire Line
 	3650 3750 3650 3300
 Connection ~ 3650 3300
 $Comp
-L Device:C C6
+L qmtech-minimig-rescue:C-Device C6
 U 1 1 5D7BEF06
 P 4400 3500
 F 0 "C6" H 4515 3546 50  0000 L CNN
@@ -156,7 +156,7 @@ ESP_SD_DATA1
 Text GLabel 2550 4450 0    50   Input ~ 0
 ESP_SD_DATA2
 $Comp
-L Transistor_FET:BSS84 Q3
+L qmtech-minimig-rescue:BSS84-Transistor_FET Q3
 U 1 1 5D7D8B8E
 P 5600 2825
 F 0 "Q3" H 5806 2779 50  0000 L CNN
@@ -171,7 +171,7 @@ ESP_SD_VCC_EN
 Wire Wire Line
 	5500 2225 5500 2275
 $Comp
-L Device:R R32
+L qmtech-minimig-rescue:R-Device R32
 U 1 1 5D7EDDF8
 P 5800 2525
 F 0 "R32" H 5870 2571 50  0000 L CNN
@@ -198,7 +198,7 @@ Wire Wire Line
 Wire Wire Line
 	5500 3025 5500 3300
 $Comp
-L Device:C C11
+L qmtech-minimig-rescue:C-Device C11
 U 1 1 5D80369D
 P 5650 4000
 F 0 "C11" V 5398 4000 50  0000 C CNN
@@ -217,7 +217,7 @@ Wire Wire Line
 Text GLabel 6250 4550 2    50   Input ~ 0
 ESP_SD_SW
 $Comp
-L Device:R R33
+L qmtech-minimig-rescue:R-Device R33
 U 1 1 5D9F486E
 P 5950 4400
 F 0 "R33" H 6020 4446 50  0000 L CNN
@@ -233,7 +233,7 @@ Wire Wire Line
 Text GLabel 5950 4250 1    50   Input ~ 0
 3V3
 $Comp
-L Device:C C12
+L qmtech-minimig-rescue:C-Device C12
 U 1 1 5D9F4F23
 P 5950 4700
 F 0 "C12" H 6065 4746 50  0000 L CNN

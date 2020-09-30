@@ -14,12 +14,12 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L AS4C16M16SA-6TCN:AS4C16M16SA-6TCN IC2
+L qmtech-minimig-rescue:AS4C16M16SA-6TCN-AS4C16M16SA-6TCN IC2
 U 1 1 5F1B044E
 P 5300 2600
 F 0 "IC2" H 5950 2865 50  0000 C CNN
 F 1 "AS4C16M16SA-6TCN" H 5950 2774 50  0000 C CNN
-F 2 "SOP80P1176X120-54N" H 6450 2700 50  0001 L CNN
+F 2 "qmtech-minimig-new:SOP80P1176X120-54N" H 6450 2700 50  0001 L CNN
 F 3 "https://www.alliancememory.com/wp-content/uploads/pdf/dram/256Mb-AS4C16M16SA-C&I_V3.0_March%202015.pdf" H 6450 2600 50  0001 L CNN
 F 4 "256M  (16Mx16bit) Synchronous DRAM (SDRAM)" H 6450 2500 50  0001 L CNN "Description"
 F 5 "1.2" H 6450 2400 50  0001 L CNN "Height"
@@ -183,7 +183,7 @@ Wire Wire Line
 	4500 3100 4500 3700
 Connection ~ 4500 3700
 $Comp
-L Device:C C56
+L qmtech-minimig-rescue:C-Device C56
 U 1 1 5F1C855A
 P 1250 2900
 F 0 "C56" H 1365 2946 50  0000 L CNN
@@ -194,7 +194,7 @@ F 3 "~" H 1250 2900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C59
+L qmtech-minimig-rescue:C-Device C59
 U 1 1 5F1C918D
 P 1750 2900
 F 0 "C59" H 1865 2946 50  0000 L CNN
@@ -205,7 +205,7 @@ F 3 "~" H 1750 2900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C62
+L qmtech-minimig-rescue:C-Device C62
 U 1 1 5F1C98DC
 P 2250 2900
 F 0 "C62" H 2365 2946 50  0000 L CNN
@@ -216,7 +216,7 @@ F 3 "~" H 2250 2900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C64
+L qmtech-minimig-rescue:C-Device C64
 U 1 1 5F1C9F11
 P 2750 2900
 F 0 "C64" H 2865 2946 50  0000 L CNN
@@ -227,7 +227,7 @@ F 3 "~" H 2750 2900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C58
+L qmtech-minimig-rescue:C-Device C58
 U 1 1 5F1CA689
 P 1250 4150
 F 0 "C58" H 1365 4196 50  0000 L CNN
@@ -238,7 +238,7 @@ F 3 "~" H 1250 4150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C61
+L qmtech-minimig-rescue:C-Device C61
 U 1 1 5F1CADBB
 P 1750 4150
 F 0 "C61" H 1865 4196 50  0000 L CNN
@@ -249,7 +249,7 @@ F 3 "~" H 1750 4150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C63
+L qmtech-minimig-rescue:C-Device C63
 U 1 1 5F1CB5BD
 P 2250 4150
 F 0 "C63" H 2365 4196 50  0000 L CNN
@@ -260,7 +260,7 @@ F 3 "~" H 2250 4150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C65
+L qmtech-minimig-rescue:C-Device C65
 U 1 1 5F1CC080
 P 2750 4150
 F 0 "C65" H 2865 4196 50  0000 L CNN
