@@ -52,7 +52,7 @@ HPS
 Text GLabel 10350 3100 1    50   Input ~ 0
 HPS
 $Comp
-L qmtech-minimig-rescue:C-Device C53
+L Device:C C53
 U 1 1 5E230840
 P 6625 4000
 F 0 "C53" H 6740 4046 50  0000 L CNN
@@ -71,7 +71,7 @@ Wire Wire Line
 Text GLabel 3750 3550 0    50   Input ~ 0
 3V3
 $Comp
-L qmtech-minimig-rescue:C-Device C27
+L Device:C C27
 U 1 1 5E23398A
 P 3900 3400
 F 0 "C27" H 4015 3446 50  0000 L CNN
@@ -91,7 +91,7 @@ GND
 Text GLabel 5475 1625 1    50   Input ~ 0
 3V3
 $Comp
-L qmtech-minimig-rescue:C-Device C28
+L Device:C C28
 U 1 1 5E238986
 P 5625 1675
 F 0 "C28" H 5740 1721 50  0000 L CNN
@@ -108,7 +108,7 @@ Wire Wire Line
 Text GLabel 7975 3650 2    50   Input ~ 0
 3V3
 $Comp
-L qmtech-minimig-rescue:C-Device C55
+L Device:C C55
 U 1 1 5E23909A
 P 7875 3800
 F 0 "C55" H 7990 3846 50  0000 L CNN
@@ -128,7 +128,7 @@ Wire Wire Line
 Text GLabel 7400 3750 2    50   Input ~ 0
 3V3
 $Comp
-L qmtech-minimig-rescue:C-Device C54
+L Device:C C54
 U 1 1 5E23F5E7
 P 7250 3900
 F 0 "C54" H 7365 3946 50  0000 L CNN
@@ -144,7 +144,7 @@ Connection ~ 7250 3750
 Wire Wire Line
 	7250 3750 7400 3750
 $Comp
-L qmtech-minimig-rescue:C-Device C50
+L Device:C C50
 U 1 1 5E249C1F
 P 5750 2250
 F 0 "C50" V 5498 2250 50  0000 C CNN
@@ -173,7 +173,7 @@ Wire Wire Line
 Wire Wire Line
 	5875 2650 5875 2750
 $Comp
-L qmtech-minimig-rescue:C-Device C52
+L Device:C C52
 U 1 1 5E24C1DB
 P 6500 2500
 F 0 "C52" H 6615 2546 50  0000 L CNN
@@ -201,7 +201,7 @@ GND
 Text GLabel 4775 3850 0    50   Input ~ 0
 GND
 $Comp
-L qmtech-minimig-rescue:SG-210STF-Oscillator X2
+L Oscillator:SG-210STF X2
 U 1 1 5E2537D2
 P 2775 3650
 F 0 "X2" H 3119 3696 50  0000 L CNN
@@ -216,7 +216,7 @@ GND
 Text GLabel 2775 3000 1    50   Input ~ 0
 3V3
 $Comp
-L qmtech-minimig-rescue:C-Device C5
+L Device:C C5
 U 1 1 5E2567D0
 P 2925 3175
 F 0 "C5" V 3177 3175 50  0000 C CNN
@@ -256,7 +256,7 @@ Connection ~ 5475 1675
 Wire Wire Line
 	5475 1675 5475 2750
 $Comp
-L qmtech-minimig-rescue:C-Device C45
+L Device:C C45
 U 1 1 5E664493
 P 5375 5175
 F 0 "C45" H 5490 5221 50  0000 L CNN
@@ -267,7 +267,7 @@ F 3 "~" H 5375 5175 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L qmtech-minimig-rescue:C-Device C60
+L Device:C C60
 U 1 1 5E664499
 P 5475 4925
 F 0 "C60" H 5590 4971 50  0000 L CNN
@@ -284,7 +284,7 @@ GND
 Wire Wire Line
 	5475 5075 5475 5325
 $Comp
-L qmtech-minimig-rescue:C-Device C51
+L Device:C C51
 U 1 1 5E23572F
 P 5775 4775
 F 0 "C51" H 5890 4821 50  0000 L CNN
@@ -305,7 +305,7 @@ Negative voltage pump
 Text Notes 4300 3175 0    50   ~ 0
 I2S to FPGA
 $Comp
-L qmtech-minimig-rescue:R-Device R9
+L Device:R R9
 U 1 1 5FBC48A3
 P 2325 3650
 F 0 "R9" V 2118 3650 50  0000 C CNN

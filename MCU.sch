@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L qmtech-minimig-rescue:SW_Push-Switch SW1
+L Switch:SW_Push SW1
 U 1 1 5DB08F91
 P 1400 7000
 F 0 "SW1" H 1400 7285 50  0000 C CNN
@@ -35,7 +35,7 @@ Wire Wire Line
 Text Notes 1000 6500 0    100  ~ 0
 Reset button\n
 $Comp
-L qmtech-minimig-rescue:C-Device C?
+L Device:C C?
 U 1 1 5D79DC5C
 P 3600 4450
 AR Path="/5DE41876/5D79DC5C" Ref="C?"  Part="1" 
@@ -60,7 +60,7 @@ GND
 Text GLabel 2150 5500 0    50   Input ~ 0
 ESP_RST
 $Comp
-L qmtech-minimig-rescue:R-Device R?
+L Device:R R?
 U 1 1 5D79DC79
 P 2300 5250
 AR Path="/5DE41876/5D79DC79" Ref="R?"  Part="1" 
@@ -119,7 +119,7 @@ VUSB5V
 Text GLabel 4925 2650 0    50   Input ~ 0
 GND
 $Comp
-L qmtech-minimig-rescue:C-Device C10
+L Device:C C10
 U 1 1 5D81A5D8
 P 3275 3175
 F 0 "C10" V 3475 3175 50  0000 C CNN
@@ -138,7 +138,7 @@ Wire Wire Line
 Wire Wire Line
 	2325 2750 4925 2750
 $Comp
-L qmtech-minimig-rescue:C-Device C8
+L Device:C C8
 U 1 1 5D81FF64
 P 2350 3175
 F 0 "C8" H 2465 3221 50  0000 L CNN
@@ -150,7 +150,7 @@ F 3 "~" H 2350 3175 50  0001 C CNN
 $EndComp
 Connection ~ 2500 3175
 $Comp
-L qmtech-minimig-rescue:C-Device C9
+L Device:C C9
 U 1 1 5D821065
 P 2350 3675
 F 0 "C9" H 2465 3721 50  0000 L CNN
@@ -170,7 +170,7 @@ GND
 Text GLabel 2850 2350 2    50   Input ~ 0
 GND
 $Comp
-L qmtech-minimig-rescue:R-Device R24
+L Device:R R24
 U 1 1 5D822C19
 P 5525 4025
 F 0 "R24" H 5595 4071 50  0000 L CNN
@@ -189,7 +189,7 @@ ESP_UART0_TX
 Wire Wire Line
 	5625 1000 5625 1150
 $Comp
-L qmtech-minimig-rescue:R-Device R25
+L Device:R R25
 U 1 1 5D83EA5A
 P 6125 1150
 F 0 "R25" V 6050 1150 50  0000 C CNN
@@ -204,7 +204,7 @@ Text GLabel 6650 1150 2    50   Input ~ 0
 Wire Wire Line
 	6350 1150 6275 1150
 $Comp
-L qmtech-minimig-rescue:R-Device R26
+L Device:R R26
 U 1 1 5D840D1C
 P 6125 1375
 F 0 "R26" V 6050 1375 50  0000 C CNN
@@ -233,7 +233,7 @@ Wire Wire Line
 Text GLabel 5825 1950 1    50   Input ~ 0
 USB_RTS
 $Comp
-L qmtech-minimig-rescue:MMBT2222A-MMBT2222A Q1
+L MMBT2222A:MMBT2222A Q1
 U 1 1 5D846009
 P 9900 2650
 F 0 "Q1" H 10044 2696 50  0000 L CNN
@@ -249,7 +249,7 @@ F 8 "None" H 9900 2650 50  0001 L BNN "Field8"
 	1    0    0    -1  
 $EndComp
 $Comp
-L qmtech-minimig-rescue:MMBT2222A-MMBT2222A Q2
+L MMBT2222A:MMBT2222A Q2
 U 1 1 5D84CC06
 P 9900 3400
 F 0 "Q2" H 10044 3354 50  0000 L CNN
@@ -271,7 +271,7 @@ USB_DTR
 Text GLabel 8675 3400 0    50   Input ~ 0
 USB_RTS
 $Comp
-L qmtech-minimig-rescue:R-Device R27
+L Device:R R27
 U 1 1 5D8794E5
 P 9275 2650
 F 0 "R27" V 9068 2650 50  0000 C CNN
@@ -282,7 +282,7 @@ F 3 "~" H 9275 2650 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L qmtech-minimig-rescue:R-Device R30
+L Device:R R30
 U 1 1 5D879E77
 P 9275 3400
 F 0 "R30" V 9068 3400 50  0000 C CNN
@@ -331,7 +331,7 @@ Wire Wire Line
 Text GLabel 10325 3700 2    50   Input ~ 0
 ESP_FLASH
 $Comp
-L qmtech-minimig-rescue:R-Device R31
+L Device:R R31
 U 1 1 5D87F40A
 P 9700 3700
 F 0 "R31" V 9493 3700 50  0000 C CNN
@@ -351,7 +351,7 @@ GND
 Text GLabel 5100 5700 2    50   Input ~ 0
 ESP_FLASH
 $Comp
-L qmtech-minimig-rescue:C-Device C2
+L Device:C C2
 U 1 1 5D898760
 P 2600 5600
 F 0 "C2" V 2348 5600 50  0000 C CNN
@@ -362,7 +362,7 @@ F 3 "~" H 2600 5600 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L qmtech-minimig-rescue:C-Device C7
+L Device:C C7
 U 1 1 5D898CD2
 P 2850 5700
 F 0 "C7" V 2598 5700 50  0000 C CNN
@@ -375,7 +375,7 @@ $EndComp
 Text GLabel 2150 5700 0    50   Input ~ 0
 GND
 $Comp
-L qmtech-minimig-rescue:TestPoint-Connector U5V1
+L Connector:TestPoint U5V1
 U 1 1 5D8A1A13
 P 2500 3975
 F 0 "U5V1" H 2442 4001 50  0000 R CNN
@@ -389,7 +389,7 @@ Connection ~ 2500 3975
 Wire Wire Line
 	2500 3975 2500 3675
 $Comp
-L qmtech-minimig-rescue:TestPoint-Connector UG1
+L Connector:TestPoint UG1
 U 1 1 5D8AC051
 P 2400 2350
 F 0 "UG1" H 2458 2468 50  0000 L CNN
@@ -402,7 +402,7 @@ $EndComp
 Wire Wire Line
 	2850 2350 2400 2350
 $Comp
-L qmtech-minimig-rescue:LED-Device D1
+L Device:LED D1
 U 1 1 5D8F4A33
 P 6500 1150
 F 0 "D1" H 6500 800 50  0000 C CNN
@@ -413,7 +413,7 @@ F 3 "~" H 6500 1150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L qmtech-minimig-rescue:LED-Device D2
+L Device:LED D2
 U 1 1 5D8F4D93
 P 6500 1375
 F 0 "D2" H 6500 1700 50  0000 C CNN
@@ -449,7 +449,7 @@ ESP_RST
 Text GLabel 3600 5800 0    50   Input ~ 0
 ESP_SD_SW
 $Comp
-L qmtech-minimig-rescue:ESP32-WROVER-B_(16MB)-ESP32-WROVER-B_(16MB) IC1
+L ESP32-WROVER-B_(16MB):ESP32-WROVER-B_(16MB) IC1
 U 1 1 5DA1040C
 P 3600 5300
 F 0 "IC1" H 4350 5565 50  0000 C CNN
@@ -481,7 +481,7 @@ Connection ~ 2350 5700
 Wire Wire Line
 	2350 5700 2150 5700
 $Comp
-L qmtech-minimig-rescue:C-Device C?
+L Device:C C?
 U 1 1 5D79DC6A
 P 4100 4450
 AR Path="/5DE41876/5D79DC6A" Ref="C?"  Part="1" 
@@ -523,7 +523,7 @@ Wire Wire Line
 	2325 2350 2400 2350
 Connection ~ 2400 2350
 $Comp
-L qmtech-minimig-rescue:LED-Device D11
+L Device:LED D11
 U 1 1 5DAFEB28
 P 7900 4850
 AR Path="/5D5D9AB7/5DAFEB28" Ref="D11"  Part="1" 
@@ -536,7 +536,7 @@ F 3 "~" H 7900 4850 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L qmtech-minimig-rescue:LED-Device D4
+L Device:LED D4
 U 1 1 5DAFEB2E
 P 7500 4850
 AR Path="/5D5D9AB7/5DAFEB2E" Ref="D4"  Part="1" 
@@ -549,7 +549,7 @@ F 3 "~" H 7500 4850 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L qmtech-minimig-rescue:R-Device R39
+L Device:R R39
 U 1 1 5DAFEB40
 P 7900 5350
 AR Path="/5D5D9AB7/5DAFEB40" Ref="R39"  Part="1" 
@@ -562,7 +562,7 @@ F 3 "~" H 7900 5350 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L qmtech-minimig-rescue:R-Device R38
+L Device:R R38
 U 1 1 5DAFEB46
 P 7500 5350
 AR Path="/5D5D9AB7/5DAFEB46" Ref="R38"  Part="1" 
@@ -610,7 +610,7 @@ Wire Wire Line
 Wire Wire Line
 	3275 2950 3525 2950
 $Comp
-L qmtech-minimig-rescue:C-Device C42
+L Device:C C42
 U 1 1 5DB2BACA
 P 3525 3175
 F 0 "C42" H 3640 3221 50  0000 L CNN
@@ -648,7 +648,7 @@ Text GLabel 9750 5250 1    50   Input ~ 0
 Text GLabel 10250 5250 1    50   Input ~ 0
 GND
 $Comp
-L qmtech-minimig-rescue:C-Device C44
+L Device:C C44
 U 1 1 5DAE087E
 P 10000 5500
 F 0 "C44" V 9950 5325 50  0000 C CNN
@@ -661,7 +661,7 @@ $EndComp
 Text Notes 9650 5000 0    50   ~ 0
 RF decoupling SPI
 $Comp
-L qmtech-minimig-rescue:C-Device C47
+L Device:C C47
 U 1 1 5DA58F16
 P 2100 1500
 F 0 "C47" V 1848 1500 50  0000 C CNN
@@ -684,7 +684,7 @@ Wire Wire Line
 Text GLabel 2600 6200 0    50   Input ~ 0
 ESP_INT
 $Comp
-L qmtech-minimig-rescue:R-Device R?
+L Device:R R?
 U 1 1 5E2C81AE
 P 2825 6350
 AR Path="/5DE41876/5E2C81AE" Ref="R?"  Part="1" 
@@ -710,7 +710,7 @@ Wire Wire Line
 Text Label 5525 3750 0    50   ~ 0
 RST_n
 $Comp
-L qmtech-minimig-rescue:INTERFACE-CP2102-GMR(QFN28)-CP2102 U4
+L CP2102:INTERFACE-CP2102-GMR(QFN28) U4
 U 1 1 5D810043
 P 5725 2750
 F 0 "U4" H 6569 2796 50  0000 L CNN

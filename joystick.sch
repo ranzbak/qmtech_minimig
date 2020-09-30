@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L qmtech-minimig-rescue:DB9_Male-Connector J1
+L Connector:DB9_Male J1
 U 1 1 5D74BDB1
 P 8400 2150
 F 0 "J1" H 8580 2196 50  0000 L CNN
@@ -39,7 +39,7 @@ JS1_6
 Text GLabel 6750 2350 0    50   Input ~ 0
 JS1_1
 $Comp
-L qmtech-minimig-rescue:DB9_Male-Connector J2
+L Connector:DB9_Male J2
 U 1 1 5D78EA68
 P 8450 5250
 F 0 "J2" H 8630 5296 50  0000 L CNN
@@ -104,7 +104,7 @@ Wire Wire Line
 Wire Wire Line
 	7400 2350 7400 2550
 $Comp
-L qmtech-minimig-rescue:C-Device C57
+L Device:C C57
 U 1 1 5E30EED8
 P 4850 4900
 F 0 "C57" V 4598 4900 50  0000 C CNN
@@ -119,7 +119,7 @@ Wire Wire Line
 Text GLabel 4700 4900 0    50   Input ~ 0
 GND
 $Comp
-L qmtech-minimig-rescue:Polyfuse-Device F3
+L Device:Polyfuse F3
 U 1 1 5E31E80F
 P 7250 3000
 F 0 "F3" V 7025 3000 50  0000 C CNN
@@ -134,7 +134,7 @@ J1IN5V
 Text GLabel 7100 3000 0    50   Input ~ 0
 VIN5V
 $Comp
-L qmtech-minimig-rescue:Polyfuse-Device F2
+L Device:Polyfuse F2
 U 1 1 5E320D9B
 P 6975 6250
 F 0 "F2" V 6750 6250 50  0000 C CNN
@@ -190,7 +190,7 @@ JS_INTA_5V
 Text GLabel 4500 4050 0    50   Input ~ 0
 JS_INTB_5V
 $Comp
-L qmtech-minimig-rescue:C-Device C24
+L Device:C C24
 U 1 1 5F31A37C
 P 3325 1850
 F 0 "C24" V 3073 1850 50  0000 C CNN
@@ -203,7 +203,7 @@ $EndComp
 Text GLabel 3475 1850 2    50   Input ~ 0
 GND
 $Comp
-L qmtech-minimig-rescue:R-Device R7
+L Device:R R7
 U 1 1 5F3A2FEA
 P 4275 2950
 AR Path="/5D74B9F4/5F3A2FEA" Ref="R7"  Part="1" 
@@ -258,7 +258,7 @@ Text GLabel 2875 1700 1    50   Input ~ 0
 Text GLabel 2450 1850 0    50   Input ~ 0
 GND
 $Comp
-L qmtech-minimig-rescue:C-Device C20
+L Device:C C20
 U 1 1 5F319691
 P 2600 1850
 F 0 "C20" V 2348 1850 50  0000 C CNN
@@ -281,7 +281,7 @@ JS_INTB
 Text GLabel 1375 2950 0    50   Input ~ 0
 JS_INTA
 $Comp
-L qmtech-minimig-rescue:TXB0106PWR-TXB0106PWR U6
+L TXB0106PWR:TXB0106PWR U6
 U 1 1 5F2E87E4
 P 2075 3050
 F 0 "U6" H 2075 4020 50  0000 C CNN
@@ -294,7 +294,7 @@ $EndComp
 Text GLabel 1075 2650 0    50   Input ~ 0
 3V3
 $Comp
-L qmtech-minimig-rescue:R-Device R2
+L Device:R R2
 U 1 1 5F2DF875
 P 1225 2650
 F 0 "R2" V 1018 2650 50  0000 C CNN
@@ -329,7 +329,7 @@ Wire Wire Line
 Wire Wire Line
 	2775 3250 4500 3250
 $Comp
-L qmtech-minimig-rescue:R-Device R87
+L Device:R R87
 U 1 1 5FC2A341
 P 5650 3750
 AR Path="/5D74B9F4/5FC2A341" Ref="R87"  Part="1" 
@@ -344,7 +344,7 @@ $EndComp
 Text GLabel 5800 3750 2    50   Input ~ 0
 GND
 $Comp
-L qmtech-minimig-rescue:R-Device R12
+L Device:R R12
 U 1 1 5FC2FC54
 P 5650 2850
 AR Path="/5D74B9F4/5FC2FC54" Ref="R12"  Part="1" 
@@ -363,7 +363,7 @@ I/O expander to SPI
 Text Notes 3675 3875 0    50   ~ 0
 Not strictly needed, \ncan poll with the FPGA.
 $Comp
-L qmtech-minimig-rescue:MCP23S17-microchip U9
+L microchip:MCP23S17 U9
 U 1 1 5F13EE93
 P 5000 3650
 F 0 "U9" H 5000 2469 50  0000 C CNN
@@ -382,7 +382,7 @@ JS_MOSI_5V
 Text Label 2875 3450 0    50   ~ 0
 JS_SCK_5V
 $Comp
-L qmtech-minimig-rescue:R_Pack04-Device RN1
+L Device:R_Pack04 RN1
 U 1 1 5F73821B
 P 7225 1300
 F 0 "RN1" H 7413 1346 50  0000 L CNN
@@ -404,7 +404,7 @@ Connection ~ 7225 1100
 Wire Wire Line
 	7225 1100 7325 1100
 $Comp
-L qmtech-minimig-rescue:R_Pack04-Device RN2
+L Device:R_Pack04 RN2
 U 1 1 5F76013F
 P 7825 1300
 F 0 "RN2" H 8013 1346 50  0000 L CNN
@@ -484,7 +484,7 @@ Wire Wire Line
 Text GLabel 7500 4200 1    50   Input ~ 0
 J2IN5V
 $Comp
-L qmtech-minimig-rescue:R_Pack04-Device RN3
+L Device:R_Pack04 RN3
 U 1 1 5F831CA7
 P 7325 4400
 F 0 "RN3" H 7513 4446 50  0000 L CNN
@@ -506,7 +506,7 @@ Connection ~ 7325 4200
 Wire Wire Line
 	7325 4200 7425 4200
 $Comp
-L qmtech-minimig-rescue:R_Pack04-Device RN4
+L Device:R_Pack04 RN4
 U 1 1 5F831CB4
 P 7925 4400
 F 0 "RN4" H 8113 4446 50  0000 L CNN
