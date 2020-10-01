@@ -67,26 +67,6 @@ Text GLabel 8350 5250 0    50   Input ~ 0
 GND
 Text GLabel 8350 5350 0    50   Input ~ 0
 VIN5V
-Text GLabel 9950 2650 2    50   Input ~ 0
-ADV_B_0
-Text GLabel 8350 2750 0    50   Input ~ 0
-ADV_B_1
-Text GLabel 9950 2750 2    50   Input ~ 0
-ADV_B_2
-Text GLabel 8350 2850 0    50   Input ~ 0
-ADV_B_3
-Text GLabel 9950 2850 2    50   Input ~ 0
-ADV_B_4
-Text GLabel 8350 2950 0    50   Input ~ 0
-ADV_B_5
-Text GLabel 9950 2950 2    50   Input ~ 0
-ADV_B_6
-Text GLabel 8350 3050 0    50   Input ~ 0
-ADV_B_7
-Text GLabel 8350 2550 0    50   Input ~ 0
-ADV_VSYNC
-Text GLabel 9950 2550 2    50   Input ~ 0
-ADV_HSYNC
 Text GLabel 3450 3350 2    50   Input ~ 0
 ADV_G_2
 Text GLabel 3450 3250 2    50   Input ~ 0
@@ -115,12 +95,6 @@ Text GLabel 1850 2550 0    50   Input ~ 0
 ADV_R_6
 Text GLabel 3450 2550 2    50   Input ~ 0
 ADV_R_7
-Text GLabel 9950 3050 2    50   Input ~ 0
-ADV_G_0
-Text GLabel 8350 3150 0    50   Input ~ 0
-ADV_CLK
-Text GLabel 9950 3150 2    50   Input ~ 0
-ADV_G_1
 Text GLabel 9950 5050 2    50   Input ~ 0
 PS2_CLK1
 Text GLabel 9950 5150 2    50   Input ~ 0
@@ -151,32 +125,6 @@ F 3 "~" H 1650 6300 50  0001 C CNN
 	1    1650 6300
 	0    -1   -1   0   
 $EndComp
-$Comp
-L Device:R R?
-U 1 1 5D7AC361
-P 2000 6800
-AR Path="/5D5D9AB7/5D7AC361" Ref="R?"  Part="1" 
-AR Path="/5D7064D1/5D7AC361" Ref="R51"  Part="1" 
-F 0 "R51" V 1793 6800 50  0000 C CNN
-F 1 "1k" V 1884 6800 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 1930 6800 50  0001 C CNN
-F 3 "~" H 2000 6800 50  0001 C CNN
-	1    2000 6800
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 5D7AC367
-P 1650 6800
-AR Path="/5D5D9AB7/5D7AC367" Ref="R?"  Part="1" 
-AR Path="/5D7064D1/5D7AC367" Ref="R50"  Part="1" 
-F 0 "R50" V 1443 6800 50  0000 C CNN
-F 1 "1k" V 1534 6800 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 1580 6800 50  0001 C CNN
-F 3 "~" H 1650 6800 50  0001 C CNN
-	1    1650 6800
-	-1   0    0    1   
-$EndComp
 Text GLabel 1650 5950 0    50   Input ~ 0
 3V3
 Wire Wire Line
@@ -206,19 +154,6 @@ F 3 "~" H 2350 6300 50  0001 C CNN
 	1    2350 6300
 	0    -1   -1   0   
 $EndComp
-$Comp
-L Device:R R?
-U 1 1 5D7B9637
-P 2350 6800
-AR Path="/5D5D9AB7/5D7B9637" Ref="R?"  Part="1" 
-AR Path="/5D7064D1/5D7B9637" Ref="R52"  Part="1" 
-F 0 "R52" V 2143 6800 50  0000 C CNN
-F 1 "1k" V 2234 6800 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 2280 6800 50  0001 C CNN
-F 3 "~" H 2350 6800 50  0001 C CNN
-	1    2350 6800
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	2350 6450 2350 6650
 Wire Wire Line
@@ -238,19 +173,6 @@ F 3 "~" H 2700 6300 50  0001 C CNN
 	1    2700 6300
 	0    -1   -1   0   
 $EndComp
-$Comp
-L Device:R R?
-U 1 1 5D7B9EB8
-P 2700 6800
-AR Path="/5D5D9AB7/5D7B9EB8" Ref="R?"  Part="1" 
-AR Path="/5D7064D1/5D7B9EB8" Ref="R53"  Part="1" 
-F 0 "R53" V 2493 6800 50  0000 C CNN
-F 1 "1k" V 2584 6800 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 2630 6800 50  0001 C CNN
-F 3 "~" H 2700 6800 50  0001 C CNN
-	1    2700 6800
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	2700 6450 2700 6650
 Wire Wire Line
@@ -265,20 +187,12 @@ Text Label 9950 4850 0    50   ~ 0
 LED2
 Text Label 9950 4950 0    50   ~ 0
 LED3
-Text GLabel 8350 3250 0    50   Input ~ 0
-ADV_I2S0
-Text GLabel 9950 3250 2    50   Input ~ 0
-ADV_I2S1
 Text GLabel 3450 3450 2    50   Input ~ 0
 ADV_SCL
 Text GLabel 3450 3550 2    50   Input ~ 0
 ADV_SDA
-Text GLabel 8350 3350 0    50   Input ~ 0
-ADV_SCLK
-Text GLabel 9950 3350 2    50   Input ~ 0
-ADV_LRCLK
 Text GLabel 1850 3450 0    50   Input ~ 0
-ADV_INT
+ADV_G_1
 Text GLabel 1850 2950 0    50   Input ~ 0
 ESP_VSPI_CLK
 Text GLabel 1850 3150 0    50   Input ~ 0
@@ -287,8 +201,6 @@ Text GLabel 1850 3250 0    50   Input ~ 0
 ESP_VSPI_MOSI
 Text GLabel 1850 3350 0    50   Input ~ 0
 ESP_VSPI_CS
-Text GLabel 8350 2650 0    50   Input ~ 0
-ADV_DE
 Wire Wire Line
 	1650 6150 1650 5950
 Wire Wire Line
@@ -318,67 +230,53 @@ PS2_CLK2
 Text GLabel 8350 4950 0    50   Input ~ 0
 PS2_DAT2
 Text GLabel 3450 3650 2    50   Input ~ 0
-SDRAM_D0
+ADV_G_0
 Text GLabel 1850 3650 0    50   Input ~ 0
-SDRAM_D1
+ADV_CLK
 Text GLabel 3450 3750 2    50   Input ~ 0
-SDRAM_D2
+ADV_B_6
 Text GLabel 1850 3750 0    50   Input ~ 0
-SDRAM_D3
+ADV_B_7
 Text GLabel 3450 3850 2    50   Input ~ 0
-SDRAM_D4
+ADV_B_4
 Text GLabel 1850 3850 0    50   Input ~ 0
-SDRAM_D5
+ADV_B_5
 Text GLabel 3450 3950 2    50   Input ~ 0
-SDRAM_D6
+ADV_B_2
 Text GLabel 1850 3950 0    50   Input ~ 0
-SDRAM_D7
+ADV_B_3
 Text GLabel 3450 4050 2    50   Input ~ 0
-SDRAM_DQML
+ADV_B_0
 Text GLabel 1850 4050 0    50   Input ~ 0
-SDRAM_WE
+ADV_B_1
 Text GLabel 3450 4150 2    50   Input ~ 0
-SDRAM_CAS
+ADV_HSYNC
 Text GLabel 1850 4150 0    50   Input ~ 0
-SDRAM_RAS
-Text GLabel 3450 4350 2    50   Input ~ 0
-SDRAM_BA1
-Text GLabel 1850 4350 0    50   Input ~ 0
-SDRAM_A10
-Text GLabel 3450 4450 2    50   Input ~ 0
-SDRAM_A0
-Text GLabel 1850 4450 0    50   Input ~ 0
-SDRAM_A1
-Text GLabel 3450 4550 2    50   Input ~ 0
-SDRAM_A2
-Text GLabel 1850 4550 0    50   Input ~ 0
-SDRAM_A3
+ADV_DE
 Text GLabel 8350 3450 0    50   Input ~ 0
-SDRAM_D15
+SDRAM_A3
 Text GLabel 9950 3450 2    50   Input ~ 0
-SDRAM_D14
+SDRAM_A4
 Text GLabel 8350 3550 0    50   Input ~ 0
-SDRAM_D13
+SDRAM_A1
 Text GLabel 9950 3550 2    50   Input ~ 0
-SDRAM_D12
+SDRAM_A2
 Text GLabel 8350 3650 0    50   Input ~ 0
-SDRAM_D11
+SDRAM_A10
 Text GLabel 9950 3650 2    50   Input ~ 0
-SDRAM_D10
+SDRAM_A0
 Text GLabel 8350 3750 0    50   Input ~ 0
-SDRAM_D9
-Text GLabel 9950 3750 2    50   Input ~ 0
-SDRAM_D8
-Text GLabel 8350 3850 0    50   Input ~ 0
-SDRAM_DQMH
-Text GLabel 9950 3850 2    50   Input ~ 0
-SDRAM_CLK
-Text GLabel 8350 3950 0    50   Input ~ 0
-SDRAM_CKE
-Text GLabel 3450 4250 2    50   Input ~ 0
-SDRAM_CS
-Text GLabel 1850 4250 0    50   Input ~ 0
 SDRAM_BA0
+Text GLabel 9950 3750 2    50   Input ~ 0
+SDRAM_BA1
+Text GLabel 8350 3850 0    50   Input ~ 0
+SDRAM_RAS
+Text GLabel 9950 3850 2    50   Input ~ 0
+SDRAM_CS
+Text GLabel 8350 3950 0    50   Input ~ 0
+SDRAM_WE
+Text GLabel 1850 4250 0    50   Input ~ 0
+ADV_VSYNC
 Text GLabel 8350 4650 0    50   Input ~ 0
 JS_INTA
 Text GLabel 8350 4550 0    50   Input ~ 0
@@ -437,27 +335,27 @@ GND
 Text Notes 3475 6275 0    50   ~ 0
 Decoupling Cap\n
 Text GLabel 8350 4350 0    50   Input ~ 0
-EXP_MTRON
+SDRAM_D0
 Text GLabel 8350 4250 0    50   Input ~ 0
-SDRAM_A6
+SDRAM_D3
 Text GLabel 8350 4150 0    50   Input ~ 0
-SDRAM_A8
+SDRAM_D5
 Text GLabel 8350 4050 0    50   Input ~ 0
-SDRAM_A11
+SDRAM_D7
 Text GLabel 9950 4450 2    50   Input ~ 0
 JS_MOSI
 Text GLabel 9950 4550 2    50   Input ~ 0
 JS_CS
 Text GLabel 9950 4350 2    50   Input ~ 0
-SDRAM_A4
+SDRAM_D1
 Text GLabel 9950 4250 2    50   Input ~ 0
-SDRAM_A5
+SDRAM_D4
 Text GLabel 9950 4150 2    50   Input ~ 0
-SDRAM_A7
+SDRAM_D6
 Text GLabel 9950 4050 2    50   Input ~ 0
-SDRAM_A9
+SDRAM_DQML
 Text GLabel 9950 3950 2    50   Input ~ 0
-SDRAM_A12
+SDRAM_CAS
 $Comp
 L QM_XC7A35T_DDR3:QM_XC7A35T_DDR3_2part U2
 U 1 1 5D70654A
@@ -482,6 +380,86 @@ F 1 "QM_XC7A35T_DDR3" H 9119 5514 50  0000 C CNN
 F 2 "qmtech-minimig-new:QM_XC7A35T_DDR3_Daughterboard_rev2" H 9119 5423 50  0000 C CNN
 F 3 "" H 5850 2300 50  0001 C CNN
 	2    9150 3750
+	1    0    0    -1  
+$EndComp
+Text GLabel 9950 2550 2    50   Input ~ 0
+SDRAM_D15
+Text GLabel 9950 2650 2    50   Input ~ 0
+SDRAM_D13
+Text GLabel 9950 2750 2    50   Input ~ 0
+SDRAM_D11
+Text GLabel 9950 2850 2    50   Input ~ 0
+SDRAM_D9
+Text GLabel 9950 2950 2    50   Input ~ 0
+SDRAM_DQMH
+Text GLabel 9950 3050 2    50   Input ~ 0
+SDRAM_CKE
+Text GLabel 9950 3150 2    50   Input ~ 0
+SDRAM_A11
+Text GLabel 9950 3250 2    50   Input ~ 0
+SDRAM_A8
+Text GLabel 9950 3350 2    50   Input ~ 0
+SDRAM_A6
+Text GLabel 8350 2550 0    50   Input ~ 0
+SDRAM_D14
+Text GLabel 8350 2650 0    50   Input ~ 0
+SDRAM_D12
+Text GLabel 8350 2750 0    50   Input ~ 0
+SDRAM_D10
+Text GLabel 8350 2850 0    50   Input ~ 0
+SDRAM_D8
+Text GLabel 8350 2950 0    50   Input ~ 0
+SDRAM_CLK
+Text GLabel 8350 3050 0    50   Input ~ 0
+SDRAM_A12
+Text GLabel 8350 3150 0    50   Input ~ 0
+SDRAM_A9
+Text GLabel 8350 3250 0    50   Input ~ 0
+SDRAM_A7
+Text GLabel 8350 3350 0    50   Input ~ 0
+SDRAM_A5
+$Comp
+L Device:R_Pack04_Split RN5
+U 1 1 5F7D0811
+P 2700 6800
+F 0 "RN5" H 2788 6846 50  0000 L CNN
+F 1 "R_Pack04_Split" H 2788 6755 50  0000 L CNN
+F 2 "Resistor_SMD:R_Array_Convex_4x0603" V 2620 6800 50  0001 C CNN
+F 3 "~" H 2700 6800 50  0001 C CNN
+	1    2700 6800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Pack04_Split RN5
+U 2 1 5F7D2F4C
+P 2350 6800
+F 0 "RN5" H 2438 6846 50  0000 L CNN
+F 1 "R_Pack04_Split" H 2438 6755 50  0000 L CNN
+F 2 "Resistor_SMD:R_Array_Convex_4x0603" V 2270 6800 50  0001 C CNN
+F 3 "~" H 2350 6800 50  0001 C CNN
+	2    2350 6800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Pack04_Split RN5
+U 3 1 5F7D4AAF
+P 2000 6800
+F 0 "RN5" H 2088 6846 50  0000 L CNN
+F 1 "R_Pack04_Split" H 2088 6755 50  0000 L CNN
+F 2 "Resistor_SMD:R_Array_Convex_4x0603" V 1920 6800 50  0001 C CNN
+F 3 "~" H 2000 6800 50  0001 C CNN
+	3    2000 6800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Pack04_Split RN5
+U 4 1 5F7D509E
+P 1650 6800
+F 0 "RN5" H 1738 6846 50  0000 L CNN
+F 1 "R_Pack04_Split" H 1738 6755 50  0000 L CNN
+F 2 "Resistor_SMD:R_Array_Convex_4x0603" V 1570 6800 50  0001 C CNN
+F 3 "~" H 1650 6800 50  0001 C CNN
+	4    1650 6800
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
