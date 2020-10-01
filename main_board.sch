@@ -151,32 +151,6 @@ F 3 "~" H 1650 6300 50  0001 C CNN
 	1    1650 6300
 	0    -1   -1   0   
 $EndComp
-$Comp
-L Device:R R?
-U 1 1 5D7AC361
-P 2000 6800
-AR Path="/5D5D9AB7/5D7AC361" Ref="R?"  Part="1" 
-AR Path="/5D7064D1/5D7AC361" Ref="R51"  Part="1" 
-F 0 "R51" V 1793 6800 50  0000 C CNN
-F 1 "1k" V 1884 6800 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 1930 6800 50  0001 C CNN
-F 3 "~" H 2000 6800 50  0001 C CNN
-	1    2000 6800
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 5D7AC367
-P 1650 6800
-AR Path="/5D5D9AB7/5D7AC367" Ref="R?"  Part="1" 
-AR Path="/5D7064D1/5D7AC367" Ref="R50"  Part="1" 
-F 0 "R50" V 1443 6800 50  0000 C CNN
-F 1 "1k" V 1534 6800 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 1580 6800 50  0001 C CNN
-F 3 "~" H 1650 6800 50  0001 C CNN
-	1    1650 6800
-	-1   0    0    1   
-$EndComp
 Text GLabel 1650 5950 0    50   Input ~ 0
 3V3
 Wire Wire Line
@@ -206,19 +180,6 @@ F 3 "~" H 2350 6300 50  0001 C CNN
 	1    2350 6300
 	0    -1   -1   0   
 $EndComp
-$Comp
-L Device:R R?
-U 1 1 5D7B9637
-P 2350 6800
-AR Path="/5D5D9AB7/5D7B9637" Ref="R?"  Part="1" 
-AR Path="/5D7064D1/5D7B9637" Ref="R52"  Part="1" 
-F 0 "R52" V 2143 6800 50  0000 C CNN
-F 1 "1k" V 2234 6800 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 2280 6800 50  0001 C CNN
-F 3 "~" H 2350 6800 50  0001 C CNN
-	1    2350 6800
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	2350 6450 2350 6650
 Wire Wire Line
@@ -237,19 +198,6 @@ F 2 "LED_SMD:LED_0603_1608Metric" H 2700 6300 50  0001 C CNN
 F 3 "~" H 2700 6300 50  0001 C CNN
 	1    2700 6300
 	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 5D7B9EB8
-P 2700 6800
-AR Path="/5D5D9AB7/5D7B9EB8" Ref="R?"  Part="1" 
-AR Path="/5D7064D1/5D7B9EB8" Ref="R53"  Part="1" 
-F 0 "R53" V 2493 6800 50  0000 C CNN
-F 1 "1k" V 2584 6800 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 2630 6800 50  0001 C CNN
-F 3 "~" H 2700 6800 50  0001 C CNN
-	1    2700 6800
-	-1   0    0    1   
 $EndComp
 Wire Wire Line
 	2700 6450 2700 6650
@@ -482,6 +430,50 @@ F 1 "QM_XC7A35T_DDR3" H 9119 5514 50  0000 C CNN
 F 2 "qmtech-minimig-new:QM_XC7A35T_DDR3_Daughterboard_rev2" H 9119 5423 50  0000 C CNN
 F 3 "" H 5850 2300 50  0001 C CNN
 	2    9150 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Pack04_Split RN5
+U 1 1 5F764F41
+P 2700 6800
+F 0 "RN5" H 2788 6846 50  0000 L CNN
+F 1 "1K" H 2788 6755 50  0000 L CNN
+F 2 "" V 2620 6800 50  0001 C CNN
+F 3 "~" H 2700 6800 50  0001 C CNN
+	1    2700 6800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Pack04_Split RN5
+U 2 1 5F767242
+P 2350 6800
+F 0 "RN5" H 2438 6846 50  0000 L CNN
+F 1 "1K" H 2438 6755 50  0000 L CNN
+F 2 "" V 2270 6800 50  0001 C CNN
+F 3 "~" H 2350 6800 50  0001 C CNN
+	2    2350 6800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Pack04_Split RN5
+U 3 1 5F767644
+P 2000 6800
+F 0 "RN5" H 2088 6846 50  0000 L CNN
+F 1 "1K" H 2088 6755 50  0000 L CNN
+F 2 "" V 1920 6800 50  0001 C CNN
+F 3 "~" H 2000 6800 50  0001 C CNN
+	3    2000 6800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Pack04_Split RN5
+U 4 1 5F767A77
+P 1650 6800
+F 0 "RN5" H 1738 6846 50  0000 L CNN
+F 1 "1K" H 1738 6755 50  0000 L CNN
+F 2 "" V 1570 6800 50  0001 C CNN
+F 3 "~" H 1650 6800 50  0001 C CNN
+	4    1650 6800
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
