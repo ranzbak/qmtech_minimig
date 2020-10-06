@@ -51,7 +51,7 @@ F 3 "~" H 3600 3050 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L custom_symbols:Mini-DIN_6pins_ver3 P1
+L qmtech-minimig-rescue:Mini-DIN_6pins_ver3-custom_symbols P1
 U 1 1 5E530339
 P 4500 3050
 F 0 "P1" H 4500 3521 50  0000 C CNN
@@ -167,7 +167,7 @@ F 3 "~" H 3600 5225 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L custom_symbols:Mini-DIN_6pins_ver3 P2
+L qmtech-minimig-rescue:Mini-DIN_6pins_ver3-custom_symbols P2
 U 1 1 5E56B0CA
 P 4500 5225
 F 0 "P2" H 4500 5696 50  0000 C CNN

@@ -14,9 +14,11 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L 47151-0001:47151-0001 J9
+L qmtech-minimig-rescue:47151-0001-47151-0001 J9
 U 1 1 5D70E8AE
 P 12800 4100
+AR Path="/5D70E8AE" Ref="J9"  Part="1" 
+AR Path="/5D6A6E73/5D70E8AE" Ref="J9"  Part="1" 
 F 0 "J9" H 13250 4367 50  0000 C CNN
 F 1 "47151-0001" H 13250 4276 50  0000 C CNN
 F 2 "47151-0001-HDMI:47151-0001" H 12800 4100 50  0001 L BNN
@@ -615,7 +617,7 @@ Wire Wire Line
 Wire Wire Line
 	2725 6925 2725 7025
 $Comp
-L Power:GND #PWR0102
+L qmtech-minimig-rescue:GND-Power #PWR0102
 U 1 1 5DD3B1BA
 P 2725 7025
 F 0 "#PWR0102" H 2725 6775 50  0001 C CNN
@@ -760,7 +762,7 @@ Wire Wire Line
 Wire Wire Line
 	2725 3925 2725 4025
 $Comp
-L Power:GND #PWR0109
+L qmtech-minimig-rescue:GND-Power #PWR0109
 U 1 1 5D6D859E
 P 2725 6025
 F 0 "#PWR0109" H 2725 5775 50  0001 C CNN
@@ -771,7 +773,7 @@ F 3 "" H 2725 6025 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Power:GND #PWR0108
+L qmtech-minimig-rescue:GND-Power #PWR0108
 U 1 1 5D6D8141
 P 2725 5025
 F 0 "#PWR0108" H 2725 4775 50  0001 C CNN
@@ -782,7 +784,7 @@ F 3 "" H 2725 5025 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Power:GND #PWR0107
+L qmtech-minimig-rescue:GND-Power #PWR0107
 U 1 1 5D6D7DC5
 P 2725 4025
 F 0 "#PWR0107" H 2725 3775 50  0001 C CNN
@@ -897,7 +899,7 @@ GND
 Wire Wire Line
 	9725 2975 9875 2975
 $Comp
-L adv7511:adv7511kstz ADV7511KSTZ1
+L qmtech-minimig-rescue:adv7511kstz-adv7511 ADV7511KSTZ1
 U 1 1 5D6A6EEE
 P 7525 6875
 F 0 "ADV7511KSTZ1" H 7675 10025 50  0000 L CNB

@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Connector:DB9_Male J1
+L qmtech-minimig-rescue:DB9_Male-Connector J1
 U 1 1 5D74BDB1
 P 8400 2150
 F 0 "J1" H 8580 2196 50  0000 L CNN
@@ -39,7 +39,7 @@ JS1_6
 Text GLabel 6750 2350 0    50   Input ~ 0
 JS1_1
 $Comp
-L Connector:DB9_Male J2
+L qmtech-minimig-rescue:DB9_Male-Connector J2
 U 1 1 5D78EA68
 P 8450 5250
 F 0 "J2" H 8630 5296 50  0000 L CNN
@@ -281,7 +281,7 @@ JS_INTB
 Text GLabel 1375 2950 0    50   Input ~ 0
 JS_INTA
 $Comp
-L TXB0106PWR:TXB0106PWR U6
+L qmtech-minimig-rescue:TXB0106PWR-TXB0106PWR U6
 U 1 1 5F2E87E4
 P 2075 3050
 F 0 "U6" H 2075 4020 50  0000 C CNN
@@ -363,7 +363,7 @@ I/O expander to SPI
 Text Notes 3675 3875 0    50   ~ 0
 Not strictly needed, \ncan poll with the FPGA.
 $Comp
-L microchip:MCP23S17 U9
+L qmtech-minimig-rescue:MCP23S17-microchip U9
 U 1 1 5F13EE93
 P 5000 3650
 F 0 "U9" H 5000 2469 50  0000 C CNN

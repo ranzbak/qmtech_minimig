@@ -407,7 +407,7 @@ SDRAM_A9
 Text GLabel 9950 3950 2    50   Input ~ 0
 SDRAM_A12
 $Comp
-L QM_XC7A35T_DDR3:QM_XC7A35T_DDR3_2part U2
+L qmtech-minimig-rescue:QM_XC7A35T_DDR3_2part-QM_XC7A35T_DDR3 U2
 U 1 1 5D70654A
 P 2650 3750
 AR Path="/5D70654A" Ref="U2"  Part="1" 
@@ -420,7 +420,7 @@ F 3 "" H -650 2300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L QM_XC7A35T_DDR3:QM_XC7A35T_DDR3_2part U?
+L qmtech-minimig-rescue:QM_XC7A35T_DDR3_2part-QM_XC7A35T_DDR3 U?
 U 2 1 5F7C0F58
 P 9150 3750
 AR Path="/5F7C0F58" Ref="U?"  Part="1" 

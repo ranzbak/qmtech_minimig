@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L BPS6001_Classic_Computing_Shield-eagle-import:AUDIO-CONNECTOR-6P-SMD-3440030P1 J5
+L qmtech-minimig-rescue:AUDIO-CONNECTOR-6P-SMD-3440030P1-BPS6001_Classic_Computing_Shield-eagle-import J5
 U 1 1 5DC6A556
 P 9900 3500
 F 0 "J5" V 9203 3500 42  0000 C CNN
@@ -29,7 +29,7 @@ GND
 Text GLabel 9550 3900 3    50   Input ~ 0
 GND
 $Comp
-L max98089:INTERFACE-MAX9850ETI+-(QFN28) U8
+L qmtech-minimig-rescue:INTERFACE-MAX9850ETI+-(QFN28)-max98089 U8
 U 1 1 5E228931
 P 5575 3550
 F 0 "U8" H 6419 3596 50  0000 L CNN
