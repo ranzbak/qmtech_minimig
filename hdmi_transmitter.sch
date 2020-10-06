@@ -193,50 +193,6 @@ F 3 "~" H 8475 7550 50  0001 C CNN
 	1    8475 7550
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	1050 2725 1425 2725
-Connection ~ 1050 2725
-$Comp
-L Connector:TestPoint GND2
-U 1 1 5DA4EE17
-P 1050 2725
-F 0 "GND2" H 1108 2843 50  0001 L CNN
-F 1 "GND" H 1108 2752 50  0000 L CNN
-F 2 "TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm" H 1250 2725 50  0001 C CNN
-F 3 "~" H 1250 2725 50  0001 C CNN
-	1    1050 2725
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1000 2725 1050 2725
-Wire Wire Line
-	1825 3875 1825 3625
-Connection ~ 1825 3875
-$Comp
-L Connector:TestPoint 1V8
-U 1 1 5DA49C5B
-P 1825 3875
-F 0 "1V8" V 2020 3947 50  0000 C CNN
-F 1 "TestPoint" V 1929 3947 50  0000 C CNN
-F 2 "TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm" H 2025 3875 50  0001 C CNN
-F 3 "~" H 2025 3875 50  0001 C CNN
-	1    1825 3875
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	1825 2000 1825 1825
-Connection ~ 1825 2000
-$Comp
-L Connector:TestPoint 3V3
-U 1 1 5DA49761
-P 1825 2000
-F 0 "3V3" V 1779 2188 50  0000 L CNN
-F 1 "TestPoint" V 1870 2188 50  0000 L CNN
-F 2 "TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm" H 2025 2000 50  0001 C CNN
-F 3 "~" H 2025 2000 50  0001 C CNN
-	1    1825 2000
-	0    1    1    0   
-$EndComp
 NoConn ~ 8725 5825
 Text GLabel 9725 3975 2    50   Input ~ 0
 GND
@@ -615,7 +571,7 @@ Wire Wire Line
 Wire Wire Line
 	2725 6925 2725 7025
 $Comp
-L Power:GND #PWR0102
+L power:GND #PWR0102
 U 1 1 5DD3B1BA
 P 2725 7025
 F 0 "#PWR0102" H 2725 6775 50  0001 C CNN
@@ -689,8 +645,6 @@ F 3 "~" H 1675 3275 50  0001 C CNN
 	1    1675 3275
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	1825 2125 1825 2000
 Connection ~ 1825 2125
 $Comp
 L Device:CP C29
@@ -736,8 +690,6 @@ ADV_DVDD
 Connection ~ 2725 3625
 Wire Wire Line
 	2725 3625 3725 3625
-Wire Wire Line
-	1825 4625 1825 3875
 Connection ~ 1825 4625
 Wire Wire Line
 	2225 4625 1825 4625
@@ -760,7 +712,7 @@ Wire Wire Line
 Wire Wire Line
 	2725 3925 2725 4025
 $Comp
-L Power:GND #PWR0109
+L power:GND #PWR0109
 U 1 1 5D6D859E
 P 2725 6025
 F 0 "#PWR0109" H 2725 5775 50  0001 C CNN
@@ -771,7 +723,7 @@ F 3 "" H 2725 6025 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Power:GND #PWR0108
+L power:GND #PWR0108
 U 1 1 5D6D8141
 P 2725 5025
 F 0 "#PWR0108" H 2725 4775 50  0001 C CNN
@@ -782,7 +734,7 @@ F 3 "" H 2725 5025 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Power:GND #PWR0107
+L power:GND #PWR0107
 U 1 1 5D6D7DC5
 P 2725 4025
 F 0 "#PWR0107" H 2725 3775 50  0001 C CNN
@@ -1212,4 +1164,10 @@ Wire Wire Line
 	14825 8025 14550 8025
 Wire Wire Line
 	14550 8025 14550 7650
+Wire Wire Line
+	1825 3625 1825 4625
+Wire Wire Line
+	1000 2725 1425 2725
+Wire Wire Line
+	1825 1825 1825 2125
 $EndSCHEMATC

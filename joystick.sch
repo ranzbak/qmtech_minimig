@@ -83,9 +83,9 @@ Wire Wire Line
 	7050 5450 7450 5450
 Wire Wire Line
 	7450 5450 7450 5650
-Text GLabel 5000 2650 1    50   Input ~ 0
+Text GLabel 5300 5150 3    50   Input ~ 0
 GND
-Text GLabel 5000 5025 3    50   Input ~ 0
+Text GLabel 5300 2950 1    50   Input ~ 0
 VIN5V
 Text GLabel 8100 2250 0    50   Input ~ 0
 J1IN5V
@@ -106,17 +106,15 @@ Wire Wire Line
 $Comp
 L Device:C C57
 U 1 1 5E30EED8
-P 4850 4900
-F 0 "C57" V 4598 4900 50  0000 C CNN
-F 1 "100nF" V 4689 4900 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 4888 4750 50  0001 C CNN
-F 3 "~" H 4850 4900 50  0001 C CNN
-	1    4850 4900
-	0    -1   -1   0   
+P 5450 2950
+F 0 "C57" V 5198 2950 50  0000 C CNN
+F 1 "100nF" V 5289 2950 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 5488 2800 50  0001 C CNN
+F 3 "~" H 5450 2950 50  0001 C CNN
+	1    5450 2950
+	0    1    1    0   
 $EndComp
-Wire Wire Line
-	5000 4650 5000 4900
-Text GLabel 4700 4900 0    50   Input ~ 0
+Text GLabel 5600 2950 2    50   Input ~ 0
 GND
 $Comp
 L Device:Polyfuse F3
@@ -152,42 +150,39 @@ Text GLabel 8300 1450 1    50   Input ~ 0
 GND
 Text GLabel 8350 4550 1    50   Input ~ 0
 GND
-Text GLabel 5500 4450 2    50   Input ~ 0
+Text GLabel 6000 4850 2    50   Input ~ 0
 JS2_5
-Text GLabel 5500 4350 2    50   Input ~ 0
+Text GLabel 6000 4750 2    50   Input ~ 0
 JS2_9
-Text GLabel 5500 4250 2    50   Input ~ 0
+Text GLabel 6000 4650 2    50   Input ~ 0
 JS2_4
-Text GLabel 5500 4150 2    50   Input ~ 0
+Text GLabel 6000 4550 2    50   Input ~ 0
 JS2_3
-Text GLabel 5500 4050 2    50   Input ~ 0
+Text GLabel 6000 4450 2    50   Input ~ 0
 JS2_2
-Text GLabel 5500 3950 2    50   Input ~ 0
+Text GLabel 6000 4350 2    50   Input ~ 0
 JS2_6
-Text GLabel 5500 3850 2    50   Input ~ 0
+Text GLabel 6000 4250 2    50   Input ~ 0
 JS2_1
-Text GLabel 5500 3550 2    50   Input ~ 0
+Text GLabel 6000 3950 2    50   Input ~ 0
 JS1_1
-Text GLabel 5500 3450 2    50   Input ~ 0
+Text GLabel 6000 3850 2    50   Input ~ 0
 JS1_6
-Text GLabel 5500 3350 2    50   Input ~ 0
+Text GLabel 6000 3750 2    50   Input ~ 0
 JS1_2
-Text GLabel 5500 3250 2    50   Input ~ 0
+Text GLabel 6000 3650 2    50   Input ~ 0
 JS1_3
-Text GLabel 5500 3150 2    50   Input ~ 0
+Text GLabel 6000 3550 2    50   Input ~ 0
 JS1_4
-Text GLabel 5500 3050 2    50   Input ~ 0
+Text GLabel 6000 3450 2    50   Input ~ 0
 JS1_9
-Text GLabel 5500 2950 2    50   Input ~ 0
+Text GLabel 6000 3350 2    50   Input ~ 0
 JS1_5
-Connection ~ 5000 4900
-Wire Wire Line
-	5000 4900 5000 5025
 Text Notes 3875 3225 0    50   ~ 0
 5V SPI\n
-Text GLabel 4500 3950 0    50   Input ~ 0
+Text GLabel 4600 3850 0    50   Input ~ 0
 JS_INTA_5V
-Text GLabel 4500 4050 0    50   Input ~ 0
+Text GLabel 4600 3950 0    50   Input ~ 0
 JS_INTB_5V
 $Comp
 L Device:C C24
@@ -205,29 +200,27 @@ GND
 $Comp
 L Device:R R7
 U 1 1 5F3A2FEA
-P 4275 2950
+P 4375 4750
 AR Path="/5D74B9F4/5F3A2FEA" Ref="R7"  Part="1" 
 AR Path="/5DE41876/5F3A2FEA" Ref="R?"  Part="1" 
-F 0 "R7" V 4068 2950 50  0000 C CNN
-F 1 "10k" V 4159 2950 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 4205 2950 50  0001 C CNN
-F 3 "~" H 4275 2950 50  0001 C CNN
-	1    4275 2950
+F 0 "R7" V 4168 4750 50  0000 C CNN
+F 1 "10k" V 4259 4750 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 4305 4750 50  0001 C CNN
+F 3 "~" H 4375 4750 50  0001 C CNN
+	1    4375 4750
 	0    1    1    0   
 $EndComp
-Text GLabel 4125 2950 0    50   Input ~ 0
-GND
 Wire Wire Line
-	4500 3050 4425 3050
+	4600 4850 4525 4850
 Wire Wire Line
-	4425 3050 4425 2950
+	4525 4850 4525 4750
 Wire Wire Line
-	4425 2950 4425 2850
+	4525 4750 4525 4650
 Wire Wire Line
-	4425 2850 4500 2850
-Connection ~ 4425 2950
+	4525 4650 4600 4650
+Connection ~ 4525 4750
 Wire Wire Line
-	4500 2950 4425 2950
+	4600 4750 4525 4750
 Text GLabel 7400 1100 1    50   Input ~ 0
 J1IN5V
 Connection ~ 7725 2450
@@ -312,69 +305,46 @@ Text GLabel 2775 2950 2    50   Input ~ 0
 JS_MOSI
 Text GLabel 2775 2850 2    50   Input ~ 0
 JS_MISO
-Text GLabel 3950 4675 3    50   Input ~ 0
-VIN5V
-Wire Wire Line
-	4500 4450 4425 4450
-Wire Wire Line
-	4425 4450 4425 4550
-Wire Wire Line
-	3950 4675 3950 4550
-Text GLabel 4500 3550 0    50   Input ~ 0
+Text GLabel 4200 3250 0    50   Input ~ 0
 JS_CS_5V
 Wire Wire Line
-	2775 3450 4500 3450
+	2775 3350 3350 3350
 Wire Wire Line
-	2775 3350 4500 3350
-Wire Wire Line
-	2775 3250 4500 3250
+	2775 3250 3350 3250
 $Comp
 L Device:R R87
 U 1 1 5FC2A341
-P 5650 3750
+P 6150 4150
 AR Path="/5D74B9F4/5FC2A341" Ref="R87"  Part="1" 
 AR Path="/5DE41876/5FC2A341" Ref="R?"  Part="1" 
-F 0 "R87" V 5725 3750 50  0000 C CNN
-F 1 "10k" V 5650 3750 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 5580 3750 50  0001 C CNN
-F 3 "~" H 5650 3750 50  0001 C CNN
-	1    5650 3750
+F 0 "R87" V 6225 4150 50  0000 C CNN
+F 1 "10k" V 6150 4150 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 6080 4150 50  0001 C CNN
+F 3 "~" H 6150 4150 50  0001 C CNN
+	1    6150 4150
 	0    -1   -1   0   
 $EndComp
-Text GLabel 5800 3750 2    50   Input ~ 0
+Text GLabel 6300 4150 2    50   Input ~ 0
 GND
 $Comp
 L Device:R R12
 U 1 1 5FC2FC54
-P 5650 2850
+P 6150 3250
 AR Path="/5D74B9F4/5FC2FC54" Ref="R12"  Part="1" 
 AR Path="/5DE41876/5FC2FC54" Ref="R?"  Part="1" 
-F 0 "R12" V 5725 2850 50  0000 C CNN
-F 1 "10k" V 5650 2850 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 5580 2850 50  0001 C CNN
-F 3 "~" H 5650 2850 50  0001 C CNN
-	1    5650 2850
+F 0 "R12" V 6225 3250 50  0000 C CNN
+F 1 "10k" V 6150 3250 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 6080 3250 50  0001 C CNN
+F 3 "~" H 6150 3250 50  0001 C CNN
+	1    6150 3250
 	0    -1   -1   0   
 $EndComp
-Text GLabel 5800 2850 2    50   Input ~ 0
+Text GLabel 6300 3250 2    50   Input ~ 0
 GND
 Text Notes 4850 2350 0    50   ~ 0
 I/O expander to SPI
-Text Notes 3675 3875 0    50   ~ 0
+Text Notes 3775 3775 0    50   ~ 0
 Not strictly needed, \ncan poll with the FPGA.
-$Comp
-L microchip:MCP23S17 U9
-U 1 1 5F13EE93
-P 5000 3650
-F 0 "U9" H 5000 2469 50  0000 C CNN
-F 1 "MCP23S17" H 5000 2560 50  0000 C CNN
-F 2 "Package_SO:SSOP-28_5.3x10.2mm_P0.65mm" H 5050 2700 50  0001 L CNN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20001952C.pdf" H 5250 4650 50  0001 C CNN
-	1    5000 3650
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	3950 4550 4425 4550
 Text Label 2875 3250 0    50   ~ 0
 JS_MISO_5V
 Text Label 2875 3350 0    50   ~ 0
@@ -568,4 +538,35 @@ Wire Wire Line
 	7125 4850 8150 4850
 Wire Wire Line
 	7425 4600 7425 5150
+$Comp
+L Interface_Expansion:MCP23S17_SO U9
+U 1 1 5F13EE93
+P 5300 4050
+F 0 "U9" H 5300 2869 50  0000 C CNN
+F 1 "MCP23S17" H 5300 2960 50  0000 C CNN
+F 2 "Package_SO:SSOP-28_5.3x10.2mm_P0.65mm" H 5350 3100 50  0001 L CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20001952C.pdf" H 5550 5050 50  0001 C CNN
+	1    5300 4050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2775 3450 3350 3450
+Wire Wire Line
+	4600 3350 4200 3350
+Wire Wire Line
+	4600 3450 4200 3450
+Wire Wire Line
+	4600 3550 4200 3550
+Wire Wire Line
+	4200 3250 4600 3250
+Text Label 4200 3350 0    50   ~ 0
+JS_SCK_5V
+Text Label 4200 3450 0    50   ~ 0
+JS_MOSI_5V
+Text Label 4200 3550 0    50   ~ 0
+JS_MISO_5V
+Text GLabel 4625 4150 0    50   Input ~ 0
+VIN5V
+Text GLabel 4225 4750 0    50   Input ~ 0
+GND
 $EndSCHEMATC

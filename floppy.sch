@@ -69,8 +69,6 @@ F 3 "" H 2900 5900 60  0001 C CNN
 	1    2900 5900
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	850  6300 950  6300
 Text GLabel 6250 5400 2    50   Input ~ 0
 VIN5V
 Wire Wire Line
@@ -357,34 +355,6 @@ F 3 "~" H 5450 5400 50  0001 C CNN
 	1    5450 5400
 	1    0    0    -1  
 $EndComp
-$Comp
-L Connector:TestPoint +12V1
-U 1 1 5DA056F9
-P 925 5400
-F 0 "+12V1" H 983 5518 50  0000 L CNN
-F 1 "+12V" H 983 5427 50  0000 L CNN
-F 2 "TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm" H 1125 5400 50  0001 C CNN
-F 3 "~" H 1125 5400 50  0001 C CNN
-	1    925  5400
-	1    0    0    -1  
-$EndComp
-Connection ~ 925  5400
-Wire Wire Line
-	925  5400 825  5400
-$Comp
-L Connector:TestPoint GND1
-U 1 1 5DA05BA0
-P 950 6300
-F 0 "GND1" H 1008 6418 50  0000 L CNN
-F 1 "GND" H 1008 6327 50  0000 L CNN
-F 2 "TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm" H 1150 6300 50  0001 C CNN
-F 3 "~" H 1150 6300 50  0001 C CNN
-	1    950  6300
-	1    0    0    -1  
-$EndComp
-Connection ~ 950  6300
-Wire Wire Line
-	950  6300 1150 6300
 Text Notes 3000 5000 0    50   ~ 0
 12V power supply for the floppy drive
 Text Notes 9425 4825 0    50   ~ 0
@@ -407,8 +377,6 @@ $EndComp
 Wire Wire Line
 	1150 5700 1150 5400
 Connection ~ 1150 5400
-Wire Wire Line
-	1150 5400 925  5400
 Wire Wire Line
 	1150 6000 1150 6300
 Connection ~ 1150 6300
@@ -1089,4 +1057,8 @@ Text GLabel 1450 1700 2    50   Input ~ 0
 VFLP5V
 Text GLabel 9325 5425 0    50   Input ~ 0
 VFLP5V
+Wire Wire Line
+	825  5400 1150 5400
+Wire Wire Line
+	850  6300 1150 6300
 $EndSCHEMATC
