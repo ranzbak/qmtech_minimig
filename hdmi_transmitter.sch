@@ -194,13 +194,13 @@ F 3 "~" H 8475 7550 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 NoConn ~ 8725 5825
-Text GLabel 9725 3975 2    50   Input ~ 0
+Text GLabel 9725 3575 2    50   Input ~ 0
 GND
-Text GLabel 9725 3875 2    50   Input ~ 0
+Text GLabel 9725 3475 2    50   Input ~ 0
 GND
-Text GLabel 9725 3775 2    50   Input ~ 0
+Text GLabel 9725 3375 2    50   Input ~ 0
 GND
-Text GLabel 9725 3675 2    50   Input ~ 0
+Text GLabel 9725 3275 2    50   Input ~ 0
 GND
 Text GLabel 8625 2425 1    50   Input ~ 0
 GND
@@ -394,56 +394,20 @@ Text GLabel 7425 5825 3    50   Input ~ 0
 ADV_TXC+
 Text GLabel 7325 5825 3    50   Input ~ 0
 ADV_TXC-
-Text GLabel 8825 2425 1    50   Input ~ 0
-ADV_CLK
-Text GLabel 7525 2425 1    50   Input ~ 0
-ADV_B_0
-Text GLabel 7625 2425 1    50   Input ~ 0
-ADV_B_1
-Text GLabel 7725 2425 1    50   Input ~ 0
-ADV_B_2
-Text GLabel 7825 2425 1    50   Input ~ 0
-ADV_B_3
-Text GLabel 7925 2425 1    50   Input ~ 0
-ADV_B_4
-Text GLabel 8025 2425 1    50   Input ~ 0
-ADV_B_5
-Text GLabel 8125 2425 1    50   Input ~ 0
-ADV_B_6
-Text GLabel 8225 2425 1    50   Input ~ 0
-ADV_B_7
-Text GLabel 8725 2425 1    50   Input ~ 0
-ADV_G_0
-Text GLabel 8925 2425 1    50   Input ~ 0
-ADV_G_1
-Text GLabel 9725 3075 2    50   Input ~ 0
-ADV_G_2
-Text GLabel 9725 3175 2    50   Input ~ 0
-ADV_G_3
-Text GLabel 9725 3275 2    50   Input ~ 0
-ADV_G_4
-Text GLabel 9725 3375 2    50   Input ~ 0
-ADV_G_5
-Text GLabel 9725 3475 2    50   Input ~ 0
-ADV_G_6
-Text GLabel 9725 3575 2    50   Input ~ 0
-ADV_G_7
-Text GLabel 9725 4075 2    50   Input ~ 0
-ADV_R_0
 Text GLabel 9725 4175 2    50   Input ~ 0
-ADV_R_1
+ADV_D5
 Text GLabel 9725 4275 2    50   Input ~ 0
-ADV_R_2
+ADV_D6
 Text GLabel 9725 4375 2    50   Input ~ 0
-ADV_R_3
+ADV_D7
 Text GLabel 9725 4475 2    50   Input ~ 0
-ADV_R_4
+ADV_D8
 Text GLabel 9725 4575 2    50   Input ~ 0
-ADV_R_5
+ADV_D9
 Text GLabel 9725 4675 2    50   Input ~ 0
-ADV_R_6
+ADV_D10
 Text GLabel 9725 4775 2    50   Input ~ 0
-ADV_R_7
+ADV_D11
 Text GLabel 1000 2725 0    50   Input ~ 0
 GND
 Text Label 1825 4125 1    50   ~ 0
@@ -1170,4 +1134,42 @@ Wire Wire Line
 	1000 2725 1425 2725
 Wire Wire Line
 	1825 1825 1825 2125
+Text GLabel 9725 3175 2    50   Input ~ 0
+GND
+Text GLabel 9725 3075 2    50   Input ~ 0
+GND
+Text GLabel 8025 2425 1    50   Input ~ 0
+GND
+Text GLabel 7925 2425 1    50   Input ~ 0
+GND
+Text GLabel 7825 2425 1    50   Input ~ 0
+GND
+Text GLabel 7725 2425 1    50   Input ~ 0
+GND
+Text GLabel 7625 2425 1    50   Input ~ 0
+GND
+Text GLabel 7525 2425 1    50   Input ~ 0
+GND
+Text GLabel 8925 2425 1    50   Input ~ 0
+GND
+Text GLabel 8825 2425 1    50   Input ~ 0
+GND
+Text GLabel 8725 2425 1    50   Input ~ 0
+GND
+Text GLabel 8225 2425 1    50   Input ~ 0
+GND
+Text GLabel 8125 2425 1    50   Input ~ 0
+GND
+Text GLabel 9725 3675 2    50   Input ~ 0
+ADV_D0
+Text GLabel 9725 3775 2    50   Input ~ 0
+ADV_D1
+Text GLabel 9725 3975 2    50   Input ~ 0
+ADV_D3
+Text GLabel 9725 4075 2    50   Input ~ 0
+ADV_D4
+Text Notes 7300 4350 0    50   ~ 0
+Input ID = 5, left aligned (R0x48[5] = 1) \n\n
+Text GLabel 9725 3875 2    50   Input ~ 0
+ADV_D2
 $EndSCHEMATC

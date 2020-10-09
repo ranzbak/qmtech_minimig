@@ -16,17 +16,17 @@ $EndDescr
 $Comp
 L BPS6001_Classic_Computing_Shield-eagle-import:AUDIO-CONNECTOR-6P-SMD-3440030P1 J5
 U 1 1 5DC6A556
-P 9900 3500
-F 0 "J5" V 9203 3500 42  0000 C CNN
-F 1 "AUDIO-CONNECTOR-6P-SMD-3440030P1" V 9282 3500 42  0000 C CNN
-F 2 "c64-wing-kicad:6P-SMD-3.5" H 9900 3500 50  0001 C CNN
-F 3 "" H 9900 3500 50  0001 C CNN
-	1    9900 3500
-	-1   0    0    1   
+P 9600 3100
+F 0 "J5" V 8903 3100 42  0000 C CNN
+F 1 "AUDIO-CONNECTOR-6P-SMD-3440030P1" V 8982 3100 42  0000 C CNN
+F 2 "c64-wing-kicad:6P-SMD-3.5" H 9600 3100 50  0001 C CNN
+F 3 "" H 9600 3100 50  0001 C CNN
+	1    9600 3100
+	1    0    0    -1  
 $EndComp
-Text GLabel 9450 3100 1    50   Input ~ 0
+Text GLabel 10050 3500 3    50   Input ~ 0
 GND
-Text GLabel 9550 3900 3    50   Input ~ 0
+Text GLabel 9950 2700 1    50   Input ~ 0
 GND
 $Comp
 L max98089:INTERFACE-MAX9850ETI+-(QFN28) U8
@@ -39,9 +39,9 @@ F 3 "" H 5575 3550 50  0001 L BNN
 	1    5575 3550
 	1    0    0    -1  
 $EndComp
-Text GLabel 9750 3900 3    50   Input ~ 0
+Text GLabel 9750 2700 1    50   Input ~ 0
 HPR
-Text GLabel 10150 3100 1    50   Input ~ 0
+Text GLabel 9350 3500 3    50   Input ~ 0
 HPL
 Text GLabel 6375 3550 2    50   Input ~ 0
 HPR
@@ -49,7 +49,7 @@ Text GLabel 6375 3450 2    50   Input ~ 0
 HPL
 Text GLabel 6375 3250 2    50   Input ~ 0
 HPS
-Text GLabel 10350 3100 1    50   Input ~ 0
+Text GLabel 9150 3500 3    50   Input ~ 0
 HPS
 $Comp
 L Device:C C53

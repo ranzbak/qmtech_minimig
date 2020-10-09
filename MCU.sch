@@ -110,7 +110,7 @@ F 8 "10118193-0001LF" H 1925 2650 50  0001 L BNN "Field8"
 	1    1925 2650
 	-1   0    0    1   
 $EndComp
-Text GLabel 2325 2550 2    50   Input ~ 0
+Text GLabel 2325 2350 2    50   Input ~ 0
 GND
 Text GLabel 2500 4225 3    50   Input ~ 0
 VUSB5V
@@ -131,8 +131,6 @@ F 3 "~" H 3275 3175 50  0001 C CNN
 $EndComp
 Text GLabel 3275 3325 3    50   Input ~ 0
 GND
-Wire Wire Line
-	2500 4225 2500 3975
 Wire Wire Line
 	2325 2850 4925 2850
 Wire Wire Line
@@ -166,8 +164,6 @@ Wire Wire Line
 Text GLabel 2200 3175 0    50   Input ~ 0
 GND
 Text GLabel 2200 3675 0    50   Input ~ 0
-GND
-Text GLabel 2850 2350 2    50   Input ~ 0
 GND
 $Comp
 L Device:R R24
@@ -375,33 +371,6 @@ $EndComp
 Text GLabel 2150 5700 0    50   Input ~ 0
 GND
 $Comp
-L Connector:TestPoint U5V1
-U 1 1 5D8A1A13
-P 2500 3975
-F 0 "U5V1" H 2442 4001 50  0000 R CNN
-F 1 "USB5V" H 2442 4092 50  0000 R CNN
-F 2 "TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm" H 2700 3975 50  0001 C CNN
-F 3 "~" H 2700 3975 50  0001 C CNN
-	1    2500 3975
-	0    -1   -1   0   
-$EndComp
-Connection ~ 2500 3975
-Wire Wire Line
-	2500 3975 2500 3675
-$Comp
-L Connector:TestPoint UG1
-U 1 1 5D8AC051
-P 2400 2350
-F 0 "UG1" H 2458 2468 50  0000 L CNN
-F 1 "GND" H 2458 2377 50  0000 L CNN
-F 2 "TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm" H 2600 2350 50  0001 C CNN
-F 3 "~" H 2600 2350 50  0001 C CNN
-	1    2400 2350
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2850 2350 2400 2350
-$Comp
 L Device:LED D1
 U 1 1 5D8F4A33
 P 6500 1150
@@ -519,9 +488,6 @@ NoConn ~ 3600 7200
 NoConn ~ 3600 7100
 NoConn ~ 3600 7000
 NoConn ~ 3600 6900
-Wire Wire Line
-	2325 2350 2400 2350
-Connection ~ 2400 2350
 $Comp
 L Device:LED D11
 U 1 1 5DAFEB28
@@ -734,4 +700,8 @@ Wire Wire Line
 	4100 4300 4300 4300
 Text GLabel 4300 4300 2    50   Input ~ 0
 3V3
+Wire Wire Line
+	2500 3675 2500 4225
+Text GLabel 2325 2550 2    50   Input ~ 0
+GND
 $EndSCHEMATC
