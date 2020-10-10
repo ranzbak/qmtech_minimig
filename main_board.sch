@@ -16,21 +16,13 @@ $EndDescr
 Wire Wire Line
 	3450 2350 3600 2350
 Wire Wire Line
-	3450 2450 3600 2450
-Text GLabel 3600 2450 2    50   Input ~ 0
-GND
-Wire Wire Line
 	3450 2250 3600 2250
 Text GLabel 3600 2250 2    50   Input ~ 0
 GND
 Text GLabel 1700 2250 0    50   Input ~ 0
 GND
-Text GLabel 1700 2450 0    50   Input ~ 0
-GND
 Wire Wire Line
 	1700 2250 1850 2250
-Wire Wire Line
-	1700 2450 1850 2450
 Wire Wire Line
 	1700 2350 1850 2350
 Text GLabel 1700 2350 0    50   Input ~ 0
@@ -129,12 +121,8 @@ Text Label 2700 7100 3    50   ~ 0
 LED0
 Text GLabel 1850 2950 0    50   Input ~ 0
 ESP_VSPI_CLK
-Text GLabel 3450 2750 2    50   Input ~ 0
-ESP_VSPI_MISO
-Text GLabel 1850 2850 0    50   Input ~ 0
+Text GLabel 1850 2750 0    50   Input ~ 0
 ESP_VSPI_MOSI
-Text GLabel 3450 2950 2    50   Input ~ 0
-ESP_VSPI_CS
 Wire Wire Line
 	1650 6150 1650 5950
 Wire Wire Line
@@ -151,25 +139,25 @@ Wire Wire Line
 	2350 5950 2700 5950
 Wire Wire Line
 	2700 6150 2700 5950
-Text GLabel 1850 3050 0    50   Input ~ 0
+Text GLabel 1850 2850 0    50   Input ~ 0
 ESP_INT
 Text GLabel 1850 5050 0    50   Input ~ 0
 PS2_CLK2
 Text GLabel 1850 4950 0    50   Input ~ 0
 PS2_DAT2
-Text GLabel 1850 3650 0    50   Input ~ 0
-ADV_CLK
 Text GLabel 3450 3850 2    50   Input ~ 0
-ADV_HSYNC
-Text GLabel 1850 3850 0    50   Input ~ 0
+ADV_CLK
+Text GLabel 3450 4150 2    50   Input ~ 0
+ADV_VSYNC
+Text GLabel 3450 3950 2    50   Input ~ 0
 ADV_DE
 Text GLabel 9950 4850 2    50   Input ~ 0
 JS_INTA
 Text GLabel 8350 4950 0    50   Input ~ 0
 JS_MISO
-Text GLabel 1850 4150 0    50   Input ~ 0
+Text GLabel 1850 4050 0    50   Input ~ 0
 EXP_SEL0
-Text GLabel 3450 4150 2    50   Input ~ 0
+Text GLabel 3450 4050 2    50   Input ~ 0
 EXP_SEL1
 Text GLabel 1850 4250 0    50   Input ~ 0
 EXP_DIR
@@ -219,32 +207,32 @@ GND
 Text Notes 3475 6275 0    50   ~ 0
 Decoupling Cap\n
 $Comp
-L QM_XC7A35T_DDR3:QM_XC7A35T_DDR3_2part U2
+L QM_XC7A35T_DDR3:QM_XC7A100T_DDR3_2part U2
 U 1 1 5D70654A
 P 9150 3850
 AR Path="/5D70654A" Ref="U2"  Part="1" 
 AR Path="/5D7064D1/5D70654A" Ref="U2"  Part="1" 
 F 0 "U2" H 9119 5705 50  0000 C CNN
 F 1 "QM_XC7A35T_DDR3" H 9119 5614 50  0000 C CNN
-F 2 "qmtech-minimig-new:QM_XC7A35T_DDR3_Daughterboard_rev2" H 9119 5523 50  0000 C CNN
+F 2 "qmtech-minimig-new:QM_XC7A100T_DDR3_Daughterboard_rev2" H 9119 5523 50  0000 C CNN
 F 3 "" H 5850 2400 50  0001 C CNN
 	1    9150 3850
 	-1   0    0    1   
 $EndComp
 $Comp
-L QM_XC7A35T_DDR3:QM_XC7A35T_DDR3_2part U?
+L QM_XC7A35T_DDR3:QM_XC7A100T_DDR3_2part U?
 U 2 1 5F7C0F58
 P 2650 3850
 AR Path="/5F7C0F58" Ref="U?"  Part="1" 
 AR Path="/5D7064D1/5F7C0F58" Ref="U2"  Part="2" 
 F 0 "U2" H 2619 5705 50  0000 C CNN
 F 1 "QM_XC7A35T_DDR3" H 2619 5614 50  0000 C CNN
-F 2 "qmtech-minimig-new:QM_XC7A35T_DDR3_Daughterboard_rev2" H 2619 5523 50  0000 C CNN
+F 2 "qmtech-minimig-new:QM_XC7A100T_DDR3_Daughterboard_rev2" H 2619 5523 50  0000 C CNN
 F 3 "" H -650 2400 50  0001 C CNN
 	2    2650 3850
 	-1   0    0    1   
 $EndComp
-Text GLabel 8350 4650 0    50   Input ~ 0
+Text GLabel 8350 4750 0    50   Input ~ 0
 SDRAM_D14
 Text GLabel 8350 4450 0    50   Input ~ 0
 SDRAM_D12
@@ -322,7 +310,7 @@ Text GLabel 8350 4350 0    50   Input ~ 0
 SDRAM_D11
 Text GLabel 8350 4550 0    50   Input ~ 0
 SDRAM_D13
-Text GLabel 8350 4750 0    50   Input ~ 0
+Text GLabel 8350 4850 0    50   Input ~ 0
 SDRAM_D15
 Text GLabel 9950 3750 2    50   Input ~ 0
 SDRAM_CAS
@@ -348,7 +336,7 @@ Text GLabel 9950 4950 2    50   Input ~ 0
 JS_CS
 Text GLabel 9950 5050 2    50   Input ~ 0
 JS_MOSI
-Text GLabel 8350 5050 0    50   Input ~ 0
+Text GLabel 8350 4650 0    50   Input ~ 0
 JS_SCK
 Text GLabel 9950 2850 2    50   Input ~ 0
 SDRAM_A3
@@ -486,18 +474,12 @@ Connection ~ 6000 1250
 Connection ~ 6300 1250
 Wire Wire Line
 	6300 1250 6600 1250
-Text GLabel 3450 2550 2    50   Input ~ 0
-ESP_SD_CMD
-Text GLabel 1850 2550 0    50   Input ~ 0
+Text GLabel 1850 2450 0    50   Input ~ 0
 ESP_SD_DATA3
-Text GLabel 1850 2650 0    50   Input ~ 0
+Text GLabel 1850 2550 0    50   Input ~ 0
 ESP_SD_DATA2
-Text GLabel 1850 2750 0    50   Input ~ 0
+Text GLabel 1850 2650 0    50   Input ~ 0
 ESP_SD_CLK
-Text GLabel 3450 2850 2    50   Input ~ 0
-ESP_SD_DATA0
-Text GLabel 3450 2650 2    50   Input ~ 0
-ESP_SD_DATA1
 Text GLabel 3450 5350 2    50   Input ~ 0
 GND
 Text GLabel 1850 5350 0    50   Input ~ 0
@@ -508,32 +490,30 @@ Text GLabel 3450 5250 2    50   Input ~ 0
 3V3
 Text GLabel 3450 3050 2    50   Input ~ 0
 ADV_SCL
-Text GLabel 1850 3150 0    50   Input ~ 0
-ADV_D11
 Text GLabel 1850 3250 0    50   Input ~ 0
-ADV_D10
-Text GLabel 3450 3250 2    50   Input ~ 0
-ADV_D9
+ADV_D11
 Text GLabel 1850 3350 0    50   Input ~ 0
-ADV_D8
+ADV_D10
 Text GLabel 3450 3350 2    50   Input ~ 0
-ADV_D7
+ADV_D9
 Text GLabel 1850 3450 0    50   Input ~ 0
-ADV_D6
+ADV_D8
 Text GLabel 3450 3450 2    50   Input ~ 0
-ADV_D5
+ADV_D7
 Text GLabel 1850 3550 0    50   Input ~ 0
-ADV_D4
+ADV_D6
 Text GLabel 3450 3550 2    50   Input ~ 0
-ADV_D3
+ADV_D5
+Text GLabel 1850 3650 0    50   Input ~ 0
+ADV_D4
 Text GLabel 3450 3650 2    50   Input ~ 0
-ADV_D2
+ADV_D3
 Text GLabel 1850 3750 0    50   Input ~ 0
-ADV_D1
+ADV_D2
 Text GLabel 3450 3750 2    50   Input ~ 0
+ADV_D1
+Text GLabel 1850 3850 0    50   Input ~ 0
 ADV_D0
-Text GLabel 1850 3950 0    50   Input ~ 0
-ADV_VSYNC
 Text GLabel 3450 3150 2    50   Input ~ 0
 ADV_SDA
 Text GLabel 3450 5050 2    50   Input ~ 0
@@ -569,4 +549,16 @@ Text GLabel 6100 6800 2    50   Input ~ 0
 GND
 Text Notes 5950 6350 0    50   ~ 0
 UART RX/TX 
+Text GLabel 1850 4150 0    50   Input ~ 0
+ADV_HSYNC
+Text GLabel 3450 2650 2    50   Input ~ 0
+ESP_SD_DATA1
+Text GLabel 3450 2850 2    50   Input ~ 0
+ESP_SD_DATA0
+Text GLabel 3450 2550 2    50   Input ~ 0
+ESP_SD_CMD
+Text GLabel 3450 2950 2    50   Input ~ 0
+ESP_VSPI_CS
+Text GLabel 3450 2750 2    50   Input ~ 0
+ESP_VSPI_MISO
 $EndSCHEMATC

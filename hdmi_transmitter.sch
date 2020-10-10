@@ -1152,8 +1152,6 @@ Text GLabel 7525 2425 1    50   Input ~ 0
 GND
 Text GLabel 8925 2425 1    50   Input ~ 0
 GND
-Text GLabel 8825 2425 1    50   Input ~ 0
-GND
 Text GLabel 8725 2425 1    50   Input ~ 0
 GND
 Text GLabel 8225 2425 1    50   Input ~ 0
@@ -1172,4 +1170,6 @@ Text Notes 7300 4350 0    50   ~ 0
 Input ID = 5, left aligned (R0x48[5] = 1) \n\n
 Text GLabel 9725 3875 2    50   Input ~ 0
 ADV_D2
+Text GLabel 8825 2425 1    50   Input ~ 0
+ADV_CLK
 $EndSCHEMATC
