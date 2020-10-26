@@ -315,4 +315,6 @@ F 3 "~" H 2325 3650 50  0001 C CNN
 	1    2325 3650
 	0    1    1    0   
 $EndComp
+Text Label 4175 3650 2    50   ~ 0
+MAX_OSC
 $EndSCHEMATC

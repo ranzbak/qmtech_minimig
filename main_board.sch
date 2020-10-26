@@ -13,26 +13,10 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Wire Wire Line
-	3450 2350 3600 2350
-Wire Wire Line
-	3450 2250 3600 2250
-Text GLabel 3600 2250 2    50   Input ~ 0
-GND
-Text GLabel 1700 2250 0    50   Input ~ 0
-GND
-Wire Wire Line
-	1700 2250 1850 2250
-Wire Wire Line
-	1700 2350 1850 2350
-Text GLabel 1700 2350 0    50   Input ~ 0
-3V3
 Text GLabel 1850 5150 0    50   Input ~ 0
 GND
 Text GLabel 3450 5150 2    50   Input ~ 0
 GND
-Text GLabel 3600 2350 2    50   Input ~ 0
-3V3
 Text GLabel 9950 2350 2    50   Input ~ 0
 GND
 Text GLabel 9950 2250 2    50   Input ~ 0
@@ -77,8 +61,6 @@ Wire Wire Line
 	1650 7300 1650 6950
 Text Label 2000 7100 3    50   ~ 0
 LED2
-Text Label 1650 7100 3    50   ~ 0
-LED3
 Text Notes 1600 5850 0    100  ~ 0
 LED indicators
 $Comp
@@ -119,10 +101,6 @@ Wire Wire Line
 	2700 7300 2700 6950
 Text Label 2700 7100 3    50   ~ 0
 LED0
-Text GLabel 1850 2950 0    50   Input ~ 0
-ESP_VSPI_CLK
-Text GLabel 1850 2750 0    50   Input ~ 0
-ESP_VSPI_MOSI
 Wire Wire Line
 	1650 6150 1650 5950
 Wire Wire Line
@@ -139,8 +117,6 @@ Wire Wire Line
 	2350 5950 2700 5950
 Wire Wire Line
 	2700 6150 2700 5950
-Text GLabel 1850 2850 0    50   Input ~ 0
-ESP_INT
 Text GLabel 1850 5050 0    50   Input ~ 0
 PS2_CLK2
 Text GLabel 1850 4950 0    50   Input ~ 0
@@ -338,7 +314,7 @@ Text GLabel 9950 5050 2    50   Input ~ 0
 JS_MOSI
 Text GLabel 8350 4650 0    50   Input ~ 0
 JS_SCK
-Text GLabel 9950 2850 2    50   Input ~ 0
+Text GLabel 8350 2850 0    50   Input ~ 0
 SDRAM_A3
 Text GLabel 9950 4050 2    50   Input ~ 0
 SDRAM_D7
@@ -358,11 +334,11 @@ Text GLabel 9950 3250 2    50   Input ~ 0
 SDRAM_A10
 Text GLabel 9950 3050 2    50   Input ~ 0
 SDRAM_A1
-Text GLabel 8350 2550 0    50   Input ~ 0
+Text GLabel 9950 2850 2    50   Input ~ 0
 MAX_LRCLK
-Text GLabel 9950 2450 2    50   Input ~ 0
+Text GLabel 8350 2750 0    50   Input ~ 0
 MAX_SCLK
-Text GLabel 8350 2450 0    50   Input ~ 0
+Text GLabel 9950 2750 2    50   Input ~ 0
 MAX_I2S0
 Text GLabel 9950 4550 2    50   Input ~ 0
 SDRAM_D2
@@ -474,12 +450,6 @@ Connection ~ 6000 1250
 Connection ~ 6300 1250
 Wire Wire Line
 	6300 1250 6600 1250
-Text GLabel 1850 2450 0    50   Input ~ 0
-ESP_SD_DATA3
-Text GLabel 1850 2550 0    50   Input ~ 0
-ESP_SD_DATA2
-Text GLabel 1850 2650 0    50   Input ~ 0
-ESP_SD_CLK
 Text GLabel 3450 5350 2    50   Input ~ 0
 GND
 Text GLabel 1850 5350 0    50   Input ~ 0
@@ -488,7 +458,7 @@ Text GLabel 1850 5250 0    50   Input ~ 0
 3V3
 Text GLabel 3450 5250 2    50   Input ~ 0
 3V3
-Text GLabel 3450 3050 2    50   Input ~ 0
+Text GLabel 3450 3150 2    50   Input ~ 0
 ADV_SCL
 Text GLabel 1850 3250 0    50   Input ~ 0
 ADV_D11
@@ -514,51 +484,71 @@ Text GLabel 3450 3750 2    50   Input ~ 0
 ADV_D1
 Text GLabel 1850 3850 0    50   Input ~ 0
 ADV_D0
-Text GLabel 3450 3150 2    50   Input ~ 0
+Text GLabel 3450 3250 2    50   Input ~ 0
 ADV_SDA
 Text GLabel 3450 5050 2    50   Input ~ 0
 PS2_CLK1
 Text GLabel 3450 4850 2    50   Input ~ 0
 LED0
-Text GLabel 1850 4850 0    50   Input ~ 0
-LED1
 Text GLabel 3450 4750 2    50   Input ~ 0
 LED2
-Text GLabel 1850 4750 0    50   Input ~ 0
-LED3
-Text GLabel 9950 2550 2    50   Input ~ 0
-UART_RX
-Text GLabel 8350 2650 0    50   Input ~ 0
-UART_TX
-$Comp
-L Connector:Conn_01x03_Male J6
-U 1 1 5FDF1E05
-P 5900 6700
-F 0 "J6" H 6008 6981 50  0000 C CNN
-F 1 "Conn_01x03_Male" H 6008 6890 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 5900 6700 50  0001 C CNN
-F 3 "~" H 5900 6700 50  0001 C CNN
-	1    5900 6700
-	1    0    0    -1  
-$EndComp
-Text GLabel 6100 6600 2    50   Input ~ 0
-UART_RX
-Text GLabel 6100 6700 2    50   Input ~ 0
-UART_TX
-Text GLabel 6100 6800 2    50   Input ~ 0
-GND
-Text Notes 5950 6350 0    50   ~ 0
-UART RX/TX 
 Text GLabel 1850 4150 0    50   Input ~ 0
 ADV_HSYNC
 Text GLabel 3450 2650 2    50   Input ~ 0
-ESP_SD_DATA1
-Text GLabel 3450 2850 2    50   Input ~ 0
-ESP_SD_DATA0
+FPGA_SD_DATA1
+Text GLabel 3450 2750 2    50   Input ~ 0
+FPGA_SD_DATA0
 Text GLabel 3450 2550 2    50   Input ~ 0
-ESP_SD_CMD
+FPGA_SD_CMD
 Text GLabel 3450 2950 2    50   Input ~ 0
 ESP_VSPI_CS
-Text GLabel 3450 2750 2    50   Input ~ 0
+Text GLabel 1850 2850 0    50   Input ~ 0
 ESP_VSPI_MISO
+Text GLabel 1850 2750 0    50   Input ~ 0
+FPGA_SD_CLK
+Text GLabel 1850 2650 0    50   Input ~ 0
+FPGA_SD_DATA2
+Text GLabel 1850 2550 0    50   Input ~ 0
+FPGA_SD_DATA3
+Text GLabel 1850 3050 0    50   Input ~ 0
+ESP_INT
+Text GLabel 3450 2850 2    50   Input ~ 0
+ESP_VSPI_MOSI
+Text GLabel 1850 2950 0    50   Input ~ 0
+ESP_VSPI_CLK
+Text GLabel 3450 2450 2    50   Input ~ 0
+FGPA_UART0_TX
+Text GLabel 1850 2450 0    50   Input ~ 0
+FPGA_UART0_RX
+Text GLabel 1850 3150 0    50   Input ~ 0
+OSC_74.25
+$Comp
+L Mechanical:MountingHole_Pad H7
+U 1 1 5FA3C754
+P 6900 1150
+F 0 "H7" H 7000 1199 50  0000 L CNN
+F 1 "MountingHole_Pad" H 7000 1108 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad" H 6900 1150 50  0001 C CNN
+F 3 "~" H 6900 1150 50  0001 C CNN
+	1    6900 1150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6900 1250 6600 1250
+Connection ~ 6600 1250
+Text GLabel 3450 3050 2    50   Input ~ 0
+ADV_CECCLK
+Text Label 1650 7100 3    50   ~ 0
+LED3
+Text GLabel 1850 4850 0    50   Input ~ 0
+LED1
+Text GLabel 1850 4750 0    50   Input ~ 0
+LED3
+Text GLabel 1850 2350 0    50   Input ~ 0
+GND
+Text GLabel 3450 2350 2    50   Input ~ 0
+GND
+Text GLabel 3450 2250 2    50   Input ~ 0
+VIN5V
+NoConn ~ 1850 2250
 $EndSCHEMATC

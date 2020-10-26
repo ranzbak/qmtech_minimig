@@ -523,8 +523,6 @@ $EndComp
 Connection ~ 1825 5625
 Wire Wire Line
 	1825 5625 1825 6625
-Text GLabel 3725 6625 2    50   Input ~ 0
-ADV_BGVDD
 Connection ~ 2725 6625
 Wire Wire Line
 	2725 6625 3725 6625
@@ -984,79 +982,6 @@ F 3 "~" H 2500 9175 50  0001 C CNN
 $EndComp
 Text GLabel 2500 8725 1    50   Input ~ 0
 3V3
-$Comp
-L Oscillator:ASE-xxxMHz X1
-U 1 1 5DC2E9FD
-P 9200 10400
-F 0 "X1" H 9544 10446 50  0000 L CNN
-F 1 "MCSJK-3N-16.00-3.3-50-B" H 8775 10750 50  0000 L CNN
-F 2 "Oscillator:Oscillator_SMD_Abracon_ASE-4Pin_3.2x2.5mm" H 9900 10050 50  0001 C CNN
-F 3 "http://www.farnell.com/datasheets/2864171.pdf" H 9100 10400 50  0001 C CNN
-	1    9200 10400
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R60
-U 1 1 5DC3073E
-P 8675 10250
-F 0 "R60" H 8745 10296 50  0000 L CNN
-F 1 "10k" H 8745 10205 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 8605 10250 50  0001 C CNN
-F 3 "~" H 8675 10250 50  0001 C CNN
-	1    8675 10250
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8900 10400 8675 10400
-Wire Wire Line
-	8675 10100 8675 9900
-Wire Wire Line
-	8675 9900 9200 9900
-Wire Wire Line
-	9200 9900 9200 10100
-Text GLabel 9200 9900 1    50   Input ~ 0
-3V3
-Text GLabel 9200 10700 3    50   Input ~ 0
-GND
-$Comp
-L Device:C C49
-U 1 1 5DC368A8
-P 8300 10250
-F 0 "C49" H 8415 10296 50  0000 L CNN
-F 1 "100nF" H 8415 10205 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 8338 10100 50  0001 C CNN
-F 3 "~" H 8300 10250 50  0001 C CNN
-	1    8300 10250
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8675 9900 8300 9900
-Wire Wire Line
-	8300 9900 8300 10100
-Connection ~ 8675 9900
-Wire Wire Line
-	8300 10400 8300 10700
-Wire Wire Line
-	8300 10700 9200 10700
-$Comp
-L Device:R R61
-U 1 1 5DC3C581
-P 9825 10400
-F 0 "R61" V 9618 10400 50  0000 C CNN
-F 1 "27" V 9709 10400 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 9755 10400 50  0001 C CNN
-F 3 "~" H 9825 10400 50  0001 C CNN
-	1    9825 10400
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	9500 10400 9675 10400
-Text GLabel 10175 10400 2    50   Input ~ 0
-ADV_CECCLK
-Wire Wire Line
-	9975 10400 10175 10400
-Text Notes 8925 9625 0    50   ~ 0
-CEC Clock Generator
 Text Notes 4050 7675 0    50   ~ 0
 ESD protection IC
 Text Notes 1475 1575 0    50   ~ 0
@@ -1172,4 +1097,6 @@ Text GLabel 9725 3875 2    50   Input ~ 0
 ADV_D2
 Text GLabel 8825 2425 1    50   Input ~ 0
 ADV_CLK
+Text GLabel 3725 6625 2    50   Input ~ 0
+ADV_BGVDD
 $EndSCHEMATC

@@ -1,0 +1,7 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP CP2105-F01-GM
+D CP2105-F01-GM
+F http://www.silabs.com/Support%20Documents/TechnicalDocs/CP2105.pdf
+$ENDCMP
+# end doc library

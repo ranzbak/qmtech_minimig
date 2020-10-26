@@ -14,4 +14,6 @@
   (lib (name SN74LS06NSR)(type Legacy)(uri ${KIPRJMOD}/symbols/SN74LS06NSR.lib)(options "")(descr ""))
   (lib (name MT3608)(type Legacy)(uri ${KIPRJMOD}/symbols/MT3608.lib)(options "")(descr ""))
   (lib (name AS4C16M16SA-6TCN)(type Legacy)(uri ${KIPRJMOD}/symbols/AS4C16M16SA-6TCN.lib)(options "")(descr ""))
+  (lib (name eec)(type Legacy)(uri ${KIPRJMOD}/symbols/eec.lib)(options "")(descr ""))
+  (lib (name micro_sd_card)(type Legacy)(uri ${KIPRJMOD}/symbols/micro_sd_card.lib)(options "")(descr ""))
 )

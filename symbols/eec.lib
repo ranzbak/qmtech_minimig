@@ -1,0 +1,61 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# Silicon Labs CP2105-F01-GM
+#
+DEF CP2105-F01-GM U 0 40 Y Y 1 L N
+F0 "U" 0 200 50 H V L CNN 
+F1 "CP2105-F01-GM" 0 300 50 H V L CNN 
+F2 "Silicon_Labs-CP2105-F01-GM-*" 0 400 50 H I L CNN 
+F3 "http://www.silabs.com/Support%20Documents/TechnicalDocs/CP2105.pdf" 0 500 50 H I L CNN 
+F4 "J-STD-020" 0 600 50 H I L CNN "Code  IPC"
+F5 "MO-220" 0 700 50 H I L CNN "Code  JEDEC"
+F6 "Manufacturer URL" 0 800 50 H I L CNN "Component Link 1 Description"
+F7 "http://www.silabs.com/" 0 900 50 H I L CNN "Component Link 1 URL"
+F8 "Package Specification" 0 1000 50 H I L CNN "Component Link 3 Description"
+F9 "http://www.silabs.com/Support%20Documents/TechnicalDocs/C8051F93x-92x.pdf" 0 1100 50 H I L CNN "Component Link 3 URL"
+F10 "Rev. 1.0" 0 1200 50 H I L CNN "Datasheet Version"
+F11 "296 Bytes" 0 1300 50 H I L CNN "EEPROM"
+F12 "true" 0 1400 50 H I L CNN "Internal Oscillator"
+F13 "Surface Mount" 0 1500 50 H I L CNN "Mounting Technology"
+F14 "24-Pin Quad-Flat No-Leads Package, Body 4 x 4 mm, Pitch 0.5 mm" 0 1600 50 H I L CNN "Package Description"
+F15 "USB Bridges" 0 1700 50 H I L CNN "Sub  Family"
+F16 "IC" 0 1800 50 H I L CNN "category"
+F17 "1313601" 0 1900 50 H I L CNN "ciiva ids"
+F18 "485ff25e302bf4b1" 0 2000 50 H I L CNN "library id"
+F19 "Silicon Labs" 0 2100 50 H I L CNN "manufacturer"
+F20 "QFN-24" 0 2200 50 H I L CNN "package"
+F21 "1382591076" 0 2300 50 H I L CNN "release date"
+F22 "CBF3A91A-5B09-4087-B3A5-430E6B477F09" 0 2400 50 H I L CNN "vault revision"
+F23 "yes" 0 2500 50 H I L CNN "imported"
+DRAW
+X ~SUSPEND~/~RI_SCI~ 1 1700 -1200 100 L 40 40 1 1 B 
+X GND 2 1700 -1500 100 L 40 40 1 1 W 
+X D+ 3 100 -200 100 R 40 40 1 1 B 
+X D- 4 100 -100 100 R 40 40 1 1 B 
+X VIO 5 100 -1500 100 R 40 40 1 1 W 
+X VDD 6 100 -1600 100 R 40 40 1 1 W 
+X REGIN 7 100 -1400 100 R 40 40 1 1 W 
+X VBUS 8 100 0 100 R 40 40 1 1 I 
+X ~RST~ 9 100 -400 100 R 40 40 1 1 B 
+X ~CTS_ECI~ 10 100 -1100 100 R 40 40 1 1 I 
+X ~RTS_ECI~ 11 100 -1200 100 R 40 40 1 1 O 
+X RXD_ECI 12 1700 -900 100 L 40 40 1 1 I 
+X TXD_ECI 13 1700 -1000 100 L 40 40 1 1 O 
+X ~DSR_ECI~ 14 1700 -400 100 L 40 40 1 1 B 
+X ~DTR_ECI~ 15 1700 -300 100 L 40 40 1 1 B 
+X ~DCD_ECI~/VPP 16 100 -600 100 R 40 40 1 1 I 
+X ~SUSPEND~/~RI_ECI~ 17 1700 -1300 100 L 40 40 1 1 B 
+X ~CTS_SCI~ 18 100 -800 100 R 40 40 1 1 I 
+X ~RTS_SCI~ 19 100 -900 100 R 40 40 1 1 O 
+X RXD_SCI 20 1700 -600 100 L 40 40 1 1 I 
+X TXD_SCI 21 1700 -700 100 L 40 40 1 1 O 
+X ~DSR_SCI~ 22 1700 -200 100 L 40 40 1 1 B 
+X ~DTR_SCI~ 23 1700 -100 100 L 40 40 1 1 B 
+X ~DCD_SCI~ 24 1700 0 100 L 40 40 1 1 B 
+X GND 25 1700 -1600 100 L 40 40 1 1 W 
+S 200 100 1600 -1700 1 1 0 f
+ENDDRAW
+ENDDEF
+#
+# End Library

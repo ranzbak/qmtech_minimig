@@ -311,4 +311,59 @@ Text GLabel 1250 2750 1    50   Input ~ 0
 Text GLabel 6600 4300 2    50   Input ~ 0
 SDRAM_CKE
 NoConn ~ 6600 4000
+Text Notes 1575 6150 0    50   ~ 0
+Return path decoupling
+$Comp
+L Device:C C66
+U 1 1 5F8FCA63
+P 1575 6525
+F 0 "C66" H 1690 6571 50  0000 L CNN
+F 1 "10nF" H 1690 6480 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 1613 6375 50  0001 C CNN
+F 3 "~" H 1575 6525 50  0001 C CNN
+	1    1575 6525
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C68
+U 1 1 5F8FD1C4
+P 2000 6525
+F 0 "C68" H 2115 6571 50  0000 L CNN
+F 1 "10nF" H 2115 6480 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 2038 6375 50  0001 C CNN
+F 3 "~" H 2000 6525 50  0001 C CNN
+	1    2000 6525
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C69
+U 1 1 5F8FD3F9
+P 2425 6525
+F 0 "C69" H 2540 6571 50  0000 L CNN
+F 1 "10nF" H 2540 6480 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 2463 6375 50  0001 C CNN
+F 3 "~" H 2425 6525 50  0001 C CNN
+	1    2425 6525
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2425 6375 2000 6375
+Connection ~ 1575 6375
+Wire Wire Line
+	1575 6375 1325 6375
+Connection ~ 2000 6375
+Wire Wire Line
+	2000 6375 1575 6375
+Wire Wire Line
+	2425 6675 2000 6675
+Connection ~ 1575 6675
+Wire Wire Line
+	1575 6675 1325 6675
+Connection ~ 2000 6675
+Wire Wire Line
+	2000 6675 1575 6675
+Text GLabel 1325 6375 0    50   Input ~ 0
+3V3
+Text GLabel 1325 6675 0    50   Input ~ 0
+GND
 $EndSCHEMATC
