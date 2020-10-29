@@ -14,809 +14,226 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Switch:SW_Push SW1
-U 1 1 5DB08F91
-P 1400 7000
-F 0 "SW1" H 1400 7285 50  0000 C CNN
-F 1 "SW_Push" H 1400 7194 50  0000 C CNN
-F 2 "Button_Switch_SMD:SW_SPST_EVQQ2" H 1400 7200 50  0001 C CNN
-F 3 "~" H 1400 7200 50  0001 C CNN
-	1    1400 7000
-	1    0    0    -1  
-$EndComp
-Text GLabel 1000 7150 3    50   Input ~ 0
-GND
-Wire Wire Line
-	1000 7150 1000 7000
-Wire Wire Line
-	1000 7000 1200 7000
-Text Notes 1000 6500 0    100  ~ 0
-Reset button\n
-$Comp
-L Device:C C?
-U 1 1 5D79DC5C
-P 3600 4450
-AR Path="/5DE41876/5D79DC5C" Ref="C?"  Part="1" 
-AR Path="/5D5D9AB7/5D79DC5C" Ref="C3"  Part="1" 
-F 0 "C3" H 3485 4404 50  0000 R CNN
-F 1 "100nF" H 3485 4495 50  0000 R CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 3638 4300 50  0001 C CNN
-F 3 "~" H 3600 4450 50  0001 C CNN
-	1    3600 4450
-	-1   0    0    1   
-$EndComp
-Text GLabel 3600 4600 3    50   Input ~ 0
-GND
-Text GLabel 5100 7000 2    50   Input ~ 0
-GND
-Text GLabel 3600 5300 0    50   Input ~ 0
-GND
-Text GLabel 3600 6700 0    50   Input ~ 0
-GND
-Text GLabel 4100 4600 3    50   Input ~ 0
-GND
-Text GLabel 2150 5500 0    50   Input ~ 0
-ESP_RST
-$Comp
-L Device:R R?
-U 1 1 5D79DC79
-P 2300 5250
-AR Path="/5DE41876/5D79DC79" Ref="R?"  Part="1" 
-AR Path="/5D5D9AB7/5D79DC79" Ref="R17"  Part="1" 
-F 0 "R17" H 2370 5296 50  0000 L CNN
-F 1 "10K" H 2370 5205 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 2230 5250 50  0001 C CNN
-F 3 "~" H 2300 5250 50  0001 C CNN
-	1    2300 5250
-	1    0    0    -1  
-$EndComp
-Text GLabel 2300 5100 1    50   Input ~ 0
-3V3
-Text GLabel 3600 6300 0    50   Input ~ 0
-ADV_SDA
-Text GLabel 3600 6400 0    50   Input ~ 0
-ADV_SCL
-Text GLabel 5100 6700 2    50   Input ~ 0
-ESP_UART0_TX
-Text GLabel 5100 6600 2    50   Input ~ 0
-ESP_UART0_RX
-Text GLabel 3600 6500 0    50   Input ~ 0
-ESP_SD_CLK
-Text GLabel 3600 6800 0    50   Input ~ 0
-ESP_SD_DATA3
-Text GLabel 5100 5600 2    50   Input ~ 0
-ESP_SD_DATA0
-Text GLabel 5100 5500 2    50   Input ~ 0
-ESP_SD_CMD
-Text GLabel 3600 6600 0    50   Input ~ 0
-ESP_SD_DATA2
-$Comp
-L qmtech-minimig-rescue:10118193-0001LF-10118193-0001LF J4
+L qmtech-minimig-rescue:10118193-0001LF-10118193-0001LF J?
 U 1 1 5D814EC2
-P 1925 2650
-AR Path="/5D814EC2" Ref="J4"  Part="1" 
-AR Path="/5D5D9AB7/5D814EC2" Ref="J4"  Part="1" 
-F 0 "J4" H 1817 2085 50  0000 C CNN
-F 1 "10118193-0001LF" H 1817 2176 50  0000 C CNN
-F 2 "10118193-001:FCI_10118193-0001LF" H 1925 2650 50  0001 L BNN
-F 3 "None" H 1925 2650 50  0001 L BNN
-F 4 "Amphenol ICC" H 1925 2650 50  0001 L BNN "Field4"
-F 5 "Single Port 5 Contact Shielded SMT MICRO USB B-Type Receptacle" H 1925 2650 50  0001 L BNN "Field5"
-F 6 "None" H 1925 2650 50  0001 L BNN "Field6"
-F 7 "Unavailable" H 1925 2650 50  0001 L BNN "Field7"
-F 8 "10118193-0001LF" H 1925 2650 50  0001 L BNN "Field8"
-	1    1925 2650
+P 3050 4250
+AR Path="/5D814EC2" Ref="J?"  Part="1" 
+AR Path="/5D5D9AB7/5D814EC2" Ref="J1"  Part="1" 
+F 0 "J1" H 2942 3685 50  0000 C CNN
+F 1 "10118193-0001LF" H 2942 3776 50  0000 C CNN
+F 2 "10118193-001:FCI_10118193-0001LF" H 3050 4250 50  0001 L BNN
+F 3 "None" H 3050 4250 50  0001 L BNN
+F 4 "Amphenol ICC" H 3050 4250 50  0001 L BNN "Field4"
+F 5 "Single Port 5 Contact Shielded SMT MICRO USB B-Type Receptacle" H 3050 4250 50  0001 L BNN "Field5"
+F 6 "None" H 3050 4250 50  0001 L BNN "Field6"
+F 7 "Unavailable" H 3050 4250 50  0001 L BNN "Field7"
+F 8 "10118193-0001LF" H 3050 4250 50  0001 L BNN "Field8"
+	1    3050 4250
 	-1   0    0    1   
 $EndComp
-Text GLabel 2325 2350 2    50   Input ~ 0
+Text GLabel 3450 3950 2    50   Input ~ 0
 GND
-Text GLabel 2500 4225 3    50   Input ~ 0
+Text GLabel 3625 5825 3    50   Input ~ 0
 VUSB5V
-Text GLabel 6225 3150 2    50   Input ~ 0
+Text GLabel 5600 6250 3    50   Input ~ 0
 GND
 $Comp
-L Device:C C10
+L Device:C C4
 U 1 1 5D81A5D8
-P 3825 3475
-F 0 "C10" V 4025 3475 50  0000 C CNN
-F 1 "100nF" V 3950 3475 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 3863 3325 50  0001 C CNN
-F 3 "~" H 3825 3475 50  0001 C CNN
-	1    3825 3475
-	-1   0    0    1   
+P 5375 2925
+F 0 "C4" V 5575 2925 50  0000 C CNN
+F 1 "100nF" V 5500 2925 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 5413 2775 50  0001 C CNN
+F 3 "~" H 5375 2925 50  0001 C CNN
+	1    5375 2925
+	0    -1   -1   0   
 $EndComp
-Text GLabel 3825 3625 3    50   Input ~ 0
+Text GLabel 5225 2925 0    50   Input ~ 0
 GND
-$Comp
-L Device:C C8
-U 1 1 5D81FF64
-P 2350 3175
-F 0 "C8" H 2465 3221 50  0000 L CNN
-F 1 "100nF" H 2465 3130 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 2388 3025 50  0001 C CNN
-F 3 "~" H 2350 3175 50  0001 C CNN
-	1    2350 3175
-	0    1    1    0   
-$EndComp
-Connection ~ 2500 3175
-$Comp
-L Device:C C9
-U 1 1 5D821065
-P 2350 3675
-F 0 "C9" H 2465 3721 50  0000 L CNN
-F 1 "4.7uF" H 2465 3630 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 2388 3525 50  0001 C CNN
-F 3 "~" H 2350 3675 50  0001 C CNN
-	1    2350 3675
-	0    1    1    0   
-$EndComp
-Connection ~ 2500 3675
-Wire Wire Line
-	2500 3675 2500 3175
-Text GLabel 2200 3175 0    50   Input ~ 0
-GND
-Text GLabel 2200 3675 0    50   Input ~ 0
-GND
-$Comp
-L Device:R R24
-U 1 1 5D822C19
-P 4250 2050
-F 0 "R24" H 4320 2096 50  0000 L CNN
-F 1 "10k" H 4320 2005 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 4180 2050 50  0001 C CNN
-F 3 "~" H 4250 2050 50  0001 C CNN
-	1    4250 2050
-	0    1    1    0   
-$EndComp
-Text GLabel 8400 2350 2    50   Input ~ 0
-ESP_UART0_RX
-Text GLabel 8400 2250 2    50   Input ~ 0
-ESP_UART0_TX
-Wire Wire Line
-	8400 2250 8250 2250
-$Comp
-L Device:R R25
-U 1 1 5D83EA5A
-P 8250 2750
-F 0 "R25" V 8175 2750 50  0000 C CNN
-F 1 "1k" V 8250 2750 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 8180 2750 50  0001 C CNN
-F 3 "~" H 8250 2750 50  0001 C CNN
-	1    8250 2750
-	-1   0    0    1   
-$EndComp
-Text GLabel 8250 3275 3    50   Input ~ 0
-3V3
-Wire Wire Line
-	8250 2975 8250 2900
-$Comp
-L Device:R R26
-U 1 1 5D840D1C
-P 8025 2750
-F 0 "R26" V 7950 2750 50  0000 C CNN
-F 1 "1k" V 8025 2750 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 7955 2750 50  0001 C CNN
-F 3 "~" H 8025 2750 50  0001 C CNN
-	1    8025 2750
-	-1   0    0    1   
-$EndComp
-Text GLabel 8025 3275 3    50   Input ~ 0
-3V3
-Wire Wire Line
-	8025 2975 8025 2900
-Wire Wire Line
-	8250 2600 8250 2250
-Connection ~ 8250 2250
-Wire Wire Line
-	8250 2250 6150 2250
-Wire Wire Line
-	8025 2600 8025 2350
-Wire Wire Line
-	8400 2350 8025 2350
-Connection ~ 8025 2350
-Wire Wire Line
-	8025 2350 6150 2350
-Text GLabel 4550 2550 0    50   Input ~ 0
-USB_RTS
-$Comp
-L MMBT2222A:MMBT2222A Q1
-U 1 1 5D846009
-P 10025 4025
-F 0 "Q1" H 10169 4071 50  0000 L CNN
-F 1 "MMBT2222A" H 10169 3980 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 10025 4025 50  0001 L BNN
-F 3 "MMBT2222A" H 10025 4025 50  0001 L BNN
-F 4 "Unavailable" H 10025 4025 50  0001 L BNN "Field4"
-F 5 "STMicroelectronics" H 10025 4025 50  0001 L BNN "Field5"
-F 6 "" H 10025 4025 50  0001 L BNN "Field6"
-F 7 "TO-236-3 Taitron" H 10025 4025 50  0001 L BNN "Field7"
-F 8 "None" H 10025 4025 50  0001 L BNN "Field8"
-	1    10025 4025
-	1    0    0    -1  
-$EndComp
-$Comp
-L MMBT2222A:MMBT2222A Q2
-U 1 1 5D84CC06
-P 10025 4775
-F 0 "Q2" H 10169 4729 50  0000 L CNN
-F 1 "MMBT2222A" H 10169 4820 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 10025 4775 50  0001 L BNN
-F 3 "MMBT2222A" H 10025 4775 50  0001 L BNN
-F 4 "Unavailable" H 10025 4775 50  0001 L BNN "Field4"
-F 5 "STMicroelectronics" H 10025 4775 50  0001 L BNN "Field5"
-F 6 "" H 10025 4775 50  0001 L BNN "Field6"
-F 7 "TO-236-3 Taitron" H 10025 4775 50  0001 L BNN "Field7"
-F 8 "None" H 10025 4775 50  0001 L BNN "Field8"
-	1    10025 4775
-	1    0    0    1   
-$EndComp
-Text GLabel 6150 1750 2    50   Input ~ 0
-USB_DTR
-Text GLabel 8800 4025 0    50   Input ~ 0
-USB_DTR
-Text GLabel 8800 4775 0    50   Input ~ 0
-USB_RTS
-$Comp
-L Device:R R27
-U 1 1 5D8794E5
-P 9400 4025
-F 0 "R27" V 9193 4025 50  0000 C CNN
-F 1 "10k" V 9284 4025 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 9330 4025 50  0001 C CNN
-F 3 "~" H 9400 4025 50  0001 C CNN
-	1    9400 4025
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R30
-U 1 1 5D879E77
-P 9400 4775
-F 0 "R30" V 9193 4775 50  0000 C CNN
-F 1 "10k" V 9284 4775 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 9330 4775 50  0001 C CNN
-F 3 "~" H 9400 4775 50  0001 C CNN
-	1    9400 4775
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	8800 4025 9175 4025
-Wire Wire Line
-	8800 4775 9125 4775
-Wire Wire Line
-	9550 4025 9925 4025
-Wire Wire Line
-	9550 4775 9925 4775
-Wire Wire Line
-	10125 4225 10125 4375
-Wire Wire Line
-	10125 4375 9125 4375
-Wire Wire Line
-	9125 4375 9125 4775
-Connection ~ 9125 4775
-Wire Wire Line
-	9125 4775 9250 4775
-Wire Wire Line
-	10125 4575 10125 4425
-Wire Wire Line
-	10125 4425 9175 4425
-Wire Wire Line
-	9175 4425 9175 4025
-Connection ~ 9175 4025
-Wire Wire Line
-	9175 4025 9250 4025
-Wire Wire Line
-	10125 3825 10125 3725
-Wire Wire Line
-	10125 3725 10450 3725
-Text GLabel 10450 3725 2    50   Input ~ 0
-ESP_RST
-Wire Wire Line
-	10125 4975 10125 5075
-Wire Wire Line
-	10125 5075 10450 5075
-Text GLabel 10450 5075 2    50   Input ~ 0
-ESP_FLASH
-$Comp
-L Device:R R31
-U 1 1 5D87F40A
-P 9825 5075
-F 0 "R31" V 9618 5075 50  0000 C CNN
-F 1 "10k" V 9709 5075 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 9755 5075 50  0001 C CNN
-F 3 "~" H 9825 5075 50  0001 C CNN
-	1    9825 5075
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	9975 5075 10125 5075
-Connection ~ 10125 5075
-Text GLabel 9675 5075 0    50   Input ~ 0
-3V3
-Text GLabel 5100 7100 2    50   Input ~ 0
-GND
-Text GLabel 5100 5700 2    50   Input ~ 0
-ESP_FLASH
 $Comp
 L Device:C C2
-U 1 1 5D898760
-P 2600 5600
-F 0 "C2" V 2348 5600 50  0000 C CNN
-F 1 "100nF" V 2439 5600 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 2638 5450 50  0001 C CNN
-F 3 "~" H 2600 5600 50  0001 C CNN
-	1    2600 5600
+U 1 1 5D81FF64
+P 3475 4775
+F 0 "C2" H 3590 4821 50  0000 L CNN
+F 1 "100nF" H 3590 4730 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 3513 4625 50  0001 C CNN
+F 3 "~" H 3475 4775 50  0001 C CNN
+	1    3475 4775
 	0    1    1    0   
 $EndComp
+Connection ~ 3625 4775
 $Comp
-L Device:C C7
-U 1 1 5D898CD2
-P 2850 5700
-F 0 "C7" V 2598 5700 50  0000 C CNN
-F 1 "100nF" V 2689 5700 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 2888 5550 50  0001 C CNN
-F 3 "~" H 2850 5700 50  0001 C CNN
-	1    2850 5700
+L Device:C C3
+U 1 1 5D821065
+P 3475 5275
+F 0 "C3" H 3590 5321 50  0000 L CNN
+F 1 "4.7uF" H 3590 5230 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 3513 5125 50  0001 C CNN
+F 3 "~" H 3475 5275 50  0001 C CNN
+	1    3475 5275
 	0    1    1    0   
 $EndComp
-Text GLabel 2150 5700 0    50   Input ~ 0
+Connection ~ 3625 5275
+Wire Wire Line
+	3625 5275 3625 4775
+Text GLabel 3325 4775 0    50   Input ~ 0
 GND
-$Comp
-L Device:LED D1
-U 1 1 5D8F4A33
-P 8250 3125
-F 0 "D1" H 8250 2775 50  0000 C CNN
-F 1 "GREEN" H 8250 2700 50  0000 C CNN
-F 2 "LED_SMD:LED_0603_1608Metric" H 8250 3125 50  0001 C CNN
-F 3 "~" H 8250 3125 50  0001 C CNN
-	1    8250 3125
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:LED D2
-U 1 1 5D8F4D93
-P 8025 3125
-F 0 "D2" H 8025 3450 50  0000 C CNN
-F 1 "GREEN" H 8025 3525 50  0000 C CNN
-F 2 "LED_SMD:LED_0603_1608Metric" H 8025 3125 50  0001 C CNN
-F 3 "~" H 8025 3125 50  0001 C CNN
-	1    8025 3125
-	0    1    1    0   
-$EndComp
-Text GLabel 5100 5800 2    50   Input ~ 0
-ESP_SD_DATA1
-NoConn ~ 2325 2650
-Text GLabel 1900 7000 2    50   Input ~ 0
-ESP_RST
-Text GLabel 3600 5800 0    50   Input ~ 0
-ESP_SD_SW
-$Comp
-L ESP32-WROVER-B_(16MB):ESP32-WROVER-B_(16MB) IC1
-U 1 1 5DA1040C
-P 3600 5300
-F 0 "IC1" H 4350 5565 50  0000 C CNN
-F 1 "ESP32-WROVER-B_(16MB)" H 4350 5474 50  0000 C CNN
-F 2 "ESP32-WROVER-B_(16MB):ESP32WROVERIB16MB" H 4950 5400 50  0001 L CNN
-F 3 "https://www.mouser.es/datasheet/2/891/esp32-wrover-b_datasheet_en-1384674.pdf" H 4950 5300 50  0001 L CNN
-F 4 "WiFi Modules (802.11) SMD Module, ESP32-D0WD, 64Mbits PSRAM, 128Mbits SPI flash, PCB Antenna" H 4950 5200 50  0001 L CNN "Description"
-F 5 "3.4" H 4950 5100 50  0001 L CNN "Height"
-F 6 "Espressif" H 4950 5000 50  0001 L CNN "Manufacturer_Name"
-F 7 "ESP32-WROVER-B (16MB)" H 4950 4900 50  0001 L CNN "Manufacturer_Part_Number"
-F 8 "356-ESP32-WROB(16MB)" H 4950 4800 50  0001 L CNN "Mouser Part Number"
-F 9 "" H 4950 4700 50  0001 L CNN "Mouser Price/Stock"
-F 10 "" H 4950 4600 50  0001 L CNN "RS Part Number"
-F 11 "" H 4950 4500 50  0001 L CNN "RS Price/Stock"
-	1    3600 5300
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3600 5600 2750 5600
-Wire Wire Line
-	3000 5700 3600 5700
-Wire Wire Line
-	2700 5700 2350 5700
-Wire Wire Line
-	2450 5600 2350 5600
-Wire Wire Line
-	2350 5600 2350 5700
-Connection ~ 2350 5700
-Wire Wire Line
-	2350 5700 2150 5700
-$Comp
-L Device:C C?
-U 1 1 5D79DC6A
-P 4100 4450
-AR Path="/5DE41876/5D79DC6A" Ref="C?"  Part="1" 
-AR Path="/5D5D9AB7/5D79DC6A" Ref="C4"  Part="1" 
-F 0 "C4" H 3985 4404 50  0000 R CNN
-F 1 "1uF" H 3985 4495 50  0000 R CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 4138 4300 50  0001 C CNN
-F 3 "~" H 4100 4450 50  0001 C CNN
-	1    4100 4450
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	3600 5400 3150 5400
-Wire Wire Line
-	3150 5400 3150 4300
-Wire Wire Line
-	3150 4300 3600 4300
-Wire Wire Line
-	3600 4300 4100 4300
-Connection ~ 3600 4300
-Wire Wire Line
-	3600 5500 2300 5500
-Wire Wire Line
-	2300 5400 2300 5500
-Connection ~ 2300 5500
-Wire Wire Line
-	2300 5500 2150 5500
-Text GLabel 4100 2050 0    50   Input ~ 0
-3V3
-NoConn ~ 5100 5300
-NoConn ~ 5100 5400
-NoConn ~ 5100 5900
-NoConn ~ 5100 6000
-NoConn ~ 3600 7200
-NoConn ~ 3600 7100
-NoConn ~ 3600 7000
-NoConn ~ 3600 6900
-$Comp
-L Device:LED D11
-U 1 1 5DAFEB28
-P 7925 5375
-AR Path="/5D5D9AB7/5DAFEB28" Ref="D11"  Part="1" 
-AR Path="/5D7064D1/5DAFEB28" Ref="D?"  Part="1" 
-F 0 "D11" H 7918 5120 50  0000 C CNN
-F 1 "LED4" H 7918 5211 50  0000 C CNN
-F 2 "LED_SMD:LED_0603_1608Metric" H 7925 5375 50  0001 C CNN
-F 3 "~" H 7925 5375 50  0001 C CNN
-	1    7925 5375
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:LED D4
-U 1 1 5DAFEB2E
-P 7525 5375
-AR Path="/5D5D9AB7/5DAFEB2E" Ref="D4"  Part="1" 
-AR Path="/5D7064D1/5DAFEB2E" Ref="D?"  Part="1" 
-F 0 "D4" H 7518 5120 50  0000 C CNN
-F 1 "LED5" H 7518 5211 50  0000 C CNN
-F 2 "LED_SMD:LED_0603_1608Metric" H 7525 5375 50  0001 C CNN
-F 3 "~" H 7525 5375 50  0001 C CNN
-	1    7525 5375
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:R R39
-U 1 1 5DAFEB40
-P 7925 5875
-AR Path="/5D5D9AB7/5DAFEB40" Ref="R39"  Part="1" 
-AR Path="/5D7064D1/5DAFEB40" Ref="R?"  Part="1" 
-F 0 "R39" V 7718 5875 50  0000 C CNN
-F 1 "1k" V 7809 5875 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 7855 5875 50  0001 C CNN
-F 3 "~" H 7925 5875 50  0001 C CNN
-	1    7925 5875
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:R R38
-U 1 1 5DAFEB46
-P 7525 5875
-AR Path="/5D5D9AB7/5DAFEB46" Ref="R38"  Part="1" 
-AR Path="/5D7064D1/5DAFEB46" Ref="R?"  Part="1" 
-F 0 "R38" V 7318 5875 50  0000 C CNN
-F 1 "1k" V 7409 5875 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 7455 5875 50  0001 C CNN
-F 3 "~" H 7525 5875 50  0001 C CNN
-	1    7525 5875
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	7525 5025 7525 5225
-Wire Wire Line
-	7525 5025 7325 5025
-Connection ~ 7525 5025
-Wire Wire Line
-	7925 5225 7925 5025
-Wire Wire Line
-	7925 5025 7525 5025
-Text GLabel 7325 5025 0    50   Input ~ 0
-3V3
-Wire Wire Line
-	7925 5525 7925 5725
-Wire Wire Line
-	7525 5525 7525 5725
-Wire Wire Line
-	7925 6375 7925 6025
-Wire Wire Line
-	7525 6375 7525 6025
-Text Label 7925 6175 3    50   ~ 0
-LED0
-Text Label 7525 6175 3    50   ~ 0
-LED1
-Text Label 5100 6800 0    50   ~ 0
-LED1
-Text Label 5100 6500 0    50   ~ 0
-LED0
-Text Label 2600 2750 0    50   ~ 0
-D+
-Text Label 2600 2850 0    50   ~ 0
-D-
-Wire Wire Line
-	3825 3325 3825 3250
-Wire Wire Line
-	3825 3250 4075 3250
-$Comp
-L Device:C C42
-U 1 1 5DB2BACA
-P 4075 3475
-F 0 "C42" H 4190 3521 50  0000 L CNN
-F 1 "4.7uF" H 4190 3430 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 4113 3325 50  0001 C CNN
-F 3 "~" H 4075 3475 50  0001 C CNN
-	1    4075 3475
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4075 3250 4075 3325
-Text GLabel 4075 3625 3    50   Input ~ 0
+Text GLabel 3325 5275 0    50   Input ~ 0
 GND
-Text GLabel 3600 5900 0    50   Input ~ 0
-ADV_INT
-NoConn ~ 5100 6100
-Text GLabel 3600 6000 0    50   Input ~ 0
-ESP_SD_VCC_EN
-Text GLabel 5100 6900 2    50   Input ~ 0
-ESP_VSPI_MOSI
-Text GLabel 5100 6300 2    50   Input ~ 0
-ESP_VSPI_MISO
-Text GLabel 5100 6200 2    50   Input ~ 0
-ESP_VSPI_CLK
-Text GLabel 3600 6100 0    50   Input ~ 0
-ESP_VSPI_CS
-NoConn ~ 5100 6400
-Wire Wire Line
-	9875 6025 9775 6025
-Wire Wire Line
-	10175 6025 10275 6025
-Text GLabel 9775 5775 1    50   Input ~ 0
-3V3
-Text GLabel 10275 5775 1    50   Input ~ 0
-GND
-$Comp
-L Device:C C44
-U 1 1 5DAE087E
-P 10025 6025
-F 0 "C44" V 9975 5850 50  0000 C CNN
-F 1 "10nF" V 9975 6175 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 10063 5875 50  0001 C CNN
-F 3 "~" H 10025 6025 50  0001 C CNN
-	1    10025 6025
-	0    1    1    0   
-$EndComp
-Text Notes 9675 5525 0    50   ~ 0
-RF decoupling SPI
-$Comp
-L Device:C C47
-U 1 1 5DA58F16
-P 2100 1500
-F 0 "C47" V 1848 1500 50  0000 C CNN
-F 1 "10nF" V 1939 1500 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 2138 1350 50  0001 C CNN
-F 3 "~" H 2100 1500 50  0001 C CNN
-	1    2100 1500
-	0    1    1    0   
-$EndComp
-Text GLabel 1950 1500 0    50   Input ~ 0
-GND
-Text GLabel 2250 1500 2    50   Input ~ 0
-3V3
-Text Notes 1700 1175 0    50   ~ 0
-Decouple the USB signal
-Wire Wire Line
-	2500 2950 2325 2950
-Wire Wire Line
-	2500 2950 2500 3175
-Text GLabel 2600 6200 0    50   Input ~ 0
-ESP_INT
-$Comp
-L Device:R R?
-U 1 1 5E2C81AE
-P 2825 6350
-AR Path="/5DE41876/5E2C81AE" Ref="R?"  Part="1" 
-AR Path="/5D5D9AB7/5E2C81AE" Ref="R3"  Part="1" 
-F 0 "R3" H 2895 6396 50  0000 L CNN
-F 1 "47K" H 2895 6305 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 2755 6350 50  0001 C CNN
-F 3 "~" H 2825 6350 50  0001 C CNN
-	1    2825 6350
-	-1   0    0    1   
-$EndComp
-Text GLabel 2825 6500 3    50   Input ~ 0
-3V3
-Wire Wire Line
-	3600 6200 2825 6200
-Connection ~ 2825 6200
-Wire Wire Line
-	2600 6200 2825 6200
-Wire Wire Line
-	9775 5775 9775 6025
-Wire Wire Line
-	10275 5775 10275 6025
-Text Label 4475 2050 1    50   ~ 0
-RST_n
-Text GLabel 4550 3050 0    50   Input ~ 0
-VUSB5V
-Connection ~ 4100 4300
-Wire Wire Line
-	4100 4300 4300 4300
-Text GLabel 4300 4300 2    50   Input ~ 0
-3V3
-Wire Wire Line
-	2500 3675 2500 4225
-Text GLabel 2325 2550 2    50   Input ~ 0
-GND
-$Comp
-L Connector:Conn_01x02_Male J11
-U 1 1 5FEC4B0A
-P 1450 7150
-F 0 "J11" V 1512 7194 50  0000 L CNN
-F 1 "Conn_01x02_Male" V 1603 7194 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 1450 7150 50  0001 C CNN
-F 3 "~" H 1450 7150 50  0001 C CNN
-	1    1450 7150
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	1200 7000 1200 7350
-Wire Wire Line
-	1200 7350 1350 7350
-Connection ~ 1200 7000
-Wire Wire Line
-	1450 7350 1600 7350
-Wire Wire Line
-	1600 7350 1600 7000
-Connection ~ 1600 7000
-Wire Wire Line
-	1600 7000 1900 7000
-$Comp
-L eec:CP2105-F01-GM U10
-U 1 1 5F833341
-P 4450 1650
-F 0 "U10" H 5350 1915 50  0000 C CNN
-F 1 "CP2105-F01-GM" H 5350 1824 50  0000 C CNN
-F 2 "qmtech-minimig-new:Silicon_Labs-CP2105-F01-GM-Level_A" H 4450 2050 50  0001 L CNN
-F 3 "http://www.silabs.com/Support%20Documents/TechnicalDocs/CP2105.pdf" H 4450 2150 50  0001 L CNN
-F 4 "J-STD-020" H 4450 2250 50  0001 L CNN "Code  IPC"
-F 5 "MO-220" H 4450 2350 50  0001 L CNN "Code  JEDEC"
-F 6 "Manufacturer URL" H 4450 2450 50  0001 L CNN "Component Link 1 Description"
-F 7 "http://www.silabs.com/" H 4450 2550 50  0001 L CNN "Component Link 1 URL"
-F 8 "Package Specification" H 4450 2650 50  0001 L CNN "Component Link 3 Description"
-F 9 "http://www.silabs.com/Support%20Documents/TechnicalDocs/C8051F93x-92x.pdf" H 4450 2750 50  0001 L CNN "Component Link 3 URL"
-F 10 "Rev. 1.0" H 4450 2850 50  0001 L CNN "Datasheet Version"
-F 11 "296 Bytes" H 4450 2950 50  0001 L CNN "EEPROM"
-F 12 "true" H 4450 3050 50  0001 L CNN "Internal Oscillator"
-F 13 "Surface Mount" H 4450 3150 50  0001 L CNN "Mounting Technology"
-F 14 "24-Pin Quad-Flat No-Leads Package, Body 4 x 4 mm, Pitch 0.5 mm" H 4450 3250 50  0001 L CNN "Package Description"
-F 15 "USB Bridges" H 4450 3350 50  0001 L CNN "Sub  Family"
-F 16 "IC" H 4450 3450 50  0001 L CNN "category"
-F 17 "1313601" H 4450 3550 50  0001 L CNN "ciiva ids"
-F 18 "485ff25e302bf4b1" H 4450 3650 50  0001 L CNN "library id"
-F 19 "Silicon Labs" H 4450 3750 50  0001 L CNN "manufacturer"
-F 20 "QFN-24" H 4450 3850 50  0001 L CNN "package"
-F 21 "1382591076" H 4450 3950 50  0001 L CNN "release date"
-F 22 "CBF3A91A-5B09-4087-B3A5-430E6B477F09" H 4450 4050 50  0001 L CNN "vault revision"
-F 23 "yes" H 4450 4150 50  0001 L CNN "imported"
-	1    4450 1650
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2325 2750 2900 2750
-Wire Wire Line
-	2900 2750 2900 1850
-Wire Wire Line
-	2900 1850 4550 1850
-Wire Wire Line
-	3000 2850 3000 1750
-Wire Wire Line
-	3000 1750 4550 1750
-Wire Wire Line
-	2325 2850 3000 2850
-Text GLabel 4550 1650 0    50   Input ~ 0
-VUSB5V
-Wire Wire Line
-	4400 2050 4550 2050
-Wire Wire Line
-	6150 3250 6225 3250
-Wire Wire Line
-	6225 3250 6225 3150
-Wire Wire Line
-	6225 3150 6150 3150
-Text GLabel 7225 2650 2    50   Input ~ 0
-FPGA_UART0_RX
-Text GLabel 7225 2550 2    50   Input ~ 0
-FGPA_UART0_TX
-Wire Wire Line
-	7225 2550 7075 2550
-$Comp
-L Device:R R11
-U 1 1 5F90DA1D
-P 7075 3050
-F 0 "R11" V 7000 3050 50  0000 C CNN
-F 1 "1k" V 7075 3050 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 7005 3050 50  0001 C CNN
-F 3 "~" H 7075 3050 50  0001 C CNN
-	1    7075 3050
-	-1   0    0    1   
-$EndComp
-Text GLabel 7075 3575 3    50   Input ~ 0
-3V3
-Wire Wire Line
-	7075 3275 7075 3200
 $Comp
 L Device:R R1
-U 1 1 5F90DA25
-P 6850 3050
-F 0 "R1" V 6775 3050 50  0000 C CNN
-F 1 "1k" V 6850 3050 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 6780 3050 50  0001 C CNN
-F 3 "~" H 6850 3050 50  0001 C CNN
-	1    6850 3050
+U 1 1 5D822C19
+P 4950 4050
+F 0 "R1" H 5020 4096 50  0000 L CNN
+F 1 "10k" H 5020 4005 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 4880 4050 50  0001 C CNN
+F 3 "~" H 4950 4050 50  0001 C CNN
+	1    4950 4050
+	0    1    1    0   
+$EndComp
+NoConn ~ 3450 4250
+Text GLabel 4800 4050 0    50   Input ~ 0
+3V3
+Text Label 3725 4350 0    50   ~ 0
+D+
+Text Label 3725 4450 0    50   ~ 0
+D-
+Wire Wire Line
+	5525 2925 5600 2925
+Wire Wire Line
+	5600 2925 5600 3175
+$Comp
+L Device:C C5
+U 1 1 5DB2BACA
+P 5375 3175
+F 0 "C5" H 5490 3221 50  0000 L CNN
+F 1 "4.7uF" H 5490 3130 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 5413 3025 50  0001 C CNN
+F 3 "~" H 5375 3175 50  0001 C CNN
+	1    5375 3175
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5600 3175 5525 3175
+Text GLabel 5225 3175 0    50   Input ~ 0
+GND
+$Comp
+L Device:C C1
+U 1 1 5DA58F16
+P 1775 1500
+F 0 "C1" V 1523 1500 50  0000 C CNN
+F 1 "10nF" V 1614 1500 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 1813 1350 50  0001 C CNN
+F 3 "~" H 1775 1500 50  0001 C CNN
+	1    1775 1500
+	0    1    1    0   
+$EndComp
+Text GLabel 1625 1500 0    50   Input ~ 0
+GND
+Text GLabel 1925 1500 2    50   Input ~ 0
+3V3
+Text Notes 1375 1175 0    50   ~ 0
+Decouple the USB signal
+Wire Wire Line
+	3625 4550 3450 4550
+Wire Wire Line
+	3625 4550 3625 4775
+Text GLabel 5500 3650 1    50   Input ~ 0
+VUSB5V
+Wire Wire Line
+	3625 5275 3625 5825
+Text GLabel 3450 4150 2    50   Input ~ 0
+GND
+Wire Wire Line
+	3450 4350 5100 4350
+Wire Wire Line
+	3450 4450 5100 4450
+Text GLabel 5100 4250 0    50   Input ~ 0
+VUSB5V
+Text GLabel 7175 4150 2    50   Input ~ 0
+FPGA_UART0_TX
+Wire Wire Line
+	7175 4050 7025 4050
+$Comp
+L Device:R R3
+U 1 1 5F90DA1D
+P 7025 4550
+F 0 "R3" V 6950 4550 50  0000 C CNN
+F 1 "1k" V 7025 4550 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 6955 4550 50  0001 C CNN
+F 3 "~" H 7025 4550 50  0001 C CNN
+	1    7025 4550
 	-1   0    0    1   
 $EndComp
-Text GLabel 6850 3575 3    50   Input ~ 0
+Text GLabel 7025 5075 3    50   Input ~ 0
 3V3
 Wire Wire Line
-	6850 3275 6850 3200
-Wire Wire Line
-	7075 2900 7075 2550
-Connection ~ 7075 2550
-Wire Wire Line
-	7075 2550 6150 2550
-Wire Wire Line
-	6850 2900 6850 2650
-Wire Wire Line
-	7225 2650 6850 2650
-Connection ~ 6850 2650
-Wire Wire Line
-	6850 2650 6150 2650
+	7025 4775 7025 4700
 $Comp
-L Device:LED D15
+L Device:R R2
+U 1 1 5F90DA25
+P 6800 4550
+F 0 "R2" V 6725 4550 50  0000 C CNN
+F 1 "1k" V 6800 4550 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 6730 4550 50  0001 C CNN
+F 3 "~" H 6800 4550 50  0001 C CNN
+	1    6800 4550
+	-1   0    0    1   
+$EndComp
+Text GLabel 6800 5075 3    50   Input ~ 0
+3V3
+Wire Wire Line
+	6800 4775 6800 4700
+Wire Wire Line
+	7025 4400 7025 4050
+Connection ~ 7025 4050
+Wire Wire Line
+	7025 4050 6100 4050
+Wire Wire Line
+	6800 4400 6800 4150
+Wire Wire Line
+	7175 4150 6800 4150
+Connection ~ 6800 4150
+Wire Wire Line
+	6800 4150 6100 4150
+$Comp
+L Device:LED D2
 U 1 1 5F90DA34
-P 7075 3425
-F 0 "D15" H 7075 3075 50  0000 C CNN
-F 1 "GREEN" H 7075 3000 50  0000 C CNN
-F 2 "LED_SMD:LED_0603_1608Metric" H 7075 3425 50  0001 C CNN
-F 3 "~" H 7075 3425 50  0001 C CNN
-	1    7075 3425
+P 7025 4925
+F 0 "D2" H 7025 4575 50  0000 C CNN
+F 1 "GREEN" H 7025 4500 50  0000 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" H 7025 4925 50  0001 C CNN
+F 3 "~" H 7025 4925 50  0001 C CNN
+	1    7025 4925
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:LED D14
+L Device:LED D1
 U 1 1 5F90DA3A
-P 6850 3425
-F 0 "D14" H 6850 3750 50  0000 C CNN
-F 1 "GREEN" H 6850 3825 50  0000 C CNN
-F 2 "LED_SMD:LED_0603_1608Metric" H 6850 3425 50  0001 C CNN
-F 3 "~" H 6850 3425 50  0001 C CNN
-	1    6850 3425
+P 6800 4925
+F 0 "D1" H 6800 5250 50  0000 C CNN
+F 1 "GREEN" H 6800 5325 50  0000 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" H 6800 4925 50  0001 C CNN
+F 3 "~" H 6800 4925 50  0001 C CNN
+	1    6800 4925
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	4550 3250 4075 3250
-Connection ~ 4075 3250
-NoConn ~ 4550 2750
-NoConn ~ 4550 2850
-NoConn ~ 4550 2450
-NoConn ~ 4550 2250
-NoConn ~ 6150 1850
-NoConn ~ 6150 1950
-NoConn ~ 6150 2050
-NoConn ~ 6150 1650
-NoConn ~ 6150 2850
-NoConn ~ 6150 2950
-NoConn ~ 5425 2400
-Text GLabel 4550 3150 0    50   Input ~ 0
-3V3
+	5600 3650 5600 3175
+Connection ~ 5600 3175
+$Comp
+L Interface_USB:CP2102N-A01-GQFN28 U1
+U 1 1 5F9BDAE4
+P 5600 4950
+F 0 "U1" H 5600 3561 50  0000 C CNN
+F 1 "CP2102N-A01-GQFN28" H 5600 3470 50  0000 C CNN
+F 2 "Package_DFN_QFN:QFN-28-1EP_5x5mm_P0.5mm_EP3.35x3.35mm" H 6050 3750 50  0001 L CNN
+F 3 "https://www.silabs.com/documents/public/data-sheets/cp2102n-datasheet.pdf" H 5650 4200 50  0001 C CNN
+	1    5600 4950
+	1    0    0    -1  
+$EndComp
+Text GLabel 7175 4050 2    50   Input ~ 0
+FPGA_UART0_RX
+NoConn ~ 6100 4750
+NoConn ~ 6100 4850
 $EndSCHEMATC
