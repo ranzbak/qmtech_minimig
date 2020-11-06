@@ -315,17 +315,15 @@ GND
 Text GLabel 9125 5825 3    50   Input ~ 0
 ADV_CECCLK
 Text GLabel 6175 4575 0    50   Input ~ 0
-ADV_LRCLK
+MAX_LRCLK
 Text GLabel 6175 4475 0    50   Input ~ 0
-ADV_SCLK
+MAX_SCLK
 Text GLabel 6175 4375 0    50   Input ~ 0
 GND
 Text GLabel 6175 4275 0    50   Input ~ 0
 GND
-Text GLabel 6175 4175 0    50   Input ~ 0
-ADV_I2S1
 Text GLabel 6175 4075 0    50   Input ~ 0
-ADV_I2S0
+MAX_I2S0
 Text GLabel 9725 4975 2    50   Input ~ 0
 ADV_SCL
 Text GLabel 9725 4875 2    50   Input ~ 0
@@ -1077,4 +1075,6 @@ F 3 "~" H 15025 8150 50  0001 C CNN
 	1    15025 8150
 	1    0    0    -1  
 $EndComp
+Text GLabel 6175 4175 0    50   Input ~ 0
+GND
 $EndSCHEMATC
