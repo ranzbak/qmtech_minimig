@@ -31,29 +31,38 @@ F 8 "ALPS" H 3700 3175 50  0001 L BNN "Field8"
 $EndComp
 Text GLabel 4400 3475 2    50   Input ~ 0
 GND
-Text GLabel 1650 3175 0    50   Input ~ 0
+Text GLabel 1500 3175 0    50   Input ~ 0
 FPGA_SD_DATA3
-Text GLabel 1650 3275 0    50   Input ~ 0
+Text GLabel 1500 3275 0    50   Input ~ 0
 FPGA_SD_CMD
-Text GLabel 1650 2875 0    50   Input ~ 0
+Text GLabel 1500 2875 0    50   Input ~ 0
 FPGA_SD_DATA0
-Text GLabel 1650 3475 0    50   Input ~ 0
+Text GLabel 1500 3475 0    50   Input ~ 0
 FPGA_SD_CLK
 Text GLabel 4400 3375 2    50   Input ~ 0
 GND
 Wire Wire Line
-	1650 2875 2750 2875
+	1500 3175 2125 3175
 Wire Wire Line
-	1650 3175 2450 3175
+	1500 3275 1850 3275
 Wire Wire Line
-	1650 3275 2150 3275
-Wire Wire Line
-	1650 3475 1850 3475
+	1500 3475 1575 3475
 $Comp
 L Device:R R21
 U 1 1 5D7B8F06
+P 1575 2525
+F 0 "R21" H 1645 2571 50  0000 L CNN
+F 1 "10k" H 1645 2480 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 1505 2525 50  0001 C CNN
+F 3 "~" H 1575 2525 50  0001 C CNN
+	1    1575 2525
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R22
+U 1 1 5D7B9145
 P 1850 2525
-F 0 "R21" H 1920 2571 50  0000 L CNN
+F 0 "R22" H 1920 2571 50  0000 L CNN
 F 1 "10k" H 1920 2480 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 1780 2525 50  0001 C CNN
 F 3 "~" H 1850 2525 50  0001 C CNN
@@ -61,75 +70,45 @@ F 3 "~" H 1850 2525 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R22
-U 1 1 5D7B9145
-P 2150 2525
-F 0 "R22" H 2220 2571 50  0000 L CNN
-F 1 "10k" H 2220 2480 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 2080 2525 50  0001 C CNN
-F 3 "~" H 2150 2525 50  0001 C CNN
-	1    2150 2525
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:R R23
 U 1 1 5D7B92B5
-P 2450 2525
-F 0 "R23" H 2520 2571 50  0000 L CNN
-F 1 "10k" H 2520 2480 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 2380 2525 50  0001 C CNN
-F 3 "~" H 2450 2525 50  0001 C CNN
-	1    2450 2525
+P 2125 2525
+F 0 "R23" H 2195 2571 50  0000 L CNN
+F 1 "10k" H 2195 2480 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 2055 2525 50  0001 C CNN
+F 3 "~" H 2125 2525 50  0001 C CNN
+	1    2125 2525
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R R24
 U 1 1 5D7B9431
-P 2750 2525
-F 0 "R24" H 2820 2571 50  0000 L CNN
-F 1 "10k" H 2820 2480 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 2680 2525 50  0001 C CNN
-F 3 "~" H 2750 2525 50  0001 C CNN
-	1    2750 2525
+P 2975 2525
+F 0 "R24" H 3045 2571 50  0000 L CNN
+F 1 "10k" H 3045 2480 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 2905 2525 50  0001 C CNN
+F 3 "~" H 2975 2525 50  0001 C CNN
+	1    2975 2525
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1850 2675 1850 3475
-Connection ~ 1850 3475
+	1575 2675 1575 3475
 Wire Wire Line
-	1850 3475 3000 3475
+	1850 2675 1850 3275
 Wire Wire Line
-	2150 2675 2150 3275
-Connection ~ 2150 3275
+	2125 2675 2125 3175
 Wire Wire Line
-	2150 3275 3000 3275
+	2975 2675 2975 2875
 Wire Wire Line
-	2450 2675 2450 3175
-Connection ~ 2450 3175
+	1575 2375 1575 1925
 Wire Wire Line
-	2450 3175 3000 3175
-Wire Wire Line
-	2750 2675 2750 2875
-Connection ~ 2750 2875
-Wire Wire Line
-	2750 2875 3000 2875
+	1575 1925 1850 1925
 Wire Wire Line
 	1850 2375 1850 1925
 Wire Wire Line
-	1850 1925 2150 1925
+	2125 1925 2125 2375
 Wire Wire Line
-	2150 2375 2150 1925
-Connection ~ 2150 1925
-Wire Wire Line
-	2150 1925 2450 1925
-Wire Wire Line
-	2450 1925 2450 2375
-Connection ~ 2450 1925
-Wire Wire Line
-	2450 1925 2750 1925
-Wire Wire Line
-	2750 2375 2750 1925
-Connection ~ 2750 1925
+	2975 2375 2975 1925
 $Comp
 L Device:C C28
 U 1 1 5D7BEF06
@@ -145,13 +124,9 @@ Wire Wire Line
 	3500 1925 3500 1975
 Text GLabel 3500 2275 3    50   Input ~ 0
 GND
-Wire Wire Line
-	3000 2975 1650 2975
-Wire Wire Line
-	3000 3075 1650 3075
-Text GLabel 1650 2975 0    50   Input ~ 0
+Text GLabel 1500 2975 0    50   Input ~ 0
 FPGA_SD_DATA1
-Text GLabel 1650 3075 0    50   Input ~ 0
+Text GLabel 1500 3075 0    50   Input ~ 0
 FPGA_SD_DATA2
 Wire Wire Line
 	4400 2875 4600 2875
@@ -211,8 +186,6 @@ Wire Wire Line
 Connection ~ 3500 1925
 Wire Wire Line
 	4600 1925 4600 2625
-Wire Wire Line
-	2750 1925 3500 1925
 Wire Notes Line
 	475  475  6025 475 
 Text Notes 675  625  0    50   ~ 0
@@ -223,4 +196,73 @@ Wire Notes Line
 	475  475  475  7800
 Text GLabel 3775 1925 1    50   Input ~ 0
 3V3
+$Comp
+L Device:R R?
+U 1 1 5FC58804
+P 2675 2525
+F 0 "R?" H 2745 2571 50  0000 L CNN
+F 1 "10k" H 2745 2480 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 2605 2525 50  0001 C CNN
+F 3 "~" H 2675 2525 50  0001 C CNN
+	1    2675 2525
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2675 2375 2675 1925
+Wire Wire Line
+	2675 2675 2675 2975
+$Comp
+L Device:R R?
+U 1 1 5FC5A596
+P 2400 2525
+F 0 "R?" H 2470 2571 50  0000 L CNN
+F 1 "10k" H 2470 2480 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 2330 2525 50  0001 C CNN
+F 3 "~" H 2400 2525 50  0001 C CNN
+	1    2400 2525
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2400 2375 2400 1925
+Wire Wire Line
+	2400 2675 2400 3075
+Connection ~ 2975 1925
+Wire Wire Line
+	2975 1925 3500 1925
+Connection ~ 2975 2875
+Wire Wire Line
+	2975 2875 3000 2875
+Wire Wire Line
+	1500 2875 2975 2875
+Wire Wire Line
+	1500 2975 2675 2975
+Wire Wire Line
+	1500 3075 2400 3075
+Connection ~ 1575 3475
+Wire Wire Line
+	1575 3475 3000 3475
+Connection ~ 1850 1925
+Connection ~ 1850 3275
+Wire Wire Line
+	1850 3275 3000 3275
+Wire Wire Line
+	1850 1925 2125 1925
+Connection ~ 2125 1925
+Connection ~ 2125 3175
+Wire Wire Line
+	2125 3175 3000 3175
+Wire Wire Line
+	2125 1925 2400 1925
+Connection ~ 2400 1925
+Connection ~ 2400 3075
+Wire Wire Line
+	2400 3075 3000 3075
+Wire Wire Line
+	2400 1925 2675 1925
+Connection ~ 2675 1925
+Connection ~ 2675 2975
+Wire Wire Line
+	2675 2975 3000 2975
+Wire Wire Line
+	2675 1925 2975 1925
 $EndSCHEMATC

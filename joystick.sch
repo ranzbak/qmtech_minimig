@@ -63,8 +63,6 @@ Text GLabel 7050 5350 0    50   Input ~ 0
 JS2_6
 Text GLabel 7050 5450 0    50   Input ~ 0
 JS2_1
-Text GLabel 7050 5750 2    50   Input ~ 0
-GND
 Text GLabel 8150 5350 0    50   Input ~ 0
 J2IN5V
 Text GLabel 8150 5150 0    50   Input ~ 0
@@ -147,8 +145,6 @@ J2IN5V
 Text GLabel 6825 6250 0    50   Input ~ 0
 VIN5V
 Text GLabel 8300 1450 1    50   Input ~ 0
-GND
-Text GLabel 8350 4550 1    50   Input ~ 0
 GND
 Text GLabel 6000 4850 2    50   Input ~ 0
 JS2_5
@@ -565,7 +561,7 @@ Text Label 4200 3450 0    50   ~ 0
 JS_MOSI_5V
 Text Label 4200 3550 0    50   ~ 0
 JS_MISO_5V
-Text GLabel 4625 4150 0    50   Input ~ 0
+Text GLabel 4600 4150 0    50   Input ~ 0
 VIN5V
 Text GLabel 4225 4750 0    50   Input ~ 0
 GND
