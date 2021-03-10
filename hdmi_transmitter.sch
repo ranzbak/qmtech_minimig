@@ -111,10 +111,6 @@ Text GLabel 14100 7950 1    50   Input ~ 0
 Wire Wire Line
 	13700 8250 14100 8250
 Connection ~ 14100 8250
-NoConn ~ 12800 4600
-NoConn ~ 12800 4300
-NoConn ~ 13700 4100
-NoConn ~ 13700 4400
 NoConn ~ 13700 4700
 $Comp
 L Device:R R15
@@ -1076,5 +1072,13 @@ F 3 "~" H 15025 8150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 6175 4175 0    50   Input ~ 0
+GND
+Text GLabel 12800 4300 0    50   Input ~ 0
+GND
+Text GLabel 13700 4400 2    50   Input ~ 0
+GND
+Text GLabel 13700 4100 2    50   Input ~ 0
+GND
+Text GLabel 12800 4600 0    50   Input ~ 0
 GND
 $EndSCHEMATC

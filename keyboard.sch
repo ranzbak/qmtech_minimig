@@ -88,7 +88,7 @@ F 3 "~" H 5100 3250 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	4800 3250 4950 3250
+	4800 3250 4925 3250
 Wire Wire Line
 	5250 3250 5375 3250
 Connection ~ 5375 3250
@@ -171,7 +171,7 @@ L custom_symbols:Mini-DIN_6pins_ver3 P2
 U 1 1 5E56B0CA
 P 4500 5225
 F 0 "P2" H 4500 5696 50  0000 C CNN
-F 1 "Mini-DIN_6pins_ver3" H 4500 5605 50  0000 C CNN
+F 1 "Mini-DIN_6pins_ver3" H 4500 5600 50  0000 C CNN
 F 2 "Custom_Footprints:Connector_Mini-DIN_Female_6Pin_2rows" H 4500 5514 50  0000 C CNN
 F 3 "" H 4500 5245 50  0000 C CNN
 	1    4500 5225
@@ -204,8 +204,6 @@ F 3 "~" H 5100 5425 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	4800 5425 4950 5425
-Wire Wire Line
 	5250 5425 5375 5425
 Connection ~ 5375 5425
 Wire Wire Line
@@ -223,8 +221,6 @@ F 3 "~" H 5375 4875 50  0001 C CNN
 	1    5375 4875
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	4950 5025 4800 5025
 Text GLabel 5375 4725 1    50   Input ~ 0
 GND
 $Comp
@@ -247,6 +243,76 @@ Text GLabel 4500 5525 3    50   Input ~ 0
 GND
 Text Notes 4500 2250 0    50   ~ 0
 Keyboard PS/2
-Text Notes 4500 4500 0    50   ~ 0
+Text Notes 4575 4500 0    50   ~ 0
 Mouse PS/2
+$Comp
+L Device:R R61
+U 1 1 60495A98
+P 4925 5575
+F 0 "R61" V 4850 5575 50  0000 C CNN
+F 1 "2k7" V 4925 5575 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 4855 5575 50  0001 C CNN
+F 3 "~" H 4925 5575 50  0001 C CNN
+	1    4925 5575
+	1    0    0    -1  
+$EndComp
+Text GLabel 4925 5725 3    50   Input ~ 0
+3V3
+$Comp
+L Device:R R63
+U 1 1 60499475
+P 4950 4725
+F 0 "R63" V 4875 4725 50  0000 C CNN
+F 1 "2k7" V 4950 4725 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 4880 4725 50  0001 C CNN
+F 3 "~" H 4950 4725 50  0001 C CNN
+	1    4950 4725
+	-1   0    0    1   
+$EndComp
+Text GLabel 4950 4575 1    50   Input ~ 0
+3V3
+Wire Wire Line
+	4950 4875 4950 5025
+Text Notes 4575 2325 0    50   ~ 0
+Mouse PS/2
+$Comp
+L Device:R R62
+U 1 1 6049DC6A
+P 4950 2550
+F 0 "R62" V 4875 2550 50  0000 C CNN
+F 1 "2k7" V 4950 2550 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 4880 2550 50  0001 C CNN
+F 3 "~" H 4950 2550 50  0001 C CNN
+	1    4950 2550
+	-1   0    0    1   
+$EndComp
+Text GLabel 4950 2400 1    50   Input ~ 0
+3V3
+Wire Wire Line
+	4950 2700 4950 2850
+Connection ~ 4950 5025
+Wire Wire Line
+	4800 5025 4950 5025
+Connection ~ 4925 5425
+Wire Wire Line
+	4925 5425 4950 5425
+Wire Wire Line
+	4800 5425 4925 5425
+$Comp
+L Device:R R60
+U 1 1 604A3ADC
+P 4925 3400
+F 0 "R60" V 4850 3400 50  0000 C CNN
+F 1 "2k7" V 4925 3400 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 4855 3400 50  0001 C CNN
+F 3 "~" H 4925 3400 50  0001 C CNN
+	1    4925 3400
+	1    0    0    -1  
+$EndComp
+Text GLabel 4925 3550 3    50   Input ~ 0
+3V3
+Connection ~ 4925 3250
+Wire Wire Line
+	4925 3250 4950 3250
+Connection ~ 4950 2850
 $EndSCHEMATC
