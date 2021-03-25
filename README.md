@@ -5,37 +5,31 @@ The core FPGA board I bought of Aliexpress, because soldering the very fine pitc
 
 More detailed documents regarding the I/O board can be found in the docs directory in this repository.
 
-The board as is works, the features have been tested individually, but I'm still working on the Minimig port at this time.
-Since I work on this in my spare time progress is not super fast, but progress is made.
-For now I'm mostly learning and developing at the same time so a lot of stuff changes.
-When the code base becomes more stable and usable I'll open the repository up.
+A Minimig AGA port for this board: [MinimigAGA_TC64](https://github.com/ranzbak/MinimigAGA_TC64/tree/phdev)
+The ported version for Open AARS board can be found in the *'phdev'* branch.
 
-![Open AARS V3](images/open_aars_v3.jpg)
+![Open AARS V4_lite](images/open_aars_v4_lite.jpg)
 
 ## Interfaces provided by this I/O board
 
 - Atari/Amiga compatible Joystick ports
 - PS/2 keyboard interface for mouse and keyboard
-- Analog head phone jack via
+- Analog audio out, head phone jack using MAX9850 IC
 - External floppy interface to connect Amiga floppy drives (Including 12V power pin)
-- HDMI display connector that supports up to full HD video (1920x1080)
-- 6 status LEDS
+- HDMI display connector video (up to 720p 60Hz)
+- 4 status LEDS
 - Internal Amiga floppy drive connector
 - External Amiga floppy drive connector (DIN-23)
 - AS4C16M16SA-6TCN 32Mb SDRAM
-- ESP32 micro controller
-  - SD-card interface
-  - Wifi connectivity
-  - RS-232 over USB to program and communicate with the Python shell
-  - Python shell via [Batch firmware](https://github.com/badgeteam/ESP32-platform-firmware)
-  - SPI communication with the FPGA
-  - I2C communication with the FPGA and ADV7511 (HDMI transmitter)
+- SD-card interface
+- RS-232 over USB to program and communicate with the Amiga or Debug
+- I2C bus connecting to MAX9850(Audio) and ADV7511 (HDMI transmitter)
 
 ## Platforms that _could_ run with this IO board
 
-- C64
-- Amiga 1200/500(+)
+- Amiga 1200/500(+) - Functional
 - Atari ST
+- C64
 - Other 80's and 90's machines?
 
 Keep in mind I'm only planning on making an Amiga core for this board, but feel free to contribute other cores.
@@ -70,6 +64,8 @@ Keep in mind I'm only planning on making an Amiga core for this board, but feel 
 - [Aliexpress QMTECH Xilinx FPGA Artix7 Artix-7 XC7A100T DDR3 Core Board](vid=bcf629d3-8718-47b9-bad6-a31d7b1e778c&algo_expid=bcf629d3-8718-47b9-bad6-a31d7b1e778c-14&btsid=29203478-817f-4791-b6b6-1687369426ed&ws_ab_test=searchweb0_0,searchweb201602_3,searchweb201603_53)
 
 ## QM_XC7A35T_DDR3
+
+For this FPGA, the Minimig core is WIP.
 
 ### Specs
 

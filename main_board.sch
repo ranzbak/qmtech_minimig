@@ -745,4 +745,6 @@ Text GLabel 6575 1150 2    50   Input ~ 0
 PMOD_11
 Text GLabel 6575 1250 2    50   Input ~ 0
 PMOD_12
+Text GLabel 4975 3650 0    50   Input ~ 0
+ADV_INT
 $EndSCHEMATC
