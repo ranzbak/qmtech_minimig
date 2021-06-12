@@ -241,9 +241,9 @@ Wire Wire Line
 	5375 5025 5525 5025
 Text GLabel 4500 5525 3    50   Input ~ 0
 GND
-Text Notes 4500 2250 0    50   ~ 0
+Text Notes 4275 2250 0    50   ~ 0
 Keyboard PS/2
-Text Notes 4575 4500 0    50   ~ 0
+Text Notes 4350 4550 0    50   ~ 0
 Mouse PS/2
 $Comp
 L Device:R R61
@@ -257,7 +257,7 @@ F 3 "~" H 4925 5575 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 4925 5725 3    50   Input ~ 0
-3V3
+VIN5VPS22
 $Comp
 L Device:R R63
 U 1 1 60499475
@@ -270,11 +270,9 @@ F 3 "~" H 4950 4725 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 Text GLabel 4950 4575 1    50   Input ~ 0
-3V3
+VIN5VPS22
 Wire Wire Line
 	4950 4875 4950 5025
-Text Notes 4575 2325 0    50   ~ 0
-Mouse PS/2
 $Comp
 L Device:R R62
 U 1 1 6049DC6A
@@ -287,7 +285,7 @@ F 3 "~" H 4950 2550 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 Text GLabel 4950 2400 1    50   Input ~ 0
-3V3
+VIN5VPS21
 Wire Wire Line
 	4950 2700 4950 2850
 Connection ~ 4950 5025
@@ -310,9 +308,13 @@ F 3 "~" H 4925 3400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 4925 3550 3    50   Input ~ 0
-3V3
+VIN5VPS21
 Connection ~ 4925 3250
 Wire Wire Line
 	4925 3250 4950 3250
 Connection ~ 4950 2850
+Text GLabel 3850 5225 1    50   Input ~ 0
+VIN5VPS22
+Text GLabel 3850 3050 1    50   Input ~ 0
+VIN5VPS21
 $EndSCHEMATC

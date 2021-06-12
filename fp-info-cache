@@ -1,4 +1,4 @@
-19121034082245538
+19212190312076609
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -58750,6 +58750,27 @@ net tie
 0
 4
 4
+Open2327RomAdapter
+DIP-24_W15.24mm-Notch
+24-lead dip package, row spacing 15.24 mm (600 mils)
+dil dip 2.54 600
+0
+24
+24
+Open2327RomAdapter
+DIP-28_W15.24mm-Notch
+28-lead dip package, row spacing 15.24 mm (600 mils)
+dil dip 2.54 600
+0
+28
+28
+Open2327RomAdapter
+Solderable_PinHeader_1x04
+Through hole straight pin header, 1x04, 2.54mm pitch, single row
+Through hole pin header THT 1x04 2.54mm single row
+0
+8
+4
 OptoDevice
 ADNS-9800
 Laser Gaming Sensor ADNS-9800
@@ -83026,178 +83047,3 @@ varistor SIOV
 0
 2
 2
-defeest
-defeest_01
-
-
-0
-0
-0
-defeest
-defeest_01_tiny
-
-
-0
-0
-0
-defeest
-defeest_02
-
-
-0
-0
-0
-defeest
-defeest_02_tiny
-
-
-0
-0
-0
-defeest
-goatse_01
-
-
-0
-0
-0
-defeest
-goatse_01_mid
-
-
-0
-0
-0
-qmtech-minimig-new
-6P-SMD-3.5
-
-
-0
-6
-6
-qmtech-minimig-new
-47151-0001
-47151-0001
-Connector
-0
-23
-23
-qmtech-minimig-new
-ALPS_SCHA5B0200
-
-
-0
-16
-16
-qmtech-minimig-new
-Connector_Mini-DIN_Female_6Pin_2rows
-A footprint for the generic 6 pin Mini-DIN through hole connector with shell.
-mini din 6pin connector socket
-0
-9
-7
-qmtech-minimig-new
-DSUB-23_Female_Horizontal_P2.77x2.84mm_EdgePinOffset7.70mm_Housed_MountingHolesOffset9.12mm
-25-pin D-Sub connector, horizontal/angled (90 deg), THT-mount, female, pitch 2.77x2.84mm, pin-PCB-offset 7.699999999999999mm, distance of mounting holes 47.1mm, distance of mounting holes to PCB edge 9.12mm, see https://disti-assets.s3.amazonaws.com/tonar/files/datasheets/16730.pdf
-25-pin D-Sub connector horizontal angled 90deg THT female pitch 2.77x2.84mm pin-PCB-offset 7.699999999999999mm mounting-holes-distance 47.1mm mounting-hole-offset 47.1mm
-0
-25
-24
-qmtech-minimig-new
-ESP32WROVERIB16MB
-ESP32-WROVER-IB (16MB)-2
-Integrated Circuit
-0
-39
-39
-qmtech-minimig-new
-FCI_10118193-0001LF
-
-
-0
-11
-11
-qmtech-minimig-new
-MicroSD-SOFNG-TF-002-H18
-
-
-0
-12
-9
-qmtech-minimig-new
-QM_XC7A35T_DDR3_Daughterboard
-
-
-0
-128
-128
-qmtech-minimig-new
-QM_XC7A35T_DDR3_Daughterboard_rev2
-
-
-0
-128
-128
-qmtech-minimig-new
-QM_XC7A100T_DDR3_Daughterboard_rev2
-
-
-0
-128
-128
-qmtech-minimig-new
-SO-14_5.3x10.2mm_P1.27mm
-SO, 14 Pin (https://www.ti.com/lit/ml/msop002a/msop002a.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
-SO SO
-0
-14
-14
-qmtech-minimig-new
-SOP65P640X120-20N
-
-
-0
-20
-20
-qmtech-minimig-new
-SOP80P1176X120-54N
-54 Pin TSSOP II
-Integrated Circuit
-0
-54
-54
-qmtech-minimig-new
-SW_SPST_EVQQ2
-Light Touch Switch, https://industrial.panasonic.com/cdbs/www-data/pdf/ATK0000/ATK0000CE28.pdf
-
-0
-4
-2
-qmtech-minimig-new
-Silicon_Labs-CP2105-F01-GM-Level_A
-
-
-0
-29
-26
-qmtech-minimig-new
-Silicon_Labs-CP2105-F01-GM-Level_B
-
-
-0
-29
-26
-qmtech-minimig-new
-Silicon_Labs-CP2105-F01-GM-Level_C
-
-
-0
-29
-26
-qmtech-minimig-new
-goatse_01
-
-
-0
-0
-0
