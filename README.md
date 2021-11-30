@@ -12,6 +12,8 @@ When the code base becomes more stable and usable I'll open the repository up.
 
 ![Open AARS V3](images/open_aars_v3.jpg)
 
+[Firmware](https://github.com/ranzbak/MinimigAGA_TC64) for the Amiga works!
+
 ## Interfaces provided by this I/O board
 
 - Atari/Amiga compatible Joystick ports
@@ -23,18 +25,15 @@ When the code base becomes more stable and usable I'll open the repository up.
 - Internal Amiga floppy drive connector
 - External Amiga floppy drive connector (DIN-23)
 - AS4C16M16SA-6TCN 32Mb SDRAM
-- ESP32 micro controller
-  - SD-card interface
-  - Wifi connectivity
-  - RS-232 over USB to program and communicate with the Python shell
-  - Python shell via [Batch firmware](https://github.com/badgeteam/ESP32-platform-firmware)
-  - SPI communication with the FPGA
-  - I2C communication with the FPGA and ADV7511 (HDMI transmitter)
+- ADV7511 HDMI output PHY
+- MAX9850 I2S Audio chip with built in amplifier
+- SD-card interface
+- RS-232 over USB to program and communicate with the Python shell
 
 ## Platforms that _could_ run with this IO board
 
 - C64
-- Amiga 1200/500(+)
+- Amiga 1200/500(+) [https://github.com/ranzbak/MinimigAGA_TC64](https://github.com/ranzbak/MinimigAGA_TC64)
 - Atari ST
 - Other 80's and 90's machines?
 
