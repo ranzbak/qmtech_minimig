@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 10
+Sheet 4 11
 Title "Main board interface with FPGA"
 Date ""
 Rev "0.1"
@@ -498,10 +498,6 @@ Text GLabel 3450 1150 2    50   Input ~ 0
 FPGA_SD_CMD
 Text GLabel 1850 1350 0    50   Input ~ 0
 FPGA_SD_CLK
-Text GLabel 1850 1250 0    50   Input ~ 0
-FPGA_SD_DATA2
-Text GLabel 1850 1150 0    50   Input ~ 0
-FPGA_SD_DATA3
 Text GLabel 1850 1050 0    50   Input ~ 0
 FPGA_UART0_TX
 Text GLabel 3450 1050 2    50   Input ~ 0
@@ -613,11 +609,11 @@ Text GLabel 5150 6875 2    50   Input ~ 0
 SW_OSD
 Text GLabel 5700 6875 2    50   Input ~ 0
 SW_USER
-Text GLabel 1850 1450 0    50   Input ~ 0
-SW_RESET
 Text GLabel 3450 1550 2    50   Input ~ 0
+SW_RESET
+Text GLabel 1850 1750 0    50   Input ~ 0
 SW_OSD
-Text GLabel 1850 1550 0    50   Input ~ 0
+Text GLabel 1850 1650 0    50   Input ~ 0
 SW_USER
 Wire Wire Line
 	4625 6725 4625 6975
@@ -632,7 +628,7 @@ Wire Wire Line
 	5150 7375 5700 7375
 Text GLabel 5150 7375 3    50   Input ~ 0
 GND
-Text GLabel 3450 1450 2    50   Input ~ 0
+Text GLabel 1850 1450 0    50   Input ~ 0
 FPGA_SD_SW
 Wire Notes Line
 	3575 5800 3575 7800
@@ -694,45 +690,6 @@ LED_POWER
 NoConn ~ 1850 2450
 Text Notes 500  2475 0    50   ~ 0
 DO NOT USE ADV CLK PAIRED LINE
-$Comp
-L Connector_Generic:Conn_02x06_Counter_Clockwise J11
-U 1 1 5FACD5F8
-P 9500 3525
-F 0 "J11" H 9550 3942 50  0000 C CNN
-F 1 "Conn_02x06_Counter_Clockwise" H 9550 3851 50  0000 C CNN
-F 2 "Connector_PinHeader_2.00mm:PinHeader_2x06_P2.00mm_Horizontal" H 9500 3525 50  0001 C CNN
-F 3 "~" H 9500 3525 50  0001 C CNN
-	1    9500 3525
-	1    0    0    -1  
-$EndComp
-Text GLabel 9300 3725 0    50   Input ~ 0
-GND
-Text GLabel 9800 3725 2    50   Input ~ 0
-GND
-Text GLabel 9300 3825 0    50   Input ~ 0
-3V3
-Text GLabel 9800 3825 2    50   Input ~ 0
-3V3
-Text GLabel 9300 3525 0    50   Input ~ 0
-PMOD_3
-Text GLabel 9300 3625 0    50   Input ~ 0
-PMOD_4
-Text GLabel 9800 3625 2    50   Input ~ 0
-PMOD_9
-Text GLabel 9800 3525 2    50   Input ~ 0
-PMOD_10
-Text GLabel 9800 3425 2    50   Input ~ 0
-PMOD_11
-Text GLabel 9800 3325 2    50   Input ~ 0
-PMOD_12
-Text GLabel 1850 1650 0    50   Input ~ 0
-PMOD_3
-Text GLabel 1850 1750 0    50   Input ~ 0
-PMOD_4
-Text GLabel 9300 3425 0    50   Input ~ 0
-PMOD_2
-Text GLabel 9300 3325 0    50   Input ~ 0
-PMOD_1
 Text GLabel 4975 1150 0    50   Input ~ 0
 PMOD_2
 Text GLabel 4975 1250 0    50   Input ~ 0
@@ -747,4 +704,12 @@ Text GLabel 6575 1250 2    50   Input ~ 0
 PMOD_12
 Text GLabel 4975 3650 0    50   Input ~ 0
 ADV_INT
+Text GLabel 1850 1150 0    50   Input ~ 0
+FPGA_SD_DATA3
+Text GLabel 1850 1250 0    50   Input ~ 0
+FPGA_SD_DATA2
+Text GLabel 1850 1550 0    50   Input ~ 0
+RTC_CE
+Text GLabel 3450 1450 2    50   Input ~ 0
+RTC_CLKOUT
 $EndSCHEMATC

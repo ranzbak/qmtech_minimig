@@ -64,6 +64,7 @@
         "drill_out_of_range": "error",
         "duplicate_footprints": "warning",
         "extra_footprint": "warning",
+        "footprint_type_mismatch": "error",
         "hole_clearance": "error",
         "hole_near_hole": "error",
         "invalid_outline": "error",
@@ -79,9 +80,10 @@
         "padstack": "error",
         "pth_inside_courtyard": "ignore",
         "shorting_items": "error",
-        "silk_over_copper": "error",
-        "silk_overlap": "error",
+        "silk_over_copper": "warning",
+        "silk_overlap": "warning",
         "skew_out_of_range": "error",
+        "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
         "track_dangling": "warning",
         "track_width": "error",
@@ -100,7 +102,7 @@
         "max_error": 0.005,
         "min_clearance": 0.0,
         "min_copper_edge_clearance": 0.0005,
-        "min_hole_clearance": 0.0,
+        "min_hole_clearance": 0.25,
         "min_hole_to_hole": 0.25,
         "min_microvia_diameter": 0.25,
         "min_microvia_drill": 0.09999999999999999,
@@ -329,6 +331,7 @@
     ],
     "rule_severities": {
       "bus_definition_conflict": "error",
+      "bus_entry_needed": "error",
       "bus_label_syntax": "error",
       "bus_to_bus_conflict": "error",
       "bus_to_net_conflict": "error",
@@ -473,7 +476,7 @@
       }
     ],
     "meta": {
-      "version": 0
+      "version": 2
     },
     "net_colors": null
   },
@@ -489,6 +492,7 @@
     "page_layout_descr_file": ""
   },
   "schematic": {
+    "annotate_start_num": 0,
     "drawing": {
       "default_bus_thickness": 12.0,
       "default_junction_size": 40.0,
@@ -502,16 +506,19 @@
       "intersheets_ref_show": false,
       "intersheets_ref_suffix": "",
       "junction_size_choice": 3,
+      "label_size_ratio": 0.3,
       "pin_symbol_size": 25.0,
       "text_offset_ratio": 0.3
     },
     "legacy_lib_dir": "",
     "legacy_lib_list": [],
     "meta": {
-      "version": 0
+      "version": 1
     },
     "net_format_name": "",
     "ngspice": {
+      "fix_include_paths": true,
+      "fix_passive_vals": false,
       "meta": {
         "version": 0
       },
@@ -525,6 +532,51 @@
     "subpart_first_id": 65,
     "subpart_id_separator": 0
   },
-  "sheets": [],
+  "sheets": [
+    [
+      "c3d5daf8-d359-42b2-a7c2-0d080ba7e212",
+      ""
+    ],
+    [
+      "00000000-0000-0000-0000-00005dc624c0",
+      "Audio"
+    ],
+    [
+      "00000000-0000-0000-0000-00005de41876",
+      "Floppy"
+    ],
+    [
+      "00000000-0000-0000-0000-00005d6a6e73",
+      "HDMI transmitter"
+    ],
+    [
+      "00000000-0000-0000-0000-00005d74b9f4",
+      "Joystick"
+    ],
+    [
+      "00000000-0000-0000-0000-00005dc624e5",
+      "Keyboard"
+    ],
+    [
+      "00000000-0000-0000-0000-00005d5d9ab7",
+      "MCU"
+    ],
+    [
+      "00000000-0000-0000-0000-00005d7064d1",
+      "Main Board"
+    ],
+    [
+      "00000000-0000-0000-0000-00005d7ba5f4",
+      "SD Card"
+    ],
+    [
+      "00000000-0000-0000-0000-00005f1b034d",
+      "SDRAM"
+    ],
+    [
+      "00000000-0000-0000-0000-000060c4be24",
+      "rtc-spi"
+    ]
+  ],
   "text_variables": {}
 }
