@@ -740,28 +740,28 @@
       (reference "U3") (unit 1) (value "TPD12S520DBT") (footprint "Package_SO:TSSOP-38_4.4x9.7mm_P0.5mm")
     )
     (path "/00000000-0000-0000-0000-00005d7064d1/00000000-0000-0000-0000-00005d70654a"
-      (reference "U4") (unit 1) (value "QM_XC7A35T_DDR3") (footprint "QM_XC7A35T_DDR3:QM_XC7A35T_DDR3_Daughterboard_v2")
+      (reference "U4") (unit 1) (value "QM_XC7A35T_DDR3") (footprint "qmtech-minimig-new:QM_XC7A100T_DDR3_Daughterboard_rev2")
     )
     (path "/00000000-0000-0000-0000-00005d7064d1/00000000-0000-0000-0000-00005f7c0f58"
-      (reference "U4") (unit 2) (value "QM_XC7A35T_DDR3") (footprint "QM_XC7A35T_DDR3:QM_XC7A35T_DDR3_Daughterboard_v2")
+      (reference "U4") (unit 2) (value "QM_XC7A35T_DDR3") (footprint "qmtech-minimig-new:QM_XC7A100T_DDR3_Daughterboard_rev2")
     )
     (path "/00000000-0000-0000-0000-00005d74b9f4/00000000-0000-0000-0000-00005f2e87e4"
-      (reference "U5") (unit 1) (value "TXB0106PWR") (footprint "SOP65P640X120-16N")
+      (reference "U5") (unit 1) (value "TXB0106PWR") (footprint "Package_SO:TSSOP-16_4.4x5mm_P0.65mm")
     )
     (path "/00000000-0000-0000-0000-00005d74b9f4/00000000-0000-0000-0000-00005f13ee93"
       (reference "U6") (unit 1) (value "MCP23S17") (footprint "Package_SO:SSOP-28_5.3x10.2mm_P0.65mm")
     )
     (path "/00000000-0000-0000-0000-00005dc624c0/00000000-0000-0000-0000-00005e228931"
-      (reference "U7") (unit 1) (value "INTERFACE-MAX9850ETI+-(QFN28)") (footprint "QFN28G_0.5-5X5MM")
+      (reference "U7") (unit 1) (value "INTERFACE-MAX9850ETI+-(QFN28)") (footprint "Package_DFN_QFN:QFN-28-1EP_5x5mm_P0.5mm_EP3.35x3.35mm")
     )
     (path "/00000000-0000-0000-0000-00005de41876/00000000-0000-0000-0000-00005d7fcd7c"
       (reference "U8") (unit 1) (value "MT3608") (footprint "Package_TO_SOT_SMD:SOT-23-6")
     )
-    (path "/00000000-0000-0000-0000-00005de41876/00000000-0000-0000-0000-00005f71e393"
-      (reference "U9") (unit 1) (value "SN74LS06NSR") (footprint "SOIC127P780X200-14N")
+    (path "/00000000-0000-0000-0000-00005de41876/a21696e1-2d06-4fa9-bf56-23e2a60fc9c2"
+      (reference "U9") (unit 1) (value "SN74LS06NSR") (footprint "Package_SO:SO-14_5.3x10.2mm_P1.27mm")
     )
     (path "/00000000-0000-0000-0000-000060c4be24/00000000-0000-0000-0000-000060c4d8ed"
-      (reference "U10") (unit 1) (value "PCF2123TS_1,118") (footprint "NXP_Semiconductors-SOT402-1-02_2016-0-*")
+      (reference "U10") (unit 1) (value "PCF2123TS_1,118") (footprint "Package_SO:TSSOP-14_4.4x5mm_P0.65mm")
     )
     (path "/00000000-0000-0000-0000-00005dc624c0/00000000-0000-0000-0000-00005e2537d2"
       (reference "X1") (unit 1) (value "11.2896MHz") (footprint "Oscillator:Oscillator_SMD_SeikoEpson_SG210-4Pin_2.5x2.0mm")

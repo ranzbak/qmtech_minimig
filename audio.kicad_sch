@@ -919,7 +919,7 @@
     (property "Value" "INTERFACE-MAX9850ETI+-(QFN28)" (id 1) (at 124.46 79.375 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "QFN28G_0.5-5X5MM" (id 2) (at 131.445 90.17 0)
+    (property "Footprint" "Package_DFN_QFN:QFN-28-1EP_5x5mm_P0.5mm_EP3.35x3.35mm" (id 2) (at 131.445 90.17 0)
       (effects (font (size 1.27 1.27)) (justify left bottom) hide)
     )
     (property "Datasheet" "" (id 3) (at 141.605 90.17 0)

@@ -1844,7 +1844,7 @@
     (uuid 00000000-0000-0000-0000-00005f2e87e4)
     (property "Reference" "U5" (id 0) (at 52.705 52.832 0))
     (property "Value" "TXB0106PWR" (id 1) (at 52.705 55.1434 0))
-    (property "Footprint" "SOP65P640X120-16N" (id 2) (at 52.705 77.47 0)
+    (property "Footprint" "Package_SO:TSSOP-16_4.4x5mm_P0.65mm" (id 2) (at 52.705 77.47 0)
       (effects (font (size 1.27 1.27)) (justify left bottom) hide)
     )
     (property "Datasheet" "" (id 3) (at 52.705 77.47 0)

@@ -901,7 +901,7 @@
     (uuid 00000000-0000-0000-0000-000060c4d8ed)
     (property "Reference" "U10" (id 0) (at 151.13 85.979 0))
     (property "Value" "PCF2123TS_1,118" (id 1) (at 151.13 88.2904 0))
-    (property "Footprint" "NXP_Semiconductors-SOT402-1-02_2016-0-*" (id 2) (at 133.35 82.55 0)
+    (property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm" (id 2) (at 133.35 82.55 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
     (property "Datasheet" "https://www.nxp.com/docs/en/data-sheet/PCF2123.pdf" (id 3) (at 133.35 80.01 0)

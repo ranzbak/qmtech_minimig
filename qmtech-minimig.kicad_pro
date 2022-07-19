@@ -33,9 +33,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.8,
-          "height": 1.35,
-          "width": 1.35
+          "drill": 0.0,
+          "height": 0.6,
+          "width": 1.975
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -49,7 +49,16 @@
         }
       },
       "diff_pair_dimensions": [],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "silk_over_copper|103792400|150900493|00000000-0000-0000-0000-00005f9120f8|f28e56e7-283b-4b9a-ae27-95e89770fbf8",
+        "silk_over_copper|127200000|45248688|d1cf4093-87af-4b49-8879-3ac410551bfc|7d7f87ba-84a1-4edf-8248-64b3961b8557",
+        "silk_over_copper|142200000|45247983|d1cf4093-87af-4b49-8879-3ac410551bfc|405cecf4-1795-49b1-8022-35d2742f4deb",
+        "silk_over_copper|70016000|45296600|74b09255-300b-41bc-a348-4c1575c49b6b|d8101586-aa3d-467d-badd-92d909de230a",
+        "silk_over_copper|84044000|45250000|572655f0-0418-4d63-8c40-f2d24c890829|03347169-1887-42f8-8a5f-57e5066b7f2d",
+        "silk_over_copper|84044000|45250000|572655f0-0418-4d63-8c40-f2d24c890829|b8d49586-4a0a-4d32-ba81-53ff40d49394",
+        "silk_over_copper|87592400|150900312|00000000-0000-0000-0000-00005f9120f8|aa1c6f47-cbd4-4cbd-8265-e5ac08b7ffc8",
+        "silk_over_copper|98544000|45250000|b4a4810c-f34a-4aae-a2b9-4ebe7045d74b|bffcd13a-e3f4-4760-9a8b-03d733ee497c"
+      ],
       "meta": {
         "filename": "board_design_settings.json",
         "version": 2

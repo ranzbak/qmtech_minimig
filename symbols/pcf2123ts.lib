@@ -1,0 +1,58 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# NXP Semiconductors PCF2123TS/1,118
+#
+DEF PCF2123TS_1,118 U 0 40 Y Y 1 L N
+F0 "U" 0 200 50 H V L CNN 
+F1 "PCF2123TS/1,118" 0 300 50 H V L CNN 
+F2 "NXP_Semiconductors-SOT402-1-02_2016-0-*" 0 400 50 H I L CNN 
+F3 "https://www.nxp.com/docs/en/data-sheet/PCF2123.pdf" 0 500 50 H I L CNN 
+F4 "+85°C" 0 600 50 H I L CNN "ambient temperature range high"
+F5 "-40°C" 0 700 50 H I L CNN "ambient temperature range low"
+F6 "No" 0 800 50 H I L CNN "automotive"
+F7 "IC" 0 900 50 H I L CNN "category"
+F8 "Integrated Circuits (ICs)" 0 1000 50 H I L CNN "device class L1"
+F9 "Clock and Timing" 0 1100 50 H I L CNN "device class L2"
+F10 "Real Time Clocks" 0 1200 50 H I L CNN "device class L3"
+F11 "IC RTC CLK/CALENDAR SPI 14-TSSOP" 0 1300 50 H I L CNN "digikey description"
+F12 "568-4534-1-ND" 0 1400 50 H I L CNN "digikey part number"
+F13 "https://www.nxp.com/docs/en/package-information/SOT402-1.pdf" 0 1500 50 H I L CNN "footprint url"
+F14 "32.768kHz" 0 1600 50 H I L CNN "frequency"
+F15 "1.1mm" 0 1700 50 H I L CNN "height"
+F16 "SPI" 0 1800 50 H I L CNN "interface"
+F17 "SOP65P640X110-14" 0 1900 50 H I L CNN "ipc land pattern name"
+F18 "Yes" 0 2000 50 H I L CNN "lead free"
+F19 "7ad7668609a4160b" 0 2100 50 H I L CNN "library id"
+F20 "NXP Semiconductors" 0 2200 50 H I L CNN "manufacturer"
+F21 "5.5V" 0 2300 50 H I L CNN "max supply voltage"
+F22 "1.1V" 0 2400 50 H I L CNN "min supply voltage"
+F23 "Real Time Clock ultra-low power RTC RTC IC" 0 2500 50 H I L CNN "mouser description"
+F24 "771-PCF2123TS/1-T" 0 2600 50 H I L CNN "mouser part number"
+F25 "0.1-250uA" 0 2700 50 H I L CNN "nominal supply current"
+F26 "1" 0 2800 50 H I L CNN "number of outputs"
+F27 "TSSOP14" 0 2900 50 H I L CNN "package"
+F28 "Yes" 0 3000 50 H I L CNN "rohs"
+F29 "0.05mm" 0 3100 50 H I L CNN "standoff height"
+F30 "+85°C" 0 3200 50 H I L CNN "temperature range high"
+F31 "-40°C" 0 3300 50 H I L CNN "temperature range low"
+DRAW
+X CE 6 100 -700 100 R 40 40 1 1 I 
+X CLKOE 12 100 -900 100 R 40 40 1 1 I 
+X SCL 10 100 -200 100 R 40 40 1 1 I C
+X SDI 9 100 -500 100 R 40 40 1 1 I 
+X SDO 8 100 -400 100 R 40 40 1 1 O 
+X TEST 4 100 -1100 100 R 40 40 1 1 P 
+X VDD 14 100 0 100 R 40 40 1 1 W 
+X ~INT~ 5 1300 -500 100 L 40 40 1 1 O 
+X CLKOUT 13 1300 -300 100 L 40 40 1 1 P 
+X NC 3 1300 -800 100 L 40 40 1 1 P 
+X NC 11 1300 -900 100 L 40 40 1 1 P 
+X OSCI 1 1300 0 100 L 40 40 1 1 U 
+X OSCO 2 1300 -100 100 L 40 40 1 1 U 
+X VSS 7 1300 -1100 100 L 40 40 1 1 W 
+S 200 100 1200 -1200 1 1 0 f
+ENDDRAW
+ENDDEF
+#
+# End Library
