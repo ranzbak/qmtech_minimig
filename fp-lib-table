@@ -1,4 +1,9 @@
 (fp_lib_table
-  (lib (name qmtech-minimig-new)(type KiCad)(uri ${KIPRJMOD}/qmtech-minimig-new.pretty)(options "")(descr ""))
-  (lib (name defeest)(type KiCad)(uri ${KIPRJMOD}/defeest.pretty)(options "")(descr ""))
+  (version 7)
+  (lib (name "qmtech-minimig-new")(type "KiCad")(uri "${KIPRJMOD}/qmtech-minimig-new.pretty")(options "")(descr ""))
+  (lib (name "defeest")(type "KiCad")(uri "${KIPRJMOD}/defeest.pretty")(options "")(descr ""))
+  (lib (name "KiCad")(type "KiCad")(uri "/home/paul/work/kicad/footprints/STL9P3LLH6/KiCad")(options "")(descr ""))
+  (lib (name "KiCad-cp2105")(type "KiCad")(uri "/home/paul/work/kicad/footprints/CP2105-F01-GM/KiCad-cp2105")(options "")(descr ""))
+  (lib (name "105450-0101")(type "KiCad")(uri "/home/paul/work/kicad/footprints/105450-0101")(options "")(descr ""))
+  (lib (name "CM7VT1A-32768.KiCad")(type "KiCad")(uri "/home/paul/work/kicad/footprints/CM7VT1A-LowESR-32.768kHz-12.5pF-20-TA-QC/CM7VT1A-32768.KiCad")(options "")(descr ""))
 )
