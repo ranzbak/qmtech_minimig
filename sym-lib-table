@@ -7,7 +7,7 @@
   (lib (name "MMBT2222A")(type "Legacy")(uri "${KIPRJMOD}/symbols/MMBT2222A.lib")(options "")(descr ""))
   (lib (name "adv7511")(type "Legacy")(uri "${KIPRJMOD}/symbols/adv7511.lib")(options "")(descr ""))
   (lib (name "47151-0001")(type "Legacy")(uri "${KIPRJMOD}/symbols/47151-0001-HDMI-snapeda/47151-0001.lib")(options "")(descr ""))
-  (lib (name "QM_XC7A35T_DDR3")(type "Legacy")(uri "${KIPRJMOD}/symbols/QM_XC7A35T_DDR3.lib")(options "")(descr ""))
+  (lib (name "QM_XC7A35T_DDR3")(type "KiCad")(uri "/home/paul/work/kicad/symbols/QM_XC7A35T_DDR3.kicad_sym")(options "")(descr ""))
   (lib (name "SCHA5B0200")(type "Legacy")(uri "${KIPRJMOD}/symbols/SCHA5B0200.lib")(options "")(descr ""))
   (lib (name "max98089")(type "Legacy")(uri "${KIPRJMOD}/symbols/max98089.lib")(options "")(descr ""))
   (lib (name "BPS6001_Classic_Computing_Shield-eagle-import")(type "Legacy")(uri "${KIPRJMOD}/symbols/BPS6001_Classic_Computing_Shield-eagle-import.lib")(options "")(descr ""))
